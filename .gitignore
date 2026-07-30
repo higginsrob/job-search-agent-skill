@@ -1,0 +1,53 @@
+# Personal resume (keep resume/README.md)
+resume/*
+!resume/README.md
+
+# Generated personal profile (keep *.example.md stubs)
+.cursor/skills/job-search/candidate.md
+.cursor/skills/job-generate-resume/base-resume.md
+
+# Synced copies of skills for other agents (source of truth: .cursor/skills/)
+# Regenerate with: make skills
+.claude/skills/
+.agents/skills/
+.opencode/skills/
+.pi/skills/
+.qwen/skills/
+.gemini/skills/
+
+# Local job board data (keep stubs / scaffolding only)
+leads/*
+!leads/.gitkeep
+!leads/index.example.json
+!leads/sources.example.json
+companies/*
+!companies/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+.venv/
+venv/
+ENV/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.cover
+.tox/
+.nox/
+
+# OS / editor
+.DS_Store
+*.swp
+*~
