@@ -1,0 +1,40 @@
+{
+  "id": "20260731-0145-gusto-staff-core-ai-platforms",
+  "title": "Staff Software Engineer, Core AI Platforms",
+  "company": "Gusto",
+  "location": "Denver, CO / San Francisco / New York (Hybrid)",
+  "remote": false,
+  "work_mode": "local-office",
+  "posted_at": "2026-07-09T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$163k\u2013$204k (Denver)",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/7760341",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 17,
+  "hire_likelihood": 90,
+  "fit_summary": "Denver hybrid Staff on shared AI agent platforms for product teams \u2014 strong match to Panorama LLM/platform ownership and full-stack product delivery.",
+  "missing_gaps": [
+    "Production multi-agent orchestration / eval frameworks at Gusto scale not evidenced",
+    "Ruby on Rails as primary product stack not on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "ai",
+    "agents",
+    "platform",
+    "react",
+    "denver",
+    "hybrid"
+  ]
+}

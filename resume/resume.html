@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Rob Higgins Resume</title>
+  <style>
+    @page { margin: 0.45in 0.55in; size: letter; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 0.5in 0.6in;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.3;
+      color: #1a1a1a;
+    }
+    @media print {
+      body { padding: 0; }
+    }
+    h1 {
+      margin: 0 0 2px;
+      font-size: 17pt;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .headline {
+      margin: 0 0 2px;
+      font-size: 10.5pt;
+      font-weight: 600;
+      color: #333;
+    }
+    .contact {
+      margin: 0 0 10px;
+      font-size: 8.5pt;
+      color: #444;
+    }
+    .contact a {
+      color: #444;
+      text-decoration: none;
+    }
+    h2 {
+      margin: 12px 0 6px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #222;
+      font-size: 9.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    h3 {
+      margin: 10px 0 3px;
+      font-size: 10pt;
+      font-weight: 700;
+    }
+    .role {
+      margin: 6px 0 3px;
+      font-size: 9.5pt;
+      font-style: italic;
+      color: #333;
+    }
+    .role:first-of-type { margin-top: 2px; }
+    p { margin: 0 0 6px; }
+    ul {
+      margin: 0 0 6px;
+      padding-left: 1.15em;
+    }
+    li { margin: 0 0 3px; }
+    .skills, .edu { margin: 0; }
+    .footer {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+    .footer .col-skills { flex: 1 1 68%; }
+    .footer .col-edu { flex: 0 0 28%; }
+    .footer h2 { margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Rob Higgins</h1>
+  <p class="headline">Fullstack Software Engineer</p>
+  <p class="contact">
+    Denver, CO · 424.299.9338 ·
+    <a href="mailto:higginsrob@gmail.com">higginsrob@gmail.com</a> ·
+    <a href="https://www.linkedin.com/in/higginsrob">linkedin.com/in/higginsrob</a> ·
+    <a href="https://github.com/higginsrob">github.com/higginsrob</a> ·
+    <a href="https://higginsrob.github.io/">higginsrob.github.io</a>
+  </p>
+
+  <h2>Summary</h2>
+  <p>
+    Fullstack software engineer with 10+ years shipping production systems end to end. Early engineer
+    at Vertebrae through Snap's acquisition, owning cloud infrastructure, microservices, SDKs, and
+    merchant integrations. At Snap, tech lead for the AR Enterprise Web SDK (cross-cloud pub/sub,
+    Three.js, Camera Kit). Most recently Head of Engineering at Panorama AI, managing data and
+    platform teams behind LLM products in Python, React/Node, and cloud services.
+  </p>
+
+  <h2>Experience</h2>
+
+  <h3>Panorama AI · Dec 2023 – Feb 2026 · Santa Monica, CA</h3>
+  <p class="role">Head of Engineering · Oct 2024 – Feb 2026</p>
+  <ul>
+    <li>Managed the data and platform teams powering Panorama's LLM and ML products: Python ETL services, PostgreSQL, JavaScript tag, event ingestion, and model inputs.</li>
+    <li>Drove platform architecture and technical standards across the engineering org.</li>
+    <li>Defined data architecture patterns that helped Panorama show LLMs could answer business intelligence questions reliably.</li>
+  </ul>
+  <p class="role">Lead Software Engineer · Dec 2023 – Oct 2024</p>
+  <ul>
+    <li>Built core infrastructure for predictive recommendation models and LLM-based business intelligence.</li>
+    <li>Wrote the predictive recommendations widget in React, an embeddable component serving personalized product recommendations to Ashley Homestore shoppers.</li>
+  </ul>
+
+  <h3>Snap Inc. · Jul 2021 – Sep 2023 · Santa Monica, CA</h3>
+  <p class="role">Software Engineer · AR Enterprise Web SDK Tech Lead</p>
+  <ul>
+    <li>Tech lead for the AR Enterprise Web SDK team after Snap acquired Vertebrae.</li>
+    <li>Built a pub/sub layer connecting Snap and Vertebrae backends across multiple cloud providers.</li>
+    <li>Designed and built the ARES Web SDK: API, merchant integrations, event tracking, and experience templating.</li>
+    <li>Built the ARES Camera Kit web experience, combining Snap Camera Kit with enterprise shopping and AR try-on flows.</li>
+    <li>Built a Three.js 3D product viewer for interactive product exploration and AR placement.</li>
+  </ul>
+
+  <h3>Vertebrae Inc. · Feb 2016 – Jul 2021 · Santa Monica, CA + Remote</h3>
+  <p class="role">Senior Fullstack Software Engineer</p>
+  <ul>
+    <li>Early engineer at Vertebrae. Built the AR/VR e-commerce platform from scratch through the Snap acquisition.</li>
+    <li>Owned most of the company's cloud infrastructure with Terraform, scaling to millions of users with Docker, serverless, and containerized microservices.</li>
+    <li>Built event tracking and ingestion into PostgreSQL for analytics/BI, plus GitHub Actions CI/CD across all repos.</li>
+    <li>Shipped AR/VR products and React/Node merchant tools including a 360° video player (2016), virtual try-on, 3D viewers, and QR-triggered native AR via QuickLook and Scene Viewer.</li>
+    <li>Built the merchant SDK, ad-tech integrations, JS SDK distribution pipeline, and 3D model converter architecture; drove platform architecture decisions and supported the Snap acquisition.</li>
+  </ul>
+
+  <div class="footer">
+    <div class="col-skills">
+      <h2>Skills</h2>
+      <p class="skills">
+        System Design · Distributed Systems · Platform Engineering · AI / LLM · Machine Learning ·
+        Python · React / Node.js · JavaScript / TypeScript · PostgreSQL · Terraform · AWS / GCP ·
+        Docker / Kubernetes · Microservices · Event-Driven Architecture · CI/CD · SDK &amp; Developer Tools ·
+        REST APIs · Data Pipelines / ETL · Technical Leadership
+      </p>
+    </div>
+    <div class="col-edu">
+      <h2>Education</h2>
+      <p class="edu"><strong>Full Sail University</strong><br />AAS, Recording Arts Technology</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "id": "20260731-0145-xometry-staff-swe",
+  "title": "Staff Software Engineer",
+  "company": "Xometry",
+  "location": "North Bethesda, MD (Hybrid)",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-07-18T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$140k\u2013$230k",
+  "url": "https://job-boards.greenhouse.io/xometry/jobs/4987617007",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 86,
+  "hire_likelihood": 76,
+  "fit_summary": "Staff full-stack Python/Node/React/AWS on order management \u2014 stack is strong, but hybrid Maryland onsite is a weak location fit.",
+  "missing_gaps": [
+    "Hybrid North Bethesda MD (not Denver/remote)",
+    "Marketplace / manufacturing order-management domain not evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "node",
+    "react",
+    "aws",
+    "staff",
+    "hybrid"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "20260731-0210-robots-pencils-staff-full-stack",
+  "title": "Staff Full Stack Engineer",
+  "company": "Robots & Pencils",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-28T18:12:44Z",
+  "found_at": "2026-07-31T02:10:00Z",
+  "compensation": null,
+  "url": "https://job-boards.greenhouse.io/robotsandpencils/jobs/5372981008",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 79,
+  "hire_likelihood": 77,
+  "fit_summary": "Staff full-stack on React/TypeScript/Node/Python/AWS fits the boost stack, but client-services delivery is a softer company-type match than product platforms.",
+  "missing_gaps": [
+    "Consulting / multi-client delivery model vs product-company preference",
+    "Compensation not listed on posting"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [
+    "Real applied-AI consultancy with Greenhouse ATS; services/client-delivery model (not product SaaS)"
+  ],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "nodejs",
+    "python",
+    "aws",
+    "fullstack",
+    "consulting"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "20260806-1608-cursor-software-engineer-bugbot",
+  "title": "Software Engineer, Bugbot",
+  "company": "Cursor",
+  "location": "San Francisco; New York; Remote",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-04T19:05:09Z",
+  "found_at": "2026-08-06T16:08:05Z",
+  "compensation": null,
+  "url": "https://cursor.com/careers/software-engineer-bugbot",
+  "source": "scout",
+  "sources": [
+    "scout"
+  ],
+  "rank": 96,
+  "hire_likelihood": 84,
+  "fit_summary": "Panorama AI LLM product ownership plus Snap/Vertebrae fullstack and CI/review-adjacent platform work map cleanly onto Bugbot's agent+product surface.",
+  "missing_gaps": [
+    "No public evidence of production AI code-review / PR-bot eval ownership",
+    "Unleveled SWE title \u2014 bar may sit above typical senior IC"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "in_progress",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": true,
+  "has_cover_letter": false,
+  "tags": [
+    "scout",
+    "posting"
+  ],
+  "scout_finding_id": "finding-swe-bugbot",
+  "scout_slug": "cursor"
+}

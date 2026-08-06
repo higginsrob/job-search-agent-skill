@@ -1,0 +1,42 @@
+{
+  "id": "20260731-0210-grafana-labs-staff-ai-engineer-aiml",
+  "title": "Staff AI Engineer - Grafana AI/ML | USA | Remote",
+  "company": "Grafana Labs",
+  "location": "Remote (US time zones)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-29T18:17:27Z",
+  "found_at": "2026-07-31T02:10:00Z",
+  "compensation": "$175k\u2013$220k",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6100672004",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "linkedin"
+  ],
+  "rank": 56,
+  "hire_likelihood": 84,
+  "fit_summary": "Staff AI engineer shipping GenAI features for observability maps to Panorama LLM product leadership, though observability/agent depth is thinner than pure full-stack staff roles.",
+  "missing_gaps": [
+    "Observability / Grafana stack depth not evidenced on resume",
+    "Production multi-agent frameworks experience not strongly documented",
+    "Title is AI-specialist rather than full-stack staff product IC"
+  ],
+  "target_bucket": "similar",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "applied",
+  "dead_reason": null,
+  "applied": true,
+  "applied_at": "2026-07-31T02:17:04Z",
+  "has_resume": true,
+  "has_cover_letter": false,
+  "tags": [
+    "llm",
+    "genai",
+    "python",
+    "observability",
+    "agents",
+    "cloud"
+  ]
+}

@@ -1,0 +1,13 @@
+Rob Higgins
+Denver, CO | higginsrob@gmail.com | linkedin.com/in/higginsrob | github.com/higginsrob
+
+Dear Abhik,
+
+I am applying for Senior Product Engineer on Ashby's Americas team. Your model of engineers owning specs, design decisions, and end-to-end delivery matches how I have worked for years, and I want that ownership on a product customers depend on daily.
+
+At Vertebrae I was an early engineer who researched problems, wrote product specs, wireframed solutions, and shipped React/Node merchant tools through the Snap acquisition. At Snap I tech-led the AR Enterprise Web SDK with the same end-to-end ownership across APIs and frontend. At Panorama AI I led fullstack product work on TypeScript/JavaScript, React, Node, and PostgreSQL, including GraphQL as a client of internal data sources, then Head of Engineering for LLM and recommendation products.
+
+I would welcome the chance to talk about building at Ashby. Thank you for your time.
+
+Sincerely,
+Rob Higgins

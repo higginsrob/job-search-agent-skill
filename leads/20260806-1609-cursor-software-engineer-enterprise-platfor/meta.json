@@ -1,0 +1,39 @@
+{
+  "id": "20260806-1609-cursor-software-engineer-enterprise-platfor",
+  "title": "Software Engineer, Enterprise Platform",
+  "company": "Cursor",
+  "location": "San Francisco; Remote",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-04T19:05:09Z",
+  "found_at": "2026-08-06T16:09:29Z",
+  "compensation": null,
+  "url": "https://cursor.com/careers/software-engineer-enterprise-platform",
+  "source": "scout",
+  "sources": [
+    "scout"
+  ],
+  "rank": 97,
+  "hire_likelihood": 82,
+  "fit_summary": "Platform/IAM multi-tenant ownership from Snap SDK + Panorama eng standards matches enterprise org/RBAC/admin API work with a remote option.",
+  "missing_gaps": [
+    "Limited public evidence of SCIM / large-enterprise IAM at Cursor scale",
+    "Unleveled SWE title with high enterprise bar"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "in_progress",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "scout",
+    "posting"
+  ],
+  "scout_finding_id": "finding-swe-enterprise-platform",
+  "scout_slug": "cursor"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "20260730-2012-yipitdata-staff-swe-ai",
+  "title": "Staff Software Engineer, AI",
+  "company": "YipitData",
+  "location": "Remote (US; NYC hubs optional)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-28T12:00:00Z",
+  "found_at": "2026-07-30T20:12:07Z",
+  "compensation": "$180k\u2013$200k OTE",
+  "url": "https://job-boards.greenhouse.io/yipitdata/jobs/8088335",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "hire_likelihood": 88,
+  "fit_summary": "Staff AI/full-stack building LLM Insight Agents for retail analytics \u2014 Panorama LLM platform experience maps well; agent-loop/MCP depth and OTE band are softer.",
+  "missing_gaps": [
+    "Production agent loops / MCP tooling depth beyond general LLM platform work",
+    "OTE band ($180\u2013200k) may sit below recent staff/HoE cash comps"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "react",
+    "typescript",
+    "llm",
+    "aws",
+    "agents"
+  ],
+  "rank": 26
+}

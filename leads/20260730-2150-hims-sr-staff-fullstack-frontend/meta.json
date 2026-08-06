@@ -1,0 +1,42 @@
+{
+  "id": "20260730-2150-hims-sr-staff-fullstack-frontend",
+  "title": "Sr. Staff Engineer (Fullstack/Frontend)",
+  "company": "Hims & Hers",
+  "location": "US Remote",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-15T20:53:27Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": "$240k\u2013$280k",
+  "url": "https://jobs.ashbyhq.com/hims-and-hers/cfced3cb-2367-4d50-8bf1-54f74e56ce6b",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 30,
+  "hire_likelihood": 88,
+  "fit_summary": "Org-level Sr. Staff full-stack/frontend on React/Next.js with Node/Python backend ownership fits Snap web SDK tech lead and Panorama product leadership, though the 12+ year and design-systems bar is elevated.",
+  "missing_gaps": [
+    "12+ years professional SWE tenure asked explicitly",
+    "Org-wide design systems / shared frontend infrastructure leadership not highlighted on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "nextjs",
+    "nodejs",
+    "python",
+    "graphql",
+    "frontend"
+  ]
+}

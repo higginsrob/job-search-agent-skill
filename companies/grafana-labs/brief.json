@@ -1,0 +1,16 @@
+{
+  "company": "Grafana Labs",
+  "slug": "grafana-labs",
+  "domain": "grafana.com",
+  "products": "Grafana Labs builds open-source and commercial observability products (Grafana, Grafana Cloud) used by millions to visualize metrics, logs, traces, and AI-assisted operations.",
+  "fiscal_outlook": "Well-funded private company backed by Lightspeed, Sequoia, and others; large global remote workforce (~1,600+). Strong commercial cloud business alongside open source.",
+  "hiring_trends": "Very active Greenhouse board across Staff Backend, Platform, AI/ML, and Internal Tooling roles by region.",
+  "similar_role_hires": "Multiple Staff AI Engineer variants (AI/ML, RevOps) and Staff platform roles open for US remote.",
+  "hiring_profile": "High-volume legitimate hiring; roles are specific. Competition for Staff AI may be high given brand.",
+  "sources": [
+    "https://grafana.com/",
+    "https://job-boards.greenhouse.io/grafanalabs/jobs/6100672004"
+  ],
+  "updated_at": "2026-07-31T02:15:00Z",
+  "icon": "icon.png"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "20260730-2150-stripe-staff-fullstack-identity",
+  "title": "Staff Full Stack Engineer, Identity",
+  "company": "Stripe",
+  "location": "Remote (US) or Seattle / NYC / SF hybrid",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-27T15:17:30Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": null,
+  "url": "https://stripe.com/jobs/listing/staff-full-stack-engineer-identity/7895467",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "company"
+  ],
+  "rank": 65,
+  "hire_likelihood": 81,
+  "fit_summary": "Staff full-stack Identity platform role (API/framework leadership, adversarial systems) fits senior platform ownership from Snap/Vertebrae, but Stripe bar and identity/fraud domain are stretch factors.",
+  "missing_gaps": [
+    "Identity verification / KYC / fraud-adversarial systems not on resume",
+    "Stripe-scale platform / developer-product bar is very high",
+    "Compensation not listed on the public posting"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "fullstack",
+    "identity",
+    "platform",
+    "apis",
+    "fintech"
+  ]
+}

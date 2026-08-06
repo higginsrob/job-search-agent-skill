@@ -1,0 +1,13 @@
+Rob Higgins
+Denver, CO | higginsrob@gmail.com | linkedin.com/in/higginsrob | github.com/higginsrob
+
+Dear Dropbox Hiring Team,
+
+I'm applying for the Senior Fullstack Product Software Engineer role on the Browse & Navigate Web Experience team. Owning customer-facing web flows (browse, navigate, preview) end to end is the kind of product work I've done for years in React/TypeScript with Python and Node backends.
+
+At Snap, I was tech lead for the AR Enterprise Web SDK: I designed and shipped large-scale merchant-facing web experiences, APIs, and integrations across teams, from discovery through production. Before that at Vertebrae, I built full-stack React/Node product systems used by millions. Most recently at Panorama AI, I led platform work for LLM and recommendation products, including a React widget serving personalized results to shoppers.
+
+I'd welcome the chance to bring that ownership to Dropbox's web experience. Thank you for your time.
+
+Sincerely,
+Rob Higgins

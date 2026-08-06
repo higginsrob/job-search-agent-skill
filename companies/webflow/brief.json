@@ -1,0 +1,16 @@
+{
+  "company": "Webflow",
+  "slug": "webflow",
+  "domain": "webflow.com",
+  "products": "Agentic web marketing / website platform enabling marketing teams to build, manage, and optimize web experiences without traditional hand-coded workflows.",
+  "fiscal_outlook": "Late-stage private company; exact valuation/revenue not confirmed in sources reviewed for this brief.",
+  "hiring_trends": "Greenhouse shows Staff Software Engineer, Developer Productivity and other staff product/ML roles; US remote plus limited Canada remote.",
+  "similar_role_hires": "Staff SWE, Developer Productivity currently listed with zone-based US compensation.",
+  "hiring_profile": "Clear ATS posting with published zone pay and AI-first DevEx theme. Credible product company hiring; specialty DevProd fit matters.",
+  "sources": [
+    "https://job-boards.greenhouse.io/webflow/jobs/7832069",
+    "https://webflow.com/"
+  ],
+  "updated_at": "2026-07-30T21:50:00Z",
+  "icon": "icon.png"
+}

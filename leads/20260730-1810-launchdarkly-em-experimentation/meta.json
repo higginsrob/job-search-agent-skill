@@ -1,0 +1,40 @@
+{
+  "id": "20260730-1810-launchdarkly-em-experimentation",
+  "title": "Engineering Manager, Experimentation",
+  "company": "LaunchDarkly",
+  "location": "Remote - US",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-29T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$192k\u2013$264k",
+  "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7819651003",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 58,
+  "hire_likelihood": 83,
+  "fit_summary": "EM for experimentation platform (feature flags / stats / UX) \u2014 strong manager-track fit for someone with platform + data product leadership.",
+  "missing_gaps": [
+    "Experimentation / feature-flags product domain depth",
+    "Stats / experimentation methodology experience not evidenced"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "experimentation",
+    "platform",
+    "management",
+    "data"
+  ]
+}

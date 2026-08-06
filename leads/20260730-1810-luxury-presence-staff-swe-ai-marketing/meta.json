@@ -1,0 +1,42 @@
+{
+  "id": "20260730-1810-luxury-presence-staff-swe-ai-marketing",
+  "title": "Staff Software Engineer - AI Marketing - US (Remote)",
+  "company": "Luxury Presence",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-15T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$200k\u2013$250k",
+  "url": "https://jobs.lever.co/luxurypresence/7321e1fc-bccd-4865-b965-92450a73924b",
+  "source": "lever",
+  "sources": [
+    "lever"
+  ],
+  "rank": 16,
+  "hire_likelihood": 90,
+  "fit_summary": "Staff role shaping AI-native platform architecture on TypeScript/Node/React/AWS microservices \u2014 close to Head-of-Eng/AI platform experience at Panorama.",
+  "missing_gaps": [
+    "Real-estate SaaS / marketing automation domain not evidenced",
+    "GraphQL / Kafka event systems preferred depth is thin on base resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "node",
+    "react",
+    "aws",
+    "llm",
+    "microservices"
+  ]
+}

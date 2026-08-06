@@ -1,0 +1,42 @@
+{
+  "id": "20260730-1810-pinterest-staff-swe-ai-tools",
+  "title": "Staff Software Engineer, AI Tools",
+  "company": "Pinterest",
+  "location": "San Francisco, CA / Remote US",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-28T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$177k\u2013$365k",
+  "url": "https://www.pinterestcareers.com/jobs/?gh_jid=7305880",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "company"
+  ],
+  "rank": 77,
+  "hire_likelihood": 78,
+  "fit_summary": "Staff AI Tools with remote US option \u2014 aligns with AI platform interest; big-tech staff bar and broad band make hire likelihood moderate.",
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "applied",
+  "dead_reason": null,
+  "applied": true,
+  "applied_at": "2026-07-30T20:49:14Z",
+  "interested": false,
+  "interested_at": null,
+  "has_resume": true,
+  "has_cover_letter": true,
+  "tags": [
+    "ai",
+    "python",
+    "aws",
+    "staff",
+    "tools"
+  ],
+  "missing_gaps": [
+    "Big-tech staff bar and AI-tools-at-scale depth vs startup/platform anchors",
+    "Internal developer-tools specialization not primary on resume"
+  ]
+}

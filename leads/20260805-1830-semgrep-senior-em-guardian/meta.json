@@ -1,0 +1,43 @@
+{
+  "id": "20260805-1830-semgrep-senior-em-guardian",
+  "title": "Senior Engineering Manager, Guardian",
+  "company": "Semgrep",
+  "location": "Hybrid \u2014 Denver, SF, NYC, or Boston (3 days/week onsite)",
+  "remote": false,
+  "work_mode": "hybrid",
+  "posted_at": "2026-08-04T13:25:59Z",
+  "found_at": "2026-08-05T18:30:00Z",
+  "compensation": "$230k\u2013$288k",
+  "url": "https://jobs.ashbyhq.com/semgrep/0ad27864-ce95-4797-ab5d-b24de8f78d94",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 5,
+  "hire_likelihood": 91,
+  "fit_summary": "Hands-on EM for Semgrep\u2019s Guardian risk/verdict platform with a Denver hub option maps to Panorama Head of Eng leadership plus Snap/Vertebrae platform shipping.",
+  "missing_gaps": [
+    "AppSec / code-security product domain not evidenced on resume",
+    "3 days/week Denver (or SF/NYC/Boston) office required \u2014 confirm schedule fit",
+    "Security-platform / policy-engine depth not primary on resume"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "semgrep",
+    "denver",
+    "hybrid",
+    "em",
+    "security",
+    "platform",
+    "guardian"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "20260731-2038-ashby-senior-product-engineer-americas",
+  "title": "Senior Product Engineer - Americas",
+  "company": "Ashby",
+  "location": "Remote - US",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-04-30T22:46:14Z",
+  "found_at": "2026-07-31T20:38:00Z",
+  "compensation": "$178k\u2013$250k",
+  "url": "https://jobs.ashbyhq.com/ashby/751768c6-8d97-4e91-a57d-6b85ce4b5a37",
+  "source": "ashby",
+  "sources": [
+    "ashby",
+    "company"
+  ],
+  "rank": 18,
+  "hire_likelihood": 90,
+  "fit_summary": "Remote US senior product engineer on TypeScript/React/Node/Postgres with end-to-end product ownership \u2014 strong match to Panorama Head of Eng ownership and Snap/Vertebrae full-stack shipping; recruiter callback already in motion.",
+  "missing_gaps": [
+    "Talent Acquisition / recruiting ATS domain not evidenced on resume",
+    "GraphQL not listed as a primary skill",
+    "JD expects engineers to own wireframes and product specs as primary IC work"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "dead",
+  "dead_reason": "Marked dead via UI (folders are never deleted)",
+  "applied": false,
+  "applied_at": null,
+  "interested": true,
+  "interested_at": "2026-07-31T20:38:00Z",
+  "has_resume": true,
+  "has_cover_letter": true,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "postgres",
+    "graphql",
+    "product-engineer",
+    "remote"
+  ],
+  "interviews": [
+    {
+      "id": "iv-ms9f4f80-typ2",
+      "at": "2026-08-03T11:30:00-06:00",
+      "label": "Intro Call with Ashby - Product Engineer",
+      "notes": "This is a Zoom meeting. Click this link to join: https://ashbyhq.zoom.us/j/87930353108?pwd=FpDxUwDdXuAHLfIcRv4vxU1LcaOPJK.1\nMeeting ID: 87930353108\nPasscode: $xW2_iO8kG (desktop) | 8601921456 (dial-in)\n\nTo cancel or reschedule, use this link: https://you.ashbyhq.com/meeting/6aa10c40-bb29-4600-8bdb-91fab596c74b/\n11:30 AM - 12:00 PM (MDT) - Product Eng Recruiter Screen NA\n\nKiera Cox (Technical Recruiter, LinkedIn)\n\n\nTo keep your interview experience seamless and distraction-free, we use an AI Notetaker to record and transcribe our interviews. This helps interviewers focus fully on the conversation and ensures your responses are captured accurately. The recording will only be used internally for evaluation. If you would prefer not to be recorded, you can opt out using the link below. Opting out will not impact your candidacy in any way.\n\nClick here to opt-out\n\nWhen\nMonday Aug 3, 2026 \u22c5 11:30am \u2013 12pm (Mountain Time - Denver)\nLocation\nhttps://ashbyhq.zoom.us/j/87930353108?pwd=FpDxUwDdXuAHLfIcRv4vxU1LcaOPJK.1\nView map\nGuests\nhigginsrob@gmail.com\nView all guest info\nReply for higginsrob@gmail.com"
+    }
+  ]
+}

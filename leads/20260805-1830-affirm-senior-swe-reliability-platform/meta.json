@@ -1,0 +1,43 @@
+{
+  "id": "20260805-1830-affirm-senior-swe-reliability-platform",
+  "title": "Senior Software Engineer, Backend (Reliability Platform)",
+  "company": "Affirm",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-04T16:37:06Z",
+  "found_at": "2026-08-05T18:30:00Z",
+  "compensation": "$195k\u2013$255k",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7820306003",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 54,
+  "hire_likelihood": 84,
+  "fit_summary": "Remote US senior role building Affirm\u2019s AI-assisted reliability platform blends distributed systems with product tooling \u2014 close to Panorama platform ownership and Snap production systems experience.",
+  "missing_gaps": [
+    "Title is Senior not Staff \u2014 bar may sit below target staff/lead bucket",
+    "SRE / reliability-platform specialty not primary on resume",
+    "Kotlin / Affirm backend stack depth not evidenced"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "affirm",
+    "remote",
+    "senior",
+    "reliability",
+    "platform",
+    "python",
+    "ai"
+  ]
+}

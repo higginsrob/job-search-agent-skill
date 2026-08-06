@@ -1,0 +1,17 @@
+{
+  "id": "20260806-1519-sean-joseph-meta",
+  "name": "Sean Joseph",
+  "firm": "Meta",
+  "linkedin_url": "https://www.linkedin.com/in/sean-joseph-b8b28a73",
+  "email": null,
+  "focus": "Software engineering IC — ML/AI, FAIR, infra, product, mobile",
+  "notes": "Senior Technical Recruiter at Meta (Bay Area). Profile page loads; experience titles partially gated. Headline/search index: SWE recruiting across ML/AI, infra, product, mobile.",
+  "status": "found",
+  "dead_reason": null,
+  "found_at": "2026-08-06T15:19:00Z",
+  "contacted_at": null,
+  "sources": [
+    "https://www.linkedin.com/in/sean-joseph-b8b28a73"
+  ],
+  "companies": ["meta"]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "20260730-2012-outschool-staff-software-engineer",
+  "title": "Staff Software Engineer",
+  "company": "Outschool",
+  "location": "Remote (U.S. & Canada)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-20T12:00:00Z",
+  "found_at": "2026-07-30T20:12:07Z",
+  "compensation": "$158k\u2013$218k (Denver/Tier 2)",
+  "url": "https://job-boards.greenhouse.io/outschool/jobs/4683198006",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "hire_likelihood": 91,
+  "fit_summary": "Staff full-stack TypeScript/React/Node/GraphQL/PostgreSQL platform role with AI-native delivery \u2014 strong stack and tech-lead match; EdTech domain is the main stretch.",
+  "missing_gaps": [
+    "EdTech / marketplace for learners not evidenced on resume",
+    "Explicit GraphQL depth not highlighted on base resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "graphql",
+    "postgresql",
+    "ai"
+  ],
+  "rank": 9
+}

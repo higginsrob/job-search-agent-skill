@@ -1,0 +1,45 @@
+{
+  "id": "20260805-1830-owner-engineering-manager",
+  "title": "Engineering Manager",
+  "company": "Owner.com",
+  "location": "Remote (US or Canada)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-03T16:04:46Z",
+  "found_at": "2026-08-05T18:30:00Z",
+  "compensation": "$230k\u2013$250k",
+  "url": "https://jobs.ashbyhq.com/owner/500e72b8-429f-4a37-95ba-fa5ad2aa2191",
+  "source": "ashby",
+  "sources": [
+    "ashby",
+    "hackernews"
+  ],
+  "rank": 13,
+  "hire_likelihood": 90,
+  "fit_summary": "Remote hands-on fullstack EM for Owner Launch/Websites (React/Node, AI-augmented PLG) aligns with Panorama eng leadership and Snap/Vertebrae end-to-end product shipping.",
+  "missing_gaps": [
+    "Restaurant / SMB local-business domain not on resume",
+    "~3 years formal EM experience asked \u2014 leadership was Head of Eng / tech lead rather than classic multi-year EM title",
+    "PLG / self-serve activation growth experience desirable, not evidenced"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "owner",
+    "remote",
+    "em",
+    "fullstack",
+    "react",
+    "node",
+    "plg",
+    "ai"
+  ]
+}

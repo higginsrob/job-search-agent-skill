@@ -1,0 +1,41 @@
+{
+  "id": "20260804-1035-anthropic-em-search",
+  "title": "Engineering Manager, Search",
+  "company": "Anthropic",
+  "location": "San Francisco, CA / New York City, NY (hybrid)",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-08-03T18:21:29Z",
+  "found_at": "2026-08-04T16:36:59Z",
+  "compensation": "$320k\u2013$405k",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5371065008",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "hire_likelihood": 66,
+  "fit_summary": "Hands-on EM for Claude search platform fits Head of Engineering leadership plus LLM product context from Panorama, but SF/NYC hybrid and deep search/IR specialization are material gaps vs Denver fullstack targets.",
+  "missing_gaps": [
+    "San Francisco / New York hybrid\u2014not Denver",
+    "Search/IR (indexing, retrieval, ranking) specialization not evidenced on resume",
+    "3+ years managing search-platform engineers may read thin vs ask",
+    "Extremely competitive Anthropic bar"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "tags": [
+    "anthropic",
+    "engineering-manager",
+    "search",
+    "llm"
+  ],
+  "rank": 93,
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false
+}

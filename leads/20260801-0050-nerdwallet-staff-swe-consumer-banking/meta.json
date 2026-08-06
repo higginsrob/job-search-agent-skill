@@ -1,0 +1,43 @@
+{
+  "id": "20260801-0050-nerdwallet-staff-swe-consumer-banking",
+  "title": "Staff Software Engineer, Consumer Banking & Credit Cards",
+  "company": "NerdWallet",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-08-01T00:50:00Z",
+  "compensation": "$152k\u2013$282k",
+  "url": "https://jobs.ashbyhq.com/nerdwallet/86d3520d-151c-4ff7-9670-0bad9f6e307a",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 37,
+  "hire_likelihood": 87,
+  "fit_summary": "True full-stack Staff IC (TypeScript/React/Node, AWS/GCP, microservices) at a known consumer fintech \u2014 boost stack and staff bar match senior fullstack / platform ownership.",
+  "missing_gaps": [
+    "Consumer banking / credit-card product domain not evidenced",
+    "Next.js / Core Web Vitals SEO focus not a primary resume theme"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "fullstack",
+    "fintech",
+    "remote"
+  ]
+}

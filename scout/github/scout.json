@@ -1,0 +1,305 @@
+{
+  "company": "GitHub",
+  "slug": "github",
+  "updated_at": "2026-08-06T16:00:00Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/github/",
+  "findings": [
+    {
+      "id": "finding-principal-web-ui-platform-5588",
+      "title": "Principal Software Engineer, Front End Web UI Platform",
+      "summary": "Core UX owns the frontend platform behind GitHub.com (architecture, tooling, standards). Principal IC setting React/SSR/TypeScript direction across a large multi-team frontend — strongest stack match for Staff+/Principal fullstack web platform work.",
+      "fit_summary": "Snap Web SDK tech lead + React/TypeScript platform ownership is a direct match for GitHub's frontend platform Principal seat; Principal bar is the main stretch.",
+      "kind": "posting",
+      "url": "https://www.github.careers/careers-home/jobs/5588?lang=en-us",
+      "location": "Remote (US)",
+      "work_mode": "remote",
+      "hire_likelihood": 86,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Principal title / cross-org frontend platform bar may exceed Staff IC evidence",
+        "Ruby/Rails presence on GitHub.com stack is secondary on resume"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-14T20:54:00Z",
+      "evidence": [
+        "Re-verified live on github.careers API 2026-08-06 (slug 5588; Remote, United States; title matches)",
+        "Careers-home page HTTP 200 with job id present",
+        "Recruiter Preet Bhatia LinkedIn post (Jul 2026) sourcing this req"
+      ],
+      "found_at": "2026-08-04T18:31:27Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-staff-code-review-5610",
+      "title": "Staff Software Engineer, Code and Review",
+      "summary": "Staff IC on the Code and Review team shaping PRs, Files Changed, review, and merge for 100M+ developers — including how humans and AI agents collaborate. React/TypeScript + Ruby/Rails product surface; Senior Director David Poll is actively recruiting for this org.",
+      "fit_summary": "Staff product fullstack + LLM/agent collaboration experience maps to PR/review surfaces where humans and Copilot agents meet.",
+      "kind": "posting",
+      "url": "https://www.github.careers/careers-home/jobs/5610?lang=en-us",
+      "location": "Remote (US)",
+      "work_mode": "remote",
+      "hire_likelihood": 84,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Ruby/Rails depth for GitHub.com product services not a primary resume stack"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-22T19:55:00Z",
+      "evidence": [
+        "Re-verified live careers API 2026-08-06: Staff on Code and Review; Remote, United States",
+        "David Poll LinkedIn hiring post links this org and invites shares/DMs"
+      ],
+      "found_at": "2026-08-04T18:31:27Z",
+      "board_lead_id": "20260804-1838-github-staff-software-engineer-code-and-rev"
+    },
+    {
+      "id": "finding-staff-codespaces-5558",
+      "title": "Staff Software Engineer, Codespaces",
+      "summary": "Staff IC evolving Codespaces cloud development environments used across GitHub.com and for validating Copilot-generated code. React/TypeScript called out — strong fullstack + platform/SDK surface.",
+      "fit_summary": "Cloud platform + developer-environment and React/TS product work aligns with Codespaces as a cloud workbench for humans and Copilot.",
+      "kind": "posting",
+      "url": "https://www.github.careers/careers-home/jobs/5558?lang=en-us",
+      "location": "Remote (US)",
+      "work_mode": "remote",
+      "hire_likelihood": 82,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No public Codespaces/cloud-IDE product ownership on resume",
+        "API list title is generic Staff SWE — team inferred from JD overview"
+      ],
+      "compensation": null,
+      "posted_at": "2026-08-05T09:00:00Z",
+      "evidence": [
+        "Re-verified live on github.careers API 2026-08-06 (slug 5558; Remote, United States)",
+        "JD overview: Codespaces cloud workbenches; React/TypeScript stack signals"
+      ],
+      "found_at": "2026-08-06T15:33:03Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-staff-planning-tracking-5645",
+      "title": "Staff Software Engineer, Planning & Tracking",
+      "summary": "Staff role on GitHub project planning/tracking (Issues/Projects-adjacent product). US Remote opening with React/JavaScript in the stack — strong product fullstack fit.",
+      "fit_summary": "Senior/staff product fullstack with React and collaboration surfaces fits Planning & Tracking ownership.",
+      "kind": "posting",
+      "url": "https://www.github.careers/careers-home/jobs/5645?lang=en-us",
+      "location": "Remote (US)",
+      "work_mode": "remote",
+      "hire_likelihood": 80,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Less public evidence of Issues/Projects-scale work-management product ownership"
+      ],
+      "compensation": null,
+      "posted_at": "2026-08-04T18:02:00Z",
+      "evidence": [
+        "Re-verified live careers API 2026-08-06; Remote, United States; title matches"
+      ],
+      "found_at": "2026-08-04T18:31:27Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-staff-copilot-mission-control-5611",
+      "title": "Staff Software Engineer, Copilot Coding Agent (Mission Control)",
+      "summary": "Mission Control is the platform behind GitHub's Copilot Coding Agent and broader agentic developer experience. Staff-level ownership of agent platform systems — aligns with LLM/product-platform anchors.",
+      "fit_summary": "LLM/agent platform ownership from Panorama plus developer-tools platform experience fits Mission Control's agent session/task platform.",
+      "kind": "posting",
+      "url": "https://www.github.careers/careers-home/jobs/5611?lang=en-us",
+      "location": "Remote (US)",
+      "work_mode": "remote",
+      "hire_likelihood": 79,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "API list title is generic Staff SWE — team inferred from JD overview",
+        "May expect deeper Ruby/Go service ownership at GitHub scale"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-22T20:35:00Z",
+      "evidence": [
+        "Re-verified live careers API 2026-08-06: Mission Control / Copilot Coding Agent platform; Remote, United States"
+      ],
+      "found_at": "2026-08-04T18:31:27Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-staff-enterprise-ai-gov-5628",
+      "title": "Staff Software Engineer, Enterprise AI Governance",
+      "summary": "Staff IC leading system design for Enterprise AI Governance alongside Copilot platform growth. React/TypeScript called out — bridges LLM product eng and enterprise platform reliability.",
+      "fit_summary": "Enterprise platform + LLM product experience fits governance/controls around Copilot at org scale.",
+      "kind": "posting",
+      "url": "https://www.github.careers/careers-home/jobs/5628?lang=en-us",
+      "location": "Remote (US)",
+      "work_mode": "remote",
+      "hire_likelihood": 78,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No public enterprise AI policy/governance product ownership on resume"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-29T14:45:00Z",
+      "evidence": [
+        "Re-verified live careers API 2026-08-06; Remote, United States; title matches"
+      ],
+      "found_at": "2026-08-04T18:31:27Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-staff-pathfinders-5569",
+      "title": "Staff Software Engineer, Pathfinders (service paved path)",
+      "summary": "Pathfinders owns the paved path for how GitHub builds and ships services — tooling, automation, and golden-path templates across hundreds of services. Strong platform/infra ownership match.",
+      "fit_summary": "Internal developer platform and Terraform/cloud foundation experience maps to golden-path service shipping tooling.",
+      "kind": "posting",
+      "url": "https://www.github.careers/careers-home/jobs/5569?lang=en-us",
+      "location": "Remote (US)",
+      "work_mode": "remote",
+      "hire_likelihood": 76,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "API list title is generic Staff SWE — team inferred from JD overview",
+        "Less React product surface than Core UX / Code & Review roles"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-13T15:54:00Z",
+      "evidence": [
+        "Re-verified live careers API 2026-08-06; Pathfinders paved-path platform; Remote, United States"
+      ],
+      "found_at": "2026-08-06T15:33:03Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-principal-enterprise-ai-platform-5481",
+      "title": "Principal Software Engineer, Enterprise AI Platform",
+      "summary": "Principal IC defining foundational systems for GitHub's Enterprise AI Platform (developer tooling + AI systems + cloud-native). Higher bar (11+) but strong platform/LLM scope fit.",
+      "fit_summary": "Platform + LLM product leadership fits Enterprise AI Platform scope; Principal/distributed-systems bar is the stretch.",
+      "kind": "posting",
+      "url": "https://www.github.careers/careers-home/jobs/5481?lang=en-us",
+      "location": "Remote (US)",
+      "work_mode": "remote",
+      "hire_likelihood": 74,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Principal / foundational distributed-systems bar above typical Staff evidence",
+        "Identity/policy platform depth not a primary public anchor"
+      ],
+      "compensation": null,
+      "posted_at": "2026-06-17T12:32:00Z",
+      "evidence": [
+        "Re-verified live careers API 2026-08-06; Remote, United States; title matches"
+      ],
+      "found_at": "2026-08-04T18:31:27Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-david-poll",
+      "name": "David Poll",
+      "title": "Senior Director of Engineering, Code and Review",
+      "linkedin_url": "https://www.linkedin.com/in/depoll",
+      "notes": "Actively hiring Staff SWE for PR/review experience; fully remote. Posted Jul 2026 with careers apply link. Recent activity also celebrates stacked PRs shipping from his org.",
+      "found_at": "2026-08-04T18:31:27Z"
+    },
+    {
+      "id": "hm-whitney-imura",
+      "name": "Whitney Imura",
+      "title": "VP of Engineering",
+      "linkedin_url": "https://www.linkedin.com/in/whitneyimura",
+      "notes": "Hiring IC + EM leaders; prefers strong fullstack/backend + developer experience. Open to DMs.",
+      "found_at": "2026-08-04T18:31:27Z"
+    },
+    {
+      "id": "hm-karl-krukow",
+      "name": "Karl Krukow",
+      "title": "Senior Director of Software Engineering (Code Search / Copilot agent context)",
+      "linkedin_url": "https://www.linkedin.com/in/krukow",
+      "notes": "Hiring Staff/Senior SWE for Blackbird code search (USA + UK). Focus: agent context retrieval across Copilot Cloud Agent, Code Review, CLI, VS Code.",
+      "found_at": "2026-08-06T15:33:03Z"
+    },
+    {
+      "id": "hm-slava-koltovich",
+      "name": "Slava Koltovich",
+      "title": "Senior Director of Engineering, Actions Compute",
+      "linkedin_url": "https://www.linkedin.com/in/slavakoltovich",
+      "notes": "Hiring Staff/Principal+ for Actions Compute (orchestration/reliability/agentic workloads). Remote; NA preferred. Older apply shortlink (jobs/5058) is dead — outreach via DM still useful.",
+      "found_at": "2026-08-04T18:31:27Z"
+    },
+    {
+      "id": "hm-shayne-burgess",
+      "name": "Shayne Burgess",
+      "title": "Director of Engineering, Git Systems",
+      "linkedin_url": "https://www.linkedin.com/in/shayneburgess",
+      "notes": "Hiring Principal/Staff Git Systems (US) and Staff Git Storage (UK). Distributed systems / source-control platform; weaker React/fullstack fit than Code & Review or Web UI roles.",
+      "found_at": "2026-08-04T18:31:27Z"
+    },
+    {
+      "id": "hm-sean-dunn",
+      "name": "Sean Dunn",
+      "title": "Director of Engineering",
+      "linkedin_url": "https://www.linkedin.com/in/seanpdunn",
+      "notes": "Reposted Code and Review Staff hiring and Whitney Imura leadership hiring — useful second-degree outreach into the same orgs.",
+      "found_at": "2026-08-04T18:31:27Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-david-poll-code-review-hiring",
+      "source": "hiring_manager",
+      "author": "David Poll",
+      "url": "https://www.linkedin.com/posts/depoll_im-hiring-for-my-code-and-review-org-at-activity-7485787494064484352-9yC-",
+      "posted_at": "2026-07-22T00:00:00Z",
+      "summary": "Explicit Staff SWE open on Code and Review (PRs/review/merge + AI agents); fully remote; shared careers apply link.",
+      "signal_strength": "high",
+      "found_at": "2026-08-04T18:31:27Z"
+    },
+    {
+      "id": "signal-whitney-imura-fullstack-leaders",
+      "source": "hiring_manager",
+      "author": "Whitney Imura",
+      "url": "https://www.linkedin.com/posts/whitneyimura_hiring-activity-7457476444793970688-nS7B",
+      "posted_at": "2026-05-05T00:00:00Z",
+      "summary": "VP Eng hiring IC and EM leaders; specifically fullstack and backend engineers focused on developer experience at scale; asks for DMs.",
+      "signal_strength": "high",
+      "found_at": "2026-08-04T18:31:27Z"
+    },
+    {
+      "id": "signal-karl-krukow-code-search-hiring",
+      "source": "hiring_manager",
+      "author": "Karl Krukow",
+      "url": "https://www.linkedin.com/posts/krukow_come-join-our-team-at-github-and-help-shape-activity-7457363499946741760-egYC",
+      "posted_at": "2026-05-05T00:00:00Z",
+      "summary": "Senior Director hiring Staff/Senior SWE for code search (Blackbird) powering Copilot agent context across Cloud Agent, Code Review, CLI, VS Code. Lists USA + UK apply links.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:33:03Z"
+    },
+    {
+      "id": "signal-preet-bhatia-principal-web-ui",
+      "source": "company",
+      "author": "Preet Bhatia",
+      "url": "https://www.linkedin.com/posts/preetbhatia_github-principalengineer-frontendplatform-activity-7485416586648932352-QUuV",
+      "posted_at": "2026-07-21T00:00:00Z",
+      "summary": "GitHub eng recruiter actively sourcing Principal Front End Web UI Platform (jobs/5588); asks qualified candidates to apply and connect.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:33:03Z"
+    },
+    {
+      "id": "signal-slava-actions-compute-hiring",
+      "source": "hiring_manager",
+      "author": "Slava Koltovich",
+      "url": "https://www.linkedin.com/posts/slavakoltovich_staff-software-engineer-in-united-states-activity-7470229661139144705-skP9",
+      "posted_at": "2026-06-09T00:00:00Z",
+      "summary": "Senior Director hiring Staff/Principal+ for Actions Compute platform (scale, orchestration, agentic workloads). Apply shortlink in post now 404 — treat as outreach signal.",
+      "signal_strength": "high",
+      "found_at": "2026-08-04T18:31:27Z"
+    },
+    {
+      "id": "signal-shayne-git-systems-hiring",
+      "source": "hiring_manager",
+      "author": "Shayne Burgess",
+      "url": "https://www.linkedin.com/posts/shayneburgess_hiring-github-distributedsystems-activity-7485385420550119424-kGlr",
+      "posted_at": "2026-07-21T00:00:00Z",
+      "summary": "Director hiring Principal + Staff Git Systems (US) and Staff Git Storage (UK); welcomes applications and DMs.",
+      "signal_strength": "medium",
+      "found_at": "2026-08-04T18:31:27Z"
+    }
+  ]
+}

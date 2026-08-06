@@ -1,0 +1,40 @@
+{
+  "id": "20260804-1005-clear-engineering-manager",
+  "title": "Engineering Manager",
+  "company": "CLEAR",
+  "location": "New York, NY (hybrid)",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-08-04T15:21:28Z",
+  "found_at": "2026-08-04T16:05:00Z",
+  "compensation": "$275k\u2013$350k total",
+  "url": "https://job-boards.greenhouse.io/clear/jobs/8105763",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 95,
+  "hire_likelihood": 64,
+  "fit_summary": "Hands-on-capable EM for CLEAR\u2019s digital/Ambassador experience systems fits Head of Engineering leadership plus fullstack platform background, but NYC hybrid and a stronger people-manager mandate than preferred IC-heavy shape lower the score.",
+  "missing_gaps": [
+    "3+ years managing engineers required; Panorama Head of Eng tenure is shorter",
+    "New York hybrid (Tue\u2013Thu style CLEAR hybrid)\u2014not Denver / US remote",
+    "Airport / in-person Ambassador operations domain not on resume"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "dead",
+  "dead_reason": "location",
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "engineering-manager",
+    "identity",
+    "digital",
+    "hybrid-nyc"
+  ]
+}

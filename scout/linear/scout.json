@@ -1,0 +1,133 @@
+{
+  "company": "Linear",
+  "slug": "linear",
+  "updated_at": "2026-08-06T15:55:00Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/linearapp/",
+  "findings": [
+    {
+      "id": "finding-senior-staff-fullstack",
+      "title": "Senior / Staff Fullstack Engineer",
+      "summary": "Remote Senior/Staff fullstack IC open to North America and Europe. TypeScript end-to-end with React, Node, GraphQL, Postgres; realtime sync and product craft bar.",
+      "fit_summary": "Near-perfect boost-stack match (TS/React/Node/Postgres) at senior/staff IC scope with US remote from Denver — strongest Linear fit.",
+      "kind": "posting",
+      "url": "https://linear.app/careers/d3bc1ced-3ce4-4086-a050-555055dbb1ff",
+      "location": "Remote (North America, Europe); optional SF/NYC/London coworking",
+      "work_mode": "remote",
+      "hire_likelihood": 88,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No public Temporal / Linear-style CRDT sync engine depth",
+        "GraphQL is secondary vs REST on resume"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live 2026-08-06 on linear.app/careers: Senior / Staff Fullstack Engineer",
+        "5+ years; strong React and TypeScript; Browser/Node/GraphQL/PostgreSQL",
+        "Remote-first; NA and Europe; Ashby also lists NA/EU variants"
+      ],
+      "found_at": "2026-08-06T15:25:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-senior-staff-product-engineer-ai",
+      "title": "Senior / Staff Product Engineer, AI",
+      "summary": "North America remote Senior/Staff role shipping applied AI into Linear: agent platform, NL workflows, Temporal agentic workloads, third-party agents as teammates.",
+      "fit_summary": "Panorama Head of Eng LLM/BI products plus TS fullstack anchors map directly to shipping agentic product features at staff scope.",
+      "kind": "posting",
+      "url": "https://linear.app/careers/b4a7764e-c680-4bdf-9956-dc78f2ca94d5",
+      "location": "Remote (North America); optional SF/NYC/London coworking",
+      "work_mode": "remote",
+      "hire_likelihood": 86,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No public Temporal agent-platform production evidence",
+        "Linear expects applied AI shipped in a product surface (not only internal LLM tooling)"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live 2026-08-06: Senior / Staff Product Engineer, AI",
+        "Build AI features, backend for agentic workloads, guide third-party agent platform",
+        "Same 5+ years React/TypeScript fullstack bar; North America only"
+      ],
+      "found_at": "2026-08-06T15:25:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-senior-staff-product-engineer",
+      "title": "Senior / Staff Product Engineer",
+      "summary": "Remote Senior/Staff product engineer (US/Europe) building core Linear product surfaces with founders/design — TypeScript fullstack, realtime editor, performance.",
+      "fit_summary": "Staff product-minded fullstack (React/TS/Node/Postgres) matches candidate senior/staff IC targets and Denver US-remote preference.",
+      "kind": "posting",
+      "url": "https://linear.app/careers/12f8f208-0b9c-4569-bb3d-41c8a197029e",
+      "location": "Remote (US and Europe); optional SF/NYC/London coworking",
+      "work_mode": "remote",
+      "hire_likelihood": 84,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Expects strong product sensibility / design partnership without heavy PM — soft screen",
+        "GraphQL/MobX stack specifics not primary on resume"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live 2026-08-06 on linear.app/careers and jobs.ashbyhq.com/linear",
+        "Stack: React, Node, Postgres, Temporal, Redis, GCP/k8s",
+        "Work with founders and design; AI into core Linear"
+      ],
+      "found_at": "2026-08-06T15:25:00Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-sabin-roman",
+      "name": "Sabin Roman",
+      "title": "Engineering Manager",
+      "linkedin_url": "https://www.linkedin.com/in/sabinroman",
+      "notes": "First EM at Linear (joined ~2022); ex-Uber. Public podcasts on Linear eng culture. Based in Amsterdam — strong for EU eng hiring; still relevant for NA process context.",
+      "found_at": "2026-08-06T15:25:00Z"
+    },
+    {
+      "id": "hm-nan-yu",
+      "name": "Nan Yu",
+      "title": "Head of Product",
+      "linkedin_url": "https://www.linkedin.com/in/thenanyu",
+      "notes": "Publicly recruits product-minded engineers; reviews applications that pitch features. Good outreach target for Senior/Staff Product Engineer tracks.",
+      "found_at": "2026-08-06T15:25:00Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-2026-05-doug-parker-us-eng-hiring",
+      "source": "hiring_manager",
+      "author": "Doug Parker",
+      "url": "https://www.linkedin.com/posts/dougparker33_in-pretty-good-company-here-if-you-want-activity-7466235109466251264-221e",
+      "posted_at": "2026-05-29T00:00:00Z",
+      "summary": "Head of Talent reshared dream-company poll and stated he is hiring for all US engineering roles (EU roles also open), linking careers.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:25:00Z"
+    },
+    {
+      "id": "signal-2025-09-nan-yu-product-engineers",
+      "source": "hiring_manager",
+      "author": "Nan Yu",
+      "url": "https://www.linkedin.com/posts/thenanyu_if-you-are-an-engineer-and-you-are-pretty-activity-7371999252291416064-4Itj",
+      "posted_at": "2025-09-11T00:00:00Z",
+      "summary": "Head of Product explicitly recruiting product-minded engineers to build features they wish issue trackers had; invites careers applications with feature pitches.",
+      "signal_strength": "medium",
+      "found_at": "2026-08-06T15:25:00Z"
+    },
+    {
+      "id": "signal-company-linkedin-hiring",
+      "source": "company",
+      "author": "Linear",
+      "url": "https://www.linkedin.com/company/linearapp/",
+      "posted_at": null,
+      "summary": "Company LinkedIn tagline actively points to linear.app/careers (“We're hiring”) alongside agent/AI product updates; re-verified 2026-08-06.",
+      "signal_strength": "medium",
+      "found_at": "2026-08-06T15:25:00Z"
+    }
+  ]
+}

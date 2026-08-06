@@ -1,0 +1,20 @@
+{
+  "company": "Netflix",
+  "slug": "netflix",
+  "domain": "netflix.com",
+  "products": "Global streaming entertainment (series, films, games, live) with ~325M+ members; ads tier and in-house ad tech; large internal platforms for cloud, experimentation, AI, and studio/enterprise tooling.",
+  "fiscal_outlook": "Public (NFLX). Q2 2026 revenue ~$12.6B (+13% YoY), operating margin ~33%; FY26 revenue guide narrowed to $51.0–$51.4B with ~$3B ads revenue target. Stock reacted to softer Q3 guide; no eng layoff signal in Q2 materials.",
+  "hiring_trends": "Active L5 platform hiring: Python Platform, Agent Platform (AI), Member API, Ads Policy Infrastructure — several USA Remote. EDPR HM Sam Gorial publicly recruiting for AI-era developer runtime work. Some indexed fullstack URLs go 404 quickly (stale mirrors common).",
+  "similar_role_hires": "Live verified this run: Software Engineer L5 Python Platform; SWE 5 Agent Platform (AI); SWE 5 Member API; Full-Stack SWE 5 Ads Policy Infrastructure; Distributed Systems Engineer 4 Content & Business Products (EDPR).",
+  "hiring_profile": "Official explore.jobs.netflix.net ATS with deep JDs and top-of-market cash/stock ranges. Senior bar (typically L5+ for staff-shaped IC). Prefer USA Remote roles over Los Gatos/Warsaw hub-only unless relocating. Re-check posting URLs before applying — dead IDs appear often in search indexes.",
+  "sources": [
+    "https://jobs.netflix.com/careers/engineering",
+    "https://explore.jobs.netflix.net/careers/job/790315922591-software-engineer-l5-python-platform-usa-remote?domain=netflix.com&microsite=netflix.com",
+    "https://explore.jobs.netflix.net/careers/job/790316292023?domain=netflix.com&microsite=netflix.com",
+    "https://explore.jobs.netflix.net/careers/job/790315746657-software-engineer-5-member-api-usa-remote?domain=netflix.com&microsite=netflix.com",
+    "https://s22.q4cdn.com/959853165/files/doc_financials/2026/q2/FINAL-Q2-26-Shareholder-Letter.pdf",
+    "https://www.netflix.com/"
+  ],
+  "updated_at": "2026-08-06T15:21:22Z",
+  "icon": "icon.png"
+}

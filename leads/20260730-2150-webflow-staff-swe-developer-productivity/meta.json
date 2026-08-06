@@ -1,0 +1,42 @@
+{
+  "id": "20260730-2150-webflow-staff-swe-developer-productivity",
+  "title": "Staff Software Engineer, Developer Productivity",
+  "company": "Webflow",
+  "location": "U.S. Remote",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-10T13:17:01Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": "$186.7k\u2013$224k (Zone C)",
+  "url": "https://job-boards.greenhouse.io/webflow/jobs/7832069",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 68,
+  "hire_likelihood": 80,
+  "fit_summary": "Staff Developer Productivity on TypeScript/React/Node with Docker/K8s and AI-first internal platforms overlaps Snap SDK tooling instincts and Panorama eng-enablement, with a stronger DevEx specialty ask.",
+  "missing_gaps": [
+    "Dedicated developer-productivity / internal platform charter not primary on resume",
+    "Monorepo platform architecture at Webflow scale not evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "nodejs",
+    "kubernetes",
+    "developer-productivity",
+    "ai-tools"
+  ]
+}

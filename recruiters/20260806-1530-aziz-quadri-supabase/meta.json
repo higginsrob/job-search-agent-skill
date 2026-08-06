@@ -1,0 +1,20 @@
+{
+  "id": "20260806-1530-aziz-quadri-supabase",
+  "name": "Aziz Quadri",
+  "firm": "Supabase",
+  "linkedin_url": "https://www.linkedin.com/in/azizquadri13",
+  "email": null,
+  "focus": "Talent Acquisition \u2014 Engineering (platforms, SRE, backend, EMs)",
+  "notes": "",
+  "status": "found",
+  "dead_reason": null,
+  "found_at": "2026-08-06T15:30:00Z",
+  "contacted_at": null,
+  "sources": [
+    "https://www.linkedin.com/in/azizquadri13",
+    "https://www.linkedin.com/posts/azizquadri13_were-hiring-engineering-managers-at-supabase-activity-7475588065621835776-zGX7"
+  ],
+  "companies": [
+    "supabase"
+  ]
+}

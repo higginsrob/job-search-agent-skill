@@ -1,0 +1,45 @@
+{
+  "id": "20260731-2335-odeko-senior-staff-marketplace",
+  "title": "Senior/Staff Fullstack Engineer - Marketplace",
+  "company": "Odeko",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-07-31T23:35:00Z",
+  "compensation": null,
+  "url": "https://www.ycombinator.com/companies/odeko/jobs/7gKd9sh-senior-staff-fullstack-engineer-marketplace",
+  "source": "yc",
+  "sources": [
+    "yc"
+  ],
+  "rank": 66,
+  "hire_likelihood": 81,
+  "fit_summary": "Remote Senior/Staff Marketplace fullstack on GraphQL Federation, Kafka event sourcing, React/TypeScript, Node, and AWS \u2014 staff ownership fit, but GraphQL/Kafka expertise is a hard JD gate.",
+  "missing_gaps": [
+    "Expert GraphQL Federation / Kafka event-sourcing depth not evidenced",
+    "Cafe supply-chain / marketplace commerce domain not shown",
+    "Comp band not published"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "graphql",
+    "kafka",
+    "react",
+    "typescript",
+    "aws",
+    "remote",
+    "yc"
+  ]
+}

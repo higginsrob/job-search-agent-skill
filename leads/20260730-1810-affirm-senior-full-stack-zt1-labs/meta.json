@@ -1,0 +1,42 @@
+{
+  "id": "20260730-1810-affirm-senior-full-stack-zt1-labs",
+  "title": "Senior Software Engineer, Full Stack (Zero to One Labs)",
+  "company": "Affirm",
+  "location": "Remote US",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-29T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$195k\u2013$255k",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7686804003",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 42,
+  "hire_likelihood": 86,
+  "fit_summary": "0\u21921 innovation lab fullstack with React/Python/AI experimentation \u2014 similar to early Vertebrae ownership and Panorama product speed.",
+  "missing_gaps": [
+    "TypeScript/Node not emphasized in public JD vs boost stack",
+    "Consumer fintech / Affirm domain not evidenced on resume"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "python",
+    "aws",
+    "kubernetes",
+    "ai",
+    "0-to-1"
+  ]
+}

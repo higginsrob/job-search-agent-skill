@@ -1,0 +1,42 @@
+{
+  "id": "20260730-1810-coinbase-senior-swe-frontend-agentic-trading",
+  "title": "Senior Software Engineer, Frontend (Coinbase Advisor - Agentic Trading)",
+  "company": "Coinbase",
+  "location": "Remote - USA",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-29T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$186k\u2013$219k",
+  "url": "https://www.coinbase.com/careers/positions/8070574?gh_jid=8070574",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "company"
+  ],
+  "rank": 64,
+  "hire_likelihood": 81,
+  "fit_summary": "Senior frontend on agentic trading advisor with TypeScript/React/LLM \u2014 good AI product signal but frontend-leaning vs preferred full-stack/platform.",
+  "missing_gaps": [
+    "Frontend-primary scope vs full-stack/platform background",
+    "Crypto / agentic trading domain not evidenced on resume"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "llm",
+    "ai",
+    "frontend"
+  ]
+}

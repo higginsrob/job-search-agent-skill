@@ -1,0 +1,41 @@
+{
+  "id": "20260730-1810-gusto-staff-software-engineer-business-money",
+  "title": "Staff Software Engineer, Business Money",
+  "company": "Gusto",
+  "location": "United States - Remote (Denver office available)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-27T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$197k\u2013$247k",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/8035802",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 7,
+  "hire_likelihood": 91,
+  "fit_summary": "Staff product/platform role on financial tools with TypeScript/React and US remote plus Denver office option \u2014 aligns with preferred metro and staff IC target.",
+  "missing_gaps": [
+    "Fintech / money-movement product domain not evidenced on resume",
+    "Gusto house stack often Rails-heavy (JD lists TS/React; Rails not on resume)"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "aws",
+    "fintech",
+    "staff"
+  ]
+}

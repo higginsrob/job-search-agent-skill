@@ -1,0 +1,44 @@
+{
+  "id": "20260801-0050-smithrx-staff-swe-platform",
+  "title": "Staff Software Engineer, Platform",
+  "company": "SmithRx",
+  "location": "Remote (US; CO eligible)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-08-01T00:50:00Z",
+  "compensation": null,
+  "url": "https://job-boards.greenhouse.io/smithrx/jobs/8472599002",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 89,
+  "hire_likelihood": 74,
+  "fit_summary": "Remote Staff platform/backend role (Go/TS/Node/GraphQL/Postgres/AWS) with mentorship \u2014 platform scope fits, but required compiled-language (Go) expertise is a material stack gap vs boost TypeScript/Python.",
+  "missing_gaps": [
+    "Go (or other compiled language) required \u2014 not a primary resume language",
+    "Pharmacy benefit / PBM domain not evidenced",
+    "8\u201312 years server-side API focus may read more backend-only than fullstack"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "go",
+    "typescript",
+    "postgres",
+    "aws",
+    "platform",
+    "remote"
+  ]
+}

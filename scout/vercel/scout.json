@@ -1,0 +1,255 @@
+{
+  "company": "Vercel",
+  "slug": "vercel",
+  "updated_at": "2026-08-06T16:00:00Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/vercel/",
+  "findings": [
+    {
+      "id": "finding-mts-internal-agent",
+      "title": "Member of the Technical Staff, Internal Agent",
+      "summary": "Staff-level role building V (internal agentic interface): intent/planning/tools, durable multi-system workflows, Slack/web/CLI surfaces, evals/observability, and shared agent primitives across Vercel.",
+      "fit_summary": "10+ years fullstack TypeScript plus Panorama AI LLM product/platform leadership and Snap platform ownership match a staff agent harness spanning UI, APIs, queues, and production infra.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6134374004",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 88,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Prior agent-harness frameworks (OpenClaw/Hermes/Pi) listed as plus, not evidenced",
+        "Internal multi-surface agent product shipping at Vercel scale"
+      ],
+      "compensation": "$208,000–$312,000 (SF base band; adjusted by location)",
+      "posted_at": "2026-08-05T17:45:45Z",
+      "evidence": [
+        "Greenhouse: 7+ years SWE, strong TypeScript, full-stack + infra/queues/DB/permissions",
+        "Remote - United States; SF band $208k–$312k; New listing"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-software-engineer-ai-sdk",
+      "title": "Software Engineer, AI SDK",
+      "summary": "Build and maintain Vercel's open-source TypeScript AI SDK for AI-native apps and agents; OSS community engagement and platform integration.",
+      "fit_summary": "Published SDK leadership (Snap ARES Web SDK) plus LLM product eng at Panorama AI map cleanly to a TypeScript AI SDK with external developer consumers.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5474915004",
+      "location": "Remote (US; hybrid SF/NYC only if within office commute)",
+      "work_mode": "remote",
+      "hire_likelihood": 86,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Prior contributions specifically to Vercel AI SDK / similar OSS AI toolkits"
+      ],
+      "compensation": "$196,000–$294,000 (SF base band; adjusted by location)",
+      "posted_at": "2026-07-22T16:50:03Z",
+      "evidence": [
+        "Greenhouse JD: 5+ years, JS/TS + modern frontend, OSS participation",
+        "JD: beyond office commute distance → fully remote (Denver qualifies)"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-software-engineer-dashboard",
+      "title": "Software Engineer, Dashboard",
+      "summary": "Founding fullstack engineer on Dashboard rebuild: shell/navigation, personalization APIs, agent-powered control-plane surfaces in React/TypeScript/Next.js.",
+      "fit_summary": "React/TS/Node fullstack and developer-facing product surfaces (SDKs, Studio-like control planes) plus LLM product experience fit an agent-powered Dashboard rearchitecture.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5808568004",
+      "location": "Hybrid - San Francisco, New York City",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 81,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Listed hybrid hubs are SF/NYC (away from Denver)",
+        "Next.js-specific dashboard shell ownership not a resume headline"
+      ],
+      "compensation": "$196,000–$294,000 (SF base band; adjusted by location)",
+      "posted_at": "2026-07-22T16:50:03Z",
+      "evidence": [
+        "Greenhouse: 4+ years fullstack React/TS/Next + APIs/DB; new team rebuilding Dashboard",
+        "Hybrid SF/NYC listing"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-software-engineer-deployment-infra",
+      "title": "Software Engineer, Deployment Infrastructure",
+      "summary": "Senior CI/CD / deployment platform ownership: TypeScript services, AWS, Terraform, high-scale build pipelines and APIs that power Vercel deploys.",
+      "fit_summary": "Terraform/AWS cloud ownership from Vertebrae→Snap plus TypeScript backend/platform leadership match build/deploy infrastructure with IaC and end-to-end ownership.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5633880004",
+      "location": "Hybrid - San Francisco, New York City",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 80,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Listed offices SF/NYC (away from Denver); vercel.com careers lists NYC/SF",
+        "CI/CD platform at millions-of-builds/day scale not evidenced"
+      ],
+      "compensation": "$180,000–$260,000 (base band on vercel.com careers)",
+      "posted_at": "2026-07-22T16:50:03Z",
+      "evidence": [
+        "Verified Greenhouse + vercel.com/careers: 6+ years distributed systems, JS/TS, AWS, Terraform",
+        "Hybrid SF/NYC; on-call for critical build systems"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-software-engineer-backend",
+      "title": "Software Engineer, Backend",
+      "summary": "US-remote backend role: TypeScript/Node services for identity/membership (SCIM/SSO/OAuth), SQL/NoSQL, AWS, Terraform/K8s, enterprise security.",
+      "fit_summary": "TypeScript/Node, SQL, AWS, and Terraform experience fit the core stack, though the JD's center of gravity is identity/SSO lifecycle rather than general product backend.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5430088004",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 78,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Deep LDAP/AD/SAML/SCIM identity lifecycle specialization",
+        "RBAC/ABAC/ReBAC access-control models as primary focus"
+      ],
+      "compensation": "$196,000–$294,000 (SF base band; adjusted by location)",
+      "posted_at": "2026-07-22T16:50:03Z",
+      "evidence": [
+        "Greenhouse: Remote US; TS/React/Node + security/SSO + Terraform/K8s",
+        "Beyond-commute remote language also present on JD"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-software-engineer-workflows",
+      "title": "Software Engineer, Workflows",
+      "summary": "Build Workflow Development Kit and Vercel Workflows platform with AI enablement: durable agent workflows, observability, state/resume semantics.",
+      "fit_summary": "Event-driven pipelines and LLM product systems at Panorama AI plus TypeScript platform work align with durable AI workflow primitives, with less evidence of workflow-engine internals.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5798416004",
+      "location": "Hybrid - San Francisco, New York City",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 77,
+      "target_bucket": "similar",
+      "missing_gaps": [
+        "Hybrid SF/NYC away from Denver",
+        "Durable workflow engines / WDK-style state machines not a resume headline"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-22T16:50:03Z",
+      "evidence": [
+        "Greenhouse: 5+ years, JS/TS, AI/ML or durable systems (agents/queues/state machines)",
+        "Hybrid SF/NYC listing"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-software-engineer-ai-gateway",
+      "title": "Software Engineer, AI Gateway",
+      "summary": "Backend platform for AI Gateway: unified multi-provider model API, rate limits, failovers, low-latency reliability across OpenAI/Anthropic/Google and more.",
+      "fit_summary": "TypeScript backend/cloud and LLM product integration experience help, but dedicated API-gateway/rate-limit/failover systems are a thinner resume match than SDK or agent product roles.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5798406004",
+      "location": "Hybrid - San Francisco, New York City",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 76,
+      "target_bucket": "similar",
+      "missing_gaps": [
+        "Hybrid SF/NYC away from Denver",
+        "High-throughput API gateway / multi-provider failover ownership"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-22T16:50:03Z",
+      "evidence": [
+        "Greenhouse: 5+ years, JS/TS backend/APIs/cloud, AI/ML integrations or gateways",
+        "Hybrid SF/NYC listing"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-software-engineer-agent",
+      "title": "Software Engineer, Agent",
+      "summary": "Build customer-facing Vercel Agent: autonomous investigate/fix for builds and prod issues, multi-step tool use, sandboxed code execution, dashboard/CLI/Slack surfaces.",
+      "fit_summary": "Staff TypeScript + LLM/platform background fit agentic remediation systems; NYC hybrid listing and deep Vercel platform-internals bar pull the score down vs US-remote MTS Internal Agent.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/5704320004",
+      "location": "Hybrid - New York City",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 74,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Hybrid NYC office expectation (away from Denver)",
+        "Deep day-to-day Vercel deploy/CDN/DNS/log internals for agent tools"
+      ],
+      "compensation": null,
+      "posted_at": "2026-08-04T21:47:17Z",
+      "evidence": [
+        "Greenhouse: 7+ years, strong TypeScript (Python-to-TS OK), fullstack + CI/CD/observability",
+        "Hybrid New York City listing; updated 2026-08-04"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-chris-w",
+      "name": "Chris W.",
+      "title": "Engineering Manager",
+      "linkedin_url": "https://www.linkedin.com/in/wdmr",
+      "notes": "Long-tenured Vercel EM (since 2022); platform/build systems context in public profile.",
+      "found_at": "2026-08-06T16:00:00Z"
+    },
+    {
+      "id": "hm-dom-busser",
+      "name": "Dom Busser",
+      "title": "Director of Engineering, Observability",
+      "linkedin_url": "https://www.linkedin.com/in/doque",
+      "notes": "Leads Observability eng; platform hiring influence across distributed teams.",
+      "found_at": "2026-08-06T16:00:00Z"
+    },
+    {
+      "id": "hm-gaspar-garcia",
+      "name": "Gaspar Garcia",
+      "title": "Tech Lead, v0 / Head of AI Research",
+      "linkedin_url": "https://www.linkedin.com/in/gaspargarcia",
+      "notes": "v0 / AI leadership; relevant outreach for AI SDK and agent-stack roles.",
+      "found_at": "2026-08-06T16:00:00Z"
+    },
+    {
+      "id": "hm-paul-wright",
+      "name": "Paul Wright",
+      "title": "Engineering Director, CDN",
+      "linkedin_url": "https://www.linkedin.com/in/pauljameswright",
+      "notes": "CDN org director; useful for infra/platform adjacency, less for Dashboard/AI SDK.",
+      "found_at": "2026-08-06T16:00:00Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-2026-07-hodge-70-roles",
+      "source": "company",
+      "author": "Ryan Hodge",
+      "url": "https://www.linkedin.com/posts/hodge-ryan_we-have-nearly-70-open-roles-right-now-at-activity-7483257924887179264-Gl0N",
+      "posted_at": "2026-07-15T00:00:00Z",
+      "summary": "Vercel SA manager posted ~70 open roles including SWE across AI Gateway, AI SDK, Agent, Workflows, Backend, Dashboard, Observability, CI/CD.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T16:00:00Z"
+    },
+    {
+      "id": "signal-2026-08-mts-internal-agent-new",
+      "source": "company",
+      "author": "Vercel Careers",
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6134374004",
+      "posted_at": "2026-08-05T17:45:45Z",
+      "summary": "New Remote US Member of the Technical Staff, Internal Agent req signals active investment in internal agentic ops platforms.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T16:00:00Z"
+    }
+  ]
+}

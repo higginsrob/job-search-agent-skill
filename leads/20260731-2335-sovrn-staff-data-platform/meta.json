@@ -1,0 +1,45 @@
+{
+  "id": "20260731-2335-sovrn-staff-data-platform",
+  "title": "Senior/Staff Software Engineer, Data Platform",
+  "company": "Sovrn",
+  "location": "Hybrid \u2014 Boulder, CO (Denver metro)",
+  "remote": false,
+  "work_mode": "hybrid",
+  "posted_at": "2026-07-29T23:12:03Z",
+  "found_at": "2026-07-31T23:35:00Z",
+  "compensation": "$170k\u2013$200k Staff / $155k\u2013$185k Senior + bonus + equity",
+  "url": "https://job-boards.greenhouse.io/sovrn/jobs/8095474",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "rank": 25,
+  "hire_likelihood": 88,
+  "fit_summary": "Boulder hybrid Senior/Staff data platform role on Python, Kafka, Databricks, AWS, and Terraform \u2014 strong match to Panorama Head of Eng data/ETL ownership plus preferred-metro location.",
+  "missing_gaps": [
+    "Databricks/Spark depth not evidenced as primary on resume",
+    "Adtech / publisher data domain not shown"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "kafka",
+    "data-platform",
+    "aws",
+    "terraform",
+    "boulder",
+    "hybrid"
+  ]
+}

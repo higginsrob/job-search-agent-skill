@@ -1,0 +1,39 @@
+{
+  "id": "20260731-0145-lila-sciences-staff-ssr",
+  "title": "Staff Software Engineer, Scientific System of Record",
+  "company": "Lila Sciences",
+  "location": "Cambridge, MA / San Francisco, CA",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-07-20T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$144k\u2013$288k",
+  "url": "https://job-boards.greenhouse.io/lilasciences/jobs/4248045009",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 76,
+  "hire_likelihood": 78,
+  "fit_summary": "Staff React/TS + Python AI platform role \u2014 stack fits, but scientific/lab domain and coastal onsite hubs reduce hire likelihood for a Denver remote-first candidate.",
+  "missing_gaps": [
+    "Life sciences / lab workflow / LIMS experience not evidenced",
+    "Role locations are Cambridge MA and San Francisco (not Denver/remote)"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "typescript",
+    "python",
+    "ai",
+    "staff"
+  ]
+}

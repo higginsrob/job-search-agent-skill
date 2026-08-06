@@ -1,0 +1,41 @@
+{
+  "id": "20260730-2150-temporal-staff-swe-ai-foundations",
+  "title": "Staff Software Engineer, AI Foundations (Agent Optimization)",
+  "company": "Temporal",
+  "location": "United States",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-05T16:05:00Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": "$224k\u2013$302.4k",
+  "url": "https://jobs.ashbyhq.com/temporal/4ee99986-77ad-4113-8058-891d5cc7284a",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 80,
+  "hire_likelihood": 76,
+  "fit_summary": "Staff AI Foundations agent-optimization work touches LLM platform instincts from Panorama, but the JD requires deep agent token/latency optimization experience that is a material gap.",
+  "missing_gaps": [
+    "Direct agent optimization (token spend, model routing, multi-agent cache/context) experience required by JD",
+    "Temporal workflow engine depth not evidenced on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "ai-agents",
+    "llm",
+    "temporal",
+    "platform",
+    "developer-tools"
+  ]
+}

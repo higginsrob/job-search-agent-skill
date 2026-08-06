@@ -1,0 +1,44 @@
+{
+  "id": "20260805-1830-affirm-senior-swe-batch-infra",
+  "title": "Senior Software Engineer, Backend (Batch Infrastructure)",
+  "company": "Affirm",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-05T15:44:47Z",
+  "found_at": "2026-08-05T18:30:00Z",
+  "compensation": "$195k\u2013$255k",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7785812003",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 67,
+  "hire_likelihood": 80,
+  "fit_summary": "Remote US senior batch-compute platform role (cloud scheduled/on-demand workloads) fits Vertebrae/Snap infra ownership and Panorama data/platform work; less fullstack product surface than target roles.",
+  "missing_gaps": [
+    "Batch/ML compute platform specialty vs fullstack product staff target",
+    "Senior not Staff level",
+    "Kotlin-heavy Affirm backend not on resume"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "affirm",
+    "remote",
+    "senior",
+    "batch",
+    "infra",
+    "python",
+    "aws",
+    "platform"
+  ]
+}

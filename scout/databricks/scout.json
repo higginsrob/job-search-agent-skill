@@ -1,0 +1,272 @@
+{
+  "company": "Databricks",
+  "slug": "databricks",
+  "updated_at": "2026-08-06T16:00:00Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/databricks",
+  "findings": [
+    {
+      "id": "finding-staff-ai-native-web-platform",
+      "title": "Staff Software Engineer, AI Native Web Platform (Mountain View)",
+      "summary": "Staff owner of the public web platform layer (framework, design system, CMS, CI/CD, AI-native SDLC agents). Deep React/TypeScript/Node platform leadership—strong match for staff IC + platform/SDK anchors. Office: Mountain View.",
+      "fit_summary": "Staff-level React/TS/Node web-platform ownership matches Snap SDK + Panorama platform leadership, though the 12+ year and formal tech-lead ownership bar is steep.",
+      "kind": "posting",
+      "url": "https://www.databricks.com/company/careers/engineering/staff-software-engineer-ai-native-web-platform-8635188002",
+      "location": "Mountain View, California",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 72,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Mountain View hybrid (not Denver / not remote)",
+        "JD asks 12+ years and 3+ years as systems tech owner",
+        "Public-site CMS/edge delivery depth not a primary resume anchor"
+      ],
+      "compensation": "$198,200–$272,600 USD (Zone 1)",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live careers page 2026-08-06: Staff Software Engineer, AI Native Web Platform — Mountain View",
+        "Greenhouse board id 8635188002 still listed",
+        "Reqs: 12+ years, React/TypeScript/Node, web platform ownership, AI-native SDLC; Zone 1 $198,200–$272,600"
+      ],
+      "found_at": "2026-08-06T15:21:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-staff-fullstack-ai-product-nyc",
+      "title": "Staff Software Engineer, Fullstack - AI Product (NYC)",
+      "summary": "Early NYC eng hire building 0→1 vertical GenAI agent UIs on Databricks with hands-on fullstack ownership. Strong LLM product + React/Node/Python overlap. Office: New York City.",
+      "fit_summary": "Panorama AI LLM/BI product eng plus early-stage Vertebrae ownership fit a 0→1 GenAI agent UI/fullstack staff seat.",
+      "kind": "posting",
+      "url": "https://www.databricks.com/company/careers/engineering---pipeline/staff-software-engineer-fullstack---ai-product-nyc-8509534002",
+      "location": "New York City, New York",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 71,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "NYC hybrid (not Denver / not remote)",
+        "JD emphasizes 10+ years HTML/CSS/JS and shipped GenAI products with significant UI"
+      ],
+      "compensation": "$190,900–$253,750 USD",
+      "posted_at": null,
+      "evidence": [
+        "Verified live careers page 2026-08-06: Staff Software Engineer, Fullstack - AI Product (NYC)",
+        "Greenhouse board id 8509534002 listed",
+        "Reqs: React + server-side (Node/Python/etc.), GenAI product shipping; pay $190,900–$253,750"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-staff-frontend-seattle",
+      "title": "Staff Frontend Engineer (Seattle)",
+      "summary": "Staff frontend role building reusable console UI primitives, navigation, and data-exploration surfaces across Databricks products. TypeScript/React staff scope with multi-quarter leadership. Office: Seattle.",
+      "fit_summary": "React/TypeScript staff frontend platform work aligns with Snap Web SDK and large product UI ownership, with weaker fullstack backend emphasis.",
+      "kind": "posting",
+      "url": "https://www.databricks.com/company/careers/engineering---pipeline/staff-frontend-engineer---seattle-8399551002",
+      "location": "Seattle, Washington",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 70,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Seattle hybrid (not Denver / not remote)",
+        "Primarily frontend-console scope vs end-to-end platform/backend anchors"
+      ],
+      "compensation": "$181,000–$261,000 USD",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live careers page 2026-08-06: Staff Frontend Engineer — Seattle",
+        "Greenhouse board id 8399551002 listed",
+        "Reqs: 10+ years JS/TS, modern frameworks (React etc.); pay $181,000–$261,000"
+      ],
+      "found_at": "2026-08-06T15:21:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-staff-frontend-nyc",
+      "title": "Staff Software Engineer - Frontend (NYC)",
+      "summary": "Early NYC eng hire building 0→1 vertical GenAI agent UIs on Databricks. Hands-on frontend/fullstack with product ownership—aligns with LLM product eng and early-stage ownership. Office: New York City.",
+      "fit_summary": "0→1 AI product UI ownership matches Panorama LLM surfaces and Vertebrae early eng ownership more than pure infra roles.",
+      "kind": "posting",
+      "url": "https://www.databricks.com/company/careers/engineering---pipeline/staff-software-engineer---frontend-nyc-8384595002",
+      "location": "New York City, New York",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 69,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "NYC hybrid (not Denver / not remote)",
+        "Title skews frontend; Spark familiarity is a soft gap"
+      ],
+      "compensation": "$190,900–$253,750 USD",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified via Greenhouse + careers HTML 2026-08-06: Staff Software Engineer - Frontend (NYC)",
+        "0-to-1 vertical AI applications; React + Node/SQL/Spark familiarity; pay $190,900–$253,750"
+      ],
+      "found_at": "2026-08-06T15:21:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-senior-fullstack-seattle",
+      "title": "Senior Software Engineer - Fullstack (Seattle)",
+      "summary": "Senior fullstack on product surfaces for clusters, pipelines, SQL exploration, and collaborative data projects. React + server-side + cloud—solid senior+ fallback if Staff bands are a stretch. Office: Seattle.",
+      "fit_summary": "React + Node/Python + cloud fullstack experience clears a senior product band more realistically than some 12+ Staff postings.",
+      "kind": "posting",
+      "url": "https://www.databricks.com/company/careers/engineering---pipeline/senior-software-engineer---fullstack-6544403002",
+      "location": "Seattle, Washington",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 68,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Seattle hybrid (not Denver / not remote)",
+        "Senior (not Staff) title vs target Staff/Lead preference"
+      ],
+      "compensation": "$157,700–$213,800 USD",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified Greenhouse id 6544403002 + careers HTML 2026-08-06: Senior Software Engineer - Fullstack — Seattle",
+        "5+ years JS + server-side (Node/Python/etc.), React, SQL, cloud/K8s"
+      ],
+      "found_at": "2026-08-06T15:21:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-staff-fullstack-agentic-apps",
+      "title": "Staff Fullstack Engineer, Agentic Applications (Mountain View)",
+      "summary": "Technical anchor for People Tech agentic systems (LLM orchestration, RAG, SaaS integrations on Databricks). Strong LLM/product-platform overlap with Panorama AI experience. Office: Mountain View; internal People Tech domain.",
+      "fit_summary": "Production LLM/agentic app experience from Panorama maps well, though People Tech/HR domain is adjacent rather than developer-platform core.",
+      "kind": "posting",
+      "url": "https://www.databricks.com/company/careers/engineering---pipeline/staff-fullstack-engineer-agentic-applications-8220840002",
+      "location": "Mountain View, California",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 65,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Mountain View hybrid (not Denver / not remote)",
+        "People Tech / HR domain vs preferred product/platform/SDK companies",
+        "JD wants 2+ years production LLM/agentic frameworks (LangGraph/etc.)"
+      ],
+      "compensation": "$192,000–$260,000 USD",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified Greenhouse id 8220840002 + careers HTML 2026-08-06",
+        "8+ years SWE with 2+ years production LLM/agentic apps; Python + agent frameworks; pay $192,000–$260,000"
+      ],
+      "found_at": "2026-08-06T15:21:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-sr-staff-fullstack-agentic-apps",
+      "title": "Sr. Staff Fullstack Engineer, Agentic Applications (Mountain View)",
+      "summary": "Senior Staff technical leader for in-house AI-powered business applications—roadmap ownership, mentoring, and end-to-end fullstack delivery. Office: Mountain View.",
+      "fit_summary": "Hands-on staff/lead + LLM product leadership fits, but Sr. Staff bar and People Tech domain pull the score down vs product web-platform roles.",
+      "kind": "posting",
+      "url": "https://www.databricks.com/company/careers/engineering---pipeline/sr-staff-fullstack-engineer-agentic-applications-8220902002",
+      "location": "Mountain View, California",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 62,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Mountain View hybrid (not Denver / not remote)",
+        "Sr. Staff / 12+ year technical-owner bar",
+        "Internal People Tech domain"
+      ],
+      "compensation": "$192,000–$260,000 USD",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified Greenhouse id 8220902002 + careers HTML 2026-08-06",
+        "12+ years SWE; 3+ years as technical owner; pay $192,000–$260,000"
+      ],
+      "found_at": "2026-08-06T15:21:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-outreach-qihua-wang-fe-fullstack",
+      "title": "Frontend / Full-Stack outreach (Qihua Wang)",
+      "summary": "Sr. EM Qihua Wang posts active hiring for Senior Frontend / Full-Stack on AI/agentic browsing & discovery (Bay Area or Greater Seattle). Useful when Staff bands are a stretch or for team referral into product UI.",
+      "fit_summary": "React/fullstack + agentic product experience matches his team's AI browsing/discovery hiring signal.",
+      "kind": "outreach",
+      "url": "https://www.linkedin.com/in/qihuawang",
+      "location": "Bay Area or Greater Seattle",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 55,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Outreach only — no single verified JD tied in this finding",
+        "Office hubs away from Denver"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "LinkedIn profile verified 2026-08-06: Databricks EM (Seattle)",
+        "Indexed hiring post for Senior Frontend / Full-Stack AI/agentic browsing & discovery"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-neha-sharma",
+      "name": "Neha Sharma",
+      "title": "Senior Engineering Manager (Notebooks / collaborative authoring)",
+      "linkedin_url": "https://www.linkedin.com/in/n23sharm",
+      "notes": "Posts hiring for Frontend/Backend/Fullstack in SF; notebooks & collaborative code tools.",
+      "found_at": "2026-08-06T15:21:06Z"
+    },
+    {
+      "id": "hm-qihua-wang",
+      "name": "Qihua Wang",
+      "title": "Sr. Engineering Manager",
+      "linkedin_url": "https://www.linkedin.com/in/qihuawang",
+      "notes": "Actively hiring Senior Frontend/Full-Stack for browsing/discovery (AI/agentic); Bay Area or Greater Seattle.",
+      "found_at": "2026-08-06T15:21:06Z"
+    },
+    {
+      "id": "hm-yimeng-li",
+      "name": "Yimeng Li",
+      "title": "Software Engineering Manager (Data Ingestion / Lakeflow Connect)",
+      "linkedin_url": "https://www.linkedin.com/in/yimeng-li-5a204763",
+      "notes": "Hiring senior fullstack and backend in Bellevue, WA.",
+      "found_at": "2026-08-06T15:21:06Z"
+    },
+    {
+      "id": "hm-eric-wang",
+      "name": "Eric Wang",
+      "title": "Director of Engineering (Compute Infrastructure)",
+      "linkedin_url": "https://www.linkedin.com/in/ericewang",
+      "notes": "Posts compute-infra IC and EM hiring across SF, Mountain View, Bellevue—more infra than product UI.",
+      "found_at": "2026-08-06T15:21:06Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-2026-06-qihua-fe-fullstack-hire",
+      "source": "hiring_manager",
+      "author": "Qihua Wang",
+      "url": "https://www.linkedin.com/posts/qihuawang_our-team-at-databricks-is-hiring-a-senior-activity-7467989904120205313-dioC",
+      "posted_at": "2026-06-03T00:00:00Z",
+      "summary": "Explicit hire post for Senior Frontend / Full-Stack Engineer for AI/agentic browsing & discovery; Bay Area or Greater Seattle; DM requested.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:21:06Z"
+    },
+    {
+      "id": "signal-2025-12-neha-sf-hiring",
+      "source": "hiring_manager",
+      "author": "Neha Sharma",
+      "url": "https://www.linkedin.com/posts/n23sharm_big-day-for-databricks-and-it-makes-me-even-activity-7406774002020601857-XHLa",
+      "posted_at": "2025-12-16T00:00:00Z",
+      "summary": "Hiring Frontend / Backend / Fullstack engineers in SF; invites DMs alongside growth/fundraising announcement.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:21:06Z"
+    },
+    {
+      "id": "signal-2025-12-yimeng-bellevue-hiring",
+      "source": "hiring_manager",
+      "author": "Yimeng Li",
+      "url": "https://www.linkedin.com/posts/yimeng-li-5a204763_databricks-grows-55-yoy-surpasses-48b-activity-7406763728064589824-JorI",
+      "posted_at": "2025-12-16T00:00:00Z",
+      "summary": "Hiring senior fullstack and backend engineers in Bellevue, WA; asks for resume DMs with apply links.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:21:06Z"
+    }
+  ]
+}

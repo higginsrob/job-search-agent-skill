@@ -1,0 +1,44 @@
+{
+  "id": "20260730-1810-dropbox-senior-fullstack-web-experience",
+  "title": "Senior Fullstack Product Software Engineer, Web Experience",
+  "company": "Dropbox",
+  "location": "Remote - US (select locations)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-30T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$203k\u2013$274k",
+  "url": "https://jobs.dropbox.com/listing/8074704?gh_jid=8074704",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "company"
+  ],
+  "rank": 38,
+  "hire_likelihood": 87,
+  "fit_summary": "Senior fullstack owning Browse/Navigate web experiences with TypeScript/React \u2014 matches senior full-stack product ownership pattern.",
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [
+    "Remote limited to select US locations \u2014 confirm Colorado eligibility before applying."
+  ],
+  "status": "applied",
+  "dead_reason": null,
+  "applied": true,
+  "applied_at": "2026-07-30T18:52:44Z",
+  "interested": false,
+  "interested_at": null,
+  "has_resume": true,
+  "has_cover_letter": true,
+  "tags": [
+    "typescript",
+    "react",
+    "javascript",
+    "python",
+    "ai"
+  ],
+  "missing_gaps": [
+    "Select-location remote \u2014 confirm Colorado eligibility",
+    "Large-product web experience at Dropbox scale vs smaller-team ownership history"
+  ]
+}

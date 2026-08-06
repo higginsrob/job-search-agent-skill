@@ -1,0 +1,41 @@
+{
+  "id": "20260731-0145-cleerly-staff-clinical-reporting",
+  "title": "Staff Full-Stack Software Engineer \u2014 Clinical Reporting",
+  "company": "Cleerly",
+  "location": "Denver, CO / New York (mostly remote; travel)",
+  "remote": true,
+  "work_mode": "hybrid",
+  "posted_at": "2026-07-27T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$175k\u2013$201k base",
+  "url": "https://job-boards.greenhouse.io/cleerlyhealth/jobs/5819258004",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "rank": 49,
+  "hire_likelihood": 85,
+  "fit_summary": "Denver-metro Staff React/TypeScript full-stack for clinical reporting UI \u2014 location and stack fit well; regulated clinical/FHIR domain is a material gap.",
+  "missing_gaps": [
+    "Clinician-facing radiology/cardiology UI experience not evidenced",
+    "FHIR/HL7 healthcare interoperability not on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "typescript",
+    "healthcare",
+    "denver",
+    "staff",
+    "full-stack"
+  ]
+}

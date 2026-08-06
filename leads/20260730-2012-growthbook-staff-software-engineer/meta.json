@@ -1,0 +1,42 @@
+{
+  "id": "20260730-2012-growthbook-staff-software-engineer",
+  "title": "Staff Software Engineer",
+  "company": "GrowthBook",
+  "location": "Remote (US timezones)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-15T12:00:00Z",
+  "found_at": "2026-07-30T20:12:07Z",
+  "compensation": "$200k\u2013$240k + equity",
+  "url": "https://www.ycombinator.com/companies/growthbook/jobs/VF3nhpb-staff-software-engineer",
+  "source": "yc",
+  "sources": [
+    "yc"
+  ],
+  "hire_likelihood": 90,
+  "fit_summary": "Early-team staff fullstack on open-source feature flags/analytics (TS/React/Node, event ingestion at scale) \u2014 early-eng + SDK/platform path matches Vertebrae\u2192Snap.",
+  "missing_gaps": [
+    "Feature flags / experimentation product domain not primary on resume",
+    "Multi-warehouse SQL analytics depth (BigQuery/Presto) is a stretch"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "sql",
+    "sdk",
+    "analytics"
+  ],
+  "rank": 20
+}

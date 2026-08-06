@@ -1,0 +1,44 @@
+{
+  "id": "20260805-1830-gitlab-senior-backend-platform-readiness",
+  "title": "Senior Backend Engineer, Platform Readiness",
+  "company": "GitLab",
+  "location": "Remote (US or Canada)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-03T15:54:04Z",
+  "found_at": "2026-08-05T18:30:00Z",
+  "compensation": null,
+  "url": "https://job-boards.greenhouse.io/gitlab/jobs/8644572002",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 82,
+  "hire_likelihood": 76,
+  "fit_summary": "Remote GitLab Platform Readiness backend role (Postgres/Ruby/AI-augmented DevSecOps) fits platform ownership patterns; Rails-primary stack and senior (not staff) level lower the score.",
+  "missing_gaps": [
+    "Ruby on Rails primary stack not evidenced on resume",
+    "Senior Backend not Staff / fullstack title",
+    "Compensation not listed on public posting"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "gitlab",
+    "remote",
+    "senior",
+    "backend",
+    "platform",
+    "postgres",
+    "ruby",
+    "ai"
+  ]
+}

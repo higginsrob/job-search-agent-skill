@@ -1,0 +1,42 @@
+{
+  "id": "20260730-2150-hims-staff-swe-growth",
+  "title": "Staff Software Engineer, Growth",
+  "company": "Hims & Hers",
+  "location": "US Remote",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-23T03:29:15Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": null,
+  "url": "https://jobs.ashbyhq.com/hims-and-hers/5ff1f5e3-e6f4-4947-8ef3-fe40abe1fa6c",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 44,
+  "hire_likelihood": 86,
+  "fit_summary": "Staff Growth full-stack (React/Next + Node/Python) with performance and conversion ownership overlaps Snap merchant-facing web SDK work and Panorama widget shipping, with a growth-specialty tilt.",
+  "missing_gaps": [
+    "Dedicated growth / acquisition funnel engineering not evidenced on resume",
+    "Core Web Vitals / conversion optimization as a primary charter not highlighted"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "nextjs",
+    "nodejs",
+    "python",
+    "growth",
+    "frontend"
+  ]
+}

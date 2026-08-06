@@ -1,0 +1,41 @@
+{
+  "id": "20260731-0145-arcadia-principal-user-management",
+  "title": "Principal Software Engineer, User Management",
+  "company": "Arcadia",
+  "location": "Remote (USA) / Boston, MA",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-26T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$200k\u2013$240k",
+  "url": "https://jobs.lever.co/arcadia/a5711ac1-89d9-4441-bb3c-e4b08e9ff0db",
+  "source": "lever",
+  "sources": [
+    "lever",
+    "google-jobs"
+  ],
+  "rank": 57,
+  "hire_likelihood": 84,
+  "fit_summary": "Remote Principal owning identity/access platform (TS/NestJS, AWS, Terraform) \u2014 strong platform/cloud fit; deep IAM specialization is the main gap.",
+  "missing_gaps": [
+    "Dedicated IAM / Auth0 / SAML ownership not evidenced as a primary domain",
+    "Healthcare / HIPAA product context not on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "principal",
+    "identity",
+    "typescript",
+    "aws",
+    "terraform",
+    "remote"
+  ]
+}

@@ -1,0 +1,11 @@
+Staff Software Engineer, Distributed Systems at LiveKit. This is a fully remote role. Location note: Remote (North America). Pay is listed as two hundred to three hundred thousand dollars.
+
+Staff Engineer on LiveKit Cloud core services, telephony, and observability. Remote North America. Stack: Go, gRPC, Raft, NATS, Kubernetes, OpenTelemetry. Comp $200k–$300k + equity. Infrastructure-is-the-product for multimodal AI interfaces.
+
+On the company side, LiveKit is an active product employer with a public careers board for this posting.
+
+Why you could be a strong fit: Staff distributed-systems role on LiveKit’s real-time AI media platform (Go/K8s/pubsub) fits Snap cross-cloud platform/SDK ownership and Vertebrae infra depth; Go fluency is a learnable gap.
+
+Gaps to keep in mind: Go not primary production language on resume (nice-to-have fluency); Real-time audio/video / WebRTC infrastructure not evidenced; Raft/NATS/consensus systems not listed as primary experience
+
+Takeaway: this one cleared the three-day search window and matches your staff or engineering-manager targets — open the posting, confirm location expectations, and decide whether to apply or dig into the gaps first.

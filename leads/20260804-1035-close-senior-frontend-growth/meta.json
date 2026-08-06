@@ -1,0 +1,42 @@
+{
+  "id": "20260804-1035-close-senior-frontend-growth",
+  "title": "Senior Frontend Engineer - Growth (USA Only - 100% Remote)",
+  "company": "Close",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-03T19:57:55Z",
+  "found_at": "2026-08-04T16:36:59Z",
+  "compensation": null,
+  "url": "https://jobs.ashbyhq.com/close/bbd78474-bee4-4fdc-a670-9234457bcf29",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "hire_likelihood": 78,
+  "fit_summary": "Remote US senior frontend/Growth on an AI-augmented CRM fits React/TypeScript product shipping from Vertebrae/Snap/Panorama, with a frontend-leaning scope versus preferred full-stack staff roles.",
+  "missing_gaps": [
+    "Role is frontend-leaning Growth vs staff full-stack / platform target",
+    "CRM / sales-tooling domain not on resume",
+    "Compensation not listed on the public posting"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "tags": [
+    "close",
+    "frontend",
+    "react",
+    "remote",
+    "growth",
+    "crm"
+  ],
+  "rank": 72,
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false
+}

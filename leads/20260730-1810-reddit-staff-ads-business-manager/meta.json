@@ -1,0 +1,44 @@
+{
+  "id": "20260730-1810-reddit-staff-ads-business-manager",
+  "title": "Staff Engineer, Ads Business Manager",
+  "company": "Reddit",
+  "location": "Remote - United States",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-30T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$217k\u2013$304k",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 41,
+  "hire_likelihood": 86,
+  "fit_summary": "Staff ads product/platform role remote US with TypeScript/JavaScript/Python \u2014 staff title match; big-tech bar is the main risk.",
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "applied",
+  "dead_reason": null,
+  "applied": true,
+  "applied_at": "2026-07-30T20:03:00Z",
+  "interested": false,
+  "interested_at": null,
+  "has_resume": true,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "javascript",
+    "python",
+    "postgres",
+    "aws",
+    "gcp",
+    "ads"
+  ],
+  "missing_gaps": [
+    "Ads Business Manager / advertiser identity-governance domain thin on base resume",
+    "Go preferred alongside Python; gRPC/Thrift service frameworks not listed on base resume",
+    "Big-tech staff interview bar vs mid-size/startup experience anchors"
+  ]
+}

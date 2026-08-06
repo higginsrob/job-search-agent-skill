@@ -1,0 +1,42 @@
+{
+  "id": "20260804-1005-clear-em-clear1-b2b",
+  "title": "Engineering Manager, CLEAR1 (B2B)",
+  "company": "CLEAR",
+  "location": "New York, NY (hybrid)",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-08-04T15:20:16Z",
+  "found_at": "2026-08-04T16:05:00Z",
+  "compensation": "$275k\u2013$350k total",
+  "url": "https://job-boards.greenhouse.io/clear/jobs/8105759",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 92,
+  "hire_likelihood": 68,
+  "fit_summary": "CLEAR1 B2B platform EM (partner integrations, identity/auth, reusable platform) aligns with SDK/merchant-integration and platform leadership from Vertebrae/Snap plus eng-management at Panorama, offset by NYC hybrid and longer people-manager tenure req.",
+  "missing_gaps": [
+    "3+ years managing engineers required; Panorama Head of Eng tenure is shorter",
+    "New York hybrid\u2014not Denver / US remote",
+    "Healthcare partner-workflow domain not evidenced on resume"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "dead",
+  "dead_reason": "location",
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "engineering-manager",
+    "clear1",
+    "identity",
+    "platform",
+    "b2b",
+    "hybrid-nyc"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "20260730-2150-omada-health-staff-software-engineer",
+  "title": "Staff Software Engineer",
+  "company": "Omada Health",
+  "location": "Remote, USA",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-24T23:26:21Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": "$176k\u2013$220k (Zone 3)",
+  "url": "https://job-boards.greenhouse.io/omadahealth/jobs/8074669",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 88,
+  "hire_likelihood": 74,
+  "fit_summary": "Remote Staff role with PostgreSQL/AWS/React and AI-assisted delivery fits level and product ownership, but Ruby on Rails is a hard JD requirement not evidenced on the resume.",
+  "missing_gaps": [
+    "Ruby on Rails experience required (application asks about last 5 years)",
+    "Cardiometabolic / chronic-care digital health domain not on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "ruby-on-rails",
+    "react",
+    "postgresql",
+    "aws",
+    "graphql"
+  ]
+}

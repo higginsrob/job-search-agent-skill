@@ -1,0 +1,43 @@
+{
+  "id": "20260731-2320-linear-senior-staff-fullstack",
+  "title": "Senior / Staff Fullstack Engineer",
+  "company": "Linear",
+  "location": "Remote (US / North America)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-07-31T23:20:00Z",
+  "compensation": null,
+  "url": "https://jobs.ashbyhq.com/linear/cd5ae036-0223-427a-b038-ba16ef9dcb32",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 4,
+  "hire_likelihood": 92,
+  "fit_summary": "Remote-first TypeScript end-to-end product eng (React/Node/GraphQL/Postgres) at staff/senior scope \u2014 exact boost stack and high-ownership product craft matching Snap SDK lead and Panorama platform ownership.",
+  "missing_gaps": [
+    "Linear-level product polish / design-system craft not heavily evidenced",
+    "GraphQL + proprietary sync frameworks not listed as primary resume skills"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "applied",
+  "dead_reason": null,
+  "applied": true,
+  "applied_at": "2026-07-31T23:27:06Z",
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "graphql",
+    "postgres",
+    "remote"
+  ]
+}

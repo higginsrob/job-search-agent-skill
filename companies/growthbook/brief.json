@@ -1,0 +1,16 @@
+{
+  "company": "GrowthBook",
+  "slug": "growthbook",
+  "updated_at": "2026-07-30T20:12:07Z",
+  "domain": "growthbook.io",
+  "icon": "icon.png",
+  "products": "Open-source feature flagging and A/B testing platform (warehouse-native analytics, event ingestion, streaming feature flags) used in production by thousands of companies per YC listing.",
+  "fiscal_outlook": "YC W22 + Khosla-backed; small distributed team (~40 per YC page). Comp posted $200–240k + equity. Private — limited public financials.",
+  "hiring_trends": "Staff full-stack engineer (TS/React/Node) for scaling ingestion, analytics, and flags service; remote US timezones.",
+  "similar_role_hires": "Staff Software Engineer listed on YC Work at a Startup.",
+  "hiring_profile": "Small-team early hire; deep JD with real infra problems. Prefer candidates who like OSS/startup ownership. Visa: US only / limited sponsorship.",
+  "sources": [
+    "https://www.growthbook.io/",
+    "https://www.ycombinator.com/companies/growthbook/jobs/VF3nhpb-staff-software-engineer"
+  ]
+}

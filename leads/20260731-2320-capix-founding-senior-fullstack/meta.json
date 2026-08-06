@@ -1,0 +1,44 @@
+{
+  "id": "20260731-2320-capix-founding-senior-fullstack",
+  "title": "Founding Senior Full Stack Software Engineer",
+  "company": "Capix",
+  "location": "Remote (US) / New York preferred",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-07-31T23:20:00Z",
+  "compensation": "$200k\u2013$260k + 0.5%\u20135% equity",
+  "url": "https://www.ycombinator.com/companies/capix/jobs/cC4joeg-founding-senior-full-stack-software-engineer",
+  "source": "yc",
+  "sources": [
+    "yc"
+  ],
+  "rank": 39,
+  "hire_likelihood": 87,
+  "fit_summary": "YC founding senior full-stack role on TypeScript/Next.js/React/Python for AI private-capital tooling \u2014 boost stack match with early-engineer \u2192 ownership path similar to Vertebrae.",
+  "missing_gaps": [
+    "Private equity / deal-workflow domain not evidenced",
+    "True founding/0\u21921 equity-heavy risk vs larger product companies"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "nextjs",
+    "python",
+    "ai",
+    "yc",
+    "founding"
+  ]
+}

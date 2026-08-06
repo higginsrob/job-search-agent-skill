@@ -1,0 +1,16 @@
+{
+  "company": "Temporal",
+  "slug": "temporal",
+  "domain": "temporal.io",
+  "products": "Open-source and commercial durable execution platform used to build reliable workflows and AI agent backends; adopted by AI companies and enterprises for mission-critical orchestration.",
+  "fiscal_outlook": "Well-known developer-infrastructure company with broad AI-ecosystem adoption; specific latest funding/revenue figures not restated here.",
+  "hiring_trends": "Ashby board includes Staff Software Engineer, AI Foundations (Agent Optimization) and other specialized staff roles aimed at accelerating Temporal adoption for AI workloads.",
+  "similar_role_hires": "Staff SWE, AI Foundations (Agent Optimization) currently listed with a published high cash range.",
+  "hiring_profile": "Specialist staff hiring with clear domain bar and published compensation. Strong company credibility; fit hinges on agent-optimization experience.",
+  "sources": [
+    "https://jobs.ashbyhq.com/temporal/371d93f7-566f-40c0-9fbf-9d959d2a4692",
+    "https://temporal.io/"
+  ],
+  "updated_at": "2026-07-30T21:50:00Z",
+  "icon": "icon.png"
+}

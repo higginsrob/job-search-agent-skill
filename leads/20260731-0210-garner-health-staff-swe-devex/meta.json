@@ -1,0 +1,42 @@
+{
+  "id": "20260731-0210-garner-health-staff-swe-devex",
+  "title": "Staff Software Engineer (Developer Experience)",
+  "company": "Garner Health",
+  "location": "Remote (US) with occasional NYC HQ travel",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-01T13:18:34Z",
+  "found_at": "2026-07-31T02:10:00Z",
+  "compensation": "$275k\u2013$300k",
+  "url": "https://job-boards.greenhouse.io/garnerhealth/jobs/6013546004",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 24,
+  "hire_likelihood": 89,
+  "fit_summary": "Staff generalist on AWS/Kubernetes with TypeScript/React/Python and AI-agent delivery matches Panorama LLM platform leadership and Snap tech-lead scope.",
+  "missing_gaps": [
+    "Healthcare benefits / provider-ranking domain not on resume",
+    "HIPAA-heavy production experience not explicitly evidenced",
+    "Go listed on stack; not a primary language on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "dead",
+  "dead_reason": "Past retention window (30d)",
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "python",
+    "aws",
+    "kubernetes",
+    "ai",
+    "developer-experience"
+  ]
+}

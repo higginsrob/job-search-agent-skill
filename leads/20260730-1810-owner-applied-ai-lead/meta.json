@@ -1,0 +1,40 @@
+{
+  "id": "20260730-1810-owner-applied-ai-lead",
+  "title": "Applied AI Lead",
+  "company": "Owner.com",
+  "location": "Remote - United States or Canada",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-23T22:51:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$140k\u2013$180k",
+  "url": "https://jobs.ashbyhq.com/owner/9ce6e4c9-199c-45f3-b4cb-3f8ba3a18ce8",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 84,
+  "hire_likelihood": 76,
+  "fit_summary": "Applied AI Lead for AI-native restaurant OS \u2014 leadership/AI fit, but comp band is low for staff/HoE level experience.",
+  "missing_gaps": [
+    "Comp/title band below staff/HoE experience level",
+    "Restaurant / hospitality vertical not evidenced on resume"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "llm",
+    "ai",
+    "lead",
+    "startup"
+  ]
+}

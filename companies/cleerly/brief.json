@@ -1,0 +1,17 @@
+{
+  "company": "Cleerly",
+  "slug": "cleerly",
+  "updated_at": "2026-07-31T01:45:00Z",
+  "domain": "cleerlyhealth.com",
+  "icon": "icon.png",
+  "products": "AI-driven precision heart care diagnostics that quantify and characterize coronary plaque beyond traditional measures, used by clinicians to prevent heart attacks.",
+  "fiscal_outlook": "Series C with reported large extensions (company materials cite $223M Series C in 2022 and additional $106M extension in Dec 2024). Growth-stage medtech/AI.",
+  "hiring_trends": "Staff full-stack clinical reporting role plus clinical ops/eng management openings. Denver/NY presence; mostly remote culture with periodic travel.",
+  "similar_role_hires": "Staff Full-Stack Software Engineer — Clinical Reporting (React/TypeScript) open via Greenhouse (updated ~2026-07-27).",
+  "hiring_profile": "Greenhouse-backed careers board. Strong clinical/regulated UI requirements (FHIR/HL7). Comp band published on Built In mirrors.",
+  "sources": [
+    "https://job-boards.greenhouse.io/cleerlyhealth/jobs/5819258004",
+    "https://cleerlyhealth.com/",
+    "https://builtin.com/job/staff-full-stack-software-engineer-clinical-reporting-react-typescript/10398872"
+  ]
+}

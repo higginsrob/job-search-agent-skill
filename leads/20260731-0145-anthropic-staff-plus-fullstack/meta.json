@@ -1,0 +1,40 @@
+{
+  "id": "20260731-0145-anthropic-staff-plus-fullstack",
+  "title": "Staff+ Software Engineer, Full-stack",
+  "company": "Anthropic",
+  "location": "San Francisco / New York / Seattle (hybrid ~25%)",
+  "remote": false,
+  "work_mode": "hybrid",
+  "posted_at": "2026-07-15T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$405k\u2013$485k",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5174747008",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 91,
+  "hire_likelihood": 70,
+  "fit_summary": "Staff+ full-stack on Claude product surfaces \u2014 aspirational AI/product fit, but extreme bar and coastal hybrid presence make hire likelihood moderate.",
+  "missing_gaps": [
+    "Frontier AI lab Staff+ bar and prior Anthropic-scale product depth not evidenced",
+    "Preference for NY/NJ/SEA/SF/Bay with ~25% in-office (relocation likely)"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "dead",
+  "dead_reason": "I can't relocate",
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "ai",
+    "llm",
+    "react",
+    "typescript",
+    "staff",
+    "full-stack"
+  ]
+}

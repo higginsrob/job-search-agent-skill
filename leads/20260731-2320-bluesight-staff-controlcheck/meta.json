@@ -1,0 +1,44 @@
+{
+  "id": "20260731-2320-bluesight-staff-controlcheck",
+  "title": "Staff Software Engineer - ControlCheck",
+  "company": "Bluesight",
+  "location": "Remote (US continental)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-14T16:06:07Z",
+  "found_at": "2026-07-31T23:20:00Z",
+  "compensation": "$160k\u2013$200k",
+  "url": "https://jobs.lever.co/bluesight/66856ca3-5d68-4167-8d30-c3ebcb86cb44",
+  "source": "lever",
+  "sources": [
+    "lever"
+  ],
+  "rank": 45,
+  "hire_likelihood": 86,
+  "fit_summary": "Remote Staff IC leading architecture across Rails/Python FastAPI services with Terraform \u2014 staff scope and platform ownership fit Head of Eng / tech-lead background; healthcare data product adjacency to prior LLM/BI work.",
+  "missing_gaps": [
+    "Ruby on Rails specialization not evidenced on resume",
+    "Hospital pharmacy / controlled-substance compliance domain not shown"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "staff",
+    "python",
+    "rails",
+    "terraform",
+    "aws",
+    "healthcare",
+    "remote"
+  ]
+}

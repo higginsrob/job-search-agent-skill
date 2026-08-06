@@ -1,0 +1,45 @@
+{
+  "id": "20260804-1005-stripe-staff-fullstack-payments-intelligence",
+  "title": "Staff Full Stack Engineer, Payments Intelligence",
+  "company": "Stripe",
+  "location": "Seattle / New York / San Francisco",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-08-04T14:01:16Z",
+  "found_at": "2026-08-04T16:05:00Z",
+  "compensation": null,
+  "url": "https://stripe.com/jobs/search?gh_jid=7986004",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "company"
+  ],
+  "rank": 48,
+  "hire_likelihood": 86,
+  "fit_summary": "Staff full-stack Payments Intelligence role (AI-first fraud/auth/disputes, cross-stack with ML) maps to Panorama LLM products plus Snap/Vertebrae platform ownership, with Stripe bar and payments domain as the main stretches.",
+  "missing_gaps": [
+    "Payments systems / fraud detection domain not evidenced on resume",
+    "Office expectation in Seattle, New York, or San Francisco (not Denver remote)",
+    "Production ML systems (serving, training, eval) listed as preferred, thin on resume",
+    "Compensation not listed on the public posting"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "dead",
+  "dead_reason": "location not in denver",
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "fullstack",
+    "payments",
+    "ai",
+    "fraud",
+    "typescript",
+    "python",
+    "fintech"
+  ]
+}

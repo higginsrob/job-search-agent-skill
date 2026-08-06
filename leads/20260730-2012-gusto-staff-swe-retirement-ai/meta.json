@@ -1,0 +1,42 @@
+{
+  "id": "20260730-2012-gusto-staff-swe-retirement-ai",
+  "title": "Staff Software Engineer, Retirement AI",
+  "company": "Gusto",
+  "location": "Denver, CO / SF / NYC (hybrid ~2\u20133 days/week in office metros)",
+  "remote": false,
+  "work_mode": "hybrid",
+  "posted_at": "2026-07-25T12:00:00Z",
+  "found_at": "2026-07-30T20:12:07Z",
+  "compensation": "$187k\u2013$234k (Denver)",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/7986047",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "hire_likelihood": 88,
+  "fit_summary": "Denver-metro Staff LLM product role at Gusto Retirement \u2014 location and AI shipping are strong; Rails as house stack and hybrid office days are the tradeoffs.",
+  "missing_gaps": [
+    "Ruby on Rails preferred house stack (React comparable OK; Rails not on resume)",
+    "Hybrid 2\u20133 days/week Denver office vs fully remote preference"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "llm",
+    "react",
+    "rails",
+    "denver",
+    "ai"
+  ],
+  "rank": 27
+}

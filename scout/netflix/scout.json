@@ -1,0 +1,214 @@
+{
+  "company": "Netflix",
+  "slug": "netflix",
+  "updated_at": "2026-08-06T15:58:06Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/netflix/",
+  "findings": [
+    {
+      "id": "finding-swe5-agent-platform-ai",
+      "title": "Software Engineer 5 \u2013 Agent Platform, AI Platform",
+      "summary": "USA Remote L5 on Agent Platform within AI Platform \u2014 Agent SDK, MCP Gateway, evals/tracing, and production agent runtime for Netflix engineers.",
+      "fit_summary": "Panorama AI Head of Eng + LLM product ownership maps directly to agent platform/SDK work; staff-shaped remote IC with Python/platform boosts.",
+      "kind": "posting",
+      "url": "https://explore.jobs.netflix.net/careers/job/790316292023?domain=netflix.com&microsite=netflix.com",
+      "location": "USA - Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 86,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Netflix-scale agent/MCP gateway production ownership not evidenced",
+        "Java also listed alongside Python on AI Platform teams"
+      ],
+      "compensation": "$466,000 \u2013 $750,000",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; title Software Engineer 5 \u2013 Agent Platform, AI Platform | USA - Remote",
+        "JD: design/build Agent SDK and MCP Gateway; eval suites; reliability for non-deterministic systems"
+      ],
+      "found_at": "2026-08-06T15:21:22Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe5-member-api",
+      "title": "Software Engineer 5 - Member API",
+      "summary": "New York\u2013Remote L5 owning GraphQL Member API platform \u2014 schema/federation lifecycle, partner DX, and AI-assisted API workflows for device/client engineers.",
+      "fit_summary": "Snap/Vertebrae SDK and platform API ownership plus staff IC scope align with a GraphQL API platform seat serving internal consumers.",
+      "kind": "posting",
+      "url": "https://explore.jobs.netflix.net/careers/job/790315746657-software-engineer-5-member-api-usa-remote?domain=netflix.com&microsite=netflix.com",
+      "location": "New York - Remote, United States",
+      "work_mode": "remote",
+      "hire_likelihood": 81,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "GraphQL federation at Netflix member-scale not evidenced",
+        "Device-client API partnership depth unknown"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; title Software Engineer 5 - Member API | New York - Remote",
+        "JD emphasizes GraphQL schema, API lifecycle governance, partner DX, AI-assisted API workflows"
+      ],
+      "found_at": "2026-08-06T15:21:22Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe-l5-python-platform",
+      "title": "Software Engineer L5, Python Platform",
+      "summary": "USA Remote L5 on Python Platform \u2014 Python web-stack performance and platform work for services (GPU/inference-adjacent tooling in JD).",
+      "fit_summary": "Strong Python + platform IC match from Panorama/Snap cloud platform work; remote US fits Denver location prefs.",
+      "kind": "posting",
+      "url": "https://explore.jobs.netflix.net/careers/job/790315922591-software-engineer-l5-python-platform-usa-remote?domain=netflix.com&microsite=netflix.com",
+      "location": "USA - Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 78,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "NVIDIA GPU / CUDA-aware Python stack not evidenced",
+        "FastAPI/Flask performance specialization not primary on resume"
+      ],
+      "compensation": "$388,000 \u2013 $619,000",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; title Software Engineer L5, Python Platform | USA - Remote",
+        "JD asks extensive Python web stack performance experience and GPU software stack familiarity"
+      ],
+      "found_at": "2026-08-06T15:21:22Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-fullstack-l5-ads-policy-infra",
+      "title": "Full-Stack Software Engineer 5 - Ads Policy Infrastructure",
+      "summary": "Fullstack L5 on Ads Policy Infrastructure \u2014 shared policy model, APIs, authoring UX, and evaluation platform for Netflix ads systems. Hub cities (Los Gatos / Seattle / New York).",
+      "fit_summary": "TypeScript/React fullstack boosts plus platform architecture experience fit policy platform ownership; location is away-hybrid vs Denver.",
+      "kind": "posting",
+      "url": "https://explore.jobs.netflix.net/careers/job/790317610340-full-stack-software-engineer-5-ads-policy-infrastructure-los-gatos-california-united-states-of-america?domain=netflix.com&microsite=netflix.com",
+      "location": "Los Gatos, CA (hubs also Seattle / New York)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 71,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Ads policy / compliance domain not evidenced",
+        "Office hubs are outside Denver metro"
+      ],
+      "compensation": "$388,000 \u2013 $558,000",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; title Full-Stack Software Engineer 5 - Ads Policy Infrastructure",
+        "JD mentions TypeScript/JavaScript/React/GraphQL and shared policy platform architecture"
+      ],
+      "found_at": "2026-08-06T15:21:22Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe5-training-platform-ai",
+      "title": "Software Engineer 5 \u2013 Training Platform, AI Platform",
+      "summary": "USA Remote L5 on Training Platform within AI Platform \u2014 infrastructure enabling large-scale model training workflows for Netflix ML/AI teams.",
+      "fit_summary": "Platform + Python/cloud anchors help, but role skews ML training systems more than product fullstack; still a remote AI platform IC seat.",
+      "kind": "posting",
+      "url": "https://explore.jobs.netflix.net/careers/job/790300762468?domain=netflix.com&microsite=netflix.com",
+      "location": "USA - Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 68,
+      "target_bucket": "similar",
+      "missing_gaps": [
+        "Dedicated ML training platform / distributed training systems depth not evidenced",
+        "Role identity is ML infra vs product eng"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; title Software Engineer 5 \u2013 Training Platform, AI Platform | USA - Remote",
+        "Listed on explore.jobs.netflix.net AI Platform family alongside Agent Platform"
+      ],
+      "found_at": "2026-08-06T15:58:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-dse-l4-edpr-content-business",
+      "title": "Distributed Systems Engineer 4 - Content & Business Products",
+      "summary": "L4 distributed systems role on EDPR (Enterprise Developer Paved Road) \u2014 app-dev framework/managed runtime for studio/enterprise engineers, including AI-agent DX. HM Sam Gorial actively recruiting.",
+      "fit_summary": "Developer-platform and AI DX theme matches leadership anchors, but L4 bar and Java/distributed-systems primary stack are a weaker level/stack fit than L5 platform seats.",
+      "kind": "posting",
+      "url": "https://explore.jobs.netflix.net/careers/job/790298117912-distributed-systems-engineer-4-content-business-products-los-gatos-california-united-states-of-america?domain=netflix.com&microsite=netflix.com",
+      "location": "Los Gatos, CA (US remote also referenced in JD)",
+      "work_mode": "remote",
+      "hire_likelihood": 64,
+      "target_bucket": "similar",
+      "missing_gaps": [
+        "Posted as L4 vs staff/L5 target",
+        "Recent Java distributed-systems production depth not primary on profile"
+      ],
+      "compensation": "$250,000 \u2013 $413,000",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; title Distributed Systems Engineer 4 - Content & Business Products",
+        "Sam Gorial LinkedIn hiring post (2026-07-26) links this EDPR / AI-era developer platform req"
+      ],
+      "found_at": "2026-08-06T15:21:22Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-outreach-jem-young-ui-platform",
+      "title": "Consumer UI Platform outreach (Jem Young)",
+      "summary": "Lead EM for Consumer UI Platform (~Node.js web platform / foundational UI). Strong outreach target for staff web-platform IC when no perfect public UI-platform req is saved.",
+      "fit_summary": "Snap ARES Web SDK / React-Node platform leadership is a natural conversation for Netflix consumer UI platform work.",
+      "kind": "outreach",
+      "url": "https://www.linkedin.com/in/jemyoung",
+      "location": "United States (Netflix product eng; hub-dependent)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 58,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No verified live UI-platform posting paired to this outreach",
+        "Exact team open-req title not confirmed this run"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "LinkedIn profile fetched as Jem Young at Netflix Consumer UI Platform leadership",
+        "Prior scout notes: leads ~20-person Consumer UI Platform org (Node.js web platform)"
+      ],
+      "found_at": "2026-08-06T15:58:06Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-sam-gorial",
+      "name": "Sam Gorial",
+      "title": "Engineering Manager, Enterprise Developer Platform",
+      "linkedin_url": "https://www.linkedin.com/in/samgorial",
+      "notes": "EDPR \u2014 app-dev framework / managed runtime; actively hiring Distributed Systems Engineer 4 (JR28750) for AI-agent era DX.",
+      "found_at": "2026-08-06T15:21:22Z"
+    },
+    {
+      "id": "hm-ashish-nanda",
+      "name": "Ashish Nanda",
+      "title": "Engineering Manager, Full-Stack Developer Productivity",
+      "linkedin_url": "https://www.linkedin.com/in/ashish-nanda",
+      "notes": "Productivity Engineering \u2014 fullstack tools for monitoring, alerting, incident management, observability DX.",
+      "found_at": "2026-08-06T15:21:22Z"
+    },
+    {
+      "id": "hm-jem-young",
+      "name": "Jem Young",
+      "title": "Lead Engineering Manager, Product / Consumer UI Platform",
+      "linkedin_url": "https://www.linkedin.com/in/jemyoung",
+      "notes": "Leads ~20-person Consumer UI Platform org (Node.js web platform / foundational UI). Strong outreach target for web platform IC.",
+      "found_at": "2026-08-06T15:21:22Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-2026-07-26-sam-gorial-edpr-hiring",
+      "source": "hiring_manager",
+      "author": "Sam Gorial",
+      "url": "https://www.linkedin.com/posts/samgorial_distributed-systems-engineer-4-content-activity-7487205251268190209-P2UE",
+      "posted_at": "2026-07-26T00:00:00Z",
+      "summary": "Explicit hiring post for senior distributed systems eng on EDPR \u2014 enterprise app-dev framework/runtime and AI-agent developer experience; links live JR28750.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:21:22Z"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "20260801-0050-addition-staff-software-engineer",
+  "title": "Staff Software Engineer",
+  "company": "Addition",
+  "location": "Remote (US / work from anywhere)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-08-01T00:50:00Z",
+  "compensation": "$165k\u2013$220k",
+  "url": "https://jobs.lever.co/additionwealth/b4f11bf6-6415-4974-b3b0-aab176c65a78",
+  "source": "lever",
+  "sources": [
+    "lever"
+  ],
+  "rank": 47,
+  "hire_likelihood": 86,
+  "fit_summary": "Remote Staff full-stack on TypeScript/NestJS/Next.js/Postgres/AWS/Terraform at an early fintech \u2014 stack and 0\u21921 ownership match Vertebrae-through-Snap and Panorama platform building.",
+  "missing_gaps": [
+    "Personal finance / tax-calculator domain not evidenced",
+    "NestJS specifically not listed on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "node",
+    "nextjs",
+    "postgres",
+    "terraform",
+    "aws",
+    "remote"
+  ]
+}

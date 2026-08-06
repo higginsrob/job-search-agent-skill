@@ -1,0 +1,44 @@
+{
+  "id": "20260731-2320-gusto-staff-benefit-renewals",
+  "title": "Staff Software Engineer, Benefit Renewals",
+  "company": "Gusto",
+  "location": "Hybrid \u2014 Denver / NYC / SF offices (2\u20133 days/week if local)",
+  "remote": false,
+  "work_mode": "hybrid",
+  "posted_at": "2026-07-29T17:18:47Z",
+  "found_at": "2026-07-31T23:20:00Z",
+  "compensation": "$197k\u2013$247k (SF & NY; equity additional)",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/7993664",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "rank": 14,
+  "hire_likelihood": 90,
+  "fit_summary": "Staff full-stack Benefits Renewals role on React + Rails at Gusto with Denver office hybrid path \u2014 strong title/level fit and preferred-metro location for a Colorado-based candidate.",
+  "missing_gaps": [
+    "Ruby on Rails not evidenced as a primary stack on resume",
+    "Health insurance / benefits domain depth not shown"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "rails",
+    "fullstack",
+    "denver",
+    "hybrid",
+    "benefits"
+  ]
+}

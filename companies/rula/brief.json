@@ -1,0 +1,16 @@
+{
+  "company": "Rula",
+  "slug": "rula",
+  "domain": "rula.com",
+  "products": "Rula is a mental healthcare company connecting patients with therapists and psychiatrists through a tech-enabled care network, with product surfaces spanning provider tools, patient experience, and revenue operations.",
+  "fiscal_outlook": "Growth-stage private healthcare company; exact funding round details vary by press. Hiring volume on Ashby is substantial across engineering and ops. Public revenue figures not confirmed in this pass.",
+  "hiring_trends": "Active Staff and Senior Staff software openings (RCM Payments, Provider org technical leadership, AI roles). Remote-first US hiring with clear ATS listings.",
+  "similar_role_hires": "Multiple staff-level eng postings live concurrently (RCM Staff, Senior Staff Provider, Staff AI) \u2014 signals ongoing senior IC hiring rather than a one-off ghost post.",
+  "hiring_profile": "Steady Ashby flow with detailed JDs, published compensation bands, and remote eligibility. Quality looks high for senior+ candidates.",
+  "sources": [
+    "https://www.rula.com/",
+    "https://jobs.ashbyhq.com/rula"
+  ],
+  "updated_at": "2026-07-31T02:15:00Z",
+  "icon": "icon.png"
+}

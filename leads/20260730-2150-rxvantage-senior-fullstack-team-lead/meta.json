@@ -1,0 +1,42 @@
+{
+  "id": "20260730-2150-rxvantage-senior-fullstack-team-lead",
+  "title": "Senior Full Stack Engineer - Team Lead",
+  "company": "RxVantage",
+  "location": "Remote - U.S.",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-06T17:21:35Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": null,
+  "url": "https://jobs.ashbyhq.com/rxvantage/12d3392e-4d1a-423c-ac77-985b76e92935",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 23,
+  "hire_likelihood": 89,
+  "fit_summary": "Hands-on full-stack team lead on React/TypeScript/Node/PostgreSQL with data ingestion ownership maps to Panorama Head of Eng plus Snap/Vertebrae product engineering.",
+  "missing_gaps": [
+    "Healthcare provider / CRM domain not evidenced on resume",
+    "Formal people-management of a named eng team not the primary resume framing (tech lead / Head of Eng is)"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "typescript",
+    "node",
+    "postgresql",
+    "graphql",
+    "team-lead"
+  ]
+}

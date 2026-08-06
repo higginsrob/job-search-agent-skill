@@ -1,0 +1,40 @@
+{
+  "id": "20260730-1810-reddit-em-advanced-signals",
+  "title": "Engineering Manager, Advanced Signals (SWE)",
+  "company": "Reddit",
+  "location": "Remote - United States",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-30T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$217k\u2013$304k",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/7966985",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 73,
+  "hire_likelihood": 78,
+  "fit_summary": "Remote US EM for Advanced Signals \u2014 manager-track fit; signals/ML domain is a stretch vs fullstack/platform anchors.",
+  "missing_gaps": [
+    "Signals / ML ranking domain vs fullstack/platform anchors",
+    "Engineering Manager bar for ML-specialist team"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "management",
+    "signals",
+    "ml",
+    "remote"
+  ]
+}

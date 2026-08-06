@@ -1,0 +1,16 @@
+{
+  "company": "Fivetran",
+  "slug": "fivetran",
+  "products": "Automated data movement/ELT platform; combining with dbt Labs messaging around broader data infrastructure for analytics and AI.",
+  "fiscal_outlook": "Major private data infrastructure vendor; public materials reference combination with dbt Labs. Exact deal terms not independently verified here.",
+  "hiring_trends": "Principal AI Tooling & Adoption (Oakland) and Senior Staff SWE (Remote NY AMER) recently updated.",
+  "similar_role_hires": "Principal Software Engineer, AI Tooling & Adoption and Senior Staff Software Engineer currently open.",
+  "hiring_profile": "Greenhouse/company careers with bands. Location strings vary (Oakland vs remote NY) — confirm work mode.",
+  "sources": [
+    "https://www.fivetran.com/careers/job?gh_jid=7812269003",
+    "https://www.fivetran.com/"
+  ],
+  "updated_at": "2026-07-30T18:10:00Z",
+  "domain": "fivetran.com",
+  "icon": "icon.png"
+}

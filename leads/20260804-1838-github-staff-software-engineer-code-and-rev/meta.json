@@ -1,0 +1,36 @@
+{
+  "id": "20260804-1838-github-staff-software-engineer-code-and-rev",
+  "title": "Staff Software Engineer, Code and Review",
+  "company": "GitHub",
+  "location": null,
+  "remote": null,
+  "work_mode": "other",
+  "posted_at": "2026-08-04T18:31:27Z",
+  "found_at": "2026-08-04T18:38:02Z",
+  "compensation": null,
+  "url": "https://www.github.careers/careers-home/jobs/5610?lang=en-us",
+  "source": "scout",
+  "sources": [
+    "scout"
+  ],
+  "rank": 94,
+  "hire_likelihood": 65,
+  "fit_summary": "Staff IC on the Code and Review team shaping PRs, Files Changed, review, and merge for 100M+ developers \u2014 including how humans and AI agents collaborate. React/TypeScript + Ruby/Rails product surface; Senior Director David Poll is actively recruiting for this org.",
+  "missing_gaps": [],
+  "target_bucket": "similar",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "applied",
+  "dead_reason": null,
+  "applied": true,
+  "applied_at": "2026-08-04T18:50:32Z",
+  "interviews": [],
+  "has_resume": true,
+  "has_cover_letter": true,
+  "tags": [
+    "scout",
+    "posting"
+  ],
+  "scout_finding_id": "finding-staff-code-review-5610",
+  "scout_slug": "github"
+}

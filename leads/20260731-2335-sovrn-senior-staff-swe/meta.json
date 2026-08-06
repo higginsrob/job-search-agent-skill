@@ -1,0 +1,44 @@
+{
+  "id": "20260731-2335-sovrn-senior-staff-swe",
+  "title": "Senior/Staff Software Engineer",
+  "company": "Sovrn",
+  "location": "Hybrid \u2014 Boulder, CO (Denver metro)",
+  "remote": false,
+  "work_mode": "hybrid",
+  "posted_at": "2026-07-07T18:43:19Z",
+  "found_at": "2026-07-31T23:35:00Z",
+  "compensation": "$170k\u2013$200k Staff / $155k\u2013$185k Senior + bonus + equity",
+  "url": "https://job-boards.greenhouse.io/sovrn/jobs/8049230",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "rank": 60,
+  "hire_likelihood": 83,
+  "fit_summary": "Boulder hybrid Senior/Staff IC driving distributed systems architecture and mentoring \u2014 strong metro fit and staff scope; primary stack leans Java/Kafka rather than TypeScript/React boosts.",
+  "missing_gaps": [
+    "Java as primary product stack not a resume focus (deprioritize-adjacent)",
+    "Adtech SSP/DSP domain experience not evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "java",
+    "kafka",
+    "aws",
+    "distributed-systems",
+    "boulder",
+    "hybrid"
+  ]
+}

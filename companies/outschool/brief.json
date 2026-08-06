@@ -1,0 +1,16 @@
+{
+  "company": "Outschool",
+  "slug": "outschool",
+  "updated_at": "2026-07-30T20:12:07Z",
+  "domain": "outschool.com",
+  "icon": "icon.png",
+  "products": "Online marketplace for live classes and alternative education; evolving AI-guided planning / publicly funded learning discovery products for families.",
+  "fiscal_outlook": "Private EdTech; company materials cite ~$100M+ annual bookings and 1.5M+ learners served. Not a public filer — treat growth claims as company-reported.",
+  "hiring_trends": "Staff Software Engineer (full-stack TS/React/Node/GraphQL/Postgres) for agentic-first platform work; remote US/Canada with tiered pay zones.",
+  "similar_role_hires": "Staff SWE currently open on Greenhouse with published US Tier 1–3 bands.",
+  "hiring_profile": "Mature Greenhouse ATS; clear remote policy and pay transparency. AI-native development called out explicitly.",
+  "sources": [
+    "https://outschool.com/",
+    "https://job-boards.greenhouse.io/outschool/jobs/4683198006"
+  ]
+}

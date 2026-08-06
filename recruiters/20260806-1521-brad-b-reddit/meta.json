@@ -1,0 +1,19 @@
+{
+  "id": "20260806-1521-brad-b-reddit",
+  "name": "Brad B.",
+  "firm": "Reddit",
+  "linkedin_url": "https://www.linkedin.com/in/15recruits",
+  "email": null,
+  "focus": "Manager, Talent Acquisition \u2014 Tech (core eng, infrastructure, security, corporate tech, TPM)",
+  "notes": "LinkedIn anonymous fetch returned 500; URL retained from clearly indexed search hit for exact /in/15recruits path.",
+  "status": "found",
+  "dead_reason": null,
+  "found_at": "2026-08-06T15:21:03Z",
+  "contacted_at": null,
+  "sources": [
+    "https://www.linkedin.com/in/15recruits"
+  ],
+  "companies": [
+    "reddit"
+  ]
+}

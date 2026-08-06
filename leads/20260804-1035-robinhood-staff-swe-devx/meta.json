@@ -1,0 +1,41 @@
+{
+  "id": "20260804-1035-robinhood-staff-swe-devx",
+  "title": "Staff Software Engineer, DevX (Developer Infrastructure)",
+  "company": "Robinhood",
+  "location": "New York, NY",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-08-03T17:48:49Z",
+  "found_at": "2026-08-04T16:36:59Z",
+  "compensation": "$230k\u2013$270k Zone1 / $203k\u2013$238k Zone2 incl. Denver",
+  "url": "https://boards.greenhouse.io/robinhood/jobs/8080937?gh_jid=8080937",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "hire_likelihood": 76,
+  "fit_summary": "Staff DevX/build-infra leadership matches platform and developer-tooling instincts from Snap/Vertebrae SDKs and CI/CD ownership, but NYC posting and CI-build specialization sit below Denver full-stack preference.",
+  "missing_gaps": [
+    "Posted for New York, NY (not Denver remote)\u2014Zone 2 Denver pay listed but seat may be NYC",
+    "Build systems / CI / remote-dev environments as primary specialty not highlighted on resume",
+    "Fintech trading-platform context thinner than product/fullstack anchors"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "tags": [
+    "robinhood",
+    "devx",
+    "platform",
+    "ci",
+    "staff"
+  ],
+  "rank": 81,
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false
+}

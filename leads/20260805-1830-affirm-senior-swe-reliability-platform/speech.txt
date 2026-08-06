@@ -1,0 +1,11 @@
+Senior Software Engineer, Backend (Reliability Platform) at Affirm. This is a fully remote role. Location note: Remote (US). Pay is listed as one hundred ninety-five to two hundred fifty-five thousand dollars.
+
+Senior Backend Engineer on Affirm’s Reliability Platform — design next-gen reliability tooling with AI-assisted development for production service health. Remote US. $195k–$255k. Python/AWS/Go/Kotlin.
+
+On the company side, Affirm is an active product employer with a public careers board for this posting.
+
+Why you could be a strong fit: Remote US senior role building Affirm’s AI-assisted reliability platform blends distributed systems with product tooling — close to Panorama platform ownership and Snap production systems experience.
+
+Gaps to keep in mind: Title is Senior not Staff — bar may sit below target staff/lead bucket; SRE / reliability-platform specialty not primary on resume; Kotlin / Affirm backend stack depth not evidenced
+
+Takeaway: this one cleared the three-day search window and matches your staff or engineering-manager targets — open the posting, confirm location expectations, and decide whether to apply or dig into the gaps first.

@@ -1,0 +1,40 @@
+{
+  "id": "20260731-0145-owner-staff-fullstack",
+  "title": "Staff Software Engineer, Full-Stack",
+  "company": "Owner.com",
+  "location": "Remote (US or Canada)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-28T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$220k\u2013$240k",
+  "url": "https://jobs.ashbyhq.com/owner/bae9c3e1-7f5f-4ea1-8ee3-0856a73165d3",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 6,
+  "hire_likelihood": 91,
+  "fit_summary": "Remote Staff full-stack TypeScript (React/Next + Node) for AI-native SMB product \u2014 near-ideal title, stack, and ownership shape vs candidate anchors.",
+  "missing_gaps": [
+    "MongoDB as primary datastore not evidenced (Postgres-heavy background)",
+    "Restaurant/local SMB domain not on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "remote",
+    "staff",
+    "ai"
+  ]
+}

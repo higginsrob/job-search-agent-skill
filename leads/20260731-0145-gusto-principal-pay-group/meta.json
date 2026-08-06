@@ -1,0 +1,40 @@
+{
+  "id": "20260731-0145-gusto-principal-pay-group",
+  "title": "Principal Software Engineer - Pay Group Engineering",
+  "company": "Gusto",
+  "location": "Denver, CO / San Francisco / New York",
+  "remote": false,
+  "work_mode": "local-office",
+  "posted_at": "2026-07-08T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$215k\u2013$252k (Denver)",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/7027020",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 61,
+  "hire_likelihood": 82,
+  "fit_summary": "Denver Principal TL across payroll/tax platform teams \u2014 leadership fit is strong, but 15+ years bar and Rails-centric stack reduce hire likelihood.",
+  "missing_gaps": [
+    "JD targets 15+ years; resume reads closer to 10+ senior/staff leadership",
+    "Deep payroll/tax/compliance domain not evidenced",
+    "Ruby/Rails primary stack not on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "principal",
+    "payroll",
+    "platform",
+    "denver",
+    "rails"
+  ]
+}

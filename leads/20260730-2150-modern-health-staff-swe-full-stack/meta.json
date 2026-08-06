@@ -1,0 +1,45 @@
+{
+  "id": "20260730-2150-modern-health-staff-swe-full-stack",
+  "title": "Staff Software Engineer, Full Stack",
+  "company": "Modern Health",
+  "location": "Remote - US (Pacific overlap)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-21T15:59:11Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": "$137k\u2013$172k (Zone 4 / CO)",
+  "url": "https://job-boards.greenhouse.io/modernhealth/jobs/8631593002",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "rank": 3,
+  "hire_likelihood": 92,
+  "fit_summary": "Remote Staff full-stack on React/TypeScript + Python/Django GraphQL APIs and PostgreSQL/AWS matches Panorama + Snap/Vertebrae ownership of product platforms end-to-end.",
+  "missing_gaps": [
+    "React Native production experience not evidenced on resume",
+    "Mental-health / benefits-platform domain not on resume",
+    "HIPAA-regulated product delivery not explicitly evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "python",
+    "django",
+    "postgresql",
+    "aws",
+    "graphql"
+  ]
+}

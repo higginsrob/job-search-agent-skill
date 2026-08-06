@@ -1,0 +1,39 @@
+{
+  "id": "20260730-1810-mercury-senior-full-stack-engineer",
+  "title": "Senior Full-Stack Engineer",
+  "company": "Mercury",
+  "location": "Remote within United States (or SF/NYC/Portland)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-24T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$167k\u2013$208k",
+  "url": "https://job-boards.greenhouse.io/mercury/jobs/6101151004",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 50,
+  "hire_likelihood": 85,
+  "fit_summary": "Senior product fullstack on TypeScript/React for startup banking \u2014 solid senior+ full-stack match with remote US.",
+  "missing_gaps": [
+    "Banking / B2B fintech domain not evidenced on resume"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "fintech",
+    "product"
+  ]
+}

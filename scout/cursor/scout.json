@@ -1,0 +1,258 @@
+{
+  "company": "Cursor",
+  "slug": "cursor",
+  "updated_at": "2026-08-06T16:00:00Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/cursorai/",
+  "findings": [
+    {
+      "id": "finding-swe-bugbot",
+      "title": "Software Engineer, Bugbot",
+      "summary": "Fullstack IC owning Bugbot AI code review end-to-end \u2014 product UI, review pipeline/agent harness, integrations, onboarding, and quality/evals. Careers lists San Francisco, New York, and Remote.",
+      "fit_summary": "Panorama AI LLM product ownership plus Snap/Vertebrae fullstack and CI/review-adjacent platform work map cleanly onto Bugbot's agent+product surface.",
+      "kind": "posting",
+      "url": "https://cursor.com/careers/software-engineer-bugbot",
+      "location": "San Francisco; New York; Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 84,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No public evidence of production AI code-review / PR-bot eval ownership",
+        "Unleveled SWE title \u2014 bar may sit above typical senior IC"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live careers JD 2026-08-06: fullstack Bugbot features, model routing/agent orchestration, CI/code-review integrations",
+        "Careers index location: San Francisco; New York; Remote"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "board_lead_id": "20260806-1608-cursor-software-engineer-bugbot"
+    },
+    {
+      "id": "finding-swe-enterprise-platform",
+      "title": "Software Engineer, Enterprise Platform",
+      "summary": "Deeply technical IC building org management, RBAC/authorization, SCIM provisioning, audit logs, admin APIs, and enterprise policy/compliance for Cursor's largest customers. Careers lists San Francisco and Remote.",
+      "fit_summary": "Platform/IAM multi-tenant ownership from Snap SDK + Panorama eng standards matches enterprise org/RBAC/admin API work with a remote option.",
+      "kind": "posting",
+      "url": "https://cursor.com/careers/software-engineer-enterprise-platform",
+      "location": "San Francisco; Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 82,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Limited public evidence of SCIM / large-enterprise IAM at Cursor scale",
+        "Unleveled SWE title with high enterprise bar"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live careers JD 2026-08-06: enterprise platform IAM/RBAC/SCIM/audit/admin APIs; end-to-end including admin UI",
+        "Careers index location: San Francisco; Remote"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "board_lead_id": "20260806-1609-cursor-software-engineer-enterprise-platfor"
+    },
+    {
+      "id": "finding-swe-agent-harness",
+      "title": "Software Engineer, Agent Harness",
+      "summary": "Builds core agent orchestration, tools, guardrails, and model behavior as a platform other Cursor teams extend \u2014 including the default Auto agent experience. Careers lists San Francisco and New York.",
+      "fit_summary": "LLM/agent product leadership at Panorama plus platform SDK ownership at Snap aligns with agent harness as an extensible internal platform.",
+      "kind": "posting",
+      "url": "https://cursor.com/careers/software-engineer-agent-harness",
+      "location": "San Francisco; New York",
+      "work_mode": "other",
+      "hire_likelihood": 76,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "SF/NY office-tied (no Remote listed) vs Denver home metro",
+        "May expect deeper agent-runtime / model-routing specialization"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Verified live careers JD 2026-08-06: agent orchestration, tools, guardrails, platform for Cursor engineers; Auto experience",
+        "Careers index: San Francisco; New York"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe-services-platform",
+      "title": "Software Engineer, Services Platform",
+      "summary": "Internal developer platform role: durable workflow orchestration, declarative service config/deploy, and service-ownership contracts that product teams run on. Careers lists San Francisco and New York.",
+      "fit_summary": "Terraform/cloud platform and SDK ownership from Vertebrae/Snap maps to Cursor's internal services platform and golden-path deploy tooling.",
+      "kind": "posting",
+      "url": "https://cursor.com/careers/software-engineer-services-platform",
+      "location": "San Francisco; New York",
+      "work_mode": "other",
+      "hire_likelihood": 74,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "SF/NY office-tied (no Remote listed)",
+        "No public Temporal/durable-workflow ownership called out on resume"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live careers JD 2026-08-06: Temporal/durable workflows, service provisioning, deploy tooling, service catalogue",
+        "Careers index: San Francisco; New York"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe-core-services",
+      "title": "Software Engineer, Core Services",
+      "summary": "Owns critical shared services between product and infra: auth architecture, agent workflow backend, high-throughput webhooks, and SCM integration abstractions. Careers lists San Francisco and New York.",
+      "fit_summary": "Event-driven platform + auth/integration experience from Snap/Panorama fits Core Services' agent backend and webhook reliability scope.",
+      "kind": "posting",
+      "url": "https://cursor.com/careers/software-engineer-core-services",
+      "location": "San Francisco; New York",
+      "work_mode": "other",
+      "hire_likelihood": 73,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "SF/NY office-tied (no Remote listed)",
+        "Unleveled SWE title \u2014 competitive AI-lab bar"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live careers JD 2026-08-06: auth, agent backend, webhooks/DLQ, SCM integrations, agent reliability",
+        "Careers index: San Francisco; New York"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-em-core-services",
+      "title": "Engineering Manager, Core Services",
+      "summary": "Hands-on EM leading Core Services (auth, webhooks, agent backend, SCM integrations) \u2014 sets technical direction, writes/reviews code, and hires. Careers lists San Francisco and New York.",
+      "fit_summary": "Head of Eng at Panorama plus hands-on platform IC background matches a still-technical Core Services EM seat.",
+      "kind": "posting",
+      "url": "https://cursor.com/careers/engineering-manager-core-services",
+      "location": "San Francisco; New York",
+      "work_mode": "other",
+      "hire_likelihood": 72,
+      "target_bucket": "ai-eng-manager",
+      "missing_gaps": [
+        "SF/NY office-tied (no Remote listed)",
+        "May expect larger-team EM tenure than Panorama-scale org"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live careers JD 2026-08-06: lead Core Services; hire/grow team; still own auth/agent reliability tech direction",
+        "Careers index: San Francisco; New York"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe-product",
+      "title": "Software Engineer, Product",
+      "summary": "Core product/editor IC inventing AI-native UX (e.g. reviewing AI-generated PRs), new product verticals, and agent-quality experiments at millions of users. Careers lists San Francisco and New York.",
+      "fit_summary": "Strong React/TS product + LLM feature ownership fits editor/product invent work, though desktop-editor depth is thinner than platform anchors.",
+      "kind": "posting",
+      "url": "https://cursor.com/careers/software-engineer-product",
+      "location": "San Francisco; New York",
+      "work_mode": "other",
+      "hire_likelihood": 70,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "SF/NY office-tied (no Remote listed)",
+        "Less public evidence of IDE/editor internals vs web/product surfaces"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live careers JD 2026-08-06: editor/product engineering; AI PR review UX; agent quality experiments",
+        "Careers index: San Francisco; New York"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-outreach-diane-liu-origin",
+      "title": "Origin git-forge engineering outreach (Diane Liu)",
+      "summary": "Diane Liu is hiring engineers and EMs (NYC/SF + limited remote) for Origin \u2014 Cursor's next-gen git forge for agent collaboration/review/ship. Concrete outreach target for platform + developer-tools IC or EM interest beyond listed unleveled SWE titles.",
+      "fit_summary": "Developer-tools/platform + hands-on leadership anchors match Origin's agent-era git forge hiring signal when remote seats open.",
+      "kind": "outreach",
+      "url": "https://www.linkedin.com/in/dianeliu21",
+      "location": "New York / San Francisco (limited remote)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 58,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No verified live Origin posting URL this refresh",
+        "Remote slots described as limited"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "LinkedIn profile verified 2026-08-06: Engineering at Cursor (NYC)",
+        "Prior indexed hiring post Jun 2026 for Origin eng + EMs; NYC/SF + small remote"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-kevin-nguyen",
+      "name": "Kevin Nguyen",
+      "title": "Engineering Manager, Client Infrastructure",
+      "linkedin_url": "https://www.linkedin.com/in/i-am-kevin-nguyen",
+      "notes": "Actively hiring Client Infrastructure SWEs (desktop/Electron performance & reliability). Profile states team also covers updater, VS Code/extension host, release infra. Based LA area.",
+      "found_at": "2026-08-04T19:05:09Z"
+    },
+    {
+      "id": "hm-diane-liu",
+      "name": "Diane Liu",
+      "title": "Engineering, Origin",
+      "linkedin_url": "https://www.linkedin.com/in/dianeliu21",
+      "notes": "Hiring eng + EMs for Origin (agent-era git forge). NYC-based; prior Director of Engineering at Rula. Open to limited remote.",
+      "found_at": "2026-08-04T19:05:09Z"
+    },
+    {
+      "id": "hm-daniel-st-jules",
+      "name": "Daniel St. Jules",
+      "title": "Engineering (Enterprise / product extensibility)",
+      "linkedin_url": "https://www.linkedin.com/in/danielstjules",
+      "notes": "Posted Dec 2025 hiring for Enterprise / product extensibility (SF/NYC). Prior VP Eng Rippling / Sr Director Twilio Segment \u2014 strong senior outreach peer.",
+      "found_at": "2026-08-04T19:05:09Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-diane-liu-origin-hiring",
+      "source": "hiring_manager",
+      "author": "Diane Liu",
+      "url": "https://www.linkedin.com/posts/dianeliu21_cursor-origin-activity-7472803508472291328-hDNq",
+      "posted_at": "2026-06-17T00:00:00Z",
+      "summary": "Explicit hiring for engineers and engineering managers on Origin (next-gen git forge for agents); NYC/SF plus small number of remote roles.",
+      "signal_strength": "high",
+      "found_at": "2026-08-04T19:05:09Z"
+    },
+    {
+      "id": "signal-kevin-nguyen-client-infra-hiring",
+      "source": "hiring_manager",
+      "author": "Kevin Nguyen",
+      "url": "https://www.linkedin.com/posts/i-am-kevin-nguyen_so-proud-of-everyones-hard-work-and-excited-activity-7446099163400032256-LHNN",
+      "posted_at": "2026-04-04T00:00:00Z",
+      "summary": "Client Infrastructure EM still hiring SWEs for desktop client architecture (performance/reliability) at Cursor 3 launch.",
+      "signal_strength": "high",
+      "found_at": "2026-08-04T19:05:09Z"
+    },
+    {
+      "id": "signal-daniel-st-jules-enterprise",
+      "source": "hiring_manager",
+      "author": "Daniel St. Jules",
+      "url": "https://www.linkedin.com/posts/danielstjules_cursor-software-engineer-enterprise-activity-7412252790066094081-fDOw",
+      "posted_at": "2025-12-31T00:00:00Z",
+      "summary": "Hiring in SF/NYC for product extensibility / Enterprise engineering; invites reach-outs alongside careers apply.",
+      "signal_strength": "medium",
+      "found_at": "2026-08-04T19:05:09Z"
+    }
+  ]
+}

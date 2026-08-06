@@ -1,0 +1,44 @@
+{
+  "id": "20260805-1830-livekit-staff-swe-distributed-systems",
+  "title": "Staff Software Engineer, Distributed Systems",
+  "company": "LiveKit",
+  "location": "Remote (North America)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-05T16:01:32Z",
+  "found_at": "2026-08-05T18:30:00Z",
+  "compensation": "$200k\u2013$300k",
+  "url": "https://jobs.ashbyhq.com/livekit/424fceac-1840-4d71-b18e-32e1f77c525d",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 33,
+  "hire_likelihood": 87,
+  "fit_summary": "Staff distributed-systems role on LiveKit\u2019s real-time AI media platform (Go/K8s/pubsub) fits Snap cross-cloud platform/SDK ownership and Vertebrae infra depth; Go fluency is a learnable gap.",
+  "missing_gaps": [
+    "Go not primary production language on resume (nice-to-have fluency)",
+    "Real-time audio/video / WebRTC infrastructure not evidenced",
+    "Raft/NATS/consensus systems not listed as primary experience"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "livekit",
+    "remote",
+    "staff",
+    "distributed-systems",
+    "go",
+    "platform",
+    "ai",
+    "realtime"
+  ]
+}

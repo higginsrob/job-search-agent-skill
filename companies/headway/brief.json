@@ -1,0 +1,16 @@
+{
+  "company": "Headway",
+  "slug": "headway",
+  "updated_at": "2026-07-31T01:45:00Z",
+  "domain": "headway.co",
+  "icon": "icon.png",
+  "products": "Mental healthcare access platform that helps therapists accept insurance and run practices — credentialing, claims, billing, and patient-provider marketplace software.",
+  "fiscal_outlook": "Series D with reported $325M+ funding (a16z, Accel, Spark Capital per careers copy). Growth-stage healthtech; funding figures from company careers materials.",
+  "hiring_trends": "Staff engineering roles hiring out of NYC, SF, and Seattle hubs. Strong TypeScript/Python/Postgres stack and AI-assisted eng tooling emphasis.",
+  "similar_role_hires": "Staff Backend Software Engineer (Revenue Engine) open on Ashby with published $265k–$331k band.",
+  "hiring_profile": "Ashby ATS with clear process (Karat coding + finals). Hub location requirement is a practical filter; JD depth is high for payments platform work.",
+  "sources": [
+    "https://jobs.ashbyhq.com/headway/c30196b9-385f-414a-b20c-b12e1cb65b46",
+    "https://headway.co/"
+  ]
+}

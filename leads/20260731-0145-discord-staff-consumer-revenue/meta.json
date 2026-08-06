@@ -1,0 +1,41 @@
+{
+  "id": "20260731-0145-discord-staff-consumer-revenue",
+  "title": "Staff Software Engineer - Consumer Revenue",
+  "company": "Discord",
+  "location": "Remote (U.S.)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-16T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$248k\u2013$279k",
+  "url": "https://job-boards.greenhouse.io/discord/jobs/8460867002",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "google-jobs"
+  ],
+  "rank": 29,
+  "hire_likelihood": 88,
+  "fit_summary": "Remote US Staff full-stack (React/TS + Python) on monetization products \u2014 excellent stack/level match; consumer growth domain is the main gap.",
+  "missing_gaps": [
+    "Consumer monetization / growth experimentation at Discord scale not evidenced",
+    "React Native mobile surface is secondary on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "typescript",
+    "python",
+    "remote",
+    "staff",
+    "full-stack"
+  ]
+}

@@ -1,0 +1,11 @@
+Senior Software Engineer, Backend (Batch Infrastructure) at Affirm. This is a fully remote role. Location note: Remote (US). Pay is listed as one hundred ninety-five to two hundred fifty-five thousand dollars.
+
+Senior Backend Engineer on Affirm Batch Infra — reliable, scalable self-serve cloud compute for ML/product/financial workloads. Remote US. $195k–$255k. Python/AWS/Go/Kotlin.
+
+On the company side, Affirm is an active product employer with a public careers board for this posting.
+
+Why you could be a strong fit: Remote US senior batch-compute platform role (cloud scheduled/on-demand workloads) fits Vertebrae/Snap infra ownership and Panorama data/platform work; less fullstack product surface than target roles.
+
+Gaps to keep in mind: Batch/ML compute platform specialty vs fullstack product staff target; Senior not Staff level; Kotlin-heavy Affirm backend not on resume
+
+Takeaway: this one cleared the three-day search window and matches your staff or engineering-manager targets — open the posting, confirm location expectations, and decide whether to apply or dig into the gaps first.

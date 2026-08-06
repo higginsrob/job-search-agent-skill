@@ -1,0 +1,18 @@
+{
+  "id": "20260806-1521-gabbi-noa-netflix",
+  "name": "Gabbi Noa",
+  "firm": "Netflix",
+  "linkedin_url": "https://www.linkedin.com/in/gabrielle-noa",
+  "email": null,
+  "focus": "Technical Recruiting Researcher — engineering sourcing (reshared EDPR distributed systems req)",
+  "notes": "Reshared Sam Gorial EDPR hiring post; noted she is not the owning recruiter for that req.",
+  "status": "found",
+  "dead_reason": null,
+  "found_at": "2026-08-06T15:21:22Z",
+  "contacted_at": null,
+  "sources": [
+    "https://www.linkedin.com/in/gabrielle-noa",
+    "https://www.linkedin.com/posts/gabrielle-noa_distributed-systems-engineer-4-content-activity-7488755844151472128-l8t0"
+  ],
+  "companies": ["netflix"]
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Waabi",
+  "slug": "waabi",
+  "domain": "waabi.ai",
+  "products": "AI self-driving technology company founded by Raquel Urtasun. Builds autonomy stack and internal developer/research tools for simulation and labeling.",
+  "fiscal_outlook": "Well-known autonomy startup with investor backing across tech/logistics/Canadian innovation ecosystem (per careers). Specific funding round details not verified in this pass.",
+  "hiring_trends": "Hiring Senior/Staff Software Engineer, Web Tools for interactive simulation and annotation tooling; offices Toronto and San Francisco with Remote US/Canada options.",
+  "similar_role_hires": "Senior/Staff Web Tools role emphasizing TypeScript/React and optional WebGL/Three.js; US salary band published on Lever.",
+  "hiring_profile": "Solid Lever JD with seniority range and US pay band. Domain is autonomy-heavy; tools track is more transferable for web platform engineers.",
+  "sources": [
+    "https://www.waabi.ai/",
+    "https://jobs.lever.co/waabi/7fe1b29b-9f8b-4a51-8669-20724015ecd3"
+  ],
+  "updated_at": "2026-08-01T00:50:00Z",
+  "icon": "icon.jpg"
+}

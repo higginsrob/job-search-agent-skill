@@ -1,0 +1,19 @@
+{
+  "company": "Cursor",
+  "slug": "cursor",
+  "updated_at": "2026-08-04T19:05:09Z",
+  "domain": "cursor.com",
+  "icon": "icon.png",
+  "products": "Anysphere's AI coding agent and IDE (Cursor): agentic editing, Bugbot AI code review, enterprise admin/IAM, and Origin (upcoming agent-era git hosting). Millions of developers; in-house models plus third-party LLMs power the product surface.",
+  "fiscal_outlook": "Series D of $2.3B at a $29.3B post-money valuation (company blog), with Accel, Thrive, a16z, Coatue, NVIDIA, and Google among investors. Company reported crossing $1B annualized revenue and 300+ eng/research/design/ops headcount at Series D. Third-party acquisition rumors exist; treat as unverified versus official financing signals.",
+  "hiring_trends": "Very high eng hiring volume on cursor.com/careers: many Software Engineer tracks (Core Services, Services Platform, Enterprise Platform, Product, Client Infrastructure, Bugbot, agents/ML) plus multiple Engineering Manager openings. Locations skew San Francisco and New York with some Remote (e.g. Enterprise Platform, Bugbot).",
+  "similar_role_hires": "Live postings matching Staff+/platform/fullstack+LLM anchors include Enterprise Platform (IAM/RBAC/SCIM; SF+Remote), Core Services (auth/agent backend/webhooks), Services Platform (internal developer platform/Temporal), Bugbot (fullstack AI code review; Remote option), Product, Client Infrastructure, and Engineering Manager, Core Services.",
+  "hiring_profile": "Official careers pages are the source of truth (slug under cursor.com/careers/…). Titles are often unleveled \"Software Engineer\" with a high IC bar and two-day onsite. Eng leaders (Origin, Client Infra, Enterprise) post hiring signals on LinkedIn. Prefer verified careers URLs over aggregator mirrors.",
+  "sources": [
+    "https://cursor.com/careers",
+    "https://cursor.com/blog/series-d",
+    "https://cursor.com/careers/software-engineer-enterprise-platform",
+    "https://cursor.com/careers/software-engineer-core-services",
+    "https://www.linkedin.com/company/cursorai/"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "20260801-0050-waabi-senior-staff-web-tools",
+  "title": "Senior / Staff Software Engineer, Web Tools",
+  "company": "Waabi",
+  "location": "Remote (US) / Toronto / San Francisco",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-08-01T00:50:00Z",
+  "compensation": "$141k\u2013$249k",
+  "url": "https://jobs.lever.co/waabi/7fe1b29b-9f8b-4a51-8669-20724015ecd3",
+  "source": "lever",
+  "sources": [
+    "lever"
+  ],
+  "rank": 32,
+  "hire_likelihood": 88,
+  "fit_summary": "Senior/Staff web tools role (TypeScript/React + Python/Go backends, WebGL/Three.js bonus) aligns with Snap AR Enterprise Web SDK / Three.js lead experience and staff-level mentorship.",
+  "missing_gaps": [
+    "Self-driving / robotics domain not on resume",
+    "Go/Rust/C++ as primary backends not evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "python",
+    "webgl",
+    "threejs",
+    "tools",
+    "remote"
+  ]
+}

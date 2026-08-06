@@ -1,0 +1,19 @@
+{
+  "company": "Databricks",
+  "slug": "databricks",
+  "updated_at": "2026-08-06T15:21:06Z",
+  "domain": "databricks.com",
+  "icon": "icon.png",
+  "products": "Data + AI platform (Lakehouse) unifying analytics, warehousing, governance, and generative AI. Flagship products include Unity Catalog, Lakeflow, Databricks Apps, Lakebase (serverless Postgres), Genie, and Agent Bricks for enterprise agents on customer data.",
+  "fiscal_outlook": "Private; LinkedIn and company materials cite ~$2.6B annual revenue and ~$27B total funding historically. Late-2025 public signals referenced >$4.8B revenue run-rate, >55% YoY growth, and a large Series L raise at a ~$134B valuation—treat run-rate/valuation as company-reported, not audited here.",
+  "hiring_trends": "Heavy eng hiring across Staff frontend/fullstack, AI-native web platform, agentic internal apps, and data/AI infrastructure. Expanding Seattle/Bellevue and Vancouver R&D; Denver appears on some G&A postings. Themes: React/TypeScript product UI, LLM/agent platforms, and lakehouse infra.",
+  "similar_role_hires": "Live careers postings include Staff Frontend (Seattle), Staff Frontend (NYC vertical AI apps), Staff AI-Native Web Platform (Mountain View), Staff/Sr. Staff Fullstack Agentic Applications (Mountain View), and Senior Fullstack (Seattle).",
+  "hiring_profile": "Official Greenhouse-backed careers pages with deep JDs and published pay bands. Most Staff product roles are office-tied (SF Bay, Seattle, NYC, Vancouver)—not remote-first. Strong seniority bar (often 8–12+ years). Prefer databricks.com job URLs; IDs can rotate.",
+  "sources": [
+    "https://www.databricks.com/",
+    "https://www.databricks.com/company/careers/open-positions",
+    "https://www.databricks.com/company/careers/engineering---pipeline/staff-frontend-engineer---seattle-8399551002",
+    "https://www.databricks.com/company/careers/engineering/staff-software-engineer-ai-native-web-platform-8635188002",
+    "https://www.linkedin.com/company/databricks"
+  ]
+}

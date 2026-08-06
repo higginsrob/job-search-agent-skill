@@ -1,0 +1,44 @@
+{
+  "id": "20260730-1810-luxury-presence-em-maps-search",
+  "title": "Engineering Manager, Maps & Search - US (Remote)",
+  "company": "Luxury Presence",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-20T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": null,
+  "url": "https://jobs.lever.co/luxurypresence/a67ee678-19d6-4256-99be-6547235db23c",
+  "source": "lever",
+  "sources": [
+    "lever"
+  ],
+  "rank": 35,
+  "hire_likelihood": 87,
+  "fit_summary": "Hands-on EM for Maps & Search on TypeScript/React/Node/Postgres/AWS \u2014 fits Engineering Manager / Head of Eng target with AI-first culture.",
+  "missing_gaps": [
+    "Maps & geo-search domain experience",
+    "Engineering Manager hiring bar vs IC tech-lead / HoE mix"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "postgres",
+    "aws",
+    "kubernetes",
+    "llm",
+    "management"
+  ]
+}

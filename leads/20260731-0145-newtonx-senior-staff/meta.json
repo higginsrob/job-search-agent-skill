@@ -1,0 +1,39 @@
+{
+  "id": "20260731-0145-newtonx-senior-staff",
+  "title": "Senior Staff Software Engineer",
+  "company": "NewtonX",
+  "location": "New York City; Remote",
+  "remote": true,
+  "work_mode": "hybrid",
+  "posted_at": "2026-07-25T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$200k\u2013$270k",
+  "url": "https://jobs.ashbyhq.com/newtonx/463365ed-d5cc-48ae-97a1-ac4d1ac65dfe",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 43,
+  "hire_likelihood": 86,
+  "fit_summary": "Senior Staff React + Python/Django full-stack with org-wide initiatives \u2014 strong stack fit; NYC hybrid preference is softer for a Denver candidate.",
+  "missing_gaps": [
+    "Django specifically not listed as primary framework on resume",
+    "B2B expert-network / research-intelligence domain not evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "python",
+    "django",
+    "postgres",
+    "staff"
+  ]
+}

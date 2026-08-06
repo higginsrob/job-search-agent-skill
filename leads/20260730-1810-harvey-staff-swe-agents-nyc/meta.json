@@ -1,0 +1,43 @@
+{
+  "id": "20260730-1810-harvey-staff-swe-agents-nyc",
+  "title": "Staff Software Engineer, Agents",
+  "company": "Harvey",
+  "location": "New York, NY",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-07-22T16:44:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$231k\u2013$340k",
+  "url": "https://jobs.ashbyhq.com/harvey/879d9051-0f20-4fcf-8e73-7293044dd7a2",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 85,
+  "hire_likelihood": 76,
+  "fit_summary": "Staff Agents role on legal AI platform with Python/LLM \u2014 excellent AI scope and brand, but NYC onsite hurts location fit.",
+  "missing_gaps": [
+    "NYC onsite required vs Denver/remote preference",
+    "Legal-tech vertical not evidenced on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [
+    "NYC location \u2014 no remote listed; distant onsite vs Denver/remote preference."
+  ],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "llm",
+    "ai",
+    "agents",
+    "legal-tech"
+  ]
+}

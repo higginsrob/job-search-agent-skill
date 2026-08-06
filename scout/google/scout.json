@@ -1,0 +1,224 @@
+{
+  "company": "Google",
+  "slug": "google",
+  "updated_at": "2026-08-06T15:55:00Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/google/",
+  "findings": [
+    {
+      "id": "finding-posting-fullstack-forecasting",
+      "title": "Staff Software Engineer, Full Stack, Forecasting and Projections",
+      "summary": "Live Google Cloud GTM forecasting platform Staff Full Stack role (Sunnyvale and other US hubs). Owns TypeScript/JS front end plus Java/Python backend with required generative AI/LLM workflow integration.",
+      "fit_summary": "Staff IC scope plus required TypeScript and LLM integration map cleanly to Panorama Head of Eng LLM products and Snap/Vertebrae fullstack platform ownership.",
+      "kind": "posting",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/134039019833959110-staff-software-engineer-full-stack-forecasting-and-projections/",
+      "location": "Sunnyvale, CA (also Mountain View, San Francisco, New York)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 74,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No public Google Cloud GTM / Spanner-specific depth",
+        "Angular may appear alongside TypeScript (candidate is React-primary)"
+      ],
+      "compensation": "$207,000–$301,000 + bonus + equity + benefits",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live 2026-08-06: title Staff Software Engineer, Full Stack, Forecasting and Projections",
+        "Min quals: 8y SWE; 5y fullstack JS/TypeScript + Java/Python/Go/C++; generative AI/LLM workflow integration required",
+        "US base band $207k–$301k on careers page"
+      ],
+      "found_at": "2026-08-04T19:07:27Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-developer-ai",
+      "title": "Staff Software Engineer, Developer AI",
+      "summary": "Live Core Developer AI Staff role (Sunnyvale / San Jose and other hubs) building developer AI tools and platforms with full-stack Staff ownership.",
+      "fit_summary": "Developer-platform and AI tooling Staff scope fits Snap AR SDK tech lead and Panorama LLM product leadership anchors.",
+      "kind": "posting",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/125009164626731718-staff-software-engineer-developer-ai/",
+      "location": "Sunnyvale, CA / San Jose, CA (also Mountain View, San Francisco, New York)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 72,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No public evidence of Google-scale developer-productivity infra specifically",
+        "Hybrid hubs are all outside Denver metro"
+      ],
+      "compensation": "$207,000–$301,000 + bonus + equity + benefits",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live 2026-08-06: title Staff Software Engineer, Developer AI",
+        "Min quals: 8y SWE; 5y fullstack with JavaScript/TypeScript front end"
+      ],
+      "found_at": "2026-08-04T19:07:27Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-fullstack-youtube",
+      "title": "Staff Software Engineer, Full Stack, YouTube",
+      "summary": "Live YouTube PDG Live Interactivity Staff Full Stack / tech-lead role for Super Chat and Gifts fan-funding features (Bay Area / NYC hubs).",
+      "fit_summary": "End-to-end fullstack Staff TL (JS/TypeScript + Python/Go/Java) matches candidate staff IC targets; product surface is consumer/creator rather than platform/SDK primary.",
+      "kind": "posting",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/132237912413479622-staff-software-engineer-full-stack-youtube",
+      "location": "Sunnyvale, CA (also Mountain View, San Francisco, New York)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 70,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No YouTube / live-interactivity domain on resume",
+        "Hybrid hubs outside Denver"
+      ],
+      "compensation": "$207,000–$301,000 + bonus + equity + benefits",
+      "posted_at": null,
+      "evidence": [
+        "Verified live 2026-08-06: title Staff Software Engineer, Full Stack, YouTube",
+        "Min quals: 8y SWE; 5y fullstack JS/TypeScript + Java/Python/Go/C++; tech-lead / roadmap ownership in About the job"
+      ],
+      "found_at": "2026-08-06T15:55:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-fullstack-google-cloud",
+      "title": "Staff Software Engineer, Full Stack, Google Cloud",
+      "summary": "Live Staff Full Stack Google Cloud role with Kirkland/Seattle among listed hubs plus Bay Area/NYC — generic Cloud fullstack Staff bar.",
+      "fit_summary": "Staff fullstack JS/TypeScript + cloud backend bar fits candidate boost stack; less LLM/platform specificity than Forecasting or Developer AI.",
+      "kind": "posting",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/108457600739091142-staff-software-engineer-full-stack-google-cloud/",
+      "location": "Kirkland, WA (also Seattle, Sunnyvale, Mountain View, San Francisco, New York)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 66,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "JD is broad Cloud fullstack without a sharp product/LLM mandate",
+        "Hybrid hubs outside Denver"
+      ],
+      "compensation": "$207,000–$301,000 + bonus + equity + benefits",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live 2026-08-06: title Staff Software Engineer, Full Stack, Google Cloud",
+        "Min quals: 8y SWE; 5y fullstack JS/TypeScript + Java/Python/Go/C++"
+      ],
+      "found_at": "2026-08-04T19:07:27Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-fullstack-google-one",
+      "title": "Staff Software Engineer, Full Stack, Google One",
+      "summary": "Live Staff Full Stack Google One role (Mountain View and hubs) shaping subscriber AI/premium experiences across backend, mobile, and web.",
+      "fit_summary": "Staff product+platform ownership fits; Java/Kotlin primary min quals lean away from TypeScript-first boost stack.",
+      "kind": "posting",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/114533168161137350-staff-software-engineer-full-stack-google-one/",
+      "location": "Mountain View, CA (also Sunnyvale, San Francisco, New York)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 58,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Min quals emphasize Java/Kotlin fullstack over TypeScript/React",
+        "Hybrid hubs outside Denver"
+      ],
+      "compensation": "$207,000–$301,000 + bonus + equity + benefits",
+      "posted_at": null,
+      "evidence": [
+        "Re-verified live 2026-08-06: title Staff Software Engineer, Full Stack, Google One",
+        "Min quals: 8y SWE; 5y fullstack with Java or Kotlin prototyping"
+      ],
+      "found_at": "2026-08-04T19:07:27Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-outreach-workspace-ethan-kim",
+      "title": "Workspace / GenAI leadership outreach (Ethan Kim)",
+      "summary": "Ethan Kim (Senior EM / Senior Staff SWE, Workspace ML) publicly noted the org is still hiring around GenAI / agentic Workspace work after the Workspace Intelligence launch.",
+      "fit_summary": "Workspace GenAI/agentic hiring aligns with Panorama LLM product leadership, but there is no verified Staff JD attached to the signal.",
+      "kind": "outreach",
+      "url": "https://www.linkedin.com/in/ethankim",
+      "location": "Bay Area (Google Workspace; hybrid hubs away from Denver)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 55,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No verified live Staff posting tied to this outreach",
+        "Workspace abuse/ML platform depth not primary on resume"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "LinkedIn profile verified 2026-08-06: Ethan Kim — Google; Senior EM / Senior Staff SWE Workspace ML",
+        "Indexed post Apr 2026: Workspace Intelligence launch + still hiring"
+      ],
+      "found_at": "2026-08-04T18:21:43Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-outreach-ads-fullstack-greg-haines",
+      "title": "Google Ads fullstack team outreach (Greg Haines)",
+      "summary": "Greg Haines leads a fullstack Google Ads video-creation tools team as Staff SWE / EM — concrete outreach target for staff-level Ads product fullstack work.",
+      "fit_summary": "Fullstack Staff/EM Ads tooling matches React/Node leadership shape; Ads domain and Bay Area hybrid are weaker than live Cloud/LLM Staff postings.",
+      "kind": "outreach",
+      "url": "https://www.linkedin.com/in/greghaines",
+      "location": "Mountain View / NYC / Zürich team (Greg based Bay Area)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 54,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No verified open req URL for his team this refresh",
+        "Ads video-creation domain not on resume"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "LinkedIn profile verified via fetch/search 2026-08-06: Staff SWE / EM, Google Ads video creation tools; fullstack team across timezones"
+      ],
+      "found_at": "2026-08-04T18:21:43Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-greg-haines",
+      "name": "Greg Haines",
+      "title": "Staff Software Engineer / Engineering Manager, Google Ads",
+      "linkedin_url": "https://www.linkedin.com/in/greghaines",
+      "notes": "Leads fullstack Ads video creation tools team per public profile; Bay Area.",
+      "found_at": "2026-08-04T18:21:43Z"
+    },
+    {
+      "id": "hm-ethan-kim",
+      "name": "Ethan Kim",
+      "title": "Senior Engineering Manager / Senior Staff SWE, Workspace ML",
+      "linkedin_url": "https://www.linkedin.com/in/ethankim",
+      "notes": "Publicly signaled Workspace GenAI / Intelligence hiring after product launch.",
+      "found_at": "2026-08-04T18:21:43Z"
+    },
+    {
+      "id": "hm-will-grannis",
+      "name": "Will Grannis",
+      "title": "VP and CTO, Google Cloud",
+      "linkedin_url": "https://www.linkedin.com/in/wgrannis",
+      "notes": "Reshared Cloud Office of the CTO Staff SWE hiring (NYC) — executive signal; matching careers posting soft-404 as of 2026-08-06.",
+      "found_at": "2026-08-04T18:21:43Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-workspace-ethan-still-hiring",
+      "source": "hiring_manager",
+      "author": "Ethan Kim",
+      "url": "https://www.linkedin.com/posts/ethankim_new-workspace-intelligence-delivers-unified-activity-7452870043542933504-tX-v",
+      "posted_at": "2026-04-23T00:00:00Z",
+      "summary": "Workspace Intelligence launch post noting the org is still hiring around GenAI / agentic Workspace product work.",
+      "signal_strength": "high",
+      "found_at": "2026-08-04T18:21:43Z"
+    },
+    {
+      "id": "signal-cloud-octo-staff-nyc",
+      "source": "hiring_manager",
+      "author": "Will Grannis",
+      "url": "https://www.linkedin.com/posts/wgrannis_staff-software-engineer-office-of-the-cto-activity-7480696477862952961-Di0k",
+      "posted_at": "2026-07-08T00:00:00Z",
+      "summary": "Google Cloud OCTO Staff SWE NYC hiring CTA still indexed; matching careers job detail soft-404'd on 2026-08-06 refresh (posting dropped).",
+      "signal_strength": "medium",
+      "found_at": "2026-08-04T18:21:43Z"
+    }
+  ]
+}

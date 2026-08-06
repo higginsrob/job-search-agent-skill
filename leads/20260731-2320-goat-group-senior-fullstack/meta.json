@@ -1,0 +1,45 @@
+{
+  "id": "20260731-2320-goat-group-senior-fullstack",
+  "title": "Senior Full Stack Engineer",
+  "company": "GOAT Group",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-24T17:26:55Z",
+  "found_at": "2026-07-31T23:20:00Z",
+  "compensation": "$125k\u2013$183k (geo tiers; CO likely mid-tier)",
+  "url": "https://job-boards.greenhouse.io/goatgroup/jobs/4718288005",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "rank": 59,
+  "hire_likelihood": 83,
+  "fit_summary": "Remote Senior Full Stack on Consumer team with React/TypeScript/Next and backend distributed systems \u2014 solid boost-stack frontend fit and tech-lead ownership; pay bands are lower than peer staff roles for Denver.",
+  "missing_gaps": [
+    "Go (preferred backend) not a primary resume language",
+    "High-traffic ecommerce / marketplace domain not evidenced",
+    "Geo-tiered cash comp may land below typical staff targets for CO"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "typescript",
+    "nextjs",
+    "distributed-systems",
+    "remote",
+    "ecommerce"
+  ]
+}

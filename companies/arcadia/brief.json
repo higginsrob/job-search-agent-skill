@@ -1,0 +1,16 @@
+{
+  "company": "Arcadia",
+  "slug": "arcadia",
+  "updated_at": "2026-07-31T01:45:00Z",
+  "domain": "arcadia.io",
+  "icon": "icon.png",
+  "products": "Healthcare data and population health platform that unifies clinical/claims data to improve care quality, revenue, and cost for providers and payers.",
+  "fiscal_outlook": "Established healthcare software vendor (founded ~2007 per public profiles). Specific latest funding/revenue not verified this run; continues Lever eng hiring.",
+  "hiring_trends": "Principal/Staff platform roles including User Management identity modernization; TypeScript/NestJS and AWS/Terraform common.",
+  "similar_role_hires": "Principal Software Engineer, User Management open on Lever (Remote USA / Boston) at $200k–$240k.",
+  "hiring_profile": "Lever ATS with deep IAM JD. Remote USA friendly; expects strong identity/auth depth and AI-augmented engineering habits.",
+  "sources": [
+    "https://jobs.lever.co/arcadia/a5711ac1-89d9-4441-bb3c-e4b08e9ff0db",
+    "https://arcadia.io/"
+  ]
+}

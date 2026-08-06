@@ -1,0 +1,44 @@
+{
+  "id": "20260731-2320-aiprise-staff-software-engineer",
+  "title": "Staff Software Engineer",
+  "company": "AiPrise",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-07-31T23:20:00Z",
+  "compensation": null,
+  "url": "https://www.ycombinator.com/companies/aiprise/jobs/NqpOqRl-staff-software-engineer",
+  "source": "yc",
+  "sources": [
+    "yc"
+  ],
+  "rank": 53,
+  "hire_likelihood": 85,
+  "fit_summary": "Hands-on Staff/Tech Lead owning full-stack delivery for AI compliance workflows \u2014 matches Head of Eng leadership style plus React/TypeScript/Python/Postgres boost stacks.",
+  "missing_gaps": [
+    "KYC/KYB compliance and fraud-risk domain not evidenced",
+    "Comp band not published on the posting"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "staff",
+    "react",
+    "typescript",
+    "python",
+    "postgres",
+    "fintech",
+    "yc"
+  ]
+}

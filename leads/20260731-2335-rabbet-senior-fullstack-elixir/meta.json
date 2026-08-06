@@ -1,0 +1,46 @@
+{
+  "id": "20260731-2335-rabbet-senior-fullstack-elixir",
+  "title": "Senior Full Stack Engineer (Elixir, React)",
+  "company": "Rabbet",
+  "location": "Remote (CO / TX / NC preferred)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-16T19:42:00Z",
+  "found_at": "2026-07-31T23:35:00Z",
+  "compensation": "$140k\u2013$170k + equity",
+  "url": "https://app.dover.com/apply/rabbet/18c6f37b-5be4-4cd2-9978-bf5454a55686",
+  "source": "company",
+  "sources": [
+    "hackernews",
+    "company"
+  ],
+  "rank": 78,
+  "hire_likelihood": 78,
+  "fit_summary": "Colorado-preferred remote senior fullstack with React/TypeScript frontend and Elixir/Phoenix backend \u2014 excellent location fit and small-team ownership, but Elixir is a material stack gap vs boost languages.",
+  "missing_gaps": [
+    "Elixir / Phoenix / Erlang not evidenced on resume (JD strongly prefers it)",
+    "Construction finance / real-estate lending domain not shown",
+    "Cash band modest vs staff targets"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "react",
+    "typescript",
+    "elixir",
+    "postgres",
+    "gcp",
+    "colorado",
+    "yc"
+  ]
+}

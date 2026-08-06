@@ -1,0 +1,42 @@
+{
+  "id": "20260805-1830-airbnb-senior-em-media-foundation",
+  "title": "Senior Engineering Manager, Media Foundation",
+  "company": "Airbnb",
+  "location": "Remote (US) \u2014 occasional office/offsites",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-04T18:01:36Z",
+  "found_at": "2026-08-05T18:30:00Z",
+  "compensation": "$248k\u2013$310k",
+  "url": "https://careers.airbnb.com/positions/7968034?gh_jid=7968034",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 62,
+  "hire_likelihood": 82,
+  "fit_summary": "US-remote Senior EM for Airbnb Media Foundation (upload/AI transforms/delivery at scale) matches media/platform leadership from Snap AR/Web SDK and Panorama eng management \u2014 large-org EM bar is the main risk.",
+  "missing_gaps": [
+    "Large-org Senior EM / multi-team media platform scope may exceed prior team size",
+    "Photo/video media pipeline domain not primary outside Snap AR/WebGL context",
+    "Occasional Airbnb office/offsite expectations \u2014 confirm Denver practicality"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "airbnb",
+    "remote",
+    "em",
+    "media",
+    "platform",
+    "ai"
+  ]
+}

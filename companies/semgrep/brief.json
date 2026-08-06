@@ -1,0 +1,16 @@
+{
+  "company": "Semgrep",
+  "slug": "semgrep",
+  "domain": "semgrep.com",
+  "products": "Code security platform for builders: static analysis, supply-chain security, and AI-assisted finding triage that lives in developer workflows (IDE, CI, agents).",
+  "fiscal_outlook": "Growth-stage AppSec vendor with strong developer adoption signals; specific latest funding/revenue not verified this run.",
+  "hiring_trends": "Active Ashby hiring for Senior Engineering Managers (Guardian, Supply Chain) with hybrid hubs including Denver, plus senior full-stack engineering roles.",
+  "similar_role_hires": "Senior Engineering Manager, Guardian (Aug 2026) lists Denver as an onsite hub option alongside SF/NYC/Boston.",
+  "hiring_profile": "Credible product ATS with deep JDs and hybrid hub expectations (3 days/week). Senior/staff bar; security-domain expertise preferred.",
+  "sources": [
+    "https://semgrep.com/",
+    "https://jobs.ashbyhq.com/semgrep/0ad27864-ce95-4797-ab5d-b24de8f78d94"
+  ],
+  "updated_at": "2026-08-05T18:30:00Z",
+  "icon": "icon.png"
+}

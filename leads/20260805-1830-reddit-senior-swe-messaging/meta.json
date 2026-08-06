@@ -1,0 +1,43 @@
+{
+  "id": "20260805-1830-reddit-senior-swe-messaging",
+  "title": "Senior Software Engineer - Messaging",
+  "company": "Reddit",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-04T18:46:03Z",
+  "found_at": "2026-08-05T18:30:00Z",
+  "compensation": "$190.8k\u2013$267.1k",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8106246",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 71,
+  "hire_likelihood": 78,
+  "fit_summary": "Remote US senior messaging/streaming infra at Reddit fits Snap event-driven/pubsub platform experience; Go/Java backend focus and senior (not staff) title temper hire likelihood.",
+  "missing_gaps": [
+    "Messaging/streaming infra specialty vs fullstack staff target",
+    "Senior not Staff level",
+    "Java/Go primary backend not the resume lead stack"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "applied",
+  "dead_reason": null,
+  "applied": true,
+  "applied_at": "2026-08-05T19:14:22Z",
+  "interviews": [],
+  "has_resume": true,
+  "has_cover_letter": true,
+  "tags": [
+    "reddit",
+    "remote",
+    "senior",
+    "messaging",
+    "distributed-systems",
+    "python",
+    "go"
+  ]
+}

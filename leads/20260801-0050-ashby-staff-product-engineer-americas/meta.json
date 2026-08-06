@@ -1,0 +1,45 @@
+{
+  "id": "20260801-0050-ashby-staff-product-engineer-americas",
+  "title": "Staff Product Engineer - Americas",
+  "company": "Ashby",
+  "location": "Remote (US; includes Denver)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-08-01T00:50:00Z",
+  "compensation": "$232k\u2013$270k",
+  "url": "https://jobs.ashbyhq.com/ashby/6a15668c-3f98-4404-8f1f-927cddfc5af7",
+  "source": "ashby",
+  "sources": [
+    "ashby",
+    "builtin"
+  ],
+  "rank": 19,
+  "hire_likelihood": 90,
+  "fit_summary": "Staff-level end-to-end product eng on TypeScript/React/GraphQL/Node/Postgres with Denver explicitly in the remote location set \u2014 boost stack plus high ownership matching Snap/Panorama product-platform work.",
+  "missing_gaps": [
+    "Ashby-style product-engineer hat (specs/wireframes) not a primary resume narrative",
+    "GraphQL depth not heavily evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "graphql",
+    "postgres",
+    "remote",
+    "denver"
+  ]
+}

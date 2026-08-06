@@ -1,0 +1,41 @@
+{
+  "id": "20260731-0145-gusto-staff-ai-developer-tools",
+  "title": "Staff Software Engineer, AI Developer Tools",
+  "company": "Gusto",
+  "location": "Denver, CO / United States - Remote",
+  "remote": true,
+  "work_mode": "hybrid",
+  "posted_at": "2026-06-30T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$180k\u2013$200k (Denver/remote)",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/7947684",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "rank": 10,
+  "hire_likelihood": 91,
+  "fit_summary": "Denver-friendly Staff role owning AI developer tools/platform \u2014 maps to Panorama LLM platform leadership plus Snap/Vertebrae DX and SDK ownership.",
+  "missing_gaps": [
+    "Internal AI coding-assistant / multi-agent evals platform depth not primary on resume",
+    "Large Ruby/Rails monolith familiarity not evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "dead",
+  "dead_reason": "Past retention window (30d)",
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "ai",
+    "developer-tools",
+    "llm",
+    "platform",
+    "denver",
+    "typescript"
+  ]
+}

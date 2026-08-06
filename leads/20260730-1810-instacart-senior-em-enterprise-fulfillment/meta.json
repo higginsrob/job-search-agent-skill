@@ -1,0 +1,41 @@
+{
+  "id": "20260730-1810-instacart-senior-em-enterprise-fulfillment",
+  "title": "Senior Engineering Manager, Enterprise Fulfillment",
+  "company": "Instacart",
+  "location": "United States - Remote",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-27T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$243k\u2013$280k",
+  "url": "https://instacart.careers/job/?gh_jid=8084349",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "company"
+  ],
+  "rank": 90,
+  "hire_likelihood": 74,
+  "fit_summary": "Senior EM remote US for enterprise fulfillment systems \u2014 manager-track match, domain farther from fullstack/AI platform anchors.",
+  "missing_gaps": [
+    "Enterprise fulfillment / logistics domain vs AI/platform background",
+    "People-manager scope heavier than recent hands-on HoE/IC mix"
+  ],
+  "target_bucket": "ai-eng-manager",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "management",
+    "fulfillment",
+    "enterprise",
+    "remote"
+  ]
+}

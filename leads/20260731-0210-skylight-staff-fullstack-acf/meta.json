@@ -1,0 +1,42 @@
+{
+  "id": "20260731-0210-skylight-staff-fullstack-acf",
+  "title": "Staff Software Engineer, Fullstack (ACF)",
+  "company": "Skylight",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-06T15:49:18Z",
+  "found_at": "2026-07-31T02:10:00Z",
+  "compensation": "$170k\u2013$203k",
+  "url": "https://job-boards.greenhouse.io/skylighthq/jobs/4705414005",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 46,
+  "hire_likelihood": 86,
+  "fit_summary": "Staff full-stack LLM/RAG product on Python/FastAPI/Postgres/Next.js mirrors Panorama AI LLM platform work and Vertebrae end-to-end product ownership.",
+  "missing_gaps": [
+    "Civic tech / government delivery experience not evidenced",
+    "pgvector / LangChain production depth not explicitly listed"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "fastapi",
+    "langchain",
+    "postgres",
+    "nextjs",
+    "llm",
+    "rag",
+    "civic-tech"
+  ]
+}

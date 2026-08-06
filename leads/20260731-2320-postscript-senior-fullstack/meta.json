@@ -1,0 +1,43 @@
+{
+  "id": "20260731-2320-postscript-senior-fullstack",
+  "title": "Senior Software Engineer, Full Stack",
+  "company": "Postscript",
+  "location": "Remote (US or Canada)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-14T13:46:41Z",
+  "found_at": "2026-07-31T23:20:00Z",
+  "compensation": "$175k\u2013$205k + equity",
+  "url": "https://job-boards.greenhouse.io/postscript/jobs/8525612002",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 31,
+  "hire_likelihood": 88,
+  "fit_summary": "Fully remote senior full-stack on Python/Go/React/TypeScript with distributed systems ownership and AI-native delivery \u2014 aligns with Panorama AI product work and Vertebrae/Snap high-ownership shipping.",
+  "missing_gaps": [
+    "Go not evidenced as a primary language on resume",
+    "SMS / Shopify commerce messaging domain not on resume"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "react",
+    "typescript",
+    "aws",
+    "ai-native",
+    "remote"
+  ]
+}

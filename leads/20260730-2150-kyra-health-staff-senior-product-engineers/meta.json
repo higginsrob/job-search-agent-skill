@@ -1,0 +1,45 @@
+{
+  "id": "20260730-2150-kyra-health-staff-senior-product-engineers",
+  "title": "Staff & Senior Product Engineers",
+  "company": "Kyra Health",
+  "location": "Remote (USA)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-03T12:00:00Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": null,
+  "url": "https://engineers.kyra.health/",
+  "source": "hackernews",
+  "sources": [
+    "hackernews",
+    "company"
+  ],
+  "rank": 52,
+  "hire_likelihood": 85,
+  "fit_summary": "Early ICHRA platform hiring Staff/Senior product engineers for Python/TypeScript ownership and AI-assisted delivery \u2014 close to Panorama Head of Eng zero-to-one product platform work.",
+  "missing_gaps": [
+    "ICHRA / employer health-benefits domain not on resume",
+    "Compensation band not published",
+    "Interview includes a timed take-home build exercise"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [
+    "Early-stage company careers page (not major ATS); verified via July 2026 HN Who's Hiring + kyra.health product site"
+  ],
+  "status": "dead",
+  "dead_reason": "Past retention window (30d)",
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "typescript",
+    "ai-tools",
+    "healthtech",
+    "startup"
+  ]
+}

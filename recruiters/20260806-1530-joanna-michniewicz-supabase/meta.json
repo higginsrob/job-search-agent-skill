@@ -1,0 +1,19 @@
+{
+  "id": "20260806-1530-joanna-michniewicz-supabase",
+  "name": "Joanna Michniewicz",
+  "firm": "Supabase",
+  "linkedin_url": "https://www.linkedin.com/in/joanna-michniewicz",
+  "email": null,
+  "focus": "Technical Recruiter \u2014 engineering (Auth/Go, Docs/frontend, and related)",
+  "notes": "",
+  "status": "found",
+  "dead_reason": null,
+  "found_at": "2026-08-06T15:30:00Z",
+  "contacted_at": null,
+  "sources": [
+    "https://www.linkedin.com/in/joanna-michniewicz"
+  ],
+  "companies": [
+    "supabase"
+  ]
+}

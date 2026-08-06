@@ -1,0 +1,5 @@
+GitLab is the DevSecOps platform for source control, C I, security, and software delivery, with a remote-first culture and a public engineering hiring board.
+
+A fresh Senior Backend Engineer role on Platform Readiness opened in early August for remote United States or Canada. Expect Rails and Postgres platform work and heavy use of A I in the daily workflow. Public compensation was not listed on the posting.
+
+Solid remote platform opportunity if you are willing to lean into Ruby; otherwise treat stack fit as the main filter.

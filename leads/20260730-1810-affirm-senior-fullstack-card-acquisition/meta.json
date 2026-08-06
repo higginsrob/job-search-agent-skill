@@ -1,0 +1,40 @@
+{
+  "id": "20260730-1810-affirm-senior-fullstack-card-acquisition",
+  "title": "Senior Software Engineer, Fullstack (Card Acquisition)",
+  "company": "Affirm",
+  "location": "Remote US",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-29T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$195k\u2013$255k",
+  "url": "https://job-boards.greenhouse.io/affirm/jobs/7819654003",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 34,
+  "hire_likelihood": 87,
+  "fit_summary": "Senior fullstack on consumer acquisition with TypeScript/React/Python/AWS \u2014 senior+ full-stack target with strong remote US fit.",
+  "missing_gaps": [
+    "Consumer fintech / card acquisition domain not evidenced on resume"
+  ],
+  "target_bucket": "senior-fullstack",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "python",
+    "aws",
+    "kubernetes"
+  ]
+}

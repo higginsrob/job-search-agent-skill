@@ -1,0 +1,16 @@
+{
+  "company": "GitLab",
+  "slug": "gitlab",
+  "domain": "gitlab.com",
+  "products": "DevSecOps platform for source control, CI/CD, security, and intelligent orchestration used widely by enterprises and open-source teams.",
+  "fiscal_outlook": "Public DevOps vendor; continues remote-first engineering hiring with strong AI-in-workflow emphasis.",
+  "hiring_trends": "Senior Backend Engineer, Platform Readiness opened early August 2026 on Greenhouse (remote US/Canada).",
+  "similar_role_hires": "Platform Readiness senior backend role; Rails/Postgres-oriented platform work.",
+  "hiring_profile": "Remote-first, values-driven hiring; public ATS. Backend/platform depth expected; compensation often geo-banded and may be shared later in process.",
+  "sources": [
+    "https://job-boards.greenhouse.io/gitlab/jobs/8644572002",
+    "https://about.gitlab.com/"
+  ],
+  "updated_at": "2026-08-05T18:30:00Z",
+  "icon": "icon.png"
+}

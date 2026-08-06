@@ -1,0 +1,41 @@
+{
+  "id": "20260730-2150-hims-staff-swe-ai-recommendations",
+  "title": "Staff Software Engineer, AI & Recommendations Platform",
+  "company": "Hims & Hers",
+  "location": "US Remote",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-23T03:28:18Z",
+  "found_at": "2026-07-30T21:50:00Z",
+  "compensation": null,
+  "url": "https://jobs.ashbyhq.com/hims-and-hers/cb2005a0-d77c-44ad-8721-bff67d45fe0d",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 8,
+  "hire_likelihood": 91,
+  "fit_summary": "Staff AI/recommendations platform role (Python, ML/LLM productionization, personalization APIs) aligns tightly with Panorama Head of Eng LLM + recommendations widget work.",
+  "missing_gaps": [
+    "Healthcare / telehealth domain experience not on resume",
+    "Formal ML platform lifecycle (training/eval/monitoring) not the primary resume emphasis"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "recommendations",
+    "llm",
+    "distributed-systems",
+    "ai-platform"
+  ]
+}

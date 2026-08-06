@@ -1,0 +1,44 @@
+{
+  "id": "20260804-1035-gusto-staff-swe-time-scheduling",
+  "title": "Staff Software Engineer, Time and Scheduling",
+  "company": "Gusto",
+  "location": "Remote (US) / Gusto hubs (Denver pay band listed)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-03T23:20:22Z",
+  "found_at": "2026-08-04T16:36:59Z",
+  "compensation": "$163k\u2013$204k Denver/remote ($197k\u2013$247k SF/NY)",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/8077301",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "hire_likelihood": 90,
+  "fit_summary": "Staff full-stack Time/Scheduling at Denver-HQ Gusto (Rails/React, AI tooling) maps to Panorama product ownership plus Snap/Vertebrae end-to-end shipping, with Rails depth as the main stack gap.",
+  "missing_gaps": [
+    "Ruby on Rails not evidenced as a primary stack on resume",
+    "Time/attendance / workforce scheduling domain not on resume",
+    "Posting lists NY/Atlanta/Toronto-remote hubs\u2014confirm Denver hybrid seat with recruiter"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "tags": [
+    "gusto",
+    "denver",
+    "rails",
+    "react",
+    "fullstack",
+    "staff",
+    "ai-tools"
+  ],
+  "rank": 12,
+  "status": "applied",
+  "dead_reason": null,
+  "applied": true,
+  "applied_at": "2026-08-04T17:02:22Z",
+  "interviews": [],
+  "has_resume": true,
+  "has_cover_letter": true
+}

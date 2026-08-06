@@ -1,0 +1,41 @@
+{
+  "id": "20260730-1810-twilio-tech-lead-applied-research",
+  "title": "Tech Lead, Applied Research - Emerging Tech",
+  "company": "Twilio",
+  "location": "Remote - US",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-29T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$228k\u2013$268k",
+  "url": "https://job-boards.greenhouse.io/twilio/jobs/8011576",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 21,
+  "hire_likelihood": 89,
+  "fit_summary": "Tech Lead role spanning React/Node/Python/LLM research-to-product \u2014 matches SDK/platform leadership from Snap and AI product leadership from Panorama.",
+  "target_bucket": "similar",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "applied",
+  "dead_reason": null,
+  "applied": true,
+  "applied_at": "2026-07-30T21:10:58Z",
+  "interested": false,
+  "interested_at": null,
+  "has_resume": true,
+  "has_cover_letter": true,
+  "tags": [
+    "javascript",
+    "react",
+    "node",
+    "python",
+    "llm",
+    "aws"
+  ],
+  "missing_gaps": [
+    "Applied research / emerging-tech R&D shape vs product-platform delivery anchors"
+  ]
+}

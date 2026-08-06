@@ -1,0 +1,11 @@
+Linear is the product development system for teams and agents. It covers issue tracking, projects, roadmaps, docs, and A I assisted workflows including agents, triage, and Loops. The stack is TypeScript end to end with a realtime sync engine, and customers include Open A I, Coinbase, and Ramp.
+
+On the fiscal side, in June twenty twenty-five Linear raised an eighty-two million dollar Series C at a one point two five billion dollar valuation, led by Accel, with Sequoia and zero one A continuing. The company says it operates profitably and remotely, with about one hundred thirty-four million dollars raised in total, and is positioning for agent-era product workflows and enterprise expansion.
+
+Hiring lately: the careers board lists Senior and Staff Fullstack and Product Engineer roles across North America and Europe, plus a Senior and Staff Product Engineer A I role for North America. There is also a mid-level Product Engineer opening aimed at two to five years of experience. Culture stays lean and remote, and Head of Talent has been publicly hiring for United States engineering roles.
+
+For staff and similar roles: the live Senior and Staff Fullstack and Product Engineer postings match staff I C targets — React, TypeScript, Node, Graph Q L, Postgres, and Google Cloud with Kubernetes. The A I product engineering role fits large language model and product experience. The mid Product Engineer role is below target seniority.
+
+Overall hiring profile: high craft bar and a selective process with paid work trials. Remote first, with North America and Europe for senior roles. Expect evergreen senior and staff product and fullstack openings, with screens that emphasize product sensibility and end-to-end ownership more than pure systems depth.
+
+Bottom line: Linear is a strong fit for staff and senior full stack or product engineering if you want remote craft-focused work on TypeScript product plus A I agents — skip the mid Product Engineer listing.

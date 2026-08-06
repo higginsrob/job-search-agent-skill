@@ -1,0 +1,44 @@
+{
+  "id": "20260730-1810-fivetran-senior-staff-software-engineer",
+  "title": "Senior Staff Software Engineer",
+  "company": "Fivetran",
+  "location": "Remote, New York, United States",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-21T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$207k\u2013$259k",
+  "url": "https://www.fivetran.com/careers/job?gh_jid=7791958003",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "company"
+  ],
+  "rank": 87,
+  "hire_likelihood": 76,
+  "fit_summary": "Senior Staff on data infrastructure (Python/cloud) \u2014 staff+ level and remote, but less TS/React fullstack identity.",
+  "missing_gaps": [
+    "Data infra / connector focus over TS/React product fullstack",
+    "Remote tied to New York AMER \u2014 verify Colorado eligibility"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [
+    "Remote listing tied to New York AMER \u2014 verify CO eligibility."
+  ],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "postgres",
+    "aws",
+    "gcp",
+    "data-platform"
+  ]
+}

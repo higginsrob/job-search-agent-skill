@@ -1,0 +1,16 @@
+{
+  "company": "Medallion",
+  "slug": "medallion",
+  "updated_at": "2026-07-30T20:12:07Z",
+  "domain": "medallion.co",
+  "icon": "icon.png",
+  "products": "Provider operations platform for healthcare: licensing, credentialing, payer enrollment, and compliance automation for care organizations.",
+  "fiscal_outlook": "Private; ~$130M funding cited on careers page (Sequoia, GV, Optum, Salesforce Ventures, etc.). Fast-growth Inc./LinkedIn rankings claimed — company-reported.",
+  "hiring_trends": "Staff Software Engineer remote; stack Python/Django + React/TS; mentoring and cross-functional product delivery emphasized.",
+  "similar_role_hires": "Staff SWE open on Greenhouse ($210k–$260k base + equity).",
+  "hiring_profile": "Credible ATS; published band; healthcare domain bar. Official email domain @medallion.co called out for safety.",
+  "sources": [
+    "https://medallion.co/",
+    "https://job-boards.greenhouse.io/medallionakafirstlayerai/jobs/4063569009"
+  ]
+}

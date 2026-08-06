@@ -1,0 +1,19 @@
+{
+  "company": "Notion",
+  "slug": "notion",
+  "updated_at": "2026-08-06T15:23:51Z",
+  "domain": "notion.com",
+  "icon": "icon.png",
+  "products": "Notion is an AI workspace that combines docs, databases, projects, wiki, calendar, mail, and customizable agents in one product. Core surfaces include Notion AI (meeting notes, enterprise search, connectors, custom agents), a growing developer platform (API, MCP, CLI), and team collaboration primitives used by individuals through large enterprises.",
+  "fiscal_outlook": "Private; last primary raise was Series C in 2021 (~$275M at $10B). Jan 2026 employee tender (~$270M) at an $11B valuation with Sequoia, Index, and new investor GIC. CNBC reported crossing ~$500M annualized revenue in Sep 2025 with AI adoption accelerating ARR; company says it has more cash on hand than capital raised to date.",
+  "hiring_trends": "Active Ashby careers board with many Engineering openings skewed to AI product, search/context platform, web/client infrastructure, and developer experience. Hybrid in-person culture (Mon/Tue/Thu) in SF and NYC plus Hyderabad and APAC hubs. Leadership posts emphasize agent traffic growth and hiring EMs for context/memories and AI security.",
+  "similar_role_hires": "Live senior+ fits include Software Engineer, AI Capture (10+ years fullstack, SF, ~$272–320k base), Collections Experience (10+ years TypeScript fullstack, SF/NYC), Web Infrastructure (8–10+ years React/web platform), and Engineering Manager, Search & Context Platform (SF). Staff-titled AI Agentic Search mirrors looked stale/removed; Product Infrastructure Ashby id returned unlisted.",
+  "hiring_profile": "Steady ATS flow via Ashby with deep JDs and clear stack (TypeScript/React/Node/Postgres common). Senior bar often stated as 8–10+ years; compensation bands for top IC/EM roles are competitive SF ranges. Strong ghost-job risk on aggregator mirrors—prefer Ashby/careers links. Location constraint: hybrid SF/NYC/Hyderabad, not remote-Denver friendly.",
+  "sources": [
+    "https://www.notion.com/careers",
+    "https://jobs.ashbyhq.com/notion",
+    "https://www.notion.com/blog/gic-sequoia-index-purchase-notion-shares",
+    "https://www.cnbc.com/2025/09/18/notion-launches-ai-agent-as-it-crosses-500-million-in-annual-revenue.html",
+    "https://www.linkedin.com/company/notionhq"
+  ]
+}

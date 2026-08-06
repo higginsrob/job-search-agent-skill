@@ -1,0 +1,248 @@
+{
+  "company": "Notion",
+  "slug": "notion",
+  "updated_at": "2026-08-06T15:58:06Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/notionhq",
+  "findings": [
+    {
+      "id": "finding-swe-ai-workflows",
+      "title": "Software Engineer, AI Workflows",
+      "summary": "AI Product Engineer on Custom Agents \u2014 automate recurring workflows with LLMs/embeddings; SF/NYC hybrid (Mon/Tue/Thu anchor days). Base ~$213\u2013334k.",
+      "fit_summary": "Panorama LLM product leadership plus TS/React/Node/Postgres boosts map cleanly to Custom Agents / AI workflow ownership.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/notion/17330e14-83db-49a4-ae31-411690d97dba",
+      "location": "San Francisco, CA / New York, NY (hybrid)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 80,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "SF/NYC hybrid away from Denver",
+        "Notion agent runtime internals not evidenced"
+      ],
+      "compensation": "$213,000 \u2013 $334,000 base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; title Software Engineer, AI Workflows @ Notion",
+        "JD: Custom Agents product; LLMs/embeddings; TypeScript/React/Node/Postgres signals; 10+ years nice-to-have"
+      ],
+      "found_at": "2026-08-06T15:58:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe-ai-capture",
+      "title": "Software Engineer, AI Capture",
+      "summary": "10+ years fullstack IC building AI Meeting Notes and broader AI data-capture pipelines (transcript \u2192 summary \u2192 agentic follow-ups). SF hybrid; base ~$272\u2013320k.",
+      "fit_summary": "End-to-end fullstack + LLM product ownership from Panorama matches AI Meeting Notes / capture pipeline scope.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/notion/b31ce253-4238-4ed6-a5a2-73b63cbf1709",
+      "location": "San Francisco, CA (hybrid)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 79,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "SF hybrid away from Denver",
+        "Realtime audio/meeting capture systems not evidenced"
+      ],
+      "compensation": "$272,000 \u2013 $320,000 base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; Ashby title Software Engineer, AI Capture",
+        "Requires 10+ years shipping production software with end-to-end fullstack ownership; LLM product nice-to-haves"
+      ],
+      "found_at": "2026-08-06T15:23:51Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe-collections-experience",
+      "title": "Software Engineer, Collections Experience",
+      "summary": "Senior TypeScript fullstack on Notion\u2019s database block (properties, views, forms, permissions) partnering with Agent team. 10+ years; SF/NYC hybrid.",
+      "fit_summary": "React/TypeScript fullstack boosts and product-platform ownership fit a senior Collections/database primitive seat.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/notion/5d8c1ec6-e9ea-416b-9715-880bf5037abc",
+      "location": "San Francisco, CA / New York, NY (hybrid)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 77,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "SF/NYC hybrid away from Denver",
+        "Notion database-block domain tenure not evidenced"
+      ],
+      "compensation": "$213,000 \u2013 $320,000 base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; Software Engineer, Collections Experience; SF and NYC hybrid",
+        "Requires 10+ years and TypeScript fluency across backend and frontend; partners with Agent team"
+      ],
+      "found_at": "2026-08-06T15:23:51Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe-web-infrastructure",
+      "title": "Software Engineer, Web Infrastructure",
+      "summary": "Platform/client infra owning web foundations (bundling, performance, paved-road React tooling) for Notion engineers and page-load/interaction latency. 8\u201310+ years; SF/NYC hybrid.",
+      "fit_summary": "Web SDK / React performance and paved-road platform work from Snap aligns with Web Infrastructure ownership.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/notion/6895adad-5031-4dce-9e8e-b9361d3a2850",
+      "location": "San Francisco, CA / New York, NY (hybrid)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 74,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "SF/NYC hybrid away from Denver",
+        "Large-scale Webpack/build-tooling specialization not primary"
+      ],
+      "compensation": "$260,000 \u2013 $330,000 base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; Software Engineer, Web Infrastructure @ Notion",
+        "JD focuses on React performance, build tooling, and paved-road abstractions for product engineers"
+      ],
+      "found_at": "2026-08-06T15:23:51Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-em-search-context-platform",
+      "title": "Engineering Manager, Search & Context Platform",
+      "summary": "Hands-on EM for lexical/semantic search, indexing pipelines, and agent context/memory primitives at 100M+ scale. SF hybrid; base ~$280\u2013330k.",
+      "fit_summary": "Head of Eng + platform leadership anchors fit an EM seat, though deep search/retrieval systems expertise is thinner than product/LLM platform.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/notion/eb46a31c-a258-4b19-afe6-f2c65eaa2dcc",
+      "location": "San Francisco, CA (hybrid)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 67,
+      "target_bucket": "ai-eng-manager",
+      "missing_gaps": [
+        "4+ years EM with search/retrieval systems depth not evidenced",
+        "SF hybrid away from Denver"
+      ],
+      "compensation": "$280,000 \u2013 $330,000 base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; Engineering Manager, Search & Context Platform",
+        "Owns search infrastructure, indexing, hybrid retrieval, and agent context/memory primitives"
+      ],
+      "found_at": "2026-08-06T15:23:51Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe-ai-security",
+      "title": "Software Engineer, AI Security",
+      "summary": "Senior IC defining security foundations for Notion AI \u2014 agent runtimes, tool permissions, retrieval/write guardrails, abuse-resistant design. SF hybrid; base ~$270\u2013340k.",
+      "fit_summary": "AI product platform experience helps adjacent security-for-agents work, but dedicated security architecture is not a primary resume anchor.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/notion/def3f337-5593-491c-b34d-e0b53f2a5cac",
+      "location": "San Francisco, CA (hybrid)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 64,
+      "target_bucket": "similar",
+      "missing_gaps": [
+        "Security engineering / threat modeling specialty not evidenced",
+        "SF hybrid away from Denver"
+      ],
+      "compensation": "$270,000 \u2013 $340,000 base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; Software Engineer, AI Security @ Notion",
+        "Asks 8\u201310+ years designing/building/securing complex systems; agent runtime and tool-permission focus"
+      ],
+      "found_at": "2026-08-06T15:58:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-outreach-sarah-sachs-ai",
+      "title": "AI eng leadership outreach (Sarah Sachs)",
+      "summary": "Eng Lead, AI publicly hiring leaders for Context & Memories and AI Security; DMs open. Outreach path for staff AI/platform when listings are hybrid-away.",
+      "fit_summary": "LLM org leadership experience is a credible bridge to Sarah\u2019s AI modeling pillars despite SF-centric hiring.",
+      "kind": "outreach",
+      "url": "https://www.linkedin.com/in/sarahmsachs",
+      "location": "San Francisco, CA (Notion AI org)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 60,
+      "target_bucket": "ai-eng-manager",
+      "missing_gaps": [
+        "Outreach only \u2014 no single verified role URL attached",
+        "SF-centric AI org"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Verified LinkedIn profile: Sarah Sachs, Eng Lead AI at Notion",
+        "Public hiring post activity-7473417146270736384 for Context & Memories / AI Security"
+      ],
+      "found_at": "2026-08-06T15:23:51Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-swe-devex-go-lead",
+      "title": "Software Engineer, Developer Experience (Go Lead)",
+      "summary": "Staff-shaped DevEx ownership making Go a production platform (plus CI, remote agents, reliability tooling). 10+ years; SF/NYC; base ~$299\u2013352k.",
+      "fit_summary": "DevEx/platform instincts fit, but deep Go production ownership is required and only neutral on the candidate stack \u2014 weaker than TS/LLM seats.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/notion/876c69a9-be0a-4a71-bf4a-04cbc9c6328e",
+      "location": "San Francisco, CA / New York, NY (hybrid)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 57,
+      "target_bucket": "similar",
+      "missing_gaps": [
+        "Deep Go production expertise required; Go is not a boost stack",
+        "SF/NYC hybrid away from Denver"
+      ],
+      "compensation": "$299,000 \u2013 $352,000 base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live; Software Engineer, Developer Experience (Go Lead)",
+        "JD centers on Go platform ownership; TypeScript familiarity is nice-to-have only"
+      ],
+      "found_at": "2026-08-06T15:23:51Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-sarah-sachs",
+      "name": "Sarah Sachs",
+      "title": "Eng Lead, AI",
+      "linkedin_url": "https://www.linkedin.com/in/sarahmsachs",
+      "notes": "Public hiring post for Context & Memories EMs and AI Security EM/IC; DMs open.",
+      "found_at": "2026-08-06T15:23:51Z"
+    },
+    {
+      "id": "hm-shir-yehoshua",
+      "name": "Shir Yehoshua",
+      "title": "AI & Core Product Eng Lead",
+      "linkedin_url": "https://www.linkedin.com/in/shir-yehoshua",
+      "notes": "Leads AI & Core Product; prior AI EM / Platform EM at Notion per indexed profile.",
+      "found_at": "2026-08-06T15:23:51Z"
+    },
+    {
+      "id": "hm-edmund-salvacion",
+      "name": "Edmund Salvacion",
+      "title": "Head of Enterprise Engineering / Enterprise Engineering Lead",
+      "linkedin_url": "https://www.linkedin.com/in/edmund-salvacion",
+      "notes": "Joined Notion early 2026; posted hiring for enterprise eng + EMs in SF, NY, Hyderabad.",
+      "found_at": "2026-08-06T15:23:51Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-2026-06-sarah-sachs-hiring",
+      "source": "hiring_manager",
+      "author": "Sarah Sachs",
+      "url": "https://www.linkedin.com/posts/sarahmsachs_come-work-at-notion-notion-ai-usage-is-activity-7473417146270736384-jOam",
+      "posted_at": "2026-06-18T00:00:00Z",
+      "summary": "Explicit hiring wave for Context & Memories (Quality EM, Platform EM) and AI Security (EM and IC), citing exploding MCP/agent search traffic; DMs open.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:23:51Z"
+    },
+    {
+      "id": "signal-2026-02-edmund-enterprise-hiring",
+      "source": "hiring_manager",
+      "author": "Edmund Salvacion",
+      "url": "https://www.linkedin.com/posts/edmund-salvacion_lifeatnotion-hiring-activity-7431793162848993281-ja3Z",
+      "posted_at": "2026-02-23T00:00:00Z",
+      "summary": "New Enterprise Engineering Lead announces team build-out and asks for engineers and engineering managers in SF, NY, and Hyderabad.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:23:51Z"
+    }
+  ]
+}

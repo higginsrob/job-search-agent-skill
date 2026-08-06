@@ -1,0 +1,45 @@
+{
+  "id": "20260801-0050-captivateiq-staff-swe-ai-platform",
+  "title": "Staff Software Engineer - AI Platform",
+  "company": "CaptivateIQ",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": null,
+  "found_at": "2026-08-01T00:50:00Z",
+  "compensation": "$181k\u2013$285k",
+  "url": "https://jobs.lever.co/captivateiq/28da18cc-f325-4d62-a6d9-8d080960def5",
+  "source": "lever",
+  "sources": [
+    "lever"
+  ],
+  "rank": 11,
+  "hire_likelihood": 91,
+  "fit_summary": "Staff AI platform / Agentic SDK role (Python, React/TypeScript, LLM orchestration) maps directly to Panorama Head of Engineering LLM platform ownership plus Snap SDK tech-lead scope.",
+  "missing_gaps": [
+    "Deep MCP / agent-framework production experience not explicitly evidenced",
+    "Sales performance / ICM domain unfamiliar",
+    "Django as primary backend not listed on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "typescript",
+    "react",
+    "llm",
+    "ai-platform",
+    "sdk",
+    "remote"
+  ]
+}

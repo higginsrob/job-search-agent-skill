@@ -1,0 +1,41 @@
+{
+  "id": "20260730-2012-medallion-staff-software-engineer",
+  "title": "Staff Software Engineer",
+  "company": "Medallion",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-10T12:00:00Z",
+  "found_at": "2026-07-30T20:12:07Z",
+  "compensation": "$210k\u2013$260k",
+  "url": "https://job-boards.greenhouse.io/medallionakafirstlayerai/jobs/4063569009",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "hire_likelihood": 89,
+  "fit_summary": "Staff fullstack Python/Django + React/TS at a well-funded healthcare ops platform \u2014 leadership and stack mostly align; healthcare/compliance domain is the gap.",
+  "missing_gaps": [
+    "Healthcare provider ops / credentialing domain not evidenced",
+    "Django specifically not listed (Python/React/TS are)"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "django",
+    "react",
+    "typescript",
+    "healthcare"
+  ],
+  "rank": 22
+}

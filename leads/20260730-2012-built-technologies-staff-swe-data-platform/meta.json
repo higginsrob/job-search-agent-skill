@@ -1,0 +1,42 @@
+{
+  "id": "20260730-2012-built-technologies-staff-swe-data-platform",
+  "title": "Staff Software Engineer, Data Platform",
+  "company": "Built Technologies",
+  "location": "Remote - USA (Nashville travel 2x/year)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-26T12:00:00Z",
+  "found_at": "2026-07-30T20:12:07Z",
+  "compensation": "$170k\u2013$245k",
+  "url": "https://job-boards.greenhouse.io/getbuilt/jobs/4706138005",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "hire_likelihood": 92,
+  "fit_summary": "Staff full-stack data products role with TypeScript/React/Node/Python \u2014 matches Panorama LLM/BI and Vertebrae platform ownership; remote US.",
+  "missing_gaps": [
+    "Construction / lending fintech domain not evidenced on resume",
+    "Snowflake / dbt / Flink data-platform depth preferred, not primary on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "python",
+    "data-platform",
+    "aws"
+  ],
+  "rank": 2
+}

@@ -1,0 +1,255 @@
+{
+  "company": "Reddit",
+  "slug": "reddit",
+  "updated_at": "2026-08-06T15:58:06Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/reddit-com/",
+  "findings": [
+    {
+      "id": "finding-posting-staff-devplatform",
+      "title": "Staff Software Engineer, DevPlatform",
+      "summary": "Staff IC on external Developer Platform \u2014 backend/infra/developer-tools ownership for apps/games platform. Remote US; base $217k\u2013$303k. HM Amber Milavec actively hiring.",
+      "fit_summary": "Staff platform/SDK ownership from Snap + Head of Eng scope maps well to an external developer platform seat; remote US is ideal vs Denver.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8049901",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 86,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Reddit DevPlatform / developer-ecosystem domain not evidenced",
+        "Go is primary alongside TypeScript"
+      ],
+      "compensation": "$217,000 \u2013 $303,000 USD base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live Greenhouse 8049901 Staff Software Engineer, DevPlatform",
+        "Amber Milavec LinkedIn hiring post links this JD; stack signals include TypeScript/Go/Kubernetes"
+      ],
+      "found_at": "2026-08-06T15:21:03Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-senior-fullstack-deploy-platform",
+      "title": "Senior Software Engineer - Full Stack Internal Tooling (Build and Deployment Platform)",
+      "summary": "Senior fullstack on Build & Deployment Platform internal tooling \u2014 React/GraphQL frontend with cloud platform backends. Remote US; base $190.8k\u2013$267.1k.",
+      "fit_summary": "React + cloud platform boosts and internal tooling/platform instincts are a direct match for fullstack deploy-platform ownership.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7976852",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 85,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Reddit CI/CD / deploy-platform internals not evidenced",
+        "Go backend familiarity expected alongside React"
+      ],
+      "compensation": "$190,800 \u2013 $267,100 USD base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live Greenhouse 7976852",
+        "JD: 5+ years fullstack; React/GraphQL; AWS/GCP/Kubernetes signals"
+      ],
+      "found_at": "2026-08-06T15:21:03Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-senior-genai-platform",
+      "title": "Senior Software Engineer, GenAI Platform",
+      "summary": "Senior IC on GenAI Platform \u2014 LLM Gateway, RAG, agentic workflows, LLMOps on AWS with Terraform/K8s. Remote US; base $190.8k\u2013$267.1k.",
+      "fit_summary": "Panorama LLM/BI platform leadership plus Python/Terraform/cloud boosts align with GenAI platform gateway and agent tooling work.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7753480",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 81,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Dedicated MLOps/LLMOps platform tenure thinner than product LLM eng",
+        "LangChain/LangGraph-specific production depth not evidenced"
+      ],
+      "compensation": "$190,800 \u2013 $267,100 USD base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live Greenhouse 7753480 Senior Software Engineer, GenAI Platform",
+        "JD: LLM Gateway, RAG, agent workflows; Python; AWS/Terraform/Kubernetes"
+      ],
+      "found_at": "2026-08-06T15:21:03Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-staff-iam",
+      "title": "Staff Software Engineer, Identity & Access Management",
+      "summary": "Staff backend IAM \u2014 identity/access platform across stack layers. Remote US; base $217k\u2013$303.9k. Stack includes TypeScript/Python/Go/Postgres/AWS/K8s.",
+      "fit_summary": "Staff platform backend + Postgres/AWS/TypeScript boosts fit an IAM platform seat; identity-domain depth is the main gap.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8031491",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 78,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Identity/IAM / authz systems specialty not evidenced",
+        "10+ years backend across multiple layers bar"
+      ],
+      "compensation": "$217,000 \u2013 $303,900 USD base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live Greenhouse 8031491 Staff Software Engineer, Identity & Access Management",
+        "Stack signals: TypeScript, Python, Go, Postgres, AWS, Kubernetes; remote US"
+      ],
+      "found_at": "2026-08-06T15:58:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-staff-ads-business-manager",
+      "title": "Staff Engineer, Ads Business Manager",
+      "summary": "Staff tech-lead IC for Ads Business Manager / Business Hub identity-permissions platform. Remote US; base $217k\u2013$303.9k. Go/Python + Postgres/cloud.",
+      "fit_summary": "Staff platform ownership and Postgres/cloud boosts help, but ads-domain Business Manager experience is a material gap.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 72,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Ads platform / advertiser business-manager domain not evidenced",
+        "Prior tech-lead-in-ads preference"
+      ],
+      "compensation": "$217,000 \u2013 $303,900 USD base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live Greenhouse 7980795",
+        "Stack: Go/Python/TS/JS, Postgres, AWS/GCP, Kafka, Kubernetes"
+      ],
+      "found_at": "2026-08-06T15:21:03Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-senior-core-platform",
+      "title": "Senior Software Engineer, Core Platform",
+      "summary": "Senior on Core Platform APIs for listings/posts/comments/media at high QPS. Remote US; base $190.8k\u2013$267.1k. Go/Python distributed systems.",
+      "fit_summary": "Large-scale API platform experience fits; Go/Python distributed core-API work is adjacent to boost stacks with some language skew.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8022441",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 70,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Golang primary for Core Platform APIs",
+        "Media delivery optimization depth not evidenced"
+      ],
+      "compensation": "$190,800 \u2013 $267,100 USD base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live Greenhouse 8022441 Senior Software Engineer, Core Platform",
+        "5+ years large-scale distributed systems; Go or Python"
+      ],
+      "found_at": "2026-08-06T15:21:03Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-senior-graphql",
+      "title": "Senior Software Engineer, GraphQL",
+      "summary": "Senior on GraphQL platform for Reddit\u2019s API layer. Remote US; base $190.8k\u2013$267.1k. Go + cloud/K8s.",
+      "fit_summary": "API platform / GraphQL governance interest from Member-API-like work fits; Go-heavy GraphQL infra is a partial stack match.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/7309137",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 69,
+      "target_bucket": "similar",
+      "missing_gaps": [
+        "Go-primary GraphQL federation platform depth not evidenced"
+      ],
+      "compensation": "$190,800 \u2013 $267,100 USD base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live Greenhouse 7309137 Senior Software Engineer, GraphQL",
+        "Stack signals: GraphQL, Go, AWS/GCP, Kubernetes; remote US"
+      ],
+      "found_at": "2026-08-06T15:58:06Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-posting-staff-media-experiences",
+      "title": "Staff Software Engineer, Media Experiences",
+      "summary": "Staff IC for media experiences product/platform. Remote US; base $217k\u2013$303k. 8+ years bar.",
+      "fit_summary": "Staff scope and consumer media/product experience from Snap help, but media-experiences stack specifics were thin on the JD extract.",
+      "kind": "posting",
+      "url": "https://job-boards.greenhouse.io/reddit/jobs/8029641",
+      "location": "Remote - United States",
+      "work_mode": "remote",
+      "hire_likelihood": 64,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Media experiences domain specifics unclear from JD extract",
+        "Boost-stack centrality not confirmed"
+      ],
+      "compensation": "$217,000 \u2013 $303,000 USD base",
+      "posted_at": null,
+      "evidence": [
+        "HTTP 200 verified live Greenhouse 8029641 Staff Software Engineer, Media Experiences",
+        "Remote US; 8+ years professional software engineering"
+      ],
+      "found_at": "2026-08-06T15:21:03Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-amber-milavec",
+      "name": "Amber Milavec",
+      "title": "Engineering Manager, Developer Platform",
+      "linkedin_url": "https://www.linkedin.com/in/amber-milavec",
+      "notes": "Actively recruiting Staff DevPlatform; public hiring post Jul 2026.",
+      "found_at": "2026-08-06T15:21:03Z"
+    },
+    {
+      "id": "hm-barney-cabrera",
+      "name": "Barney Cabrera",
+      "title": "Senior Engineering Manager, Auth & Core Platform",
+      "linkedin_url": "https://www.linkedin.com/in/barney-cabrera-405a4516",
+      "notes": "Leads Tier-0 Auth and Core Platform (posts/comments/identity foundation).",
+      "found_at": "2026-08-06T15:21:03Z"
+    },
+    {
+      "id": "hm-chaitanya-ganoo",
+      "name": "Chaitanya Ganoo",
+      "title": "Senior Engineering Manager, Content Platform / Infrastructure",
+      "linkedin_url": "https://www.linkedin.com/in/cganoo",
+      "notes": "Content Platform (posts/comments/votes serving); previously Service Capabilities / DevProd.",
+      "found_at": "2026-08-06T15:21:03Z"
+    },
+    {
+      "id": "hm-wolf-huang",
+      "name": "Wolf Huang",
+      "title": "Software Engineering Manager, Ads Conversion Signals",
+      "linkedin_url": "https://www.linkedin.com/in/wolf-huang",
+      "notes": "Publicly hiring EM Advanced Signals; prioritizes conversion-signals domain experience.",
+      "found_at": "2026-08-06T15:21:03Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-2026-07-08-amber-devplatform-hiring",
+      "source": "hiring_manager",
+      "author": "Amber Milavec",
+      "url": "https://www.linkedin.com/posts/amber-milavec_staff-software-engineer-devplatform-activity-7480656386700234752-lrc2",
+      "posted_at": "2026-07-08T00:00:00Z",
+      "summary": "Explicit Staff DevPlatform hiring ask with link to live Greenhouse JD for external developer platform.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:21:03Z"
+    },
+    {
+      "id": "signal-2026-06-02-wolf-em-signals-hiring",
+      "source": "hiring_manager",
+      "author": "Wolf Huang",
+      "url": "https://www.linkedin.com/posts/wolf-huang_engineering-manager-advanced-signals-swe-activity-7467623234578968576-xpkN",
+      "posted_at": "2026-06-02T00:00:00Z",
+      "summary": "Explicit #hiring post for Engineering Manager, Ads Conversion Signals / Advanced Signals with domain prioritization (CAPI, pixel, MMP, SKAN).",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:21:03Z"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "20260730-1810-reddit-senior-swe-core-platform",
+  "title": "Senior Software Engineer, Core Platform",
+  "company": "Reddit",
+  "location": "Remote - United States",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-29T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$191k\u2013$267k",
+  "url": "https://job-boards.greenhouse.io/reddit/jobs/8022441",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 83,
+  "hire_likelihood": 76,
+  "fit_summary": "Senior core platform remote US with Python emphasis \u2014 platform scope helps, boost-stack overlap thinner than TS/React roles.",
+  "missing_gaps": [
+    "Python-primary platform role vs TS/React boost stack",
+    "Big-tech core-platform bar and scale"
+  ],
+  "target_bucket": "similar",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "platform",
+    "infrastructure"
+  ]
+}

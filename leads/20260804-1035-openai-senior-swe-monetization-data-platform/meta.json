@@ -1,0 +1,42 @@
+{
+  "id": "20260804-1035-openai-senior-swe-monetization-data-platform",
+  "title": "Software Engineer, Monetization Data Platform",
+  "company": "OpenAI",
+  "location": "Mountain View, CA (hybrid)",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-08-04T02:34:49Z",
+  "found_at": "2026-08-04T16:36:59Z",
+  "compensation": null,
+  "url": "https://jobs.ashbyhq.com/openai/d2aad13c-6ed0-4905-ae12-8ea2397b190c",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "hire_likelihood": 79,
+  "fit_summary": "Senior monetization data-platform eng (pricing/billing/payments data products) fits Panorama LLM/BI data+platform leadership and event/ETL ownership, offset by Mountain View hybrid and OpenAI bar.",
+  "missing_gaps": [
+    "Mountain View hybrid\u2014not Denver / US remote",
+    "Billing/payments/monetization data domain not evidenced on resume",
+    "Title is Senior (not Staff); OpenAI hiring bar is extremely competitive",
+    "Compensation not listed on the public posting"
+  ],
+  "target_bucket": "similar",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "tags": [
+    "openai",
+    "data-platform",
+    "monetization",
+    "python",
+    "platform"
+  ],
+  "rank": 70,
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false
+}

@@ -1,0 +1,42 @@
+{
+  "id": "20260731-0210-second-nature-staff-software-engineer",
+  "title": "Staff Software Engineer",
+  "company": "Second Nature",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-22T20:50:34Z",
+  "found_at": "2026-07-31T02:10:00Z",
+  "compensation": "$150k\u2013$190k",
+  "url": "https://jobs.ashbyhq.com/second-nature/9bc8e6af-d2bf-4754-b910-467eff1cb32c",
+  "source": "ashby",
+  "sources": [
+    "ashby",
+    "builtin"
+  ],
+  "rank": 28,
+  "hire_likelihood": 88,
+  "fit_summary": "Remote Staff IC on TypeScript/React/Next.js/NestJS/PostgreSQL/K8s/Terraform matches Vertebrae\u2013Snap full-stack and Panorama platform ownership.",
+  "missing_gaps": [
+    "PropTech / resident benefits domain not evidenced on resume",
+    "NestJS specifically not listed (Node/TypeScript transferable)"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "nextjs",
+    "nestjs",
+    "postgresql",
+    "kubernetes",
+    "terraform"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "20260731-0145-headway-staff-backend-revenue",
+  "title": "Staff Backend Software Engineer (Revenue Engine)",
+  "company": "Headway",
+  "location": "New York, NY / San Francisco, CA / Seattle, WA",
+  "remote": true,
+  "work_mode": "other",
+  "posted_at": "2026-07-22T12:00:00Z",
+  "found_at": "2026-07-31T01:45:00Z",
+  "compensation": "$265k\u2013$331k",
+  "url": "https://jobs.ashbyhq.com/headway/c30196b9-385f-414a-b20c-b12e1cb65b46",
+  "source": "ashby",
+  "sources": [
+    "ashby",
+    "builtin"
+  ],
+  "rank": 63,
+  "hire_likelihood": 81,
+  "fit_summary": "Staff platform eng on payments/clearinghouse (TS/Python/Postgres) \u2014 excellent stack, but hiring hubs exclude Denver.",
+  "missing_gaps": [
+    "Must be located in NYC, SF, or Seattle hubs (not Denver)",
+    "Healthcare payments / clearinghouse domain depth not evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "python",
+    "postgres",
+    "payments",
+    "platform"
+  ]
+}

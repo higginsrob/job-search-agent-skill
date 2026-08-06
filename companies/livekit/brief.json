@@ -1,0 +1,16 @@
+{
+  "company": "LiveKit",
+  "slug": "livekit",
+  "domain": "livekit.io",
+  "products": "Open-source and cloud real-time infrastructure for multimodal AI interfaces \u2014 audio/video/WebRTC media networking used by AI product companies at large scale.",
+  "fiscal_outlook": "Young (founded 2021) infrastructure company with rapid usage growth claims (billions of calls); detailed financing not verified this run.",
+  "hiring_trends": "Hiring Staff distributed-systems engineers for LiveKit Cloud core services, telephony, and observability; remote North America.",
+  "similar_role_hires": "Staff Software Engineer, Distributed Systems posted August 2026 (Ashby), $200k\u2013$300k.",
+  "hiring_profile": "Small senior team, GitHub-forward hiring signal, infrastructure-is-the-product culture. Go/K8s/distributed systems bar.",
+  "sources": [
+    "https://livekit.io/",
+    "https://jobs.ashbyhq.com/livekit/424fceac-1840-4d71-b18e-32e1f77c525d"
+  ],
+  "updated_at": "2026-08-05T18:30:00Z",
+  "icon": "icon.jpg"
+}

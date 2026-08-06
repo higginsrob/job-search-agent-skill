@@ -1,0 +1,40 @@
+{
+  "id": "20260731-0210-rula-staff-swe-rcm",
+  "title": "Staff Software Engineer - RCM (Remote)",
+  "company": "Rula",
+  "location": "Remote (US, most states; not HI)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-29T16:08:28Z",
+  "found_at": "2026-07-31T02:10:00Z",
+  "compensation": "$207k\u2013$243k",
+  "url": "https://jobs.ashbyhq.com/rula/0b83a783-dd26-4eb1-bf8c-dc88354950ae",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 15,
+  "hire_likelihood": 90,
+  "fit_summary": "Staff IC owning distributed payments/RCM architecture on TypeScript/React/Node maps cleanly to Panorama platform leadership and Snap/Vertebrae full-stack shipping.",
+  "missing_gaps": [
+    "Healthcare revenue cycle / claims-payments domain not evidenced on resume",
+    "Explicit payments/fintech ledger experience not listed"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "react",
+    "node",
+    "distributed-systems",
+    "healthcare",
+    "payments"
+  ]
+}

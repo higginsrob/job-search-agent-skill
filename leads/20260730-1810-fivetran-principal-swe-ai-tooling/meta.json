@@ -1,0 +1,46 @@
+{
+  "id": "20260730-1810-fivetran-principal-swe-ai-tooling",
+  "title": "Principal Software Engineer, AI Tooling & Adoption",
+  "company": "Fivetran",
+  "location": "Oakland, CA (AMER)",
+  "remote": false,
+  "work_mode": "other",
+  "posted_at": "2026-07-23T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$226k\u2013$282k",
+  "url": "https://www.fivetran.com/careers/job?gh_jid=7812269003",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "company"
+  ],
+  "rank": 69,
+  "hire_likelihood": 80,
+  "fit_summary": "Principal AI tooling role with React/Python/cloud/LLM \u2014 excellent AI-platform scope but Oakland-listed (weaker location vs Denver/remote prefs).",
+  "missing_gaps": [
+    "Oakland AMER listing \u2014 remote flexibility unclear vs Denver preference",
+    "Principal AI-tooling-at-scale bar after Fivetran+dbt merger"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [
+    "Location listed Oakland, CA AMER \u2014 confirm remote flexibility before investing heavily."
+  ],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "python",
+    "react",
+    "llm",
+    "ai",
+    "aws",
+    "gcp",
+    "kubernetes"
+  ]
+}
