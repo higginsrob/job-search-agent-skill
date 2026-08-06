@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
-"""Serve the job leads board with set-status / applied / mark-dead API.
+"""Serve the job leads board with set-status / applied / mark-dead / delete API.
 
-Lead folders are never deleted: action "delete" aliases to mark_dead.
+Also serves Lead Finder (scout) and Recruiters APIs.
+
+Delete removes the lead folder + index entry, but refuses when the lead has
+been marked applied (application history must be retained; use mark_dead).
 
 Usage (from repo root):
   make server
@@ -12,22 +15,32 @@ Usage (from repo root):
 from __future__ import annotations
 
 import json
+import re
+import shutil
+import unicodedata
 from datetime import datetime, timezone
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import unquote, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 LEADS = ROOT / "leads"
 COMPANIES = ROOT / "companies"
+SCOUT = ROOT / "scout"
+RECRUITERS = ROOT / "recruiters"
 INDEX = LEADS / "index.json"
 SOURCES_FILE = LEADS / "sources.json"
 SOURCES_EXAMPLE = LEADS / "sources.example.json"
+SCOUT_TARGETS = SCOUT / "targets.json"
+SCOUT_TARGETS_EXAMPLE = SCOUT / "targets.example.json"
+RECRUITERS_INDEX = RECRUITERS / "index.json"
+RECRUITERS_INDEX_EXAMPLE = RECRUITERS / "index.example.json"
 HOST = "127.0.0.1"
 PORT = 8765
 VALID_STATUSES = frozenset(
     {"active", "in_progress", "applied", "interview", "dead"}
 )
+RECRUITER_STATUSES = frozenset({"found", "contacted", "dead"})
 
 # Keep in sync with sites.md / assets/app.js SOURCE_CATALOG
 SOURCE_CATALOG = [
@@ -52,12 +65,27 @@ SOURCE_CATALOG = [
     {"id": "otta", "label": "Otta / Welcome to the Jungle", "group": "Startup / community"},
     {"id": "builtin", "label": "Built In", "group": "Startup / community"},
     {"id": "hackernews", "label": "HN Who’s Hiring", "group": "Startup / community"},
+    {"id": "scout", "label": "Lead Finder (scout)", "group": "Outreach"},
 ]
 SOURCE_IDS = frozenset(item["id"] for item in SOURCE_CATALOG)
 
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+
+
+def company_slug(name: str) -> str:
+    """Lowercase ASCII kebab — keep in sync with assets/app.js companySlug."""
+    text = unicodedata.normalize("NFKD", str(name or ""))
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = text.lower().strip()
+    text = re.sub(r"[^a-z0-9]+", "-", text)
+    return text.strip("-") or "company"
+
+
+def kebab_fragment(text: str, max_len: int = 40) -> str:
+    slug = company_slug(text)
+    return slug[:max_len].rstrip("-") or "role"
 
 
 def normalize_interviews(raw) -> list[dict]:
@@ -101,19 +129,20 @@ def apply_status_side_effects(
     applied_at: str | None = None,
     dead_reason: str | None = None,
 ) -> None:
-    """Keep applied flags in sync with the Applied swim lane."""
+    """Sync status with optional applied history.
+
+    Applied / applied_at are set when entering the Applied lane and preserved
+    when moving to Interview or Dead (application tracking). Leaving for
+    Active / In progress clears them. Applied leads cannot be hard-deleted.
+    """
     meta["status"] = status
     if status == "applied":
         meta["applied"] = True
         meta["applied_at"] = applied_at or meta.get("applied_at") or utc_now()
         meta["dead_reason"] = None
-    elif status == "interview":
-        # Keep applied history; clear dead only
-        meta["dead_reason"] = None
-    elif status == "dead":
-        meta["applied"] = False
-        meta["applied_at"] = None
-        meta["dead_reason"] = dead_reason
+    elif status in ("interview", "dead"):
+        # Keep applied history for tracking across later swim lanes
+        meta["dead_reason"] = dead_reason if status == "dead" else None
     else:
         meta["applied"] = False
         meta["applied_at"] = None
@@ -285,6 +314,480 @@ def sync_manifest_entry(index: dict, meta: dict) -> None:
         leads.append(entry)
 
 
+# ── Scout (Lead Finder) ─────────────────────────────────────────────
+
+
+def ensure_scout_targets_file() -> None:
+    SCOUT.mkdir(parents=True, exist_ok=True)
+    if SCOUT_TARGETS.exists():
+        return
+    if SCOUT_TARGETS_EXAMPLE.exists():
+        SCOUT_TARGETS.write_text(
+            SCOUT_TARGETS_EXAMPLE.read_text(encoding="utf-8"), encoding="utf-8"
+        )
+    else:
+        write_scout_targets({"updated_at": None, "companies": []})
+
+
+def read_scout_targets() -> dict:
+    ensure_scout_targets_file()
+    try:
+        data = json.loads(SCOUT_TARGETS.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        data = {"updated_at": None, "companies": []}
+    companies = data.get("companies") if isinstance(data.get("companies"), list) else []
+    clean = []
+    seen = set()
+    for item in companies:
+        if not isinstance(item, dict):
+            continue
+        slug = company_slug(item.get("slug") or item.get("name") or "")
+        if not slug or slug in seen:
+            continue
+        seen.add(slug)
+        clean.append(
+            {
+                "slug": slug,
+                "name": str(item.get("name") or slug).strip() or slug,
+                "domain": (str(item.get("domain") or "").strip() or None),
+                "added_at": item.get("added_at"),
+                "notes": str(item.get("notes") or ""),
+            }
+        )
+    return {"updated_at": data.get("updated_at"), "companies": clean}
+
+
+def write_scout_targets(data: dict) -> dict:
+    companies = data.get("companies") if isinstance(data.get("companies"), list) else []
+    payload = {"updated_at": utc_now(), "companies": companies}
+    SCOUT.mkdir(parents=True, exist_ok=True)
+    SCOUT_TARGETS.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    return payload
+
+
+def scout_dir(slug: str) -> Path:
+    safe = Path(company_slug(slug)).name
+    return SCOUT / safe
+
+
+def empty_scout(slug: str, company: str | None = None) -> dict:
+    return {
+        "company": company or slug,
+        "slug": slug,
+        "updated_at": None,
+        "linkedin_company_url": None,
+        "findings": [],
+        "hiring_managers": [],
+        "quiet_signals": [],
+    }
+
+
+def load_scout(slug: str) -> dict | None:
+    path = scout_dir(slug) / "scout.json"
+    if not path.is_file():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    if not isinstance(data, dict):
+        return None
+    data.setdefault("slug", slug)
+    data.setdefault("findings", [])
+    data.setdefault("hiring_managers", [])
+    data.setdefault("quiet_signals", [])
+    return data
+
+
+def save_scout(slug: str, data: dict) -> dict:
+    folder = scout_dir(slug)
+    folder.mkdir(parents=True, exist_ok=True)
+    data["slug"] = slug
+    data["updated_at"] = data.get("updated_at") or utc_now()
+    (folder / "scout.json").write_text(
+        json.dumps(data, indent=2) + "\n", encoding="utf-8"
+    )
+    return data
+
+
+def list_scout_payload() -> dict:
+    targets = read_scout_targets()
+    companies = targets.get("companies") or []
+    scouts = []
+    # Only list scouts for active targets. Orphan scout/*/ folders may remain
+    # after remove (data preserved) but must not show in Lead Finder.
+    for company in companies:
+        slug = company.get("slug")
+        if not slug:
+            continue
+        scout = load_scout(slug) or {}
+        findings = scout.get("findings") or []
+        scouts.append(
+            {
+                "slug": slug,
+                "company": scout.get("company") or company.get("name") or slug,
+                "domain": company.get("domain"),
+                "updated_at": scout.get("updated_at"),
+                "linkedin_company_url": scout.get("linkedin_company_url"),
+                "finding_count": len(findings),
+                "on_board_count": sum(
+                    1 for f in findings if f.get("board_lead_id")
+                ),
+                "hiring_manager_count": len(scout.get("hiring_managers") or []),
+                "quiet_signal_count": len(scout.get("quiet_signals") or []),
+                "path": f"scout/{slug}/scout.json"
+                if (SCOUT / slug / "scout.json").is_file()
+                else None,
+            }
+        )
+    return {"targets": targets, "scouts": scouts}
+
+
+def next_lead_rank(index: dict) -> int:
+    ranks = [
+        int(item.get("rank"))
+        for item in (index.get("leads") or [])
+        if item.get("rank") is not None
+    ]
+    return (max(ranks) + 1) if ranks else 1
+
+
+def promote_finding(slug: str, finding_id: str) -> dict:
+    scout = load_scout(slug)
+    if not scout:
+        raise ValueError("scout data not found — run /job-scout first")
+    findings = scout.get("findings") or []
+    finding = None
+    for item in findings:
+        if str(item.get("id")) == str(finding_id):
+            finding = item
+            break
+    if not finding:
+        raise ValueError("finding not found")
+    existing_id = finding.get("board_lead_id")
+    if existing_id:
+        folder = lead_dir(str(existing_id))
+        if folder.is_dir():
+            meta = load_meta(str(existing_id))
+            if meta.get("status") == "dead":
+                apply_status_side_effects(meta, "active")
+                save_meta(str(existing_id), meta)
+                index = read_index()
+                sync_manifest_entry(index, meta)
+                write_index(index)
+            return {"meta": meta, "scout": scout, "revived": True}
+
+    company = str(scout.get("company") or slug)
+    title = str(finding.get("title") or "Outreach opportunity").strip()
+    kind = str(finding.get("kind") or "outreach").strip().lower()
+    if kind not in {"outreach", "posting"}:
+        kind = "outreach"
+    url = str(finding.get("url") or "").strip()
+    if not url:
+        raise ValueError("finding has no url to promote")
+
+    stamp = utc_now().replace("-", "").replace(":", "")[:13]  # YYYYMMDDTHHMM
+    stamp = stamp.replace("T", "-")
+    lead_id = f"{stamp}-{kebab_fragment(company, 24)}-{kebab_fragment(title, 36)}"
+    base_id = lead_id
+    n = 2
+    while lead_dir(lead_id).exists():
+        lead_id = f"{base_id}-{n}"
+        n += 1
+
+    now = utc_now()
+    tags = ["scout", kind]
+    hire_raw = finding.get("hire_likelihood")
+    try:
+        hire = int(hire_raw) if hire_raw is not None else None
+    except (TypeError, ValueError):
+        hire = None
+    if hire is None:
+        hire = 65 if kind == "posting" else 58
+    hire = max(0, min(100, hire))
+
+    finding_mode = str(finding.get("work_mode") or "").strip().lower()
+    lead_work_mode = {
+        "remote": "remote",
+        "local-office": "local-office",
+        "other": "other",
+        "hybrid": "hybrid",
+        "hybrid-other": "hybrid",
+    }.get(finding_mode, "other")
+    location = finding.get("location")
+    if location is not None:
+        location = str(location).strip() or None
+    remote = True if lead_work_mode == "remote" else (
+        False if lead_work_mode in {"local-office", "other"} else None
+    )
+
+    fit_summary = (
+        str(finding.get("fit_summary") or "").strip()
+        or str(finding.get("summary") or "").strip()
+        or f"Scout finding ({kind}) at {company}."
+    )
+    gaps_raw = finding.get("missing_gaps")
+    missing_gaps = []
+    if isinstance(gaps_raw, list):
+        for g in gaps_raw[:5]:
+            if isinstance(g, str) and g.strip():
+                missing_gaps.append(g.strip())
+    target_bucket = str(finding.get("target_bucket") or "similar").strip() or "similar"
+    compensation = finding.get("compensation")
+    if compensation is not None:
+        compensation = str(compensation).strip() or None
+    posted_at = finding.get("posted_at") or finding.get("found_at") or now
+
+    meta = {
+        "id": lead_id,
+        "title": title,
+        "company": company,
+        "location": location,
+        "remote": remote,
+        "work_mode": lead_work_mode,
+        "posted_at": posted_at,
+        "found_at": now,
+        "compensation": compensation,
+        "url": url,
+        "source": "scout",
+        "sources": ["scout"],
+        "rank": None,
+        "hire_likelihood": hire,
+        "fit_summary": fit_summary,
+        "missing_gaps": missing_gaps,
+        "target_bucket": target_bucket,
+        "fraud_flag": "clear",
+        "fraud_notes": [],
+        "status": "active",
+        "dead_reason": None,
+        "applied": False,
+        "applied_at": None,
+        "interviews": [],
+        "has_resume": False,
+        "has_cover_letter": False,
+        "tags": tags,
+        "scout_finding_id": finding_id,
+        "scout_slug": slug,
+    }
+
+    evidence = finding.get("evidence") or []
+    evidence_lines = "\n".join(f"- {e}" for e in evidence) if evidence else "- (none)"
+    gap_lines = (
+        "\n".join(f"- {g}" for g in missing_gaps)
+        if missing_gaps
+        else "- None noted at promote time — refine after applying or deeper research."
+    )
+    role_summary = str(finding.get("summary") or "").strip() or fit_summary
+    posting = (
+        f"# {title}\n\n"
+        f"**Company:** {company}  \n"
+        f"**Source:** Lead Finder (scout) · kind `{kind}`  \n"
+        f"**Hire likelihood:** {hire}/100  \n"
+        f"**URL:** {url}\n\n"
+        f"## Summary\n\n{role_summary}\n\n"
+        f"## Why it fits\n\n{fit_summary}\n\n"
+        f"## Evidence\n\n{evidence_lines}\n\n"
+        f"## Missing gaps\n\n{gap_lines}\n"
+    )
+
+    folder = lead_dir(lead_id)
+    folder.mkdir(parents=True, exist_ok=True)
+    save_meta(lead_id, meta)
+    (folder / "posting.md").write_text(posting, encoding="utf-8")
+
+    index = read_index()
+    meta["rank"] = next_lead_rank(index)
+    save_meta(lead_id, meta)
+    sync_manifest_entry(index, meta)
+    write_index(index)
+
+    finding["board_lead_id"] = lead_id
+    save_scout(slug, scout)
+    return {"meta": meta, "scout": scout, "revived": False}
+
+
+def demote_finding(slug: str, finding_id: str) -> dict:
+    scout = load_scout(slug)
+    if not scout:
+        raise ValueError("scout data not found")
+    findings = scout.get("findings") or []
+    finding = None
+    for item in findings:
+        if str(item.get("id")) == str(finding_id):
+            finding = item
+            break
+    if not finding:
+        raise ValueError("finding not found")
+    lead_id = finding.get("board_lead_id")
+    meta = None
+    if lead_id and lead_dir(str(lead_id)).is_dir():
+        meta = load_meta(str(lead_id))
+        apply_status_side_effects(
+            meta, "dead", dead_reason="Removed from Lead Finder"
+        )
+        save_meta(str(lead_id), meta)
+        index = read_index()
+        sync_manifest_entry(index, meta)
+        write_index(index)
+    finding["board_lead_id"] = None
+    save_scout(slug, scout)
+    return {"meta": meta, "scout": scout}
+
+
+# ── Recruiters ──────────────────────────────────────────────────────
+
+
+def ensure_recruiters_index() -> None:
+    RECRUITERS.mkdir(parents=True, exist_ok=True)
+    if RECRUITERS_INDEX.exists():
+        return
+    if RECRUITERS_INDEX_EXAMPLE.exists():
+        RECRUITERS_INDEX.write_text(
+            RECRUITERS_INDEX_EXAMPLE.read_text(encoding="utf-8"), encoding="utf-8"
+        )
+    else:
+        write_recruiters_index({"updated_at": None, "recruiters": []})
+
+
+def read_recruiters_index() -> dict:
+    ensure_recruiters_index()
+    try:
+        data = json.loads(RECRUITERS_INDEX.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        data = {"updated_at": None, "recruiters": []}
+    if not isinstance(data.get("recruiters"), list):
+        data["recruiters"] = []
+    return data
+
+
+def write_recruiters_index(data: dict) -> None:
+    data["updated_at"] = utc_now()
+    RECRUITERS.mkdir(parents=True, exist_ok=True)
+    RECRUITERS_INDEX.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+
+
+def recruiter_dir(recruiter_id: str) -> Path:
+    safe = Path(recruiter_id).name
+    return RECRUITERS / safe
+
+
+def load_recruiter_meta(recruiter_id: str) -> dict:
+    path = recruiter_dir(recruiter_id) / "meta.json"
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def save_recruiter_meta(recruiter_id: str, meta: dict) -> None:
+    folder = recruiter_dir(recruiter_id)
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "meta.json").write_text(
+        json.dumps(meta, indent=2) + "\n", encoding="utf-8"
+    )
+
+
+def sync_recruiter_manifest_entry(index: dict, meta: dict) -> None:
+    entry = {
+        "id": meta["id"],
+        "name": meta.get("name"),
+        "firm": meta.get("firm"),
+        "linkedin_url": meta.get("linkedin_url"),
+        "email": meta.get("email"),
+        "focus": meta.get("focus"),
+        "status": meta.get("status", "found"),
+        "dead_reason": meta.get("dead_reason"),
+        "found_at": meta.get("found_at"),
+        "contacted_at": meta.get("contacted_at"),
+        "companies": meta.get("companies") or [],
+        "path": f"recruiters/{meta['id']}/",
+    }
+    items = index.setdefault("recruiters", [])
+    for i, existing in enumerate(items):
+        if existing.get("id") == meta["id"]:
+            items[i] = entry
+            break
+    else:
+        items.append(entry)
+
+
+def apply_recruiter_status(
+    meta: dict,
+    status: str,
+    *,
+    dead_reason: str | None = None,
+) -> None:
+    meta["status"] = status
+    if status == "contacted":
+        meta["contacted_at"] = meta.get("contacted_at") or utc_now()
+        meta["dead_reason"] = None
+    elif status == "dead":
+        meta["dead_reason"] = dead_reason
+    else:
+        meta["dead_reason"] = None
+
+
+def list_recruiters_payload() -> dict:
+    index = read_recruiters_index()
+    # Prefer live meta when present
+    items = []
+    seen = set()
+    for entry in index.get("recruiters") or []:
+        rid = entry.get("id")
+        if not rid:
+            continue
+        seen.add(rid)
+        folder = recruiter_dir(rid)
+        if (folder / "meta.json").is_file():
+            try:
+                meta = load_recruiter_meta(rid)
+                items.append({**entry, **{
+                    "name": meta.get("name"),
+                    "firm": meta.get("firm"),
+                    "linkedin_url": meta.get("linkedin_url"),
+                    "email": meta.get("email"),
+                    "focus": meta.get("focus"),
+                    "notes": meta.get("notes"),
+                    "status": meta.get("status", "found"),
+                    "dead_reason": meta.get("dead_reason"),
+                    "found_at": meta.get("found_at"),
+                    "contacted_at": meta.get("contacted_at"),
+                    "companies": meta.get("companies") or [],
+                    "sources": meta.get("sources") or [],
+                    "path": f"recruiters/{rid}/",
+                }})
+                continue
+            except (OSError, json.JSONDecodeError):
+                pass
+        items.append(entry)
+    if RECRUITERS.is_dir():
+        for folder in sorted(RECRUITERS.iterdir()):
+            if not folder.is_dir() or folder.name in seen:
+                continue
+            if not (folder / "meta.json").is_file():
+                continue
+            try:
+                meta = load_recruiter_meta(folder.name)
+            except (OSError, json.JSONDecodeError):
+                continue
+            items.append(
+                {
+                    "id": meta.get("id") or folder.name,
+                    "name": meta.get("name"),
+                    "firm": meta.get("firm"),
+                    "linkedin_url": meta.get("linkedin_url"),
+                    "email": meta.get("email"),
+                    "focus": meta.get("focus"),
+                    "notes": meta.get("notes"),
+                    "status": meta.get("status", "found"),
+                    "dead_reason": meta.get("dead_reason"),
+                    "found_at": meta.get("found_at"),
+                    "contacted_at": meta.get("contacted_at"),
+                    "companies": meta.get("companies") or [],
+                    "sources": meta.get("sources") or [],
+                    "path": f"recruiters/{folder.name}/",
+                }
+            )
+    return {"updated_at": index.get("updated_at"), "recruiters": items}
+
+
 class Handler(SimpleHTTPRequestHandler):
     extensions_map = {
         **SimpleHTTPRequestHandler.extensions_map,
@@ -319,6 +822,51 @@ class Handler(SimpleHTTPRequestHandler):
             return self._serve_companies()
         if path == "/api/sources":
             return self._json(200, sources_payload())
+        if path == "/api/scout/targets":
+            return self._json(200, read_scout_targets())
+        if path == "/api/scout":
+            return self._json(200, list_scout_payload())
+        if path.startswith("/api/scout/"):
+            slug = company_slug(unquote(path[len("/api/scout/") :].strip("/")))
+            if not slug:
+                return self._json(400, {"error": "slug required"})
+            scout = load_scout(slug)
+            targets = read_scout_targets()
+            target = next(
+                (c for c in targets.get("companies") or [] if c.get("slug") == slug),
+                None,
+            )
+            if scout is None and target is None:
+                return self._json(404, {"error": "company not in Lead Finder"})
+            payload = scout or empty_scout(
+                slug, target.get("name") if target else slug
+            )
+            return self._json(
+                200,
+                {
+                    "target": target,
+                    "scout": payload,
+                    "board_leads": [
+                        e
+                        for e in (read_index().get("leads") or [])
+                        if company_slug(e.get("company") or "") == slug
+                    ],
+                },
+            )
+        if path == "/api/recruiters":
+            return self._json(200, list_recruiters_payload())
+        if path.startswith("/api/recruiters/"):
+            rid = Path(unquote(path[len("/api/recruiters/") :].strip("/"))).name
+            if not rid:
+                return self._json(400, {"error": "id required"})
+            folder = recruiter_dir(rid)
+            if not (folder / "meta.json").is_file():
+                return self._json(404, {"error": "recruiter not found"})
+            try:
+                meta = load_recruiter_meta(rid)
+            except (OSError, json.JSONDecodeError) as exc:
+                return self._json(500, {"error": str(exc)})
+            return self._json(200, {"meta": meta})
         return super().do_GET()
 
     def _serve_companies(self) -> None:
@@ -399,6 +947,12 @@ class Handler(SimpleHTTPRequestHandler):
         path = urlparse(self.path).path
         if path == "/api/sources":
             return self._post_sources()
+        if path == "/api/scout/targets":
+            return self._post_scout_targets()
+        if path == "/api/scout":
+            return self._post_scout()
+        if path == "/api/recruiters":
+            return self._post_recruiters()
         if path != "/api/leads":
             self.send_error(404)
             return
@@ -502,25 +1056,201 @@ class Handler(SimpleHTTPRequestHandler):
                 return self._json(200, {"ok": True, "meta": meta})
 
             if action == "delete":
-                # Never remove lead folders — map delete → mark dead.
                 meta = load_meta(lead_id)
-                reason = payload.get("dead_reason") or "Marked dead via UI (folders are never deleted)"
-                apply_status_side_effects(meta, "dead", dead_reason=reason)
-                save_meta(lead_id, meta)
-                sync_manifest_entry(index, meta)
+                applied = bool(meta.get("applied")) or meta.get("status") == "applied"
+                if applied:
+                    return self._json(
+                        409,
+                        {
+                            "error": (
+                                "Cannot delete an applied lead — keep it for "
+                                "application tracking (use mark_dead instead)"
+                            ),
+                            "applied": True,
+                            "applied_at": meta.get("applied_at"),
+                        },
+                    )
+                leads = index.setdefault("leads", [])
+                index["leads"] = [e for e in leads if e.get("id") != lead_id]
                 write_index(index)
+                folder = lead_dir(lead_id)
+                if folder.is_dir():
+                    shutil.rmtree(folder)
                 return self._json(
                     200,
-                    {
-                        "ok": True,
-                        "meta": meta,
-                        "marked_dead": lead_id,
-                        "note": "delete aliases to mark_dead; lead folder retained",
-                    },
+                    {"ok": True, "deleted": lead_id},
                 )
 
             return self._json(400, {"error": f"unknown action: {action}"})
         except Exception as exc:  # noqa: BLE001 — surface to client
+            return self._json(500, {"error": str(exc)})
+
+    def _read_json_body(self) -> dict | None:
+        length = int(self.headers.get("Content-Length", "0"))
+        raw = self.rfile.read(length)
+        try:
+            return json.loads(raw.decode("utf-8"))
+        except json.JSONDecodeError:
+            return None
+
+    def _post_scout_targets(self) -> None:
+        payload = self._read_json_body()
+        if payload is None:
+            return self._json(400, {"error": "invalid json"})
+        action = payload.get("action") or "add"
+        try:
+            targets = read_scout_targets()
+            companies = list(targets.get("companies") or [])
+            if action == "add":
+                name = str(payload.get("name") or "").strip()
+                if not name:
+                    return self._json(400, {"error": "name required"})
+                slug = company_slug(payload.get("slug") or name)
+                domain = str(payload.get("domain") or "").strip() or None
+                notes = str(payload.get("notes") or "")
+                existing = next((c for c in companies if c["slug"] == slug), None)
+                if existing:
+                    if domain:
+                        existing["domain"] = domain
+                    if notes:
+                        existing["notes"] = notes
+                    if name:
+                        existing["name"] = name
+                else:
+                    companies.append(
+                        {
+                            "slug": slug,
+                            "name": name,
+                            "domain": domain,
+                            "added_at": utc_now(),
+                            "notes": notes,
+                        }
+                    )
+                write_scout_targets({"companies": companies})
+                folder = scout_dir(slug)
+                if not (folder / "scout.json").is_file():
+                    save_scout(slug, empty_scout(slug, name))
+                return self._json(200, {"ok": True, **list_scout_payload()})
+            if action == "remove":
+                slug = company_slug(payload.get("slug") or payload.get("name") or "")
+                if not slug:
+                    return self._json(400, {"error": "slug required"})
+                companies = [c for c in companies if c.get("slug") != slug]
+                write_scout_targets({"companies": companies})
+                return self._json(200, {"ok": True, **list_scout_payload()})
+            return self._json(400, {"error": f"unknown action: {action}"})
+        except Exception as exc:  # noqa: BLE001
+            return self._json(500, {"error": str(exc)})
+
+    def _post_scout(self) -> None:
+        payload = self._read_json_body()
+        if payload is None:
+            return self._json(400, {"error": "invalid json"})
+        action = payload.get("action")
+        slug = company_slug(payload.get("slug") or "")
+        finding_id = str(payload.get("finding_id") or "").strip()
+        if not action:
+            return self._json(400, {"error": "action required"})
+        try:
+            if action == "promote_finding":
+                if not slug or not finding_id:
+                    return self._json(400, {"error": "slug and finding_id required"})
+                result = promote_finding(slug, finding_id)
+                return self._json(200, {"ok": True, **result})
+            if action == "demote_finding":
+                if not slug or not finding_id:
+                    return self._json(400, {"error": "slug and finding_id required"})
+                result = demote_finding(slug, finding_id)
+                return self._json(200, {"ok": True, **result})
+            return self._json(400, {"error": f"unknown action: {action}"})
+        except ValueError as exc:
+            return self._json(400, {"error": str(exc)})
+        except Exception as exc:  # noqa: BLE001
+            return self._json(500, {"error": str(exc)})
+
+    def _post_recruiters(self) -> None:
+        payload = self._read_json_body()
+        if payload is None:
+            return self._json(400, {"error": "invalid json"})
+        action = payload.get("action")
+        if not action:
+            return self._json(400, {"error": "action required"})
+        try:
+            if action == "set_status":
+                rid = str(payload.get("id") or "").strip()
+                status = payload.get("status")
+                if not rid:
+                    return self._json(400, {"error": "id required"})
+                if status not in RECRUITER_STATUSES:
+                    return self._json(
+                        400, {"error": "status must be found, contacted, or dead"}
+                    )
+                if not (recruiter_dir(rid) / "meta.json").is_file():
+                    return self._json(404, {"error": "recruiter not found"})
+                meta = load_recruiter_meta(rid)
+                apply_recruiter_status(
+                    meta,
+                    status,
+                    dead_reason=payload.get("dead_reason") if status == "dead" else None,
+                )
+                save_recruiter_meta(rid, meta)
+                index = read_recruiters_index()
+                sync_recruiter_manifest_entry(index, meta)
+                write_recruiters_index(index)
+                return self._json(200, {"ok": True, "meta": meta})
+
+            if action == "upsert":
+                name = str(payload.get("name") or "").strip()
+                if not name:
+                    return self._json(400, {"error": "name required"})
+                rid = str(payload.get("id") or "").strip()
+                if not rid:
+                    stamp = utc_now().replace("-", "").replace(":", "")[:13]
+                    stamp = stamp.replace("T", "-")
+                    firm = kebab_fragment(payload.get("firm") or "recruiter", 20)
+                    rid = f"{stamp}-{kebab_fragment(name, 24)}-{firm}"
+                base = rid
+                n = 2
+                while recruiter_dir(rid).exists() and not (
+                    recruiter_dir(rid) / "meta.json"
+                ).is_file():
+                    rid = f"{base}-{n}"
+                    n += 1
+                existing = None
+                if (recruiter_dir(rid) / "meta.json").is_file():
+                    existing = load_recruiter_meta(rid)
+                meta = existing or {
+                    "id": rid,
+                    "status": "found",
+                    "dead_reason": None,
+                    "found_at": utc_now(),
+                    "contacted_at": None,
+                    "sources": [],
+                    "companies": [],
+                    "notes": "",
+                    "email": None,
+                }
+                meta["id"] = rid
+                meta["name"] = name
+                for key in ("firm", "linkedin_url", "email", "focus", "notes"):
+                    if key in payload and payload[key] is not None:
+                        meta[key] = payload[key]
+                if isinstance(payload.get("companies"), list):
+                    meta["companies"] = [
+                        company_slug(c) for c in payload["companies"] if str(c).strip()
+                    ]
+                if isinstance(payload.get("sources"), list):
+                    meta["sources"] = [str(s) for s in payload["sources"] if str(s).strip()]
+                if payload.get("status") in RECRUITER_STATUSES and not existing:
+                    meta["status"] = payload["status"]
+                save_recruiter_meta(rid, meta)
+                index = read_recruiters_index()
+                sync_recruiter_manifest_entry(index, meta)
+                write_recruiters_index(index)
+                return self._json(200, {"ok": True, "meta": meta})
+
+            return self._json(400, {"error": f"unknown action: {action}"})
+        except Exception as exc:  # noqa: BLE001
             return self._json(500, {"error": str(exc)})
 
     def _post_sources(self) -> None:
@@ -574,7 +1304,11 @@ class Handler(SimpleHTTPRequestHandler):
 
 def main() -> None:
     LEADS.mkdir(parents=True, exist_ok=True)
+    SCOUT.mkdir(parents=True, exist_ok=True)
+    RECRUITERS.mkdir(parents=True, exist_ok=True)
     ensure_sources_file()
+    ensure_scout_targets_file()
+    ensure_recruiters_index()
     if not INDEX.exists():
         example = LEADS / "index.example.json"
         if example.exists():
@@ -589,7 +1323,9 @@ def main() -> None:
     print(f"Job leads board → http://{HOST}:{PORT}")
     print(
         "API: GET /api/health · GET /api/candidate · GET /api/resume · "
-        "GET /api/companies · GET|POST /api/sources · POST /api/leads"
+        "GET /api/companies · GET|POST /api/sources · POST /api/leads · "
+        "GET|POST /api/scout · GET|POST /api/scout/targets · "
+        "GET|POST /api/recruiters"
     )
     try:
         server.serve_forever()

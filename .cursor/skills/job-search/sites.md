@@ -29,8 +29,9 @@ Build queries from [candidate.md](candidate.md) (target titles, boost stacks, lo
 | TrueUp | Tech hiring tracker / open roles at growth companies | `trueup` |
 | Google Jobs | Aggregator; follow through to ATS when possible | `google-jobs` |
 | HN “Who’s Hiring” | Monthly threads (`site:news.ycombinator.com Who is hiring`); parse recent month only | `hackernews` |
+| Lead Finder / scout | Off-board findings promoted from Lead Finder (`/job-scout`); not a search board toggle | `scout` |
 
-**Coverage expectation:** each search run should hit **enabled** aggregators (LinkedIn, Indeed, Google Jobs, TrueUp, Levels), **ATS site: queries** (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable), **remote boards** (RemoteOK, We Work Remotely, Himalayas), and **startup/community** (Wellfound, YC, Otta/WTTJ, Built In, HN Who’s Hiring) — except any id listed in `leads/sources.json` → `disabled`. Do not stop after Greenhouse + LinkedIn alone when those sources are still enabled.
+**Coverage expectation:** each search run should hit **enabled** aggregators (LinkedIn, Indeed, Google Jobs, TrueUp, Levels), **ATS site: queries** (Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable), **remote boards** (RemoteOK, We Work Remotely, Himalayas), and **startup/community** (Wellfound, YC, Otta/WTTJ, Built In, HN Who’s Hiring) — except any id listed in `leads/sources.json` → `disabled`. Do not stop after Greenhouse + LinkedIn alone when those sources are still enabled. The `scout` source is for leads promoted from Lead Finder; `/job-search` does not scrape it as a board (leave enabled so badges stay visible).
 
 The HTML **Sources** view toggles these ids globally. Default (missing file / empty `disabled`) = all on.
 

@@ -140,7 +140,7 @@ Then merge into the saved board:
 3. **Age prune (mandatory each run) — mark dead only, never delete folders:** prefer `posted_at`; else `found_at`. Let `S` = the resolved **search/fetch** window. Let retention `W` = **`max(S, 30d)`** in days (so short fetch windows still keep Active leads live up to **30 days** unless the user asks to tighten). **Never auto-mark-dead a lead with status `in_progress`, `applied`, or `interview`.** (Legacy `applied: true` without that status counts as protected too.)
    - Age **> W**, status is **not** `in_progress` / `applied` / `interview` (and not legacy applied) → set `status: "dead"` + `dead_reason` like `"Past retention window (Nd)"` and sync `leads/index.json`. **Do not** remove the lead folder or drop the manifest entry.
    - Age **> W**, status is `in_progress`, `applied`, or `interview` → **keep** as-is (do **not** mark dead); the HTML viewer shows a **stale** warning (`Nd old`)
-   - Already-`dead` leads stay dead (refresh `dead_reason` only if useful); never delete them.
+   - Already-`dead` leads stay dead (refresh `dead_reason` only if useful); never clear `applied` / `applied_at` when marking dead. Do not auto-purge the Dead column. Hard delete is UI-only and blocked for applied leads.
    - **Do not** treat a short fetch window as permission to clear the Active lane. “Past 3 hours” means only **admit new** postings from that window.
 4. Assign continuous `rank` **1..N** across **all leads on the board** (including dead) sorted by `hire_likelihood` desc (ties: stronger title match → clearer ATS URL → newer `posted_at`)
 5. Soft cap: prefer ≤ **100** non-dead leads. If over 100 non-dead after merge/age-prune, **mark dead** lowest-ranked unprotected `active` leads with **oldest `posted_at`** (then oldest `found_at`), with `dead_reason` like `"Capacity — displaced for fresher/stronger matches"`. Never mark `in_progress`, `applied`, or `interview` dead for capacity without asking. **Never delete folders** to free capacity.
@@ -149,7 +149,7 @@ Do **not** leave overflow leads as `rank: null` — every lead on the board gets
 
 When the board is near capacity, **prefer admitting newer postings** over older ones with similar scores — mark unprotected older `active` leads **dead** before skipping a fresh strong match.
 
-**Hard rule — no deletes:** This skill must **never** delete `leads/<id>/` or remove a lead from `leads/index.json`. The only retirement path is `status: "dead"` (+ optional `dead_reason`). If the user says “delete,” mark dead instead (and say so).
+**Hard rule — no agent deletes:** This skill must **never** delete `leads/<id>/` or remove a lead from `leads/index.json` on its own. Age/capacity retirement is **mark dead** only. If the user says “delete” casually, prefer **Mark dead**. Hard delete is available in the board UI for **non-applied** leads only; agents may hard-delete only when the user explicitly asks to permanently remove a specific non-applied lead.
 
 ### 5. Fraud / quality investigation
 
@@ -212,7 +212,7 @@ Open with the job title and company; close with one actionable takeaway (apply, 
 
 The board also normalizes common patterns at play time, but **author speakable prose in `speech.txt`** so the transcript matches what was intended.
 
-**Never delete lead folders** — not for age, capacity, fraud, or user “delete” wording. Age/capacity retirement is **mark dead** only. Never auto-mark-dead `in_progress`, `applied`, or `interview` for age/capacity.
+**Never auto-delete lead folders** — not for age, capacity, fraud, or agent initiative. Age/capacity retirement is **mark dead** only. Never auto-mark-dead `in_progress`, `applied`, or `interview` for age/capacity. Hard delete is **UI-only** for non-applied leads (see site ops).
 
 ### 7. Company briefs
 
@@ -259,7 +259,7 @@ For each **new or updated** lead this run, write `leads/<id>/speech.txt` (schema
 }
 ```
 
-`status`: `active` | `in_progress` | `applied` | `interview` | `dead` (Kanban swim lanes). Moving to **Applied** also sets `applied: true` + `applied_at`; leaving Applied for `active` / `in_progress` / `dead` clears those flags. Moving to **Interview** clears `dead_reason` but **preserves** `applied` / `applied_at` and `interviews`.
+`status`: `active` | `in_progress` | `applied` | `interview` | `dead` (Kanban swim lanes). Moving to **Applied** also sets `applied: true` + `applied_at`. Moving to **Interview** or **Dead** **preserves** `applied` / `applied_at` / `interviews` (application tracking survives later stages or rejection). Leaving Applied for `active` / `in_progress` clears the applied flags.
 
 `interviews`: array of `{ id, at, label, notes }` for scheduled or past interviews (`at` = ISO datetime; `label` / `notes` short strings). Default `[]`. Preserve on search merge. Sync onto `leads/index.json` so cards can show the next upcoming interview.
 
@@ -270,8 +270,8 @@ For each **new or updated** lead this run, write `leads/<id>/speech.txt` (schema
 `posted_at`: ISO posting time from the board when known, else `null` (UI recency badges: `NEW 1h` / `NEW 1d` for ≤1 day, then `3d` / `1w` / `2w` / `30d`; in-progress/applied/interview + stale past the window shows `Nd old`)  
 `source`: primary/canonical board for the saved URL (prefer ATS: greenhouse, lever, ashby, workday, smartrecruiters, workable, company, etc. — see `source` ids in [sites.md](sites.md))  
 `sources`: **all** boards where this role was seen this run or on prior merges (e.g. `["linkedin", "greenhouse"]`). Always include `source`. On URL merge, **union** new discovery boards into existing `sources` — do not drop LinkedIn/Indeed just because the canonical URL is ATS.  
-`applied`: mirror of Applied swim lane (`true` when `status` is `applied`; may remain true after moving to Interview)  
-`applied_at`: ISO timestamp when moved to Applied, or `null`  
+`applied`: application history flag (`true` when `status` is `applied`; remains true after moving to Interview or Dead)
+`applied_at`: ISO timestamp when moved to Applied, or `null` (preserved on Interview / Dead)
 `interviews`: see above; also mirrored on each `leads/index.json` entry  
 `has_resume`: `true` when `<lead>/resume.pdf` exists (set by job-generate-resume)  
 `has_cover_letter`: `true` when `<lead>/cover-letter.txt` exists (set by job-generate-cover-letter)  
@@ -334,12 +334,12 @@ Present a ranked table for the **top 10–20** (chat brevity); state total leads
 | User intent | Action |
 |-------------|--------|
 | Mark applied | Set `status: "applied"`, `applied: true` + `applied_at` (ISO now); clear `dead_reason`; sync `leads/index.json` |
-| Unmark applied / leave Applied | Set `status` to `active` (or another lane), `applied: false`, clear `applied_at` (Interview status preserves applied flags) |
-| Mark dead | Set `status: "dead"` + optional `dead_reason` in that lead’s `meta.json`; sync `leads/index.json`. **This is the only retirement path.** |
+| Unmark applied / leave Applied | Set `status` to `active` or `in_progress`, `applied: false`, clear `applied_at` (Interview / Dead **preserve** applied flags) |
+| Mark dead | Set `status: "dead"` + optional `dead_reason`; **preserve** `applied` / `applied_at` / `interviews`; sync `leads/index.json`. Default retirement path. |
 | Mark in progress | Set `status: "in_progress"`, clear `dead_reason` / applied flags; sync `leads/index.json` |
 | Mark interview | Set `status: "interview"`, clear `dead_reason`; **preserve** `applied` / `applied_at` / `interviews`; sync `leads/index.json` |
 | Set interviews | Write `interviews: [{ id, at, label, notes }, …]` on the lead (ISO `at`); sync `leads/index.json` |
-| Delete lead | **Not allowed.** Map to **Mark dead** (say so). Never remove `leads/<id>/` or drop the manifest entry |
+| Delete lead | **UI only** via detail menu → **Delete**. Removes `leads/<id>/` and the manifest entry. **Blocked** when `applied` is true (or status is `applied`) — those stay for tracking; use Mark dead instead. Agents must not hard-delete; map “delete” wording to Mark dead unless the user explicitly asks to permanently remove a **non-applied** lead. |
 | Re-open / revive | Set `status: "active"`, clear `dead_reason` / applied flags |
 | Set status | Set `status` to `active` \| `in_progress` \| `applied` \| `interview` \| `dead` (sync applied flags per rules above; clear `dead_reason` unless dead) |
 | Refresh search | Run full workflow; merge by URL; age-prune = mark dead past retention `max(search window, 30d)` (never delete folders; short fetch windows must not clear Active); never auto-mark-dead `in_progress` / `applied` / `interview`; do not wipe status/applied/interviews for kept leads |
@@ -364,19 +364,19 @@ Viewer behavior (implemented in `assets/app.js`):
 - Kanban columns: **Active** / **In progress** / **Applied** / **Interview** / **Dead** (drag-and-drop + detail menu status actions)
 - Browser history: selecting leads/companies and switching views pushes `#leads/<id>`, `#companies/<slug>`, `#sources` so Back/Forward work
 - **Sources** view: enable/disable boards globally; persists to `leads/sources.json`; disabled sources are hidden from the board filter and skipped on search runs
-- Filter: active / in_progress / applied / interview / dead / all; **location / work_mode**; fraud flag; **source** (matches any entry in `sources`, among enabled boards); search text
+- Filter: active / in_progress / applied / interview / dead / all; **Applied filter** matches application history (`applied: true`) across Applied / Interview / Dead lanes; **location / work_mode**; fraud flag; **source** (matches any entry in `sources`, among enabled boards); search text
 - Company Research view: company list + brief preview from `companies/<slug>/brief.json`; **Speak** plays `companies/<slug>/speech.txt` with the same transport + voice select
 - Show work-mode labels: Fully remote · Hybrid · Local office · Other location
 - Show **compensation** badge only when a range string is present
-- Show **recency** badges from `posted_at` (fallback `found_at`): `NEW 1h` · `NEW 1d` (≤1 day) · `3d` · `1w` · `2w` · `30d`; for in-progress/applied/interview leads older than the search window show a stale warning (`Nd old`). In-progress/applied/interview leads are never auto-marked dead by age-prune; lead folders are never deleted.
+- Show **recency** badges from `posted_at` (fallback `found_at`): `NEW 1h` · `NEW 1d` (≤1 day) · `3d` · `1w` · `2w` · `30d`; for in-progress/applied/interview leads older than the search window show a stale warning (`Nd old`). In-progress/applied/interview leads are never auto-marked dead by age-prune; agents never auto-delete lead folders.
 - Lead detail **Interviews** section (when status is `interview` or `interviews` is non-empty): add/edit/remove rows with datetime, label, notes; **Save interviews** via API `set_interviews`
 - Kanban cards show a badge for the next upcoming interview when present
 - Show **all** source badges from `sources` (fallback to singular `source`)
 - Open original posting in a new tab
 - Show icon links to `resume.pdf` / `cover-letter.txt` when present (list + detail); all document and external links open in a new tab
-- Set status (active · in_progress · applied · interview · dead) / mark dead via UI **when served over a local helper**, or instruct the agent to apply filesystem changes if the static file:// UI cannot write. UI “delete” must **mark dead**, not remove folders.
+- Set status (active · in_progress · applied · interview · dead) / mark dead / **delete** via UI **when served over a local helper**, or instruct the agent to apply filesystem changes if the static file:// UI cannot write. UI **Delete** permanently removes the folder (blocked for applied leads); **Mark dead** keeps the folder.
 
-  Prefer the project helper (supports set-status / set-interviews / mark-applied / mark-dead / revive from the UI; `delete` aliases to mark-dead):
+  Prefer the project helper (supports set-status / set-interviews / mark-applied / mark-dead / delete / revive from the UI):
 
 ```bash
 make server

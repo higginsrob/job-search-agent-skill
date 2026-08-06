@@ -1589,6 +1589,11 @@ html[data-nav="open"] .title-row .brand {
   border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
 }
 
+.badge.work-mode.hybrid-other {
+  color: color-mix(in srgb, var(--accent) 70%, var(--muted));
+  border-color: color-mix(in srgb, var(--accent) 30%, var(--line));
+}
+
 .badge.work-mode.local-office {
   color: var(--coral);
   border-color: color-mix(in srgb, var(--coral) 45%, var(--line));
@@ -2087,3 +2092,144 @@ dialog::backdrop {
 .lightbox-body:focus-visible {
   outline: none;
 }
+
+/* Lead Finder + Recruiters */
+.eyebrow {
+  margin: 0 0 0.25rem;
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.detail-title {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 650;
+}
+
+.kanban-board-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.scout-actions,
+.detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.scout-hint {
+  margin: 0.35rem 0 1rem;
+}
+
+.scout-finding-list,
+.scout-hm-list,
+.scout-signal-list,
+.scout-board-leads {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.scout-finding-card,
+.scout-hm-card,
+.scout-signal-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.7rem 0.8rem;
+  background: color-mix(in srgb, var(--bg-elev) 80%, var(--bg));
+}
+
+.scout-finding-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  margin-bottom: 0.35rem;
+}
+
+.scout-finding-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.scout-fit {
+  margin: 0.25rem 0 0;
+  font-size: 0.92em;
+}
+
+.scout-gaps {
+  margin: 0.4rem 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.88em;
+  color: var(--muted);
+}
+
+.badge.hire-score {
+  background: color-mix(in srgb, var(--accent) 18%, var(--bg-elev));
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.scout-hm-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.scout-dl {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 0.35rem 0.75rem;
+  margin: 0.5rem 0 0;
+}
+
+.scout-dl dt {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.scout-dl dd {
+  margin: 0;
+}
+
+.scout-notes {
+  margin-top: 0.75rem;
+}
+
+.badge.signal-high {
+  color: var(--teal);
+  border-color: color-mix(in srgb, var(--teal) 40%, var(--line));
+}
+
+.badge.signal-medium {
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--line));
+}
+
+.badge.signal-low {
+  opacity: 0.85;
+}
+
+.layout-recruiters .kanban-pane {
+  min-height: 0;
+}
+
+@media (max-width: 1100px) {
+  .kanban-board-3 {
+    grid-template-columns: 1fr;
+  }
+}
+

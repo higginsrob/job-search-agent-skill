@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reset local job-search data: leads, companies, and candidate profile settings.
+"""Reset local job-search data: leads, companies, scout, recruiters, and candidate profile settings.
 
 Usage (from repo root):
   make reset
@@ -49,6 +49,8 @@ def banner() -> None:
     print(c(RED, "  ────────────────────────────────────────────────────────────"))
     print(c(CYA, "  • Job history") + c(DIM, "          leads/*  (all saved openings, ranks, notes)"))
     print(c(CYA, "  • Company briefs") + c(DIM, "       companies/*"))
+    print(c(CYA, "  • Lead Finder") + c(DIM, "          scout/*  (targets, findings, HMs, signals)"))
+    print(c(CYA, "  • Recruiters") + c(DIM, "           recruiters/*"))
     print(c(CYA, "  • Candidate profile") + c(DIM, "    .cursor/skills/job-search/candidate.md"))
     print(c(CYA, "  • Base resume draft") + c(DIM, "   .cursor/skills/job-generate-resume/base-resume.md"))
     print(c(CYA, "  • Search settings") + c(DIM, "       persisted window / last-search metadata"))
@@ -57,7 +59,7 @@ def banner() -> None:
     print(c(RED, "  ────────────────────────────────────────────────────────────"))
     print(c(WHT, "  • Your resume files") + c(DIM, "     resume/*"))
     print(c(WHT, "  • Skills + board UI") + c(DIM, "     .cursor/skills, index.html, assets/"))
-    print(c(WHT, "  • Example stubs") + c(DIM, "         *.example.md, leads/index.example.json"))
+    print(c(WHT, "  • Example stubs") + c(DIM, "         *.example.md, *.example.json"))
     print()
     print(c(BG_YEL + BOLD + BG_BLK, "  After reset you will need to re-run /job-search or             "))
     print(c(BG_YEL + BOLD + BG_BLK, "  /job-sync-resume to rebuild candidate.md and start a       "))
@@ -106,6 +108,34 @@ def restore_leads_index() -> None:
         )
 
 
+def restore_scout_targets() -> None:
+    scout = ROOT / "scout"
+    scout.mkdir(parents=True, exist_ok=True)
+    example = scout / "targets.example.json"
+    target = scout / "targets.json"
+    if example.is_file():
+        target.write_text(example.read_text(encoding="utf-8"), encoding="utf-8")
+    else:
+        target.write_text(
+            '{\n  "updated_at": null,\n  "companies": []\n}\n',
+            encoding="utf-8",
+        )
+
+
+def restore_recruiters_index() -> None:
+    recruiters = ROOT / "recruiters"
+    recruiters.mkdir(parents=True, exist_ok=True)
+    example = recruiters / "index.example.json"
+    target = recruiters / "index.json"
+    if example.is_file():
+        target.write_text(example.read_text(encoding="utf-8"), encoding="utf-8")
+    else:
+        target.write_text(
+            '{\n  "updated_at": null,\n  "recruiters": []\n}\n',
+            encoding="utf-8",
+        )
+
+
 def remove_file(path: Path) -> str | None:
     if path.is_file():
         path.unlink()
@@ -123,8 +153,25 @@ def main() -> int:
     print()
     print(c(BOLD + YEL, "  Resetting…"))
     removed: list[str] = []
-    removed.extend(wipe_dir_contents(ROOT / "leads", {".gitkeep", "index.example.json"}))
+    removed.extend(
+        wipe_dir_contents(
+            ROOT / "leads",
+            {".gitkeep", "index.example.json", "sources.example.json"},
+        )
+    )
     removed.extend(wipe_dir_contents(ROOT / "companies", {".gitkeep"}))
+    removed.extend(
+        wipe_dir_contents(
+            ROOT / "scout",
+            {".gitkeep", "targets.example.json", "scout.example.json"},
+        )
+    )
+    removed.extend(
+        wipe_dir_contents(
+            ROOT / "recruiters",
+            {".gitkeep", "index.example.json", "meta.example.json"},
+        )
+    )
 
     for rel in (
         ".cursor/skills/job-search/candidate.md",
@@ -136,6 +183,10 @@ def main() -> int:
 
     restore_leads_index()
     removed.append("leads/index.json (restored empty from example)")
+    restore_scout_targets()
+    removed.append("scout/targets.json (restored empty from example)")
+    restore_recruiters_index()
+    removed.append("recruiters/index.json (restored empty from example)")
 
     print(c(BOLD + RED, f"  Removed {len(removed)} path(s)."))
     for item in removed[:40]:

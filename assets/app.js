@@ -43,16 +43,34 @@
     { id: "otta", label: "Otta / Welcome to the Jungle", group: "Startup / community" },
     { id: "builtin", label: "Built In", group: "Startup / community" },
     { id: "hackernews", label: "HN Who’s Hiring", group: "Startup / community" },
+    { id: "scout", label: "Lead Finder (scout)", group: "Outreach" },
   ];
   const SOURCE_IDS = new Set(SOURCE_CATALOG.map((s) => s.id));
+
+  const RECRUITER_LANES = [
+    { id: "found", label: "Found" },
+    { id: "contacted", label: "Contacted" },
+    { id: "dead", label: "Dead" },
+  ];
+  const RECRUITER_STATUS_LABELS = {
+    found: "Found",
+    contacted: "Contacted",
+    dead: "Dead",
+  };
 
   const state = {
     manifest: { updated_at: null, leads: [] },
     metas: new Map(),
     companyBriefs: new Map(),
     companyIndex: [],
+    scoutTargets: [],
+    scoutIndex: [],
+    scoutDetail: null,
+    recruiters: [],
     selectedId: null,
     selectedCompanySlug: null,
+    selectedScoutSlug: null,
+    selectedRecruiterId: null,
     view: "leads",
     writeMode: null, // 'api' | 'agent-only'
     theme: readTheme(),
@@ -60,6 +78,7 @@
     previewDetached: readPreviewDetached(),
     disabledSources: new Set(),
     dragLeadId: null,
+    dragRecruiterId: null,
     applyingRoute: false,
     speech: {
       text: "",
@@ -851,6 +870,15 @@
     other: "Other location",
   };
 
+  /** Lead Finder finding labels (finer than board work_mode). */
+  const FINDING_WORK_MODE_LABELS = {
+    remote: "Fully remote",
+    "local-office": "Fully in office (home)",
+    other: "Fully in office (away)",
+    hybrid: "Hybrid (home)",
+    "hybrid-other": "Hybrid (away)",
+  };
+
   const ICON_RESUME = `<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path fill="currentColor" d="M3.5 1.5A1.5 1.5 0 0 1 5 0h4.793L14 4.207V14.5A1.5 1.5 0 0 1 12.5 16h-7A1.5 1.5 0 0 1 4 14.5v-13zm5.293.5H5a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5V5.207L9.793 2z"/><path fill="currentColor" d="M5.75 7.25h4.5v1h-4.5zm0 2.5h4.5v1h-4.5zm0 2.5h3v1h-3z"/></svg>`;
   const ICON_COVER = `<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><path fill="currentColor" d="M1.5 3A1.5 1.5 0 0 1 3 1.5h10A1.5 1.5 0 0 1 14.5 3v10a1.5 1.5 0 0 1-1.5 1.5H3A1.5 1.5 0 0 1 1.5 13V3zm1 .5v.348l5.146 3.217a.75.75 0 0 0 .708 0L13.5 3.848V3.5a.5.5 0 0 0-.5-.5H3a.5.5 0 0 0-.5.5zm0 1.902V13a.5.5 0 0 0 .5.5h10a.5.5 0 0 0 .5-.5V5.402L8.854 8.62a1.75 1.75 0 0 1-1.708 0L2.5 5.402z"/></svg>`;
   const COMPANY_ICON_FILES = [
@@ -876,6 +904,8 @@
     viewProfile: document.getElementById("view-profile"),
     viewLeads: document.getElementById("view-leads"),
     viewCompanies: document.getElementById("view-companies"),
+    viewScout: document.getElementById("view-scout"),
+    viewRecruiters: document.getElementById("view-recruiters"),
     viewSources: document.getElementById("view-sources"),
     viewSettings: document.getElementById("view-settings"),
     btnMenu: document.getElementById("btn-menu"),
@@ -908,6 +938,22 @@
     companyDetailPane: document.getElementById("company-detail-pane"),
     companyDetail: document.getElementById("company-detail"),
     companyDetailEmpty: document.getElementById("company-detail-empty"),
+    scoutList: document.getElementById("scout-list"),
+    scoutListEmpty: document.getElementById("scout-list-empty"),
+    scoutDetail: document.getElementById("scout-detail"),
+    scoutDetailEmpty: document.getElementById("scout-detail-empty"),
+    scoutAddName: document.getElementById("scout-add-name"),
+    scoutAddDomain: document.getElementById("scout-add-domain"),
+    btnScoutAdd: document.getElementById("btn-scout-add"),
+    filterScoutQ: document.getElementById("filter-scout-q"),
+    btnScoutRefresh: document.getElementById("btn-scout-refresh"),
+    recruiterKanban: document.getElementById("recruiter-kanban"),
+    recruiterListEmpty: document.getElementById("recruiter-list-empty"),
+    recruiterDetail: document.getElementById("recruiter-detail"),
+    recruiterDetailEmpty: document.getElementById("recruiter-detail-empty"),
+    filterRecruiterQ: document.getElementById("filter-recruiter-q"),
+    btnRecruiterReset: document.getElementById("btn-recruiter-reset"),
+    btnRecruiterRefresh: document.getElementById("btn-recruiter-refresh"),
     fsNote: document.getElementById("fs-note"),
     dialog: document.getElementById("confirm-dialog"),
     dialogTitle: document.getElementById("dialog-title"),
@@ -1581,6 +1627,24 @@
     return WORK_MODE_LABELS[mode] || WORK_MODE_LABELS.other;
   }
 
+  function findingWorkMode(finding) {
+    const raw = String(finding?.work_mode || "")
+      .trim()
+      .toLowerCase();
+    if (FINDING_WORK_MODE_LABELS[raw]) return raw;
+    // Infer from free-text location when scout.json predates work_mode
+    const loc = String(finding?.location || "").toLowerCase();
+    if (/\bhybrid\b/.test(loc)) return "hybrid";
+    if (/\bremote\b/.test(loc) && !/\bonsite|on-site|in[- ]office\b/.test(loc)) {
+      return "remote";
+    }
+    return null;
+  }
+
+  function findingWorkModeLabel(mode) {
+    return FINDING_WORK_MODE_LABELS[mode] || null;
+  }
+
   function companySlug(name) {
     return String(name || "unknown")
       .normalize("NFKD")
@@ -1765,7 +1829,12 @@
 
     const filtered = state.manifest.leads.filter((lead) => {
       if (!leadPassesSourceGate(lead)) return false;
-      if (status !== "all" && leadStatus(lead) !== status) return false;
+      // "Applied" filter = application history (any lane), not only the Applied column
+      if (status === "applied") {
+        if (!isApplied(lead)) return false;
+      } else if (status !== "all" && leadStatus(lead) !== status) {
+        return false;
+      }
       if (fraud !== "all" && (lead.fraud_flag || "clear") !== fraud) return false;
       if (location !== "all" && workMode(lead) !== location) return false;
       if (!matchesRecencyFilter(lead, recency)) return false;
@@ -2632,6 +2701,16 @@
       className: "danger",
       onClick: () => confirmMarkDead(meta.id, meta.title),
     });
+    const deleteItem = addMenuItem(panel, {
+      label: "Delete",
+      className: "danger",
+      onClick: applied ? null : () => confirmDeleteLead(meta.id, meta.title),
+    });
+    if (applied) {
+      deleteItem.disabled = true;
+      deleteItem.title =
+        "Applied leads cannot be deleted — keep them for application tracking (Mark dead is fine)";
+    }
 
     wireDetailMenu(els.detail.querySelector(".detail-menu"));
     wireSkillCopyMenuItems(panel, folderPath);
@@ -2652,15 +2731,22 @@
     });
   }
 
-  async function apiMutation(payload) {
-    const res = await fetch("/api/leads", {
+  async function apiMutation(payload, path = "/api/leads") {
+    const res = await fetch(path, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(payload),
     });
     if (!res.ok) {
-      const text = await res.text();
-      throw new Error(text || res.statusText);
+      let message = res.statusText;
+      try {
+        const data = await res.json();
+        if (data?.error) message = data.error;
+      } catch {
+        const text = await res.text().catch(() => "");
+        if (text) message = text;
+      }
+      throw new Error(message || res.statusText);
     }
     return res.json();
   }
@@ -2720,10 +2806,37 @@
     await apiMutation({
       action: "mark_dead",
       id,
-      dead_reason: "Marked dead via UI (folders are never deleted)",
+      dead_reason: "Marked dead via UI",
     });
     if (state.selectedId === id) selectLead(id, { history: false });
     closePreviewLightbox({ restore: true });
+    await reload();
+  }
+
+  async function confirmDeleteLead(id, title) {
+    const ok = await confirmDialog({
+      title: "Delete lead permanently?",
+      body: `Remove “${title || id}” from the board and delete its folder. This cannot be undone. Prefer Mark dead if you might want it later.`,
+      confirmLabel: "Delete forever",
+      danger: true,
+    });
+    if (!ok) return;
+
+    if (state.writeMode !== "api") {
+      agentHint("Delete", id);
+      return;
+    }
+
+    try {
+      await apiMutation({ action: "delete", id });
+    } catch (err) {
+      alert(String(err.message || err));
+      return;
+    }
+    closePreviewLightbox({ restore: true });
+    if (state.selectedId === id) {
+      clearLeadSelection({ history: true });
+    }
     await reload();
   }
 
@@ -2742,9 +2855,13 @@
     populateCompanyFilter();
     populateSourceFilter();
     await refreshCompanyIndex();
+    await loadScoutIndex();
+    await loadRecruiters();
 
     renderList();
     renderCompanyList();
+    renderScoutList();
+    renderRecruiterBoard();
     if (state.view === "sources") renderSourcesView();
     // Selection restore comes from the URL route (boot / back-forward), not reload.
     if (!state.applyingRoute) {
@@ -2756,6 +2873,10 @@
         await selectLead(state.selectedId, { history: false });
       } else if (state.view === "companies" && state.selectedCompanySlug) {
         await selectCompany(state.selectedCompanySlug, { history: false });
+      } else if (state.view === "scout" && state.selectedScoutSlug) {
+        await selectScoutCompany(state.selectedScoutSlug, { history: false });
+      } else if (state.view === "recruiters" && state.selectedRecruiterId) {
+        await selectRecruiter(state.selectedRecruiterId, { history: false });
       } else {
         commitRoute({ push: false });
       }
@@ -2773,12 +2894,769 @@
     renderList();
   }
 
+  // ── Lead Finder (scout) ──────────────────────────────────────────
+
+  async function loadScoutIndex() {
+    try {
+      if (state.writeMode === "api") {
+        const data = await fetchJson("/api/scout");
+        state.scoutTargets = data.targets?.companies || [];
+        state.scoutIndex = data.scouts || [];
+        return;
+      }
+    } catch (err) {
+      console.warn("scout api unavailable", err);
+    }
+    try {
+      const targets = await fetchJson("scout/targets.json");
+      state.scoutTargets = targets.companies || [];
+    } catch {
+      state.scoutTargets = [];
+    }
+    state.scoutIndex = [];
+    for (const t of state.scoutTargets) {
+      try {
+        const scout = await fetchJson(`scout/${t.slug}/scout.json`);
+        const findings = scout.findings || [];
+        state.scoutIndex.push({
+          slug: t.slug,
+          company: scout.company || t.name,
+          domain: t.domain,
+          updated_at: scout.updated_at,
+          finding_count: findings.length,
+          on_board_count: findings.filter((f) => f.board_lead_id).length,
+          hiring_manager_count: (scout.hiring_managers || []).length,
+          quiet_signal_count: (scout.quiet_signals || []).length,
+          path: `scout/${t.slug}/scout.json`,
+        });
+      } catch {
+        state.scoutIndex.push({
+          slug: t.slug,
+          company: t.name,
+          domain: t.domain,
+          updated_at: null,
+          finding_count: 0,
+          on_board_count: 0,
+          hiring_manager_count: 0,
+          quiet_signal_count: 0,
+          path: null,
+        });
+      }
+    }
+  }
+
+  function scoutListEntries() {
+    // Targets only — orphan scout folders after remove stay on disk, not in the list.
+    const bySlug = new Map(state.scoutIndex.map((s) => [s.slug, s]));
+    const entries = [];
+    for (const t of state.scoutTargets) {
+      const scout = bySlug.get(t.slug) || {};
+      entries.push({
+        slug: t.slug,
+        company: t.name || scout.company || t.slug,
+        domain: t.domain || scout.domain || null,
+        updated_at: scout.updated_at || null,
+        finding_count: scout.finding_count || 0,
+        on_board_count: scout.on_board_count || 0,
+        hiring_manager_count: scout.hiring_manager_count || 0,
+        quiet_signal_count: scout.quiet_signal_count || 0,
+      });
+    }
+    return entries.sort((a, b) =>
+      String(a.company).localeCompare(String(b.company))
+    );
+  }
+
+  function renderScoutList() {
+    if (!els.scoutList) return;
+    const q = (els.filterScoutQ?.value || "").trim().toLowerCase();
+    const entries = scoutListEntries().filter((e) => {
+      if (!q) return true;
+      return (
+        String(e.company).toLowerCase().includes(q) ||
+        String(e.slug).toLowerCase().includes(q) ||
+        String(e.domain || "")
+          .toLowerCase()
+          .includes(q)
+      );
+    });
+    els.scoutList.innerHTML = "";
+    const empty = entries.length === 0;
+    els.scoutListEmpty?.classList.toggle("hidden", !empty);
+    for (const entry of entries) {
+      const li = document.createElement("li");
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "company-research-item";
+      btn.setAttribute("role", "option");
+      btn.setAttribute(
+        "aria-selected",
+        String(state.selectedScoutSlug === entry.slug)
+      );
+      btn.innerHTML = `
+        <span class="company-research-copy">
+          <span class="name"></span>
+          <span class="meta"></span>
+        </span>`;
+      btn.querySelector(".name").textContent = entry.company;
+      const meta = btn.querySelector(".meta");
+      meta.innerHTML = "";
+      const bits = [];
+      if (entry.finding_count) bits.push(`${entry.finding_count} findings`);
+      if (entry.on_board_count) bits.push(`${entry.on_board_count} on board`);
+      if (entry.hiring_manager_count)
+        bits.push(`${entry.hiring_manager_count} HMs`);
+      if (entry.quiet_signal_count)
+        bits.push(`${entry.quiet_signal_count} signals`);
+      if (!bits.length) bits.push("Not scouted yet");
+      for (const bit of bits) {
+        const span = document.createElement("span");
+        span.className = "badge";
+        span.textContent = bit;
+        meta.appendChild(span);
+      }
+      btn.addEventListener("click", () =>
+        selectScoutCompany(entry.slug, { history: true })
+      );
+      li.appendChild(btn);
+      els.scoutList.appendChild(li);
+    }
+  }
+
+  function clearScoutSelection({ history = false } = {}) {
+    if (!state.selectedScoutSlug) {
+      if (history) commitRoute({ push: true });
+      return;
+    }
+    state.selectedScoutSlug = null;
+    state.scoutDetail = null;
+    renderScoutList();
+    if (els.scoutDetail) {
+      els.scoutDetail.classList.add("hidden");
+      els.scoutDetail.innerHTML = "";
+    }
+    els.scoutDetailEmpty?.classList.remove("hidden");
+    if (history) commitRoute({ push: true });
+    else if (!state.applyingRoute) commitRoute({ push: false });
+  }
+
+  async function selectScoutCompany(slug, { history = true } = {}) {
+    stopSpeech();
+    const same = state.selectedScoutSlug === slug && state.view === "scout";
+    state.selectedScoutSlug = slug;
+    if (state.view !== "scout") {
+      setView("scout", { updateHash: false, fromUser: false });
+    }
+    renderScoutList();
+    if (history && !same) commitRoute({ push: true });
+    else if (!state.applyingRoute) commitRoute({ push: false });
+
+    if (!els.scoutDetail || !els.scoutDetailEmpty) return;
+    els.scoutDetailEmpty.classList.add("hidden");
+    els.scoutDetail.classList.remove("hidden");
+    els.scoutDetail.innerHTML = `<p class="muted">Loading…</p>`;
+
+    let payload = null;
+    try {
+      if (state.writeMode === "api") {
+        payload = await fetchJson(`/api/scout/${encodeURIComponent(slug)}`);
+      } else {
+        const target =
+          state.scoutTargets.find((t) => t.slug === slug) || null;
+        let scout = null;
+        try {
+          scout = await fetchJson(`scout/${slug}/scout.json`);
+        } catch {
+          scout = {
+            company: target?.name || slug,
+            slug,
+            findings: [],
+            hiring_managers: [],
+            quiet_signals: [],
+          };
+        }
+        const board_leads = (state.manifest.leads || []).filter(
+          (l) => companySlug(l.company || "") === slug
+        );
+        payload = { target, scout, board_leads };
+      }
+    } catch (err) {
+      els.scoutDetail.innerHTML = `<p class="muted">Could not load scout data.</p>`;
+      console.error(err);
+      return;
+    }
+
+    state.scoutDetail = payload;
+    renderScoutDetail(payload);
+  }
+
+  function renderScoutDetail(payload) {
+    if (!els.scoutDetail) return;
+    const scout = payload.scout || {};
+    const target = payload.target || {};
+    const company = scout.company || target.name || scout.slug || "";
+    const slug = scout.slug || target.slug || state.selectedScoutSlug;
+    const boardLeads = payload.board_leads || [];
+    const findings = scout.findings || [];
+    const hms = scout.hiring_managers || [];
+    const signals = [...(scout.quiet_signals || [])].sort((a, b) =>
+      String(b.posted_at || b.found_at || "").localeCompare(
+        String(a.posted_at || a.found_at || "")
+      )
+    );
+
+    const canWrite = state.writeMode === "api";
+
+    let html = `
+      <header class="detail-header">
+        <div>
+          <p class="eyebrow">Lead Finder</p>
+          <h2 class="detail-title">${escapeHtml(company)}</h2>
+          <p class="muted scout-meta-line">
+            ${target.domain ? escapeHtml(target.domain) + " · " : ""}
+            ${
+              scout.updated_at
+                ? "Scouted " + escapeHtml(String(scout.updated_at).slice(0, 10))
+                : "Not scouted yet"
+            }
+          </p>
+        </div>
+        <div class="detail-actions scout-actions">
+          <a class="btn ghost small" href="#companies/${encodeURIComponent(slug)}">Company Research</a>
+          ${
+            canWrite
+              ? `<button type="button" class="btn ghost small" data-scout-remove="${escapeHtml(slug)}">Remove target</button>`
+              : ""
+          }
+        </div>
+      </header>
+      <p class="muted scout-hint">Run <code class="mono">/job-scout ${escapeHtml(slug)}</code> to refresh research.</p>
+    `;
+
+    html += `<section class="block"><h3>Findings</h3>`;
+    if (!findings.length) {
+      html += `<p class="muted">No findings yet.</p>`;
+    } else {
+      const sortedFindings = [...findings].sort((a, b) => {
+        const ha = Number.isFinite(Number(a.hire_likelihood))
+          ? Number(a.hire_likelihood)
+          : -1;
+        const hb = Number.isFinite(Number(b.hire_likelihood))
+          ? Number(b.hire_likelihood)
+          : -1;
+        if (hb !== ha) return hb - ha;
+        return String(b.posted_at || b.found_at || "").localeCompare(
+          String(a.posted_at || a.found_at || "")
+        );
+      });
+      html += `<ul class="scout-finding-list">`;
+      for (const f of sortedFindings) {
+        const onBoard = Boolean(f.board_lead_id);
+        const kind = f.kind === "posting" ? "posting" : "outreach";
+        const mode = findingWorkMode(f);
+        const modeLabel = findingWorkModeLabel(mode);
+        const modeClass = mode === "hybrid-other" ? "hybrid hybrid-other" : mode;
+        const hire =
+          f.hire_likelihood != null && Number.isFinite(Number(f.hire_likelihood))
+            ? Math.max(0, Math.min(100, Number(f.hire_likelihood)))
+            : null;
+        const gaps = Array.isArray(f.missing_gaps)
+          ? f.missing_gaps.filter((g) => typeof g === "string" && g.trim())
+          : [];
+        const fit = String(f.fit_summary || "").trim();
+        const bucket = String(f.target_bucket || "").trim();
+        html += `<li class="scout-finding-card">
+          <div class="scout-finding-top">
+            <strong>${escapeHtml(f.title || "Untitled")}</strong>
+            ${
+              hire != null
+                ? `<span class="badge hire-score" title="Hire likelihood">${hire}/100</span>`
+                : ""
+            }
+            <span class="badge">${escapeHtml(kind)}</span>
+            ${
+              modeLabel
+                ? `<span class="badge work-mode ${escapeHtml(modeClass)}"${
+                    f.location
+                      ? ` title="${escapeHtml(f.location)}"`
+                      : ""
+                  }>${escapeHtml(modeLabel)}</span>`
+                : ""
+            }
+            ${
+              bucket && bucket !== "similar"
+                ? `<span class="badge">${escapeHtml(bucket)}</span>`
+                : ""
+            }
+            ${onBoard ? `<span class="badge interview">On board</span>` : ""}
+          </div>
+          <p>${escapeHtml(f.summary || "")}</p>
+          ${
+            fit
+              ? `<p class="scout-fit"><span class="muted">Fit:</span> ${escapeHtml(fit)}</p>`
+              : ""
+          }
+          ${
+            gaps.length
+              ? `<ul class="scout-gaps">${gaps
+                  .map((g) => `<li>${escapeHtml(g)}</li>`)
+                  .join("")}</ul>`
+              : ""
+          }
+          <div class="scout-finding-actions">
+            ${
+              f.url
+                ? `<a class="btn ghost small" href="${escapeHtml(f.url)}" target="_blank" rel="noopener">Open</a>`
+                : ""
+            }
+            ${
+              canWrite
+                ? onBoard
+                  ? `<button type="button" class="btn ghost small" data-scout-demote="${escapeHtml(f.id)}">Remove from leads board</button>`
+                  : `<button type="button" class="btn small" data-scout-promote="${escapeHtml(f.id)}">Add to leads board</button>`
+                : `<span class="muted">Serve with <code class="mono">make server</code> to promote</span>`
+            }
+            ${
+              onBoard && f.board_lead_id
+                ? `<a class="btn ghost small" href="#leads/${encodeURIComponent(f.board_lead_id)}">View lead</a>`
+                : ""
+            }
+          </div>
+        </li>`;
+      }
+      html += `</ul>`;
+    }
+    html += `</section>`;
+
+    if (boardLeads.length) {
+      html += `<section class="block"><h3>Leads board (this company)</h3><ul class="scout-board-leads">`;
+      for (const lead of boardLeads) {
+        html += `<li><a href="#leads/${encodeURIComponent(lead.id)}">${escapeHtml(lead.title || lead.id)}</a>
+          <span class="badge">${escapeHtml(lead.status || "active")}</span></li>`;
+      }
+      html += `</ul></section>`;
+    }
+
+    html += `<section class="block"><h3>Hiring managers</h3>`;
+    if (!hms.length) {
+      html += `<p class="muted">None found yet.</p>`;
+    } else {
+      html += `<ul class="scout-hm-list">`;
+      for (const hm of hms) {
+        html += `<li class="scout-hm-card">
+          <strong>${escapeHtml(hm.name || "Unknown")}</strong>
+          <span class="muted">${escapeHtml(hm.title || "")}</span>
+          ${
+            hm.linkedin_url
+              ? `<a href="${escapeHtml(hm.linkedin_url)}" target="_blank" rel="noopener">LinkedIn</a>`
+              : ""
+          }
+          ${hm.notes ? `<p class="muted">${escapeHtml(hm.notes)}</p>` : ""}
+        </li>`;
+      }
+      html += `</ul>`;
+    }
+    html += `</section>`;
+
+    html += `<section class="block"><h3>Quiet signals</h3>`;
+    if (!signals.length) {
+      html += `<p class="muted">None found yet.</p>`;
+    } else {
+      html += `<ul class="scout-signal-list">`;
+      for (const sig of signals) {
+        const strength = sig.signal_strength || "low";
+        html += `<li class="scout-signal-card">
+          <div class="scout-finding-top">
+            <strong>${escapeHtml(sig.author || sig.source || "Signal")}</strong>
+            <span class="badge signal-${escapeHtml(strength)}">${escapeHtml(strength)}</span>
+            <span class="badge">${escapeHtml(sig.source || "")}</span>
+          </div>
+          <p>${escapeHtml(sig.summary || "")}</p>
+          <div class="scout-finding-actions">
+            ${
+              sig.url
+                ? `<a class="btn ghost small" href="${escapeHtml(sig.url)}" target="_blank" rel="noopener">Open post</a>`
+                : ""
+            }
+            ${
+              sig.posted_at
+                ? `<span class="muted">${escapeHtml(String(sig.posted_at).slice(0, 10))}</span>`
+                : ""
+            }
+          </div>
+        </li>`;
+      }
+      html += `</ul>`;
+    }
+    html += `</section>`;
+
+    els.scoutDetail.innerHTML = html;
+
+    els.scoutDetail
+      .querySelector("[data-scout-remove]")
+      ?.addEventListener("click", async (e) => {
+        const s = e.currentTarget.getAttribute("data-scout-remove");
+        if (!s) return;
+        const ok = await confirmDialog({
+          title: "Remove target?",
+          body: `Remove ${company} from Lead Finder targets? Scout files are kept.`,
+          confirmLabel: "Remove",
+        });
+        if (!ok) return;
+        await apiMutation(
+          { action: "remove", slug: s },
+          "/api/scout/targets"
+        );
+        clearScoutSelection({ history: true });
+        await loadScoutIndex();
+        renderScoutList();
+      });
+
+    for (const btn of els.scoutDetail.querySelectorAll("[data-scout-promote]")) {
+      btn.addEventListener("click", async () => {
+        const fid = btn.getAttribute("data-scout-promote");
+        await apiMutation(
+          {
+            action: "promote_finding",
+            slug,
+            finding_id: fid,
+          },
+          "/api/scout"
+        );
+        await reload();
+        await selectScoutCompany(slug, { history: false });
+      });
+    }
+    for (const btn of els.scoutDetail.querySelectorAll("[data-scout-demote]")) {
+      btn.addEventListener("click", async () => {
+        const fid = btn.getAttribute("data-scout-demote");
+        await apiMutation(
+          {
+            action: "demote_finding",
+            slug,
+            finding_id: fid,
+          },
+          "/api/scout"
+        );
+        await reload();
+        await selectScoutCompany(slug, { history: false });
+      });
+    }
+  }
+
+  async function addScoutTarget() {
+    const name = (els.scoutAddName?.value || "").trim();
+    if (!name) return;
+    const domain = (els.scoutAddDomain?.value || "").trim();
+    if (state.writeMode !== "api") {
+      alert("Start the board with make server to add companies from the UI.");
+      return;
+    }
+    await apiMutation(
+      {
+        action: "add",
+        name,
+        domain: domain || null,
+      },
+      "/api/scout/targets"
+    );
+    if (els.scoutAddName) els.scoutAddName.value = "";
+    if (els.scoutAddDomain) els.scoutAddDomain.value = "";
+    await loadScoutIndex();
+    renderScoutList();
+    const slug = companySlug(name);
+    await selectScoutCompany(slug, { history: true });
+  }
+
+  // ── Recruiters ───────────────────────────────────────────────────
+
+  async function loadRecruiters() {
+    try {
+      if (state.writeMode === "api") {
+        const data = await fetchJson("/api/recruiters");
+        state.recruiters = data.recruiters || [];
+        return;
+      }
+    } catch (err) {
+      console.warn("recruiters api unavailable", err);
+    }
+    try {
+      const index = await fetchJson("recruiters/index.json");
+      state.recruiters = index.recruiters || [];
+    } catch {
+      state.recruiters = [];
+    }
+  }
+
+  function filteredRecruiters() {
+    const q = (els.filterRecruiterQ?.value || "").trim().toLowerCase();
+    if (!q) return state.recruiters.slice();
+    return state.recruiters.filter((r) => {
+      const hay = [r.name, r.firm, r.focus, ...(r.companies || [])]
+        .join(" ")
+        .toLowerCase();
+      return hay.includes(q);
+    });
+  }
+
+  function renderRecruiterBoard() {
+    if (!els.recruiterKanban) return;
+    const items = filteredRecruiters();
+    const empty = (state.recruiters || []).length === 0;
+    els.recruiterListEmpty?.classList.toggle("hidden", !empty);
+    els.recruiterKanban.hidden = empty;
+
+    for (const lane of RECRUITER_LANES) {
+      const col = els.recruiterKanban.querySelector(
+        `.kanban-cards[data-drop-status="${lane.id}"]`
+      );
+      const countEl = els.recruiterKanban.querySelector(
+        `[data-count-for="${lane.id}"]`
+      );
+      if (!col) continue;
+      col.innerHTML = "";
+      const laneItems = items.filter(
+        (r) => (r.status || "found") === lane.id
+      );
+      if (countEl) countEl.textContent = String(laneItems.length);
+      for (const rec of laneItems) {
+        col.appendChild(buildRecruiterCard(rec));
+      }
+    }
+    wireRecruiterKanbanDnd();
+    if (state.selectedRecruiterId) {
+      const still = state.recruiters.some(
+        (r) => r.id === state.selectedRecruiterId
+      );
+      if (still) renderRecruiterDetail(state.selectedRecruiterId);
+      else clearRecruiterSelection({ history: false });
+    }
+  }
+
+  function buildRecruiterCard(rec) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "kanban-card";
+    btn.draggable = state.writeMode === "api";
+    btn.dataset.recruiterId = rec.id;
+    if (state.selectedRecruiterId === rec.id) {
+      btn.classList.add("is-selected");
+    }
+    btn.innerHTML = `
+      <span class="kanban-card-title"></span>
+      <span class="kanban-card-company muted"></span>
+      <span class="kanban-card-meta"></span>`;
+    btn.querySelector(".kanban-card-title").textContent = rec.name || rec.id;
+    btn.querySelector(".kanban-card-company").textContent = rec.firm || "";
+    const meta = btn.querySelector(".kanban-card-meta");
+    if (rec.focus) {
+      const badge = document.createElement("span");
+      badge.className = "badge";
+      badge.textContent = rec.focus;
+      meta.appendChild(badge);
+    }
+    btn.addEventListener("click", () =>
+      selectRecruiter(rec.id, { history: true })
+    );
+    btn.addEventListener("dragstart", (e) => {
+      state.dragRecruiterId = rec.id;
+      e.dataTransfer.setData("text/plain", rec.id);
+      e.dataTransfer.effectAllowed = "move";
+      btn.classList.add("is-dragging");
+    });
+    btn.addEventListener("dragend", () => {
+      state.dragRecruiterId = null;
+      btn.classList.remove("is-dragging");
+      els.recruiterKanban
+        ?.querySelectorAll(".kanban-column.is-drag-over")
+        .forEach((c) => c.classList.remove("is-drag-over"));
+    });
+    return btn;
+  }
+
+  function wireRecruiterKanbanDnd() {
+    if (!els.recruiterKanban || els.recruiterKanban.dataset.dndWired === "1") {
+      return;
+    }
+    els.recruiterKanban.dataset.dndWired = "1";
+    for (const col of els.recruiterKanban.querySelectorAll(
+      ".kanban-cards[data-recruiter-drop]"
+    )) {
+      const column = col.closest(".kanban-column");
+      col.addEventListener("dragover", (e) => {
+        if (!state.dragRecruiterId) return;
+        e.preventDefault();
+        column?.classList.add("is-drag-over");
+      });
+      col.addEventListener("dragleave", () => {
+        column?.classList.remove("is-drag-over");
+      });
+      col.addEventListener("drop", async (e) => {
+        e.preventDefault();
+        column?.classList.remove("is-drag-over");
+        const id = state.dragRecruiterId || e.dataTransfer.getData("text/plain");
+        const status = col.getAttribute("data-drop-status");
+        if (!id || !status) return;
+        await setRecruiterStatus(id, status);
+      });
+    }
+  }
+
+  async function setRecruiterStatus(id, status) {
+    if (state.writeMode !== "api") return;
+    let dead_reason = null;
+    if (status === "dead") {
+      const ok = await confirmDialog({
+        title: "Mark recruiter dead?",
+        body: "Move this recruiter to Dead. Folder is kept.",
+        confirmLabel: "Mark dead",
+      });
+      if (!ok) return;
+      dead_reason = "Marked dead via UI";
+    }
+    await apiMutation(
+      {
+        action: "set_status",
+        id,
+        status,
+        dead_reason,
+      },
+      "/api/recruiters"
+    );
+    await loadRecruiters();
+    renderRecruiterBoard();
+    if (state.selectedRecruiterId === id) {
+      await selectRecruiter(id, { history: false });
+    }
+  }
+
+  function clearRecruiterSelection({ history = false } = {}) {
+    state.selectedRecruiterId = null;
+    if (els.recruiterDetail) {
+      els.recruiterDetail.classList.add("hidden");
+      els.recruiterDetail.innerHTML = "";
+    }
+    els.recruiterDetailEmpty?.classList.remove("hidden");
+    els.recruiterKanban
+      ?.querySelectorAll(".kanban-card.is-selected")
+      .forEach((c) => c.classList.remove("is-selected"));
+    if (history) commitRoute({ push: true });
+    else if (!state.applyingRoute) commitRoute({ push: false });
+  }
+
+  async function selectRecruiter(id, { history = true } = {}) {
+    const same =
+      state.selectedRecruiterId === id && state.view === "recruiters";
+    state.selectedRecruiterId = id;
+    if (state.view !== "recruiters") {
+      setView("recruiters", { updateHash: false, fromUser: false });
+    }
+    renderRecruiterBoard();
+    if (history && !same) commitRoute({ push: true });
+    else if (!state.applyingRoute) commitRoute({ push: false });
+    await renderRecruiterDetail(id);
+  }
+
+  async function renderRecruiterDetail(id) {
+    if (!els.recruiterDetail || !els.recruiterDetailEmpty) return;
+    let meta =
+      state.recruiters.find((r) => r.id === id) || null;
+    try {
+      if (state.writeMode === "api") {
+        const data = await fetchJson(
+          `/api/recruiters/${encodeURIComponent(id)}`
+        );
+        meta = data.meta || meta;
+      } else {
+        meta = (await fetchJson(`recruiters/${id}/meta.json`)) || meta;
+      }
+    } catch {
+      /* use list entry */
+    }
+    if (!meta) {
+      els.recruiterDetail.innerHTML = `<p class="muted">Recruiter not found.</p>`;
+      return;
+    }
+    els.recruiterDetailEmpty.classList.add("hidden");
+    els.recruiterDetail.classList.remove("hidden");
+    const status = meta.status || "found";
+    const companies = (meta.companies || [])
+      .map(
+        (c) =>
+          `<a href="#scout/${encodeURIComponent(c)}">${escapeHtml(c)}</a>`
+      )
+      .join(", ");
+    els.recruiterDetail.innerHTML = `
+      <header class="detail-header">
+        <div>
+          <p class="eyebrow">Recruiter</p>
+          <h2 class="detail-title">${escapeHtml(meta.name || id)}</h2>
+          <p class="muted">${escapeHtml(meta.firm || "")}</p>
+        </div>
+        <div class="detail-actions">
+          <span class="badge">${escapeHtml(RECRUITER_STATUS_LABELS[status] || status)}</span>
+        </div>
+      </header>
+      <section class="block">
+        <h3>Details</h3>
+        <dl class="scout-dl">
+          <dt>Focus</dt><dd>${escapeHtml(meta.focus || "—")}</dd>
+          <dt>Email</dt><dd>${escapeHtml(meta.email || "—")}</dd>
+          <dt>LinkedIn</dt><dd>${
+            meta.linkedin_url
+              ? `<a href="${escapeHtml(meta.linkedin_url)}" target="_blank" rel="noopener">Profile</a>`
+              : "—"
+          }</dd>
+          <dt>Companies</dt><dd>${companies || "—"}</dd>
+          <dt>Found</dt><dd>${escapeHtml(meta.found_at || "—")}</dd>
+          <dt>Contacted</dt><dd>${escapeHtml(meta.contacted_at || "—")}</dd>
+        </dl>
+        ${
+          meta.notes
+            ? `<p class="scout-notes">${escapeHtml(meta.notes)}</p>`
+            : ""
+        }
+        ${
+          meta.dead_reason
+            ? `<p class="muted">Dead reason: ${escapeHtml(meta.dead_reason)}</p>`
+            : ""
+        }
+      </section>
+      <section class="block">
+        <h3>Move to</h3>
+        <div class="scout-finding-actions">
+          ${RECRUITER_LANES.map(
+            (lane) =>
+              `<button type="button" class="btn ghost small" data-recruiter-status="${lane.id}" ${
+                status === lane.id ? "disabled" : ""
+              }>${lane.label}</button>`
+          ).join("")}
+        </div>
+      </section>`;
+
+    for (const btn of els.recruiterDetail.querySelectorAll(
+      "[data-recruiter-status]"
+    )) {
+      btn.addEventListener("click", () =>
+        setRecruiterStatus(id, btn.getAttribute("data-recruiter-status"))
+      );
+    }
+  }
+
   const VIEW_META = {
     profile: { title: "Profile", documentTitle: "Profile · Job Research" },
     leads: { title: "Leads board", documentTitle: "Leads board · Job Research" },
     companies: {
       title: "Company Research",
       documentTitle: "Company Research · Job Research",
+    },
+    scout: {
+      title: "Lead Finder",
+      documentTitle: "Lead Finder · Job Research",
+    },
+    recruiters: {
+      title: "Recruiters",
+      documentTitle: "Recruiters · Job Research",
     },
     sources: { title: "Sources", documentTitle: "Sources · Job Research" },
     settings: { title: "Settings", documentTitle: "Settings · Job Research" },
@@ -2799,6 +3677,8 @@
       profile: els.viewProfile,
       leads: els.viewLeads,
       companies: els.viewCompanies,
+      scout: els.viewScout,
+      recruiters: els.viewRecruiters,
       sources: els.viewSources,
       settings: els.viewSettings,
     };
@@ -2832,6 +3712,12 @@
     if (next === "sources") {
       closePreviewLightbox({ restore: true });
       renderSourcesView();
+    } else if (next === "scout") {
+      closePreviewLightbox({ restore: true });
+      renderScoutList();
+    } else if (next === "recruiters") {
+      closePreviewLightbox({ restore: true });
+      renderRecruiterBoard();
     } else if (next === "profile" || next === "settings") {
       closePreviewLightbox({ restore: true });
     } else {
@@ -2844,6 +3730,9 @@
       view: state.view,
       leadId: state.view === "leads" ? state.selectedId : null,
       companySlug: state.view === "companies" ? state.selectedCompanySlug : null,
+      scoutSlug: state.view === "scout" ? state.selectedScoutSlug : null,
+      recruiterId:
+        state.view === "recruiters" ? state.selectedRecruiterId : null,
     };
   }
 
@@ -2857,6 +3746,16 @@
         ? `#companies/${encodeURIComponent(route.companySlug)}`
         : "#companies";
     }
+    if (view === "scout") {
+      return route.scoutSlug
+        ? `#scout/${encodeURIComponent(route.scoutSlug)}`
+        : "#scout";
+    }
+    if (view === "recruiters") {
+      return route.recruiterId
+        ? `#recruiters/${encodeURIComponent(route.recruiterId)}`
+        : "#recruiters";
+    }
     return route.leadId
       ? `#leads/${encodeURIComponent(route.leadId)}`
       : "#leads";
@@ -2864,7 +3763,15 @@
 
   function parseHash(hash) {
     const raw = String(hash || "#leads").replace(/^#/, "").trim();
-    if (!raw) return { view: "leads", leadId: null, companySlug: null };
+    if (!raw) {
+      return {
+        view: "leads",
+        leadId: null,
+        companySlug: null,
+        scoutSlug: null,
+        recruiterId: null,
+      };
+    }
     const slash = raw.indexOf("/");
     const head = (slash === -1 ? raw : raw.slice(0, slash)).toLowerCase();
     const rest = slash === -1 ? "" : raw.slice(slash + 1);
@@ -2877,16 +3784,57 @@
       }
     }
     if (head === "profile" || head === "settings" || head === "sources") {
-      return { view: head, leadId: null, companySlug: null };
+      return {
+        view: head,
+        leadId: null,
+        companySlug: null,
+        scoutSlug: null,
+        recruiterId: null,
+      };
     }
     if (head === "companies") {
-      return { view: "companies", leadId: null, companySlug: id || null };
+      return {
+        view: "companies",
+        leadId: null,
+        companySlug: id || null,
+        scoutSlug: null,
+        recruiterId: null,
+      };
     }
-    // `#leads/<id>` or legacy bare `#leads`
+    if (head === "scout") {
+      return {
+        view: "scout",
+        leadId: null,
+        companySlug: null,
+        scoutSlug: id || null,
+        recruiterId: null,
+      };
+    }
+    if (head === "recruiters") {
+      return {
+        view: "recruiters",
+        leadId: null,
+        companySlug: null,
+        scoutSlug: null,
+        recruiterId: id || null,
+      };
+    }
     if (head === "leads") {
-      return { view: "leads", leadId: id || null, companySlug: null };
+      return {
+        view: "leads",
+        leadId: id || null,
+        companySlug: null,
+        scoutSlug: null,
+        recruiterId: null,
+      };
     }
-    return { view: "leads", leadId: null, companySlug: null };
+    return {
+      view: "leads",
+      leadId: null,
+      companySlug: null,
+      scoutSlug: null,
+      recruiterId: null,
+    };
   }
 
   function viewFromHash() {
@@ -2926,6 +3874,22 @@
           }
         } else if (state.selectedCompanySlug) {
           clearCompanySelection({ history: false });
+        }
+      } else if (route.view === "scout") {
+        if (route.scoutSlug) {
+          if (state.selectedScoutSlug !== route.scoutSlug) {
+            await selectScoutCompany(route.scoutSlug, { history: false });
+          }
+        } else if (state.selectedScoutSlug) {
+          clearScoutSelection({ history: false });
+        }
+      } else if (route.view === "recruiters") {
+        if (route.recruiterId) {
+          if (state.selectedRecruiterId !== route.recruiterId) {
+            await selectRecruiter(route.recruiterId, { history: false });
+          }
+        } else if (state.selectedRecruiterId) {
+          clearRecruiterSelection({ history: false });
         }
       }
     } finally {
@@ -3321,6 +4285,36 @@
   }
   if (els.btnCompanyRefresh) {
     els.btnCompanyRefresh.addEventListener("click", () => reload());
+  }
+
+  if (els.btnScoutAdd) {
+    els.btnScoutAdd.addEventListener("click", () => addScoutTarget());
+  }
+  if (els.scoutAddName) {
+    els.scoutAddName.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        addScoutTarget();
+      }
+    });
+  }
+  if (els.filterScoutQ) {
+    els.filterScoutQ.addEventListener("input", renderScoutList);
+  }
+  if (els.btnScoutRefresh) {
+    els.btnScoutRefresh.addEventListener("click", () => reload());
+  }
+  if (els.filterRecruiterQ) {
+    els.filterRecruiterQ.addEventListener("input", renderRecruiterBoard);
+  }
+  if (els.btnRecruiterReset) {
+    els.btnRecruiterReset.addEventListener("click", () => {
+      if (els.filterRecruiterQ) els.filterRecruiterQ.value = "";
+      renderRecruiterBoard();
+    });
+  }
+  if (els.btnRecruiterRefresh) {
+    els.btnRecruiterRefresh.addEventListener("click", () => reload());
   }
 
   if (els.btnMenu) {

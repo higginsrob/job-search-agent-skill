@@ -8,7 +8,7 @@
 
 # Source of truth for skill packages in this repo
 SKILLS_SRC := .cursor/skills
-SKILL_NAMES := job-search job-sync-resume job-generate-resume job-generate-cover-letter job-company-detail
+SKILL_NAMES := job-search job-sync-resume job-generate-resume job-generate-cover-letter job-company-detail job-scout
 
 # Static demo publish (GitHub Pages)
 GH_PAGES_BRANCH ?= gh-pages
@@ -155,6 +155,8 @@ github-pages:
 	echo "Building $(GH_PAGES_BRANCH) from $${BASE} in worktree..."; \
 	git worktree add --detach "$$WT" "$$BASE"; \
 	cp -a "$$ROOT/leads" "$$ROOT/companies" "$$WT/"; \
+	if [ -d "$$ROOT/scout" ]; then cp -a "$$ROOT/scout" "$$WT/"; fi; \
+	if [ -d "$$ROOT/recruiters" ]; then cp -a "$$ROOT/recruiters" "$$WT/"; fi; \
 	mkdir -p "$$WT/resume" "$$WT/.cursor/skills/job-search" "$$WT/.cursor/skills/job-generate-resume"; \
 	cp "$$ROOT/resume/resume.md" "$$ROOT/resume/resume.html" "$$ROOT/resume/resume.pdf" "$$WT/resume/"; \
 	cp "$$ROOT/.cursor/skills/job-search/candidate.md" "$$WT/.cursor/skills/job-search/candidate.md"; \
@@ -164,7 +166,7 @@ github-pages:
 			"$$WT/.cursor/skills/job-generate-resume/base-resume.md"; \
 	fi; \
 	touch "$$WT/.nojekyll"; \
-	find "$$WT/leads" "$$WT/companies" -name .DS_Store -delete 2>/dev/null || true; \
+	find "$$WT/leads" "$$WT/companies" "$$WT/scout" "$$WT/recruiters" -name .DS_Store -delete 2>/dev/null || true; \
 	git -C "$$WT" checkout -B $(GH_PAGES_BRANCH); \
 	echo "Staging demo data (force-add; gitignored on main)..."; \
 	git -C "$$WT" add -f .nojekyll candidate.md \
@@ -172,6 +174,8 @@ github-pages:
 		leads companies \
 		resume/resume.md resume/resume.html resume/resume.pdf \
 		.cursor/skills/job-search/candidate.md; \
+	if [ -d "$$WT/scout" ]; then git -C "$$WT" add -f scout; fi; \
+	if [ -d "$$WT/recruiters" ]; then git -C "$$WT" add -f recruiters; fi; \
 	if [ -f "$$WT/.cursor/skills/job-generate-resume/base-resume.md" ]; then \
 		git -C "$$WT" add -f .cursor/skills/job-generate-resume/base-resume.md; \
 	fi; \

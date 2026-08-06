@@ -50,6 +50,10 @@
           <a href="#companies" class="side-nav-link" data-view="companies"
             >Company Research</a
           >
+          <a href="#scout" class="side-nav-link" data-view="scout">Lead Finder</a>
+          <a href="#recruiters" class="side-nav-link" data-view="recruiters"
+            >Recruiters</a
+          >
           <a href="#sources" class="side-nav-link" data-view="sources">Sources</a>
           <a href="#settings" class="side-nav-link" data-view="settings">Settings</a>
         </nav>
@@ -172,7 +176,7 @@
                 <option value="all">All</option>
                 <option value="active">Active</option>
                 <option value="in_progress">In progress</option>
-                <option value="applied">Applied</option>
+                <option value="applied">Applied (any lane)</option>
                 <option value="interview">Interview</option>
                 <option value="dead">Dead</option>
               </select>
@@ -394,6 +398,158 @@
                 <p>Select a company to read its research brief.</p>
               </div>
               <article id="company-detail" class="detail company-detail hidden"></article>
+            </main>
+          </div>
+        </section>
+
+        <section
+          id="view-scout"
+          class="view hidden"
+          data-view-panel="scout"
+          hidden
+        >
+          <section class="toolbar" aria-label="Lead Finder controls">
+            <label class="field grow">
+              <span>Company</span>
+              <input
+                id="scout-add-name"
+                type="text"
+                placeholder="Add company name…"
+                autocomplete="organization"
+              />
+            </label>
+            <label class="field">
+              <span>Domain</span>
+              <input
+                id="scout-add-domain"
+                type="text"
+                placeholder="optional.com"
+                autocomplete="off"
+              />
+            </label>
+            <button type="button" id="btn-scout-add" class="btn">Add</button>
+            <label class="field grow">
+              <span>Search</span>
+              <input
+                id="filter-scout-q"
+                type="search"
+                placeholder="Filter targets…"
+                autocomplete="off"
+              />
+            </label>
+            <button type="button" id="btn-scout-refresh" class="btn ghost">
+              Refresh
+            </button>
+          </section>
+
+          <div class="layout layout-companies">
+            <aside class="list-pane">
+              <div id="scout-list-empty" class="empty hidden">
+                <p>No target companies yet.</p>
+                <p class="muted">
+                  Add companies above, then run
+                  <code class="mono">/job-scout</code> to research off-board
+                  roles, hiring managers, and quiet signals.
+                </p>
+              </div>
+              <ul
+                id="scout-list"
+                class="company-research-list"
+                role="listbox"
+                aria-label="Lead Finder targets"
+              ></ul>
+            </aside>
+            <main class="detail-pane" id="scout-detail-pane">
+              <div id="scout-detail-empty" class="empty detail-empty">
+                <p>Select a company to see scout findings.</p>
+              </div>
+              <article id="scout-detail" class="detail company-detail hidden"></article>
+            </main>
+          </div>
+        </section>
+
+        <section
+          id="view-recruiters"
+          class="view hidden"
+          data-view-panel="recruiters"
+          hidden
+        >
+          <section class="toolbar" aria-label="Recruiter filters">
+            <label class="field grow">
+              <span>Search</span>
+              <input
+                id="filter-recruiter-q"
+                type="search"
+                placeholder="Name, firm, focus…"
+                autocomplete="off"
+              />
+            </label>
+            <button type="button" id="btn-recruiter-reset" class="btn ghost">
+              Reset
+            </button>
+            <button type="button" id="btn-recruiter-refresh" class="btn ghost">
+              Refresh
+            </button>
+          </section>
+
+          <div class="layout layout-kanban layout-recruiters">
+            <div class="kanban-pane">
+              <div
+                id="recruiter-kanban"
+                class="kanban-board kanban-board-3"
+                aria-label="Recruiters board"
+              >
+                <section class="kanban-column" data-status="found">
+                  <header class="kanban-column-header">
+                    <h2>Found</h2>
+                    <span class="kanban-count" data-count-for="found">0</span>
+                  </header>
+                  <div
+                    class="kanban-cards"
+                    data-drop-status="found"
+                    data-recruiter-drop="1"
+                  ></div>
+                </section>
+                <section class="kanban-column" data-status="contacted">
+                  <header class="kanban-column-header">
+                    <h2>Contacted</h2>
+                    <span class="kanban-count" data-count-for="contacted">0</span>
+                  </header>
+                  <div
+                    class="kanban-cards"
+                    data-drop-status="contacted"
+                    data-recruiter-drop="1"
+                  ></div>
+                </section>
+                <section class="kanban-column" data-status="dead">
+                  <header class="kanban-column-header">
+                    <h2>Dead</h2>
+                    <span class="kanban-count" data-count-for="dead">0</span>
+                  </header>
+                  <div
+                    class="kanban-cards"
+                    data-drop-status="dead"
+                    data-recruiter-drop="1"
+                  ></div>
+                </section>
+              </div>
+              <div id="recruiter-list-empty" class="empty hidden">
+                <p>No recruiters yet.</p>
+                <p class="muted">
+                  Run <code class="mono">/job-scout</code> to discover
+                  recruiters, or wait for agent upserts into
+                  <code class="mono">recruiters/</code>.
+                </p>
+              </div>
+            </div>
+            <main class="detail-pane" id="recruiter-detail-pane">
+              <div id="recruiter-detail-empty" class="empty detail-empty">
+                <p>Select a recruiter to see details.</p>
+              </div>
+              <article
+                id="recruiter-detail"
+                class="detail company-detail hidden"
+              ></article>
             </main>
           </div>
         </section>

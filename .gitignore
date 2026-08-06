@@ -22,6 +22,14 @@ leads/*
 !leads/sources.example.json
 companies/*
 !companies/.gitkeep
+scout/*
+!scout/.gitkeep
+!scout/targets.example.json
+!scout/scout.example.json
+recruiters/*
+!recruiters/.gitkeep
+!recruiters/index.example.json
+!recruiters/meta.example.json
 
 # Python
 __pycache__/
@@ -51,3 +59,5 @@ htmlcov/
 .DS_Store
 *.swp
 *~
+
+.tmp

@@ -1,0 +1,15 @@
+{
+  "id": "20260804-1200-jane-doe-acme-talent",
+  "name": "Jane Doe",
+  "firm": "Acme Talent",
+  "linkedin_url": "https://www.linkedin.com/in/example/",
+  "email": null,
+  "focus": "Staff / Principal software engineers",
+  "notes": "",
+  "status": "found",
+  "dead_reason": null,
+  "found_at": null,
+  "contacted_at": null,
+  "sources": [],
+  "companies": []
+}
