@@ -1,0 +1,5 @@
+LiveKit provides real-time media networking for multimodal A I interfaces — open source and cloud — used by large A I product companies. Infrastructure is the product.
+
+They are hiring a Staff Software Engineer for distributed systems on LiveKit Cloud, remote in North America, at two hundred to three hundred thousand dollars. The stack leans Go, g R P C, Raft, NATS, and Kubernetes.
+
+Expect a small senior team and a high distributed-systems bar. Strong apply if you want staff-level platform work at a developer infrastructure company.

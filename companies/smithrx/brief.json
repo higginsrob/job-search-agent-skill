@@ -1,0 +1,16 @@
+{
+  "company": "SmithRx",
+  "slug": "smithrx",
+  "domain": "smithrx.com",
+  "products": "Venture-backed pharmacy benefit / drug acquisition Health-Tech platform aiming to modernize PBM inefficiencies with technology and cost tools.",
+  "fiscal_outlook": "Private venture-backed health-tech; hundreds of thousands of members claimed on careers page. Exact funding stage not verified here.",
+  "hiring_trends": "Multiple Staff/Senior platform and applications engineering roles open on Greenhouse (Go/TS/Node/GraphQL/Postgres/AWS). US remote with state eligibility lists.",
+  "similar_role_hires": "Staff Software Engineer, Platform and Applications currently listed; compiled-language (Go) expertise emphasized.",
+  "hiring_profile": "Active eng hiring volume on ATS. Backend/platform-heavy Staff bar; fullstack Platform listing earlier appears closed/replaced.",
+  "sources": [
+    "https://www.smithrx.com/",
+    "https://job-boards.greenhouse.io/smithrx/jobs/8472599002"
+  ],
+  "updated_at": "2026-08-01T00:50:00Z",
+  "icon": "icon.png"
+}

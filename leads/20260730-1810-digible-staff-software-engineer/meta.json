@@ -1,0 +1,43 @@
+{
+  "id": "20260730-1810-digible-staff-software-engineer",
+  "title": "Staff Software Engineer",
+  "company": "Digible",
+  "location": "Remote (US) / Work From Anywhere",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-07-27T12:00:00Z",
+  "found_at": "2026-07-30T18:10:00Z",
+  "compensation": "$170k\u2013$195k",
+  "url": "https://job-boards.greenhouse.io/digible/jobs/6128276004",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "rank": 1,
+  "hire_likelihood": 93,
+  "fit_summary": "Colorado digital marketing company seeking a Staff full-stack IC on TypeScript/Node/React/AWS with AI-native delivery \u2014 strong match to Panorama-style product ownership and Snap/Vertebrae stack.",
+  "missing_gaps": [
+    "Digital marketing / agency product domain not evidenced on resume"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "in_progress",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interested": false,
+  "interested_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "typescript",
+    "node",
+    "react",
+    "aws",
+    "gcp",
+    "ai-native"
+  ],
+  "interviews": []
+}

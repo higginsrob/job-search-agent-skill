@@ -1,0 +1,11 @@
+Cursor is Anysphere's A I coding agent and I D E. The product covers agentic editing, Bugbot A I code review, enterprise admin and identity features, and Origin — upcoming git hosting built for the agent era. Millions of developers use it, powered by in-house models plus third-party large language models.
+
+On the fiscal side, Cursor announced a Series D of two point three billion dollars at a twenty-nine point three billion dollar post-money valuation. Investors include Accel, Thrive, Andreessen Horowitz, Coatue, NVIDIA, and Google. At Series D the company said it had crossed one billion dollars in annualized revenue and grown past three hundred people across engineering, research, design, and operations. Third-party acquisition rumors circulate; treat those as unverified compared with the official financing announcement.
+
+Hiring is very active on the official careers site. There are many software engineer tracks — Core Services, Services Platform, Enterprise Platform, Product, Client Infrastructure, Bugbot, and agents or M L — plus several engineering manager openings. Locations lean San Francisco and New York, with some remote options such as Enterprise Platform and Bugbot.
+
+For staff-level and similar fits, live postings include Enterprise Platform focused on identity, R BAC, and S C I M with a San Francisco and remote option; Core Services covering auth, agent backend, and webhooks; Services Platform for internal developer platforms and Temporal-style orchestration; Bugbot as a fullstack A I code-review product role with remote; Product and Client Infrastructure; and Engineering Manager for Core Services.
+
+Overall, Cursor publishes deep job pages under cursor.com careers rather than aggregator mirrors. Titles are often unleveled software engineer with a high individual-contributor bar and a two-day onsite. Engineering leaders also post hiring signals on LinkedIn for Origin, client infrastructure, and enterprise work.
+
+Bottom line: Cursor is a strong match if you want platform, A I product, or hands-on engineering management work at a high-growth developer-tools company — apply via verified careers pages and expect an intensive onsite.

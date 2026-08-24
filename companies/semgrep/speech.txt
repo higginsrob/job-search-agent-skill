@@ -1,0 +1,5 @@
+Semgrep is a code security platform built for developers — catching and fixing real issues in the workflow, with A I that learns context to cut false positives. They hire through Ashby with hybrid hubs.
+
+A notable open role is Senior Engineering Manager for Guardian, their risk and verdict orchestration layer, at about two hundred thirty to two hundred eighty-eight thousand dollars. The role expects three days a week onsite in Denver, San Francisco, New York, or Boston — Denver is explicitly listed.
+
+Hiring looks credible and senior-weighted. If you want hands-on E M work on a security platform with a Denver hub option, Semgrep Guardian is a high-signal fit to research.

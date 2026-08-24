@@ -1,0 +1,16 @@
+{
+  "company": "Lila Sciences",
+  "slug": "lila-sciences",
+  "updated_at": "2026-07-31T01:45:00Z",
+  "domain": "lila.ai",
+  "icon": "icon.jpg",
+  "products": "AI-for-science company building Scientific Superintelligence systems and AI Science Factory instruments to automate design-build-test-learn loops in medicine, materials, and energy.",
+  "fiscal_outlook": "Early-stage deep-tech/AI science company. Specific funding figures not verified this run; hiring via Greenhouse with wide published base range.",
+  "hiring_trends": "Staff Software Engineer roles around scientific system-of-record, UIs/APIs, and AI-integrated lab/data workflows. Locations Cambridge MA and San Francisco.",
+  "similar_role_hires": "Staff Software Engineer, Scientific System of Record open on Greenhouse ($144k\u2013$288k base range).",
+  "hiring_profile": "Credible Greenhouse board. High scientific-domain bar; React/TypeScript required with Python preferred. Onsite hub expectation.",
+  "sources": [
+    "https://job-boards.greenhouse.io/lilasciences/jobs/4248045009",
+    "https://www.lila.ai/"
+  ]
+}

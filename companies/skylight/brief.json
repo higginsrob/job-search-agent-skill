@@ -1,0 +1,17 @@
+{
+  "company": "Skylight",
+  "slug": "skylight",
+  "domain": "skylight.digital",
+  "products": "Skylight is a digital consultancy helping government agencies deliver better public services; current engagement includes Fostering the Future for ACF with LLM-assisted resource discovery.",
+  "fiscal_outlook": "Public-interest technology consultancy; not a classic venture-backed product SaaS. Stability tied to government contracts/engagements.",
+  "hiring_trends": "Greenhouse posting for Staff Fullstack on the ACF foster-youth platform emphasizes LLM/RAG and civic delivery.",
+  "similar_role_hires": "Staff band listed ($170k\u2013$203k) among leveled eng ranges on the JD.",
+  "hiring_profile": "Clear civic-tech mission and stack; consultancy model. Good JD specificity; company type differs from product SaaS preference.",
+  "sources": [
+    "https://skylight.digital/",
+    "https://job-boards.greenhouse.io/skylighthq/jobs/4705414005",
+    "https://fosteringthefuture.gov/"
+  ],
+  "updated_at": "2026-07-31T02:15:00Z",
+  "icon": "icon.png"
+}

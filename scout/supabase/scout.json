@@ -1,0 +1,262 @@
+{
+  "company": "Supabase",
+  "slug": "supabase",
+  "updated_at": "2026-08-24T02:20:00Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/supabase/",
+  "findings": [
+    {
+      "id": "finding-sdk-engineer-javascript",
+      "title": "SDK Engineer - JavaScript",
+      "summary": "Own public JS/TS client SDKs (database, auth, storage, realtime, edge) used by millions of developers and AI coding tools; library authorship in the open with type-system depth and npm packaging.",
+      "fit_summary": "Snap AR Enterprise Web SDK tech lead plus merchant/SDK ownership at Vertebrae map directly to published TypeScript SDK maintenance, public API design, and developer-platform ownership.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/supabase/f44742fb-18c6-478f-bf78-63707ed57db7",
+      "location": "Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 88,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "Expert-level TypeScript type-system design (conditional/mapped types as API surface)",
+        "High-volume public OSS maintainer triage at Supabase scale"
+      ],
+      "compensation": null,
+      "posted_at": "2026-08-05T08:04:44Z",
+      "evidence": [
+        "Re-verified live on Ashby supabase job board 2026-08-24: posting still listed",
+        "Ashby JD: expert TypeScript, published library with external consumers, OSS maintainer experience, npm dual ESM/CJS",
+        "Fully remote; Engineering department; publishedAt 2026-08-05"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-frontend-engineer-studio",
+      "title": "Frontend Engineer",
+      "summary": "Studio + marketing/docs frontend: ship 0\u21921 product surfaces, own CI/quality pipelines for AI-assisted coding (types, tests, contracts, a11y, visual regression), work end-to-end across React/TS and API contracts.",
+      "fit_summary": "End-to-end React/TS product ownership from Snap/Vertebrae and Head-of-Eng shipping at Panorama AI match Studio 0\u21921 delivery plus platform-quality tooling for agent-written code.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/supabase/f048dd68-63f8-4f98-9860-3d5a43c09a01",
+      "location": "Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 84,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Deep CI quality-pipeline ownership specifically for AI coding agents (Vitest/Playwright/MSW budgets)"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-29T15:45:25Z",
+      "evidence": [
+        "Re-verified live on Ashby supabase job board 2026-08-24: posting still listed",
+        "Ashby JD: React + TypeScript, SSR/streaming/RSC, 0\u21921 product launches, AI agent CI guardrails",
+        "Fully remote Studio/frontend team"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-api-engineer",
+      "title": "API Engineer",
+      "summary": "Maintain and expand Supabase Management API (TypeScript/Nest.js): public + internal APIs for Studio/CLI/OAuth, partner integrations (e.g. Vercel), reliability, and branching DX.",
+      "fit_summary": "Node/TypeScript backend, Postgres, and platform-API ownership across Panorama AI and Snap cloud services align with Nest.js management-API and OAuth/JWT platform work.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/supabase/620bcab3-787c-4ffe-bd37-5d45e209925e",
+      "location": "Remote (AMER)",
+      "work_mode": "remote",
+      "hire_likelihood": 83,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Nest.js specifically called out as primary stack",
+        "Deep OAuth application / partner-integration track record not primary on resume"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-03T21:36:31Z",
+      "evidence": [
+        "Re-verified live on Ashby supabase job board 2026-08-24: posting still listed",
+        "Ashby JD: 5+ years backend APIs, TypeScript/Node, Nest.js/Express/Vitest/Zod, Postgres, Docker/CI",
+        "Location AMER + remote workplaceType"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-supalite-engineer",
+      "title": "Supalite Engineer",
+      "summary": "Build Supabase Lite: TypeScript-native lightweight Supabase (SQLite/Postgres, PostgREST/Auth-compatible API) for AI builders and platform partners, plus upgrade path to full hosted Supabase.",
+      "fit_summary": "TypeScript platform/SDK and Postgres product experience plus LLM/AI product eng at Panorama AI fit a TS-native embeddable backend aimed at AI builders.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/supabase/b75ba81e-54cc-4393-a575-bc41776b0113",
+      "location": "Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 81,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "SQLite \u2194 Postgres conformance / PostgREST compatibility depth",
+        "Scale-to-zero hosted offering specifics"
+      ],
+      "compensation": null,
+      "posted_at": "2026-07-17T10:25:35Z",
+      "evidence": [
+        "Re-verified live on Ashby supabase job board 2026-08-24: posting still listed",
+        "Ashby JD: strong TypeScript backend/platform fluency, SQL/relational grounding, CLI/DX ownership",
+        "Remote; publishedAt 2026-07-17"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-cli-engineer",
+      "title": "CLI Engineer",
+      "summary": "Own supabase CLI and local-dev DX: TypeScript/NestJS backend APIs plus cross-platform CLI (Windows/Linux/macOS) aligned with platform capabilities.",
+      "fit_summary": "Developer-tooling and TypeScript/Node platform work (SDKs, cloud infra) plus strong DX instincts match CLI/local-dev ownership; NestJS is learnable from Express/Node depth.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/supabase/dd3f74dc-29f8-46b1-bcfb-b7f090b7146a",
+      "location": "Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 79,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Hands-on CLI product ownership (subprocess/filesystem/terminal UX) not a headline resume theme",
+        "NestJS patterns called out as how the team ships"
+      ],
+      "compensation": null,
+      "posted_at": "2026-04-30T18:13:57Z",
+      "evidence": [
+        "Re-verified live on Ashby supabase job board 2026-08-24: posting still listed",
+        "Ashby JD: TypeScript NestJS APIs + cross-platform CLI; 5+ years backend/DX tooling",
+        "Remote workplaceType; older publishedAt vs fresher SDK/Frontend roles"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-engineering-manager",
+      "title": "Engineering Manager",
+      "summary": "New EM function across Interfaces, Platform, EngOps, and Databases: people/delivery leadership for remote async teams; technical bar-setting without expected day-to-day coding.",
+      "fit_summary": "Head of Engineering at Panorama AI (org standards, delivery, hiring) plus tech-lead ownership at Snap match the remote EM mandate; prefer matching to a platform/Interfaces team.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/supabase/99a80436-89ec-412b-b782-1dd462bd16dc",
+      "location": "Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 76,
+      "target_bucket": "ai-eng-manager",
+      "missing_gaps": [
+        "JD expects managers not to contribute code directly (vs hands-on preference)",
+        "3+ years managing remote globally distributed teams as explicit bar"
+      ],
+      "compensation": null,
+      "posted_at": "2026-06-22T10:24:32Z",
+      "evidence": [
+        "Re-verified live on Ashby supabase job board 2026-08-24: posting still listed",
+        "Ashby JD: 5+ years eng + 3+ years managing remote teams; cloud/SaaS/devtool preference",
+        "Quiet signals: leadership/TA posting EM hiring across teams"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-software-engineer-auth",
+      "title": "Software Engineer - Auth",
+      "summary": "Own Auth product/platform (Go/TS adjacent): sessions, identity, APIs used across Studio/SDK/CLI. Fully remote.",
+      "fit_summary": "Platform API + identity-adjacent backend and TypeScript/Postgres product work fit Auth; less a published-SDK seat than JS SDK Engineer.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d",
+      "location": "Remote, Anywhere",
+      "work_mode": "remote",
+      "hire_likelihood": 74,
+      "target_bucket": "senior-fullstack",
+      "missing_gaps": [
+        "Dedicated auth/identity systems (OIDC/SAML/session security) not a resume headline"
+      ],
+      "compensation": null,
+      "posted_at": "2026-04-08T14:16:04Z",
+      "evidence": [
+        "Ashby job board 2026-08-24: Software Engineer - Auth | Remote, Anywhere"
+      ],
+      "found_at": "2026-08-24T02:20:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-edge-functions-engineer",
+      "title": "Edge Functions Engineer",
+      "summary": "Evolve Supabase Edge Runtime (Rust host + Deno isolates) and TypeScript edge functions platform: global compute, limits, OpenTelemetry, on-call.",
+      "fit_summary": "TypeScript edge/product experience and cloud platform ownership help on the functions surface, but the JD centers Rust Deno-runtime internals more than fullstack product eng.",
+      "kind": "posting",
+      "url": "https://jobs.ashbyhq.com/supabase/3ab0b926-c9b5-4197-aff2-88d5bf009e13",
+      "location": "Remote",
+      "work_mode": "remote",
+      "hire_likelihood": 68,
+      "target_bucket": "similar",
+      "missing_gaps": [
+        "Rust-based edge runtime / Deno isolate host experience",
+        "Upstream Deno collaboration and runtime on-call depth"
+      ],
+      "compensation": null,
+      "posted_at": "2026-05-13T09:45:06Z",
+      "evidence": [
+        "Re-verified live on Ashby supabase job board 2026-08-24: posting still listed",
+        "Ashby JD: Edge Runtime Rust+Deno, TypeScript edge functions, OTel, on-call",
+        "Remote; publishedAt 2026-05-13"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-jesse-white",
+      "name": "Jesse White",
+      "title": "Head of Interfaces",
+      "linkedin_url": "https://www.linkedin.com/in/jessearwhite",
+      "notes": "Interfaces org (Studio/frontend/IaC DX surfaces); indexed LinkedIn shows EM hiring interest.",
+      "found_at": "2026-08-06T16:00:00Z"
+    },
+    {
+      "id": "hm-rob-shields",
+      "name": "Rob Shields",
+      "title": "Team Lead, Control Plane",
+      "linkedin_url": "https://www.linkedin.com/in/rob-shields-69743518",
+      "notes": "Control Plane team lead; publicly shared Engineering Manager hiring posts.",
+      "found_at": "2026-08-06T16:00:00Z"
+    },
+    {
+      "id": "hm-christopher-steinmeyer",
+      "name": "Christopher Steinmeyer",
+      "title": "Head of Reliability",
+      "linkedin_url": "https://www.linkedin.com/in/chrissteinmeyer",
+      "notes": "Reliability leadership; reposted EM hiring.",
+      "found_at": "2026-08-06T16:00:00Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-2026-06-rob-shields-em-hiring",
+      "source": "hiring_manager",
+      "author": "Rob Shields",
+      "url": "https://www.linkedin.com/posts/rob-shields-69743518_supabase-is-growing-if-you-are-looking-for-activity-7475684242539134976-g_1N",
+      "posted_at": "2026-06-24T00:00:00Z",
+      "summary": "Control Plane lead publicly pushed Engineering Manager openings across Supabase and offered referrals for prior colleagues.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T16:00:00Z"
+    },
+    {
+      "id": "signal-2026-06-aziz-em-hiring",
+      "source": "company",
+      "author": "Aziz Q.",
+      "url": "https://www.linkedin.com/posts/azizquadri13_were-hiring-engineering-managers-at-supabase-activity-7475588065621835776-zGX7",
+      "posted_at": "2026-06-24T00:00:00Z",
+      "summary": "Engineering TA posted multi-team Engineering Manager hiring for small remote teams owning roadmap/delivery.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T16:00:00Z"
+    },
+    {
+      "id": "signal-2026-06-series-f",
+      "source": "company",
+      "author": "Paul Copplestone",
+      "url": "https://supabase.com/blog/series-f",
+      "posted_at": "2026-06-04T00:00:00Z",
+      "summary": "Series F funding post cites accelerating growth and investment in platform reliability/tooling\u2014capital behind continued eng hiring.",
+      "signal_strength": "medium",
+      "found_at": "2026-08-06T16:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "company": "Omada Health",
+  "slug": "omada-health",
+  "domain": "omadahealth.com",
+  "products": "Virtual-first chronic-care platform (obesity, diabetes, hypertension, MSK, GLP-1 support) combining care teams, connected devices, and AI-enabled technology for employers and health plans.",
+  "fiscal_outlook": "Public company (Nasdaq: OMDA). Reports serving 2M+ members across 2,000+ customers; treat as established digital-health scale-up.",
+  "hiring_trends": "Greenhouse listings include Staff Software Engineer and other senior data/ML/manager roles; remote-first US hiring.",
+  "similar_role_hires": "Staff Software Engineer (cardiometabolic expansion) plus Staff Data Products and senior EM roles recently updated.",
+  "hiring_profile": "Solid ATS depth with zone-based pay and explicit Rails requirement. Real product need; stack fit depends on Rails experience.",
+  "sources": [
+    "https://job-boards.greenhouse.io/omadahealth/jobs/8074669",
+    "https://www.omadahealth.com/"
+  ],
+  "updated_at": "2026-07-30T21:50:00Z",
+  "icon": "icon.png"
+}

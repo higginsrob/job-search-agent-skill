@@ -1,0 +1,20 @@
+{
+  "company": "Meta",
+  "slug": "meta",
+  "updated_at": "2026-08-06T15:55:00Z",
+  "domain": "meta.com",
+  "icon": "icon.jpg",
+  "products": "Meta builds the Family of Apps (Facebook, Instagram, Messenger, WhatsApp) plus Reality Labs (VR/AR hardware and software) and a growing AI stack: Meta AI agents, business agents on messaging apps, recommendation systems, and developer-facing model APIs such as Muse. Mission is connection at consumer scale with ads as the primary business model.",
+  "fiscal_outlook": "Public company (NASDAQ: META). Q2 2026 revenue about $60.8B (+28% YoY) with heavy CapEx on AI infrastructure and weak free cash flow that quarter. Headcount ended Q2 near 75,000 after a May 2026 reduction of roughly 8,000 roles, while leadership still emphasized hiring technical and AI talent. Strong FoA ads growth; RL remains investment-heavy.",
+  "hiring_trends": "Selective post-cut hiring continues on metacareers.com for staff-shaped fullstack (GO Systems Hack/React), infra SWE, recsys staff+, and LLM Business Agent support eng. Ads Attribution Staff and PE MLOps M1 still signaled via HM LinkedIn outreach. Hybrid hubs (Austin, Sunnyvale, Bellevue, Menlo) dominate; true remote uncommon.",
+  "similar_role_hires": "Re-verified live 2026-08-06: GO Systems staff fullstack, Infrastructure SWE, Recommendation Systems (12+), Business Support Engineer Meta Business Agent. Skipped Tel Aviv Staff Systems role for Denver location fit.",
+  "hiring_profile": "High volume of real metacareers.com postings with deep JDs and multi-location lists (Bay Area, Bellevue, Austin, etc.)\u2014not sparse one-offs. Bar is steep (often 8\u201312+ years for staff-shaped roles). Hybrid/onsite hubs dominate; true remote is uncommon. Ghost-job risk exists given evergreen infra reqs, but many listings resolve to live Apply pages.",
+  "sources": [
+    "https://about.meta.com/company-info/",
+    "https://www.metacareers.com/jobs/",
+    "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Second-Quarter-2026-Results/",
+    "https://www.metacareers.com/profile/job_details/1670149234051960/",
+    "https://www.metacareers.com/profile/job_details/2486789151677735/",
+    "https://www.linkedin.com/company/meta/"
+  ]
+}

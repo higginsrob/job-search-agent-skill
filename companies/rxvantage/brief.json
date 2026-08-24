@@ -1,0 +1,16 @@
+{
+  "company": "RxVantage",
+  "slug": "rxvantage",
+  "domain": "rxvantage.com",
+  "products": "Healthcare technology platform connecting life-science teams with healthcare providers—CRM-like workflows, scheduling/access, and related engagement tools for the provider ecosystem.",
+  "fiscal_outlook": "Private company; public funding/revenue details not clearly summarized in sources reviewed for this brief.",
+  "hiring_trends": "Ashby board shows Senior Full Stack Engineer - Team Lead (remote US) emphasizing React/TypeScript/Node/PostgreSQL and hands-on people leadership.",
+  "similar_role_hires": "Open Senior Full Stack Engineer - Team Lead role combining IC depth with small-team management.",
+  "hiring_profile": "Single clear ATS posting with concrete stack and leadership expectations; compensation band not prominently listed.",
+  "sources": [
+    "https://jobs.ashbyhq.com/rxvantage/12d3392e-4d1a-423c-ac77-985b76e92935",
+    "https://www.rxvantage.com/"
+  ],
+  "updated_at": "2026-07-30T21:50:00Z",
+  "icon": "icon.png"
+}

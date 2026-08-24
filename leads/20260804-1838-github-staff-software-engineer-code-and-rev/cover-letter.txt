@@ -1,0 +1,13 @@
+Rob Higgins
+Denver, CO | higginsrob@gmail.com | linkedin.com/in/higginsrob | github.com/higginsrob
+
+Dear David Poll,
+
+I am applying for Staff Software Engineer on Code and Review. I care about pull request and review workflows as daily tools, and I want to help evolve that experience as humans and AI agents ship code together.
+
+I have spent 10+ years building fullstack products in React and TypeScript, including developer-facing SDKs and tooling used at scale. At Snap I tech-led the AR Enterprise Web SDK across APIs, integrations, and web experiences after the Vertebrae acquisition. At Panorama AI I led engineering for LLM products and mentored teams shipping AI-assisted workflows. I also owned GitHub Actions CI/CD across repos at Vertebrae. I do not have production Rails yet; I am ready to learn it while leaning on strong React/TypeScript fullstack experience.
+
+I would welcome the chance to talk. Thank you for your time.
+
+Sincerely,
+Rob Higgins

@@ -1,0 +1,39 @@
+{
+  "id": "20260823-1947-webflow-staff-hosting-infra",
+  "title": "Staff Software Engineer, Infrastructure",
+  "company": "Webflow",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-20T20:07:28Z",
+  "found_at": "2026-08-24T01:47:00Z",
+  "compensation": "$187k\u2013$255k",
+  "url": "https://job-boards.greenhouse.io/webflow/jobs/8142831",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 64,
+  "hire_likelihood": 82,
+  "fit_summary": "Staff hosting infrastructure role matches cloud/platform ownership from Vertebrae/Terraform era more than recent fullstack LLM product work.",
+  "missing_gaps": [
+    "Hosting / edge infrastructure specialty deeper than recent Panorama product eng",
+    "May skew SRE/infra vs fullstack product IC preference"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "staff",
+    "infrastructure",
+    "remote",
+    "platform"
+  ]
+}

@@ -1,0 +1,11 @@
+Senior Backend Engineer, Platform Readiness at GitLab. This is a fully remote role. Location note: Remote (US or Canada). Pay is listed as compensation not listed on the public posting.
+
+Senior Backend Engineer, Platform Readiness at GitLab — remote US/Canada. DevSecOps platform work with AI as a productivity multiplier. Stack signals include Ruby/Postgres/TypeScript/Python. Comp not listed publicly.
+
+On the company side, GitLab is an active product employer with a public careers board for this posting.
+
+Why you could be a strong fit: Remote GitLab Platform Readiness backend role (Postgres/Ruby/AI-augmented DevSecOps) fits platform ownership patterns; Rails-primary stack and senior (not staff) level lower the score.
+
+Gaps to keep in mind: Ruby on Rails primary stack not evidenced on resume; Senior Backend not Staff / fullstack title; Compensation not listed on public posting
+
+Takeaway: this one cleared the three-day search window and matches your staff or engineering-manager targets — open the posting, confirm location expectations, and decide whether to apply or dig into the gaps first.

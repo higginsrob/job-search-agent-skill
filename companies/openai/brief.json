@@ -1,0 +1,16 @@
+{
+  "company": "OpenAI",
+  "slug": "openai",
+  "domain": "openai.com",
+  "icon": "icon.png",
+  "products": "Frontier AI research lab and product company behind ChatGPT, the OpenAI API, and related developer/platform offerings.",
+  "fiscal_outlook": "Highly capitalized private AI company with rapid product expansion into monetization, enterprise, and platform surfaces. Detailed financials not fully public.",
+  "hiring_trends": "Heavy Ashby hiring across research, infra, and product/platform; Monetization Data Platform SWE posted Aug 2026 (Mountain View hybrid).",
+  "similar_role_hires": "Software Engineer, Monetization Data Platform (Senior-scoped) open Aug 2026.",
+  "hiring_profile": "Extremely selective. Real ATS (Ashby). Expect intense interviews and Bay Area hybrid expectations for many roles.",
+  "sources": [
+    "https://openai.com/",
+    "https://jobs.ashbyhq.com/openai/d2aad13c-6ed0-4905-ae12-8ea2397b190c"
+  ],
+  "updated_at": "2026-08-04T16:36:59Z"
+}

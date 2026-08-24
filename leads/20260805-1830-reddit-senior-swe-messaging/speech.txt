@@ -1,0 +1,11 @@
+Senior Software Engineer - Messaging at Reddit. This is a fully remote role. Location note: Remote (US). Pay is listed as about one hundred ninety-one to two hundred sixty-seven thousand dollars.
+
+Senior Software Engineer on Reddit Messaging Infra — large-scale streaming and distributed messaging. Remote US. $190.8k–$267.1k. Python/Java/Go.
+
+On the company side, Reddit is an active product employer with a public careers board for this posting.
+
+Why you could be a strong fit: Remote US senior messaging/streaming infra at Reddit fits Snap event-driven/pubsub platform experience; Go/Java backend focus and senior (not staff) title temper hire likelihood.
+
+Gaps to keep in mind: Messaging/streaming infra specialty vs fullstack staff target; Senior not Staff level; Java/Go primary backend not the resume lead stack
+
+Takeaway: this one cleared the three-day search window and matches your staff or engineering-manager targets — open the posting, confirm location expectations, and decide whether to apply or dig into the gaps first.

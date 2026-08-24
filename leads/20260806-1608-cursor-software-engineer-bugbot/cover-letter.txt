@@ -1,0 +1,13 @@
+Rob Higgins
+Denver, CO | higginsrob@gmail.com | linkedin.com/in/higginsrob | github.com/higginsrob
+
+Dear Cursor Hiring Team,
+
+I am applying for Software Engineer, Bugbot. I care about AI tools that earn trust with every suggestion, and I want to help ship Bugbot features where product quality and evals matter as much as the UI.
+
+I have not owned a production PR review bot, but I have shipped fullstack LLM products end to end. At Panorama AI I led engineering for LLM products and built a golden-set benchmarking suite and web dashboard to measure model quality on customer data. I design agent harnesses with a focus on local open weight models, and at Snap I tech-led the AR Enterprise Web SDK across React/TypeScript, APIs, and developer-facing integrations after the Vertebrae acquisition.
+
+Thank you for your time. I would welcome a conversation about Bugbot.
+
+Sincerely,
+Rob Higgins

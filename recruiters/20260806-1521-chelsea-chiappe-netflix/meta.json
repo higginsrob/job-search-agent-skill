@@ -1,0 +1,17 @@
+{
+  "id": "20260806-1521-chelsea-chiappe-netflix",
+  "name": "Chelsea Chiappe",
+  "firm": "Netflix",
+  "linkedin_url": "https://www.linkedin.com/in/chelseachiappe",
+  "email": null,
+  "focus": "Technical Recruiter, Engineering — Information Security & Platform orgs",
+  "notes": "Anonymous LinkedIn fetch failed this run; URL kept from clear search-indexed profile path for Netflix platform/InfoSec recruiting.",
+  "status": "found",
+  "dead_reason": null,
+  "found_at": "2026-08-06T15:21:22Z",
+  "contacted_at": null,
+  "sources": [
+    "https://www.linkedin.com/in/chelseachiappe"
+  ],
+  "companies": ["netflix"]
+}

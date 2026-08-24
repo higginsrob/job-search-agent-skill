@@ -1,0 +1,11 @@
+Senior Engineering Manager, Guardian at Semgrep. This is a hybrid role. Location note: Hybrid — Denver, SF, NYC, or Boston (3 days/week onsite). Pay is listed as two hundred thirty to two hundred eighty-eight thousand dollars.
+
+Senior Engineering Manager for Semgrep Guardian — the orchestration/policy layer and unified risk API that turns security findings into trusted verdicts across Semgrep products, partner agents/IDEs. Hybrid 3 days/week in Denver, SF, NYC, or Boston. Comp $230k–$288k.
+
+On the company side, Semgrep is an active product employer with a public careers board for this posting.
+
+Why you could be a strong fit: Hands-on EM for Semgrep’s Guardian risk/verdict platform with a Denver hub option maps to Panorama Head of Eng leadership plus Snap/Vertebrae platform shipping.
+
+Gaps to keep in mind: AppSec / code-security product domain not evidenced on resume; 3 days/week Denver (or SF/NYC/Boston) office required — confirm schedule fit; Security-platform / policy-engine depth not primary on resume
+
+Takeaway: this one cleared the three-day search window and matches your staff or engineering-manager targets — open the posting, confirm location expectations, and decide whether to apply or dig into the gaps first.

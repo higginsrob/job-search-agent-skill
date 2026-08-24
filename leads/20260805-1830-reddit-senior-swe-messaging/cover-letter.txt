@@ -1,0 +1,13 @@
+Rob Higgins
+Denver, CO | higginsrob@gmail.com | linkedin.com/in/higginsrob | github.com/higginsrob
+
+Dear Reddit Hiring Team,
+
+I am applying for the Senior Software Engineer, Messaging role. 
+
+At Snap, I designed and pitched a cross-cloud pub/sub layer on GCP Pub/Sub connecting Snap and Vertebrae backends, then drove cross-functional delivery while building Vertebrae's pipeline integration. At Vertebrae and Panorama, I owned AWS Kinesis-backed event ingestion feeding analytics and ML product workloads, with Python services and cloud microservices under high availability expectations.
+
+Thank you for your time. I would welcome a conversation about how I can help Messaging Infra keep Reddit's async layer reliable as traffic grows.
+
+Sincerely,
+Rob Higgins

@@ -1,0 +1,16 @@
+{
+  "company": "NerdWallet",
+  "slug": "nerdwallet",
+  "domain": "nerdwallet.com",
+  "products": "Consumer personal-finance marketplace and content platform helping people compare credit cards, banking, insurance, and investing products.",
+  "fiscal_outlook": "Public U.S. consumer-finance company (NRDS). Recent financials not pulled in this pass \u2014 treat outlook as established public tech, not early startup risk.",
+  "hiring_trends": "Staff full-stack opening on Consumer Banking & Credit Cards via Ashby; emphasizes TypeScript/React/Node and AI-assisted engineering practices.",
+  "similar_role_hires": "Staff Software Engineer, Consumer Banking & Credit Cards \u2014 Remote US, published $152k\u2013$282k + equity.",
+  "hiring_profile": "Mature public-company ATS with wide published band. Staff bar and full-stack scope look substantive rather than ghost-post thin.",
+  "sources": [
+    "https://www.nerdwallet.com/",
+    "https://jobs.ashbyhq.com/nerdwallet/86d3520d-151c-4ff7-9670-0bad9f6e307a"
+  ],
+  "updated_at": "2026-08-01T00:50:00Z",
+  "icon": "icon.png"
+}

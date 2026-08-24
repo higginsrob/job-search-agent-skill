@@ -1,0 +1,13 @@
+Rob Higgins
+Denver, CO | higginsrob@gmail.com | linkedin.com/in/higginsrob | github.com/higginsrob
+
+Dear Gusto Hiring Team,
+
+I am applying for Staff Software Engineer, Time and Scheduling. I am based in Denver near Gusto's office, and I want to help small businesses run time and scheduling with the same care I have brought to customer-facing fullstack products.
+
+I have spent 10+ years shipping frontend and backend end to end in React, JavaScript/TypeScript, and Node. At Snap I tech-led the AR Enterprise Web SDK across APIs and web experiences. At Panorama AI I led engineering for LLM products, used AI tooling daily, and owned delivery planning (Jira, project timelines) across multi-quarter work. I have not built a time/attendance product and I do not have production Rails yet; I am ready to learn Rails quickly and apply the same ownership to Gusto's Time domain.
+
+I would welcome the chance to talk. Thank you for your time.
+
+Sincerely,
+Rob Higgins

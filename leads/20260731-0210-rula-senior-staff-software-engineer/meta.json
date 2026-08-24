@@ -1,0 +1,40 @@
+{
+  "id": "20260731-0210-rula-senior-staff-software-engineer",
+  "title": "Senior Staff Software Engineer (Remote)",
+  "company": "Rula",
+  "location": "Remote (US, most states; not HI)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-06-26T20:17:18Z",
+  "found_at": "2026-07-31T02:10:00Z",
+  "compensation": "$241k\u2013$283k",
+  "url": "https://jobs.ashbyhq.com/rula/425f4bad-b1ec-4e9b-8f0a-0e8fc83f1fe8",
+  "source": "ashby",
+  "sources": [
+    "ashby"
+  ],
+  "rank": 36,
+  "hire_likelihood": 87,
+  "fit_summary": "Sr. Staff technical lead for Provider org modernization needs principal-scope full-stack + microservices leadership already demonstrated as Panorama Head of Engineering and Snap tech lead.",
+  "missing_gaps": [
+    "Mental health / provider-operations domain not on resume",
+    "Principal/Staff title at a large product org not explicitly listed (HoE / tech lead are closest anchors)"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "dead",
+  "dead_reason": "Past retention window (30d)",
+  "applied": false,
+  "applied_at": null,
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "fullstack",
+    "microservices",
+    "distributed-systems",
+    "sql",
+    "healthcare",
+    "architecture"
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "updated_at": "2026-08-06T16:00:00Z",
+  "recruiters": [
+    {
+      "id": "20260806-1600-brian-tao-cursor",
+      "name": "Brian Tao",
+      "firm": "Cursor",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/btao93",
+      "focus": "Technical Talent \u2014 software engineering recruiting (Cursor / Anysphere)",
+      "companies": [
+        "cursor"
+      ],
+      "found_at": "2026-08-06T16:00:00Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1600-brian-tao-cursor/meta.json"
+    },
+    {
+      "id": "20260806-1555-amelia-cellar-linear",
+      "name": "Amelia Cellar",
+      "firm": "Linear",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/ameliacellar",
+      "focus": "Talent @ Linear \u2014 recruiting / talent ops adjacent to eng and CX hiring",
+      "companies": [
+        "linear"
+      ],
+      "found_at": "2026-08-06T15:55:00Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1555-amelia-cellar-linear/meta.json"
+    },
+    {
+      "id": "20260806-1533-preet-bhatia-github",
+      "name": "Preet Bhatia",
+      "firm": "GitHub",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/preetbhatia",
+      "focus": "Sr Engineering Recruiter \u2014 AI & developer infrastructure; Principal/Staff frontend platform and eng hiring",
+      "companies": [
+        "github"
+      ],
+      "found_at": "2026-08-06T15:33:03Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1533-preet-bhatia-github/meta.json"
+    },
+    {
+      "id": "20260806-1530-joanna-michniewicz-supabase",
+      "name": "Joanna Michniewicz",
+      "firm": "Supabase",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/joanna-michniewicz",
+      "focus": "Technical Recruiter \u2014 engineering (Auth/Go, Docs/frontend, and related)",
+      "companies": [
+        "supabase"
+      ],
+      "found_at": "2026-08-06T15:30:00Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1530-joanna-michniewicz-supabase/meta.json"
+    },
+    {
+      "id": "20260806-1530-aziz-quadri-supabase",
+      "name": "Aziz Quadri",
+      "firm": "Supabase",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/azizquadri13",
+      "focus": "Talent Acquisition \u2014 Engineering (platforms, SRE, backend, EMs)",
+      "companies": [
+        "supabase"
+      ],
+      "found_at": "2026-08-06T15:30:00Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1530-aziz-quadri-supabase/meta.json"
+    },
+    {
+      "id": "20260806-1525-doug-parker-linear",
+      "name": "Doug Parker",
+      "firm": "Linear",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/dougparker33",
+      "focus": "Head of Talent \u2014 US engineering (staff/senior product & fullstack) and broader Linear hiring",
+      "companies": [
+        "linear"
+      ],
+      "found_at": "2026-08-06T15:25:00Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1525-doug-parker-linear/meta.json"
+    },
+    {
+      "id": "20260806-1523-janelle-bullock-notion",
+      "name": "Janelle Bullock",
+      "firm": "Notion",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/janellebullock",
+      "focus": "Technical recruiting \u2014 Engineering / EPD",
+      "companies": [
+        "notion"
+      ],
+      "found_at": "2026-08-06T15:23:51Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1523-janelle-bullock-notion/meta.json"
+    },
+    {
+      "id": "20260806-1523-gabri-posard-notion",
+      "name": "Gabri Posard",
+      "firm": "Notion",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/gabri-posard",
+      "focus": "Technical recruiting \u2014 Engineering / EPD",
+      "companies": [
+        "notion"
+      ],
+      "found_at": "2026-08-06T15:23:51Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1523-gabri-posard-notion/meta.json"
+    },
+    {
+      "id": "20260806-1520-lydia-cuarezma-vercel",
+      "name": "Lydia Cuarezma-Cobette",
+      "firm": "Vercel",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/lydiacuarezma",
+      "focus": "Senior Technical Recruiter \u2014 engineering / product / design",
+      "companies": [
+        "vercel"
+      ],
+      "found_at": "2026-08-06T15:22:42Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1520-lydia-cuarezma-vercel/meta.json"
+    },
+    {
+      "id": "20260806-1520-kristine-ralls-vercel",
+      "name": "Kristine Ralls",
+      "firm": "Vercel",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/kristineralls",
+      "focus": "Senior Technical Talent Partner \u2014 Infra / Cloud / CI/CD; also posting Agent Stack (eve, AI SDK, Workflows) hiring",
+      "companies": [
+        "vercel"
+      ],
+      "found_at": "2026-08-06T15:22:42Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1520-kristine-ralls-vercel/meta.json"
+    },
+    {
+      "id": "20260806-1520-carolina-lopez-vercel",
+      "name": "Carolina Lopez",
+      "firm": "Vercel",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/carolina-lopez-24a738b6",
+      "focus": "Senior Technical Recruiter \u2014 Cloud org (Infrastructure, Platform, Compute, CI/CD, CDN, Edge)",
+      "companies": [
+        "vercel"
+      ],
+      "found_at": "2026-08-06T15:22:42Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1520-carolina-lopez-vercel/meta.json"
+    },
+    {
+      "id": "20260806-1521-tarek-cotran-netflix",
+      "name": "Tarek Cotran",
+      "firm": "Netflix",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/tarek-cotran-2525b6a",
+      "focus": "Technical Recruiter \u2014 Product Engineering / Engineering & Technology Services (L4\u2013L5 centralized SWE hiring history)",
+      "companies": [
+        "netflix"
+      ],
+      "found_at": "2026-08-06T15:21:22Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1521-tarek-cotran-netflix/meta.json"
+    },
+    {
+      "id": "20260806-1521-gabbi-noa-netflix",
+      "name": "Gabbi Noa",
+      "firm": "Netflix",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/gabrielle-noa",
+      "focus": "Technical Recruiting Researcher \u2014 engineering sourcing (reshared EDPR distributed systems req)",
+      "companies": [
+        "netflix"
+      ],
+      "found_at": "2026-08-06T15:21:22Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1521-gabbi-noa-netflix/meta.json"
+    },
+    {
+      "id": "20260806-1521-chelsea-chiappe-netflix",
+      "name": "Chelsea Chiappe",
+      "firm": "Netflix",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/chelseachiappe",
+      "focus": "Technical Recruiter, Engineering \u2014 Information Security & Platform orgs",
+      "companies": [
+        "netflix"
+      ],
+      "found_at": "2026-08-06T15:21:22Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1521-chelsea-chiappe-netflix/meta.json"
+    },
+    {
+      "id": "20260806-1521-alina-arias-netflix",
+      "name": "Alina Arias",
+      "firm": "Netflix",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/alinaariashr",
+      "focus": "Technical Recruiter \u2014 software engineering (Netflix)",
+      "companies": [
+        "netflix"
+      ],
+      "found_at": "2026-08-06T15:21:22Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1521-alina-arias-netflix/meta.json"
+    },
+    {
+      "id": "20260806-1521-pierina-cabrera-databricks",
+      "name": "Pierina Cabrera",
+      "firm": "Databricks",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/pierina-cabrera-9aa1a544",
+      "focus": "Staff Technical Recruiter \u2014 Data & AI software engineering",
+      "companies": [
+        "databricks"
+      ],
+      "found_at": "2026-08-06T15:21:06Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1521-pierina-cabrera-databricks/meta.json"
+    },
+    {
+      "id": "20260806-1521-grace-yun-databricks",
+      "name": "Grace Yun",
+      "firm": "Databricks",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/graceyun",
+      "focus": "Technical recruiting \u2014 software engineering (Seattle / Pacific Northwest R&D)",
+      "companies": [
+        "databricks"
+      ],
+      "found_at": "2026-08-06T15:21:06Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1521-grace-yun-databricks/meta.json"
+    },
+    {
+      "id": "20260806-1521-brad-b-reddit",
+      "name": "Brad B.",
+      "firm": "Reddit",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/15recruits",
+      "focus": "Manager, Talent Acquisition \u2014 Tech (core eng, infrastructure, security, corporate tech, TPM)",
+      "companies": [
+        "reddit"
+      ],
+      "found_at": "2026-08-06T15:21:03Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1521-brad-b-reddit/meta.json"
+    },
+    {
+      "id": "20260806-1521-amy-shah-reddit",
+      "name": "Amy Shah",
+      "firm": "Reddit",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/astaf",
+      "focus": "Senior Technical TA Partner \u2014 tech/product engineering hiring",
+      "companies": [
+        "reddit"
+      ],
+      "found_at": "2026-08-06T15:21:03Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1521-amy-shah-reddit/meta.json"
+    },
+    {
+      "id": "20260806-1519-sean-joseph-meta",
+      "name": "Sean Joseph",
+      "firm": "Meta",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/sean-joseph-b8b28a73",
+      "focus": "Software engineering IC \u2014 ML/AI, FAIR, infra, product, mobile",
+      "companies": [
+        "meta"
+      ],
+      "found_at": "2026-08-06T15:19:00Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1519-sean-joseph-meta/meta.json"
+    },
+    {
+      "id": "20260806-1519-nate-valdez-meta",
+      "name": "Nate Valdez",
+      "firm": "Meta",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/nate-valdez-3551b962",
+      "focus": "Software engineering (staff and leadership); WhatsApp, Instagram, Threads pipelines",
+      "companies": [
+        "meta"
+      ],
+      "found_at": "2026-08-06T15:19:00Z",
+      "contacted_at": null,
+      "path": "recruiters/20260806-1519-nate-valdez-meta/meta.json"
+    },
+    {
+      "id": "20260804-1907-kyla-salac-google",
+      "name": "Kyla Salac",
+      "firm": "Google",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/kylasalac",
+      "focus": "Senior Technical Recruiter \u2014 Google Cloud AI",
+      "companies": [
+        "google"
+      ],
+      "found_at": "2026-08-04T19:07:27Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1907-kyla-salac-google/meta.json"
+    },
+    {
+      "id": "20260804-1905-jordan-macdonald-cursor",
+      "name": "Jordan MacDonald",
+      "firm": "Cursor",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/j-mac",
+      "focus": "Recruiting Lead \u2014 product and engineering hiring (all levels)",
+      "companies": [
+        "cursor"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1905-jordan-macdonald-cursor/meta.json"
+    },
+    {
+      "id": "20260804-1905-hanna-niapas-cursor",
+      "name": "Hanna Niapas",
+      "firm": "Cursor",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/hanna-niapas-209b2a174",
+      "focus": "Technical Recruiter \u2014 software engineering / research-adjacent teams",
+      "companies": [
+        "cursor"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1905-hanna-niapas-cursor/meta.json"
+    },
+    {
+      "id": "20260804-1905-april-chang-cursor",
+      "name": "April Chang",
+      "firm": "Cursor",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/aprilyychang",
+      "focus": "Talent Acquisition \u2014 research and engineering teams",
+      "companies": [
+        "cursor"
+      ],
+      "found_at": "2026-08-04T19:05:09Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1905-april-chang-cursor/meta.json"
+    },
+    {
+      "id": "20260804-1831-subhalakshmi-h-github",
+      "name": "Subhalakshmi H.",
+      "firm": "GitHub",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/subhalaksh",
+      "focus": "Talent Partner \u2014 Staff software engineering (identity/auth and platform)",
+      "companies": [
+        "github"
+      ],
+      "found_at": "2026-08-04T18:31:27Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1831-subhalakshmi-h-github/meta.json"
+    },
+    {
+      "id": "20260804-1831-pamella-amirali-github",
+      "name": "Pamella Amirali",
+      "firm": "GitHub",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/pamamirali",
+      "focus": "Senior Technical Recruiter \u2014 software engineering (GitHub)",
+      "companies": [
+        "github"
+      ],
+      "found_at": "2026-08-04T18:31:27Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1831-pamella-amirali-github/meta.json"
+    },
+    {
+      "id": "20260804-1831-kevin-lamsback-github",
+      "name": "Kevin Lamsback",
+      "firm": "GitHub",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/kevinlamsback",
+      "focus": "Talent Acquisition \u2014 engineering / technical roles (GitHub)",
+      "companies": [
+        "github"
+      ],
+      "found_at": "2026-08-04T18:31:27Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1831-kevin-lamsback-github/meta.json"
+    },
+    {
+      "id": "20260804-1219-neha-rupani-google",
+      "name": "Neha Rupani",
+      "firm": "Google",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/neha-rupani",
+      "focus": "SWE \u2014 Platforms Infrastructure & AI",
+      "companies": [
+        "google"
+      ],
+      "found_at": "2026-08-04T18:21:43Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1219-neha-rupani-google/meta.json"
+    },
+    {
+      "id": "20260804-1219-megan-puntillo-google",
+      "name": "Megan Puntillo",
+      "firm": "Google",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/megan-chandler",
+      "focus": "Software Engineers (recently L4\u2013L5; prior L6\u2013L7 Cloud sourcer)",
+      "companies": [
+        "google"
+      ],
+      "found_at": "2026-08-04T18:21:43Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1219-megan-puntillo-google/meta.json"
+    },
+    {
+      "id": "20260804-1219-jeffrey-rosas-google",
+      "name": "Jeffrey Rosas",
+      "firm": "Google",
+      "status": "found",
+      "linkedin_url": "https://www.linkedin.com/in/jeffrey-rosas",
+      "focus": "Software Engineering \u2014 Google Cloud (Americas)",
+      "companies": [
+        "google"
+      ],
+      "found_at": "2026-08-04T18:21:43Z",
+      "contacted_at": null,
+      "path": "recruiters/20260804-1219-jeffrey-rosas-google/meta.json"
+    }
+  ]
+}

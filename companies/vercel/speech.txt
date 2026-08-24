@@ -1,0 +1,11 @@
+Vercel is an agentic infrastructure company and frontend cloud. They make Next.js, v0, the A I S D K, A I Gateway, Workflows, Sandbox, and the Vercel deployment platform that enterprises and millions of developers use to ship web and A I applications.
+
+On the fiscal side, Vercel is still private. In September twenty twenty-five they closed a Series F of about three hundred million dollars at a nine point three billion dollar post-money valuation, co-led by Accel and G I C. That followed a May twenty twenty-four Series E at three point two five billion. Sacra estimates roughly three hundred forty million dollars in annual recurring revenue by February twenty twenty-six. Growth messaging centers on the A I Cloud and v0. No public layoff signal showed up in this research pass.
+
+Hiring lately is broad and active on Greenhouse, with more than seventy open roles company-wide. Engineering demand skews hard toward the Agent Stack — Agent, eve, A I S D K, A I Gateway, and Workflows — plus platform and C I slash C D, a Dashboard rebuild, C D N and compute, and some United States remote backend work. Many roles are hybrid San Francisco or New York City; a smaller set is fully remote in the United States.
+
+For staff and similar roles, live openings include a staff-leaning Software Engineer Agent role with a San Francisco band of two hundred thirty-two to three hundred forty-eight thousand dollars, a remote Member of the Technical Staff Internal Agent role, Deployment Infrastructure with TypeScript, A W S, and Terraform, the eve agent framework and S D K role, a Dashboard fullstack role, and United States remote Backend. There is also an open Engineering Manager role for C D N.
+
+Overall hiring profile: high-volume official Greenhouse and vercel.com slash careers postings with detailed job descriptions and published San Francisco pay bands. Agent roles call out a seven-plus year bar. Location is often hybrid with office-anchor days, so Denver-based candidates should prioritize the remote United States listings such as Internal Agent and Backend.
+
+Bottom line: Vercel is a strong stack and level match for staff fullstack, platform, and L L M product work, with the best location fit on remote United States agent and backend roles.

@@ -1,0 +1,27 @@
+{
+  "company": "Dropbox",
+  "slug": "dropbox",
+  "updated_at": "2026-07-30T19:20:00Z",
+  "products": "Cloud content collaboration and storage platform (files, sync, sharing, Dash/AI features) for individuals and businesses.\n\nCore product lines still center on Dropbox for storage/sync/sharing plus Teams/Enterprise admin, collaboration, and security controls. Strategic product bet is Dash in Dropbox: AI-powered content management that unifies Dropbox files with content from other cloud apps via semantic search, AI organization, Stacks, and chat. Earnings materials describe a proprietary “context engine” that gathers cross-app context and connects it to leading models. Adjacent AI offering Protect also appears in recent investor commentary. August 2024 acquisition of Reclaim.ai added AI scheduling into the broader product surface.",
+  "fiscal_outlook": "Public company (Nasdaq: DBX). Continues remote/hybrid product engineering hiring; fiscal details not re-verified here.\n\nDeeper pass (Q1 2026 earnings, May 7, 2026): management reported revenue and operating margin above guidance, sequential paying-user growth, and raised FY2026 total revenue guidance to about $2.497–$2.512B. Q2 2026 revenue guide was roughly $624–$627M (~80 bps YoY growth ex-FormSwift at midpoint). Cash and short-term investments ~$1.29B at quarter end; active buybacks (~$367M / ~14.3M shares in Q1) with ~$800M remaining authorization then. Drew Houston announced a CEO transition in May 2026: Ashraf Alkarmi (formerly GM Core / CPO path) became co-CEO with Houston, then sole CEO while Houston moves to executive chairman; Mike Torres (ex-Chrome/Kindle/OneDrive product leadership) joined as CPO effective July 7, 2026. Prior large layoffs in 2023 (~16%) and Oct 2024 (~20%) reframed headcount toward AI skill sets; current posture looks more like selective hiring into Dash/core web than broad freeze, but growth remains modest vs high-growth SaaS peers.",
+  "hiring_trends": "Senior Fullstack Product SWE, Web Experience posted for Remote US (select locations).\n\nPublic careers/Greenhouse mirrors show concurrent demand across Core web experience and Dash/AI: Senior Fullstack Product SWE on Browse & Navigate Web Experience (Browse, Navigate, Preview, App Shell, window chrome); Full Stack / Staff Fullstack roles on Dash Experiences; ML roles for Dash and Dash Agentic AI; plus infra/security roles tied to AI/agentic infrastructure. Themes in JD language: AI-assisted workflows, staged rollouts, observability/SLOs, React/TypeScript frontends with Python/Go (or Java/C++) backends. Virtual First remains the operating model, with role eligibility constrained to published US compensation zones rather than fully unrestricted remote.",
+  "similar_role_hires": "Senior Fullstack Product Software Engineer, Web Experience currently listed.\n\nThat posting (Greenhouse jid 8074704; also on LinkedIn/Built In/Dice) targets ~9+ years owning large-scale customer-facing web systems; stack signal is TypeScript/JavaScript + React plus one of Python/Go/Java/C++; scope includes APIs, data models, multi-phase rollouts, and on-call readiness for Browse/Navigate/Preview. Compensation published around $203k–$274k for Remote US select locations (Zones 2–3 on related postings). Parallel similar-seniority fullstack demand exists on Dash Experiences / Staff Fullstack Dash bands (Staff Dash bands seen publicly roughly $223k–$302k). Exact recent hire names/levels for matching roles were not verified beyond open postings.",
+  "hiring_profile": "Official careers + Greenhouse; published bands. Watch select-location remote eligibility.\n\nSignal quality is high: first-party jobs.dropbox.com / Greenhouse listings with explicit level expectations, public Engineering Career Framework references, and zone-based pay. Colorado is listed under US Zone 2 on recent Dropbox Virtual First compensation tables, so Denver eligibility is plausible for Zone 2/3 roles but should still be confirmed on the specific posting. Ghost-job risk looks lower than aggregator-only listings because the Web Experience role is mirrored across Dropbox Careers and major boards with concrete product-area ownership. Bar is senior/staff-leaning (often 9+ or 12+ years on adjacent Dash staff roles). Post-2024 restructuring means fewer spray-and-pray openings and more targeted AI/core-product hiring; expect deliberate loops rather than volume hiring.",
+  "sources": [
+    "https://jobs.dropbox.com/listing/8074704?gh_jid=8074704",
+    "https://www.dropbox.com/",
+    "https://www.dropbox.com/about",
+    "https://blog.dropbox.com/topics/company/dropbox-leadership-update",
+    "https://www.sec.gov/Archives/edgar/data/1467623/000146762326000034/dbx-20260521.htm",
+    "https://www.fool.com/earnings/call-transcripts/2026/05/07/dropbox-dbx-q1-2026-earnings-transcript/",
+    "https://dropbox.gcs-web.com/static-files/dee732b4-95a7-4c89-85ce-c81bc6a6268d",
+    "https://investors.dropbox.com/static-files/7b2aa540-a621-425c-86f6-daddbb453876",
+    "https://www.dropbox.jobs/en/virtual-first/",
+    "https://www.dropbox.jobs/en/jobs/7977587/staff-product-manager/",
+    "https://www.dropbox.jobs/en/jobs/7569140/full-stack-software-engineer-dash-experiences/",
+    "https://builtin.com/job/senior-fullstack-product-software-engineer-web-experience/10358997",
+    "https://en.wikipedia.org/wiki/Dropbox"
+  ],
+  "domain": "dropbox.com",
+  "icon": "icon.png"
+}

@@ -1,0 +1,11 @@
+Supabase is an open-source Postgres development platform — a Firebase-style backend with hosted Postgres, Auth, Storage, Edge Functions, Realtime, Vector search, Studio, S D Ks, and platform A P Is. A I coding agents and app builders are a major growth driver.
+
+On the fiscal side, in June twenty twenty-six Supabase raised a five hundred million dollar Series F at about a ten point five billion dollar post-money valuation, led by G I C, with Stripe, Salesforce Ventures, Accel, and Y Combinator among participants. The company says it has raised over one billion dollars in total.
+
+Hiring lately is high volume on Ashby, with themes around Studio and frontend, JavaScript and TypeScript S D Ks, management A P Is, Supabase Lite, C L I and developer experience, an internal A I platform, reliability, deep Postgres roles, and a new Engineering Manager function across Platform and product teams.
+
+For staff and similar roles, live postings that fit a fullstack and platform profile include A I Platform Engineer, S D K Engineer for JavaScript, A P I Engineer on TypeScript and Nest, Frontend for Studio, Supalite Engineer, C L I Engineer, and Engineering Manager.
+
+Overall hiring profile: fully remote, deep job descriptions, global hiring without geo-adjusted pay per their Series F note. Postgres-internals roles are specialist; Interfaces, platform, S D K, A P I, and A I openings are the better match for a senior fullstack or platform engineer.
+
+Bottom line: Supabase is a strong remote developer-platform target with verified openings that map well to TypeScript, React, Postgres, S D K, and A I product-platform experience.

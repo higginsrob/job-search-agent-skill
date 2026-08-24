@@ -1,0 +1,22 @@
+{
+  "company": "Vercel",
+  "slug": "vercel",
+  "updated_at": "2026-08-06T15:22:42Z",
+  "domain": "vercel.com",
+  "icon": "icon.png",
+  "products": "Agentic infrastructure / frontend cloud for shipping web and AI apps. Flagship products include Next.js, v0 (AI app builder), AI SDK, AI Gateway, Workflows, Sandbox, and the Vercel deployment platform used by enterprises and millions of developers.",
+  "fiscal_outlook": "Private; September 2025 Series F raised about $300M at a $9.3B post-money valuation (Accel/GIC co-led), after May 2024 Series E at $3.25B. Sacra estimates ~$340M ARR by Feb 2026. Strong growth narrative around AI Cloud / v0; no public layoff signal found this run.",
+  "hiring_trends": "Large active Greenhouse board (~70+ roles company-wide). Eng hiring heavily tilted to Agent Stack (Agent, eve, AI SDK, AI Gateway, Workflows), plus platform/CI-CD, Dashboard rebuild, CDN/compute, and remote US Backend. Hybrid SF/NYC common; some US-remote roles.",
+  "similar_role_hires": "Live matches for Staff-leaning Agent IC ($232–348k SF band), remote MTS Internal Agent, Deployment Infrastructure (TS/AWS/Terraform), eve (agent framework/SDK), Dashboard fullstack, and US-remote Backend. Open EM CDN role also listed.",
+  "hiring_profile": "High-volume official Greenhouse + vercel.com/careers with deep JDs and published SF bands. Senior/Staff bar explicit on Agent roles (7+ yrs). Location often hybrid SF/NYC with office-anchor days; Denver candidates should prioritize Remote US listings (Internal Agent, Backend).",
+  "sources": [
+    "https://vercel.com/careers",
+    "https://job-boards.greenhouse.io/vercel",
+    "https://www.linkedin.com/company/vercel/",
+    "https://vercel.com/blog/series-f",
+    "https://sacra.com/c/vercel/",
+    "https://job-boards.greenhouse.io/vercel/jobs/5704320004",
+    "https://job-boards.greenhouse.io/vercel/jobs/6134374004",
+    "https://job-boards.greenhouse.io/vercel/jobs/5633880004"
+  ]
+}

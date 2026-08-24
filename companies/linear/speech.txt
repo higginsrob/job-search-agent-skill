@@ -1,0 +1,11 @@
+Linear is the product development system for teams and agents. It covers issue tracking, projects, initiatives, docs, customer requests, and Linear Asks for Slack, email, and web intake. In twenty twenty-six they launched Linear Agent coding sessions: a cloud sandbox that writes code with Claude Code or Codex, opens a pull request, and can now set up, run, and browser-test the change. Loops automate Linear Agent. The site says more than forty thousand product teams, including Open A I, Coinbase, and Ramp. The C E O’s seven-year post cited more than twenty thousand paid customers, so treat those as different counts. The stack is TypeScript end to end with a realtime sync engine.
+
+On the fiscal side, in June twenty twenty-five Linear raised an eighty-two million dollar Series C at a one point two five billion dollar valuation, led by Accel. About one hundred thirty-four million dollars has been raised in total. The company says it is profitable and remote. Around seven years in, C E O Karri Saarinen posted a team of one hundred eighteen, still profitable with negative lifetime burn, and net revenue retention above one hundred eighty percent. Total A R R is not disclosed.
+
+Hiring lately: careers still lists Senior and Staff Fullstack and Product Engineer roles in North America and Europe, and a Senior and Staff Product Engineer A I role in North America only. A Technical Recruiter for North America engineering signals more specialized tracks.
+
+For staff and similar roles: those live Senior and Staff postings match. They want five plus years shipping product, React, TypeScript, Node, Graph Q L, and Postgres, plus Temporal and Google Cloud with Kubernetes. Skip the mid Product Engineer listing.
+
+Overall hiring profile: Linear hires slowly and selectively, with compensation on the first recruiter call, three to four interviews, then a paid two to five day work trial. Apply only through the official careers page.
+
+Bottom line: Linear is a strong fit for staff and senior full stack or product engineering if you want remote, high-craft TypeScript work on product plus A I agents. Skip the mid listing, and expect a paid work trial, not a volume hiring process.

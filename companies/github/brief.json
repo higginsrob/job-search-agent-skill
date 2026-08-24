@@ -1,0 +1,18 @@
+{
+  "company": "GitHub",
+  "slug": "github",
+  "updated_at": "2026-08-06T15:33:03Z",
+  "domain": "github.com",
+  "icon": "icon.png",
+  "products": "Microsoft-owned AI-powered developer platform: Git hosting, PRs/code review, Actions CI/CD, Codespaces, Packages, Issues/Projects, and GitHub Copilot / agentic coding tools used by 180M+ developers and most Fortune 100 companies.",
+  "fiscal_outlook": "Acquired by Microsoft (2018); private subsidiary with large recurring enterprise revenue from Cloud/Enterprise and Copilot. Public signals emphasize Copilot adoption (tens of thousands of orgs) and continued investment in AI-native developer workflows rather than independent IPO narrative.",
+  "hiring_trends": "Heavy Staff/Principal SWE hiring across US Remote for product/platform (Code & Review, Planning & Tracking, Web UI platform, Codespaces), Copilot/agent platforms (Mission Control, AI Models, Code Search), Actions/compute, identity, and enterprise AI. Careers API lists ~76 open roles as of 2026-08-06.",
+  "similar_role_hires": "Live Staff/Principal postings matching fullstack + platform + LLM product anchors include Principal Front End Web UI Platform, Staff Code and Review, Staff Planning & Tracking, Staff Enterprise AI Governance, Staff Copilot Coding Agent (Mission Control), Staff Copilot AI Models, Staff Code Search, Staff Codespaces, Staff Pathfinders, and Principal Enterprise AI Platform.",
+  "hiring_profile": "Remote-first Staff bar with deep JD detail on github.careers. Eng leaders and TA frequently post open reqs on LinkedIn with apply links. Prefer verified careers-home/jobs/<id> URLs — older job IDs and aggregator mirrors go stale quickly.",
+  "sources": [
+    "https://github.com/about",
+    "https://www.github.careers/careers-home",
+    "https://www.github.careers/api/jobs?offset=0&limit=100",
+    "https://www.linkedin.com/company/github/"
+  ]
+}

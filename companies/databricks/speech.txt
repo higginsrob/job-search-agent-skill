@@ -1,0 +1,11 @@
+Databricks is the Data and A I company. Their platform unifies lakehouse analytics, warehousing, governance, and generative A I. Products include Unity Catalog, Lakeflow, Databricks Apps, Lakebase serverless Postgres, Genie, and Agent Bricks for enterprise agents on customer data.
+
+They are privately held. Public company and LinkedIn signals point to multi-billion-dollar scale, with late twenty twenty-five materials citing over four point eight billion dollars in revenue run-rate, more than fifty-five percent year-over-year growth, and a large Series L raise at roughly a one hundred thirty-four billion dollar valuation. Treat those figures as company-reported.
+
+Engineering hiring is broad and senior-heavy: Staff frontend and fullstack, A I-native web platform, agentic internal applications, and data and A I infrastructure. Seattle, Bellevue, and Vancouver R and D are expanding. Denver shows up on some non-engineering roles.
+
+Similar roles live on the official careers site today include Staff Frontend in Seattle, Staff Frontend for vertical A I apps in New York, Staff A I-Native Web Platform in Mountain View, Staff and Senior Staff Fullstack Agentic Applications in Mountain View, and Senior Fullstack in Seattle.
+
+The hiring profile is office-oriented Staff product engineering through databricks.com careers pages, with detailed JDs and pay bands. Prefer verified careers URLs over aggregators, because job IDs expire.
+
+Takeaway: Databricks is a strong Staff fullstack and A I product target if you can work Bay Area, Seattle, or New York — promote the best verified postings in Lead Finder and message hiring managers who are actively hiring frontend and fullstack.

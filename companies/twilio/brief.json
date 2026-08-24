@@ -1,0 +1,26 @@
+{
+  "company": "Twilio",
+  "slug": "twilio",
+  "updated_at": "2026-07-30T20:04:38Z",
+  "domain": "twilio.com",
+  "icon": "icon.png",
+  "products": "Customer engagement platform (CEP) for developers and enterprises: programmable communications APIs across SMS/RCS/WhatsApp/MMS, Voice, Video, and Twilio SendGrid Email, plus Verify/identity, Flex contact center, and Twilio Segment (CDP) for customer profiles, Reverse ETL, and journey orchestration. Positioning in 2026 is as infrastructure for the agentic era: Conversation Memory, Conversation Orchestrator, Conversation Intelligence, and Agent Connect (model-agnostic agent wiring to Twilio channels), with Gartner CPaaS Leader recognition cited on the marketing site. Leadership: CEO Khozema Shipchandler (since 2024); CTO Mark Simms. HQ San Francisco; global developer footprint across 180+ countries.",
+  "fiscal_outlook": "Public (NYSE: TWLO). FY2025 revenue about $5.07B (+14% YoY per public summaries). Q1 2026 (ended Mar 31): revenue $1.41B (+20% reported / +16% organic YoY); GAAP operating income $108M; non-GAAP operating income $279M; FCF $132M; dollar-based net expansion 114%; ~5,558 employees. FY2026 guidance raised to 14–15% reported revenue growth (9.5–10.5% organic), non-GAAP income from operations and FCF each $1.08–$1.10B. Active $2B Class A repurchase program (through end-2027); ~$1.1B completed through Q1 2026. Multi-year restructuring (roughly four rounds from Sep 2022–mid-2025, including Communications vs Data & Applications split) preceded this profitability/growth rebound; no new mass layoff announced in 2026 based on public coverage reviewed here.",
+  "hiring_trends": "Greenhouse board lists ~184 open roles (snapshot Jul 2026), spanning R&D, GTM, Security, and G&A. Eng themes lean Communications platform (Voice connectivity/trust), Segment data pipelines, Identity/IAM, anti-fraud/abuse ML systems, phone-number/compliance provisioning, and AI-augmented development expectations in many Staff+ JDs. Remote Open Work remains common (US, Canada, Ireland, India, UK, etc.). Stack signals from recent Staff/Principal JDs: Java and/or Go primary; AWS (EKS, Lambda, DynamoDB, Kafka); Kubernetes, Terraform, Redis/MySQL/Aurora; event-driven microservices; explicit AI-coding-assistant fluency (Copilot/Claude/Cursor).",
+  "similar_role_hires": "Multiple Staff Software Engineer (often L4/P4) and Principal (P5) postings active or recently listed on Greenhouse: Voice Connectivity Trust (Ireland; JVM/Kafka); Segment Data platform/pipelines (India; Go/Java/Scala, high-scale streaming); Identity Platform / IAM (India; Java microservices); anti-fraud/anti-abuse ML systems (India); US remote Staff roles including compliance/phone-number provisioning platforms (Java/Go, AWS, 12+ years bar on some). Also Principal Software Engineer Identity Graph and Staff Enterprise Security (AI Security). Exact recent hire names/levels not verified from LinkedIn this pass. Levels framing commonly cited as IC4 Staff / IC5 Principal with competitive RSU-heavy total comp (third-party aggregates; treat as directional).",
+  "hiring_profile": "Steady, high-volume ATS flow (~180+ reqs) rather than a one-off surge; many deep JDs with published US pay bands by metro tier and application deadlines. Seniority bar for Staff is real: often 7–12+ years distributed systems, Java/Go, AWS, on-call ownership. Ghost-job risk moderate-to-low for core platform teams given volume + concrete team names, but India/Ireland postings outnumber some US Staff IC openings, so location eligibility matters. Culture signal: post-layoff leaner org with AI-native delivery expectations written into Staff/Principal reqs. Fit note vs fullstack/Python/TS candidates: platform roles skew JVM/Go; Python appears more in ML/anti-abuse and data paths.",
+  "sources": [
+    "https://www.twilio.com/",
+    "https://www.twilio.com/en-us/company/jobs",
+    "https://job-boards.greenhouse.io/twilio",
+    "https://job-boards.greenhouse.io/twilio/jobs/8011576",
+    "https://job-boards.greenhouse.io/twilio/jobs/8071710",
+    "https://job-boards.greenhouse.io/twilio/jobs/8065032",
+    "https://job-boards.greenhouse.io/twilio/jobs/8015738",
+    "https://job-boards.greenhouse.io/twilio/jobs/7996770",
+    "https://investors.twilio.com/news-releases/news-release-details/twilio-announces-first-quarter-2026-results",
+    "https://investors.twilio.com/news-releases/news-release-details/twilios-next-generation-platform-infrastructure-layer-every",
+    "https://en.wikipedia.org/wiki/Twilio",
+    "https://www.sec.gov/Archives/edgar/data/1447669/000144766926000021/twlo-20251231.htm"
+  ]
+}

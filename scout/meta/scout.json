@@ -1,0 +1,100 @@
+{
+  "company": "Meta",
+  "slug": "meta",
+  "updated_at": "2026-08-24T02:20:00Z",
+  "linkedin_company_url": "https://www.linkedin.com/company/meta/",
+  "findings": [
+    {
+      "id": "finding-ads-attribution-staff-outreach",
+      "title": "Staff SWE \u2014 Ads Attribution Flow Infra (EM outreach)",
+      "summary": "Engineering Manager Yuvek Mehta publicly recruiting a Staff Software Engineer for Ads Attribution Flow Infra (Tier0 ads event pipeline, ~20M events/sec). Bellevue WA or Menlo Park CA.",
+      "fit_summary": "Event-pipeline / platform staff scope fits Vertebrae\u2192Snap infra and data-pipeline anchors; requires Meta team-match path and Bellevue/Menlo hybrid.",
+      "kind": "outreach",
+      "url": "https://www.linkedin.com/in/yuvek-mehta",
+      "location": "Bellevue, WA or Menlo Park, CA",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 60,
+      "target_bucket": "staff-engineer",
+      "missing_gaps": [
+        "No verified metacareers job detail URL for this specific req this refresh",
+        "Prefers candidates already in Meta team-match",
+        "Ads attribution domain depth not primary on resume"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Posting URLs for Meta jobs returned HTTP 400 on 2026-08-24; kept outreach-only findings with previously indexed LinkedIn paths",
+        "Indexed LinkedIn post 2026-03-11 hiring Staff SWE for Ads Attribution Flow Infra",
+        "Profile indexed/verified as Software Engineering Manager, Ads and Events Infrastructure"
+      ],
+      "found_at": "2026-08-06T15:19:00Z",
+      "board_lead_id": null
+    },
+    {
+      "id": "finding-pe-mlops-em-outreach",
+      "title": "M1 Engineering Manager \u2014 MLOps / AI Platform PE",
+      "summary": "Director of Production Engineering Pete Kocks recruiting an M1 manager for MLOps and AI Platform Engineering (model lifecycle, deployment, monitoring, ML CI/CD).",
+      "fit_summary": "Hands-on EM / platform leadership preference fits; PE/MLOps org is more ops-infra than product fullstack IC.",
+      "kind": "outreach",
+      "url": "https://www.linkedin.com/in/kocks",
+      "location": "Menlo Park / NYC PE org (MRS, Facebook, WhatsApp)",
+      "work_mode": "hybrid-other",
+      "hire_likelihood": 56,
+      "target_bucket": "ai-eng-manager",
+      "missing_gaps": [
+        "No verified live PE M1 job URL confirmed this refresh",
+        "Production Engineering identity vs product eng Head of Eng history",
+        "Hybrid Bay Area/NYC away from Denver"
+      ],
+      "compensation": null,
+      "posted_at": null,
+      "evidence": [
+        "Posting URLs for Meta jobs returned HTTP 400 on 2026-08-24; kept outreach-only findings with previously indexed LinkedIn paths",
+        "Indexed LinkedIn hiring posts for MLOps/AI Platform PE M1",
+        "Profile verified as Director of Production Engineering at Meta"
+      ],
+      "found_at": "2026-08-06T15:19:00Z",
+      "board_lead_id": null
+    }
+  ],
+  "hiring_managers": [
+    {
+      "id": "hm-yuvek-mehta",
+      "name": "Yuvek Mehta",
+      "title": "Software Engineering Manager, Ads and Events Infrastructure",
+      "linkedin_url": "https://www.linkedin.com/in/yuvek-mehta",
+      "notes": "Hiring Staff SWE for Ads Attribution Flow Infra; Bellevue WA / Menlo Park CA. Prefers candidates in Meta team-match.",
+      "found_at": "2026-08-06T15:19:00Z"
+    },
+    {
+      "id": "hm-pete-kocks",
+      "name": "Pete Kocks",
+      "title": "Director of Production Engineering",
+      "linkedin_url": "https://www.linkedin.com/in/kocks",
+      "notes": "PE org for MRS, Facebook, WhatsApp, Messaging; recruiting PE and MLOps/AI platform M1 managers.",
+      "found_at": "2026-08-06T15:19:00Z"
+    }
+  ],
+  "quiet_signals": [
+    {
+      "id": "signal-2026-03-yuvek-ads-staff",
+      "source": "hiring_manager",
+      "author": "Yuvek Mehta",
+      "url": "https://www.linkedin.com/posts/yuvek-mehta_hiring-softwareengineering-distributedsystems-activity-7437286470857547777-55WU",
+      "posted_at": "2026-03-11T00:00:00Z",
+      "summary": "Explicit Staff SWE hire for Ads Attribution Flow Infra (0\u21921 rearchitecture, data-flow control plane, stream processing at ~20M events/sec). Bellevue or Menlo Park.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:19:00Z"
+    },
+    {
+      "id": "signal-2026-01-pete-mlops-m1",
+      "source": "hiring_manager",
+      "author": "Pete Kocks",
+      "url": "https://www.linkedin.com/posts/kocks_meta-careers-activity-7421952744678248448-ieIC",
+      "posted_at": "2026-01-27T00:00:00Z",
+      "summary": "Explicit M1 manager hire for MLOps and AI Platform Engineering on production ML systems at Meta; apply via central PE req and reference the post.",
+      "signal_strength": "high",
+      "found_at": "2026-08-06T15:19:00Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "20260806-1521-pierina-cabrera-databricks",
+  "name": "Pierina Cabrera",
+  "firm": "Databricks",
+  "linkedin_url": "https://www.linkedin.com/in/pierina-cabrera-9aa1a544",
+  "email": null,
+  "focus": "Staff Technical Recruiter — Data & AI software engineering",
+  "notes": "Profile indexed publicly as Staff Technical Recruiter at Databricks; anonymous LinkedIn fetch returned 500 this run.",
+  "status": "found",
+  "dead_reason": null,
+  "found_at": "2026-08-06T15:21:06Z",
+  "contacted_at": null,
+  "sources": [
+    "https://www.linkedin.com/in/pierina-cabrera-9aa1a544"
+  ],
+  "companies": ["databricks"]
+}

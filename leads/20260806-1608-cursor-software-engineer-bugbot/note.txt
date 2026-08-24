@@ -1,0 +1,5 @@
+One of my recent projects (still in development) I’m proudest of is a local multiplayer One Night Werewolf game I built for my family—a 3D night/day scenes, PeerJS rooms—with AI players that join the day-phase and chat alongside humans.   I've open sourced the game and distribution as a static github page: https://higginsrob.github.io/one-night-warewolf/.  The game host uses local ollama or remote API model provider credentials to enable AI Players.
+
+What I find interesting is that humans and agents share the same conversation: accusing, defending, bluffing, and forming alliances under real game rules. The agents aren’t spectators; they have personalities, track claims, follow night/day constraints, and talk to both people and other AIs. Because Werewolf is a language game about hidden roles, they don’t just “be helpful”—they have to learn when to tell the truth and when to lie if they want to win.
+
+The best metric is sitting next to my daughter. This game was her first real experience interacting with AI, and she loves it. Watching her argue with a bot that has a role, a strategy, and a reason to deceive her made the whole experience  much more engaging. 

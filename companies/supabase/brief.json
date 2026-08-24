@@ -1,0 +1,22 @@
+{
+  "company": "Supabase",
+  "slug": "supabase",
+  "updated_at": "2026-08-06T15:30:00Z",
+  "domain": "supabase.com",
+  "icon": "icon.png",
+  "products": "Open-source Postgres development platform (Firebase alternative): hosted Postgres, Auth, Storage, Edge Functions, Realtime, Vector, Studio dashboard, SDKs/CLI, and platform APIs used heavily by AI app builders and agentic tooling.",
+  "fiscal_outlook": "Private; June 2026 Series F raised five hundred million dollars at about ten point five billion post-money (GIC-led; Stripe, Salesforce Ventures, Accel, YC among participants). Company cites over one billion dollars raised total and strong agent-driven database growth.",
+  "hiring_trends": "High open-role volume on Ashby (~fifty-plus listings). Themes: Studio/frontend, JS/TS SDKs, management APIs, Supabase Lite, CLI/DX, internal AI platform, SRE/reliability, Postgres specialists, and a new Engineering Manager pipeline across Platform and product teams.",
+  "similar_role_hires": "Live matches for staff-leaning IC and hands-on leadership: AI Platform Engineer, SDK Engineer (JavaScript), API Engineer (TypeScript/Nest), Frontend/Studio, Supalite Engineer, CLI Engineer, plus Engineering Manager spanning Platform and developer surfaces.",
+  "hiring_profile": "Fully remote Ashby ATS with deep JDs and global hire stance (no geo-adjusted pay per Series F post). Credible seniority bar; Postgres-internals roles are specialist; Interfaces/platform/SDK/API/AI postings align better with fullstack and platform profiles.",
+  "sources": [
+    "https://supabase.com/",
+    "https://supabase.com/careers",
+    "https://supabase.com/blog/series-f",
+    "https://jobs.ashbyhq.com/supabase",
+    "https://jobs.ashbyhq.com/supabase/3b5d54ca-741b-45ac-bd3f-31605a0d3541",
+    "https://jobs.ashbyhq.com/supabase/f44742fb-18c6-478f-bf78-63707ed57db7",
+    "https://jobs.ashbyhq.com/supabase/620bcab3-787c-4ffe-bd37-5d45e209925e",
+    "https://www.linkedin.com/company/supabase/"
+  ]
+}

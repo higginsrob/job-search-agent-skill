@@ -1,0 +1,20 @@
+{
+  "company": "Google",
+  "slug": "google",
+  "updated_at": "2026-08-06T15:55:00Z",
+  "domain": "google.com",
+  "icon": "icon.png",
+  "products": "Alphabet subsidiary behind Search, Ads, YouTube, Android, Google Cloud, Workspace, and Gemini AI. Engineering spans consumer product surfaces, enterprise cloud platforms, developer tools, ads/ML systems, and hyperscale infrastructure.",
+  "fiscal_outlook": "Public via Alphabet (GOOGL/GOOG). Q2 2026 revenue was about one hundred twenty billion dollars (+24% YoY); Google Cloud grew 82% to about twenty-five billion dollars on AI infra and solutions demand, with Cloud backlog reported near five hundred fourteen billion. Headcount rose to about one hundred ninety-nine thousand employees.",
+  "hiring_trends": "Staff Full Stack careers postings remain live across Cloud forecasting (TypeScript + LLM), Developer AI, Google Cloud fullstack, Google One, and YouTube PDG Live Interactivity. OCTO NYC Staff posting soft-404 on 2026-08-06. US hubs concentrate in Bay Area, Kirkland/Seattle, and NYC; Boulder office exists but matching Staff fullstack reqs rarely list Denver metro.",
+  "similar_role_hires": "Verified-live 2026-08-06: Staff Full Stack Forecasting (Sunnyvale+), Staff Developer AI (Sunnyvale/San Jose+), Staff Full Stack Google Cloud (Kirkland+), Staff Full Stack Google One (Mountain View+), Staff Full Stack YouTube. Dropped dead OCTO NYC id. Prefer re-fetch before apply \u2014 Google IDs expire quickly.",
+  "hiring_profile": "High-volume, leveled hiring via careers.google.com with a competitive Staff bar. Referrals and recruiter/HM outreach matter. Quiet LinkedIn hiring posts from Cloud and Workspace leaders are common. Ghost-job risk is real given volume; only trust careers job-detail pages verified in-session.",
+  "sources": [
+    "https://about.google/",
+    "https://www.google.com/about/careers/applications/jobs/results/",
+    "https://www.linkedin.com/company/google/",
+    "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/googexhibit991q22026.htm",
+    "https://www.google.com/about/careers/applications/jobs/results/134039019833959110-staff-software-engineer-full-stack-forecasting-and-projections/",
+    "https://www.google.com/about/careers/applications/jobs/results/125009164626731718-staff-software-engineer-developer-ai/"
+  ]
+}

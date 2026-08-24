@@ -1,0 +1,40 @@
+{
+  "id": "20260823-1947-launchdarkly-staff-experience-eng",
+  "title": "Staff Engineer, Experience Engineering",
+  "company": "LaunchDarkly",
+  "location": "Remote (US)",
+  "remote": true,
+  "work_mode": "remote",
+  "posted_at": "2026-08-20T22:39:25Z",
+  "found_at": "2026-08-24T01:47:00Z",
+  "compensation": null,
+  "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7919873003",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse"
+  ],
+  "rank": 25,
+  "hire_likelihood": 88,
+  "fit_summary": "Staff product-engineering role shaping next-gen human/agent UX across LaunchDarkly matches SDK/platform + staff IC experience.",
+  "missing_gaps": [
+    "Feature-flag / experimentation platform domain depth not primary on resume",
+    "Compensation not listed on posting"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "staff",
+    "platform",
+    "product",
+    "remote",
+    "typescript"
+  ]
+}

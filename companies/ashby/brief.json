@@ -1,0 +1,18 @@
+{
+  "company": "Ashby",
+  "slug": "ashby",
+  "updated_at": "2026-07-31T20:38:00Z",
+  "domain": "ashbyhq.com",
+  "icon": "icon.png",
+  "products": "All-in-one AI-powered talent platform combining ATS, CRM, scheduling, and analytics for recruiting teams. Customers include Notion, Linear, Shopify, Snowflake, OpenAI, and Ramp. Expanding beyond talent acquisition into adjacent products.",
+  "fiscal_outlook": "Raised $50M Series D in July 2025 (Alkeon / Lachy Groom; Forge cites ~$492M post-money). Reported ~135% ARR growth and customer base roughly 1,300→2,700 around that raise; burn multiple cited under 1x. Private; remote-first (~220 employees across 20+ countries per Series D coverage).",
+  "hiring_trends": "Americas Engineering actively hiring Engineering Managers, Staff/Senior Product Engineers, and Design Engineers; EMEA/Canada mirrors. Messaging emphasizes doubling eng, high ownership, TypeScript/React/Node/Postgres, AI-assisted developer tooling.",
+  "similar_role_hires": "Senior Product Engineer - Americas and Staff Product Engineer - Americas open on Ashby’s own ATS with published US bands ($178k–$250k senior; higher for staff). Design Engineer tracks also open.",
+  "hiring_profile": "Credible always-on product eng hiring on company ATS with deep JDs, published geo bands, and a structured no-leetcode process. Low ghost-job risk given growth narrative and callback activity; seniority bar is high (90%+ senior+).",
+  "sources": [
+    "https://www.ashbyhq.com/careers",
+    "https://jobs.ashbyhq.com/ashby/751768c6-8d97-4e91-a57d-6b85ce4b5a37",
+    "https://news.crunchbase.com/venture/ai-powered-hr-platform-ashby-raise/",
+    "https://forgeglobal.com/ashby_ipo/"
+  ]
+}

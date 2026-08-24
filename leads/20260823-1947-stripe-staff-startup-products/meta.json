@@ -1,0 +1,40 @@
+{
+  "id": "20260823-1947-stripe-staff-startup-products",
+  "title": "Staff Software Engineer, Startup Products",
+  "company": "Stripe",
+  "location": "United States",
+  "remote": true,
+  "work_mode": "hybrid",
+  "posted_at": "2026-08-21T23:35:53Z",
+  "found_at": "2026-08-24T01:47:00Z",
+  "compensation": null,
+  "url": "https://stripe.com/jobs/search?gh_jid=8146271",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "company"
+  ],
+  "rank": 49,
+  "hire_likelihood": 86,
+  "fit_summary": "Staff product leadership on Stripe Atlas/startup tooling matches SDK/platform ownership and high-agency product engineering.",
+  "missing_gaps": [
+    "Stripe/fintech company-formation domain not on resume",
+    "Compensation not listed; Stripe location/hybrid expectations may be hub-weighted"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "staff",
+    "product",
+    "stripe",
+    "platform"
+  ]
+}

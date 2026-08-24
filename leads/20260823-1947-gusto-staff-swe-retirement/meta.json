@@ -1,0 +1,41 @@
+{
+  "id": "20260823-1947-gusto-staff-swe-retirement",
+  "title": "Staff Software Engineer, Retirement",
+  "company": "Gusto",
+  "location": "United States (Denver hybrid option)",
+  "remote": true,
+  "work_mode": "hybrid",
+  "posted_at": "2026-08-23T23:20:04Z",
+  "found_at": "2026-08-24T01:47:00Z",
+  "compensation": "$163k\u2013$204k",
+  "url": "https://job-boards.greenhouse.io/gusto/jobs/8121732",
+  "source": "greenhouse",
+  "sources": [
+    "greenhouse",
+    "builtin"
+  ],
+  "rank": 34,
+  "hire_likelihood": 87,
+  "fit_summary": "Hands-on Staff fullstack owning 401(k) services/APIs fits Denver-friendly Gusto footprint and staff product ownership; Rails is the main stack gap.",
+  "missing_gaps": [
+    "Ruby on Rails preferred; resume is Node/Python/React-centered",
+    "Retirement / fintech benefits compliance domain not evidenced"
+  ],
+  "target_bucket": "staff-engineer",
+  "fraud_flag": "clear",
+  "fraud_notes": [],
+  "status": "active",
+  "dead_reason": null,
+  "applied": false,
+  "applied_at": null,
+  "interviews": [],
+  "has_resume": false,
+  "has_cover_letter": false,
+  "tags": [
+    "staff",
+    "fullstack",
+    "gusto",
+    "denver",
+    "react"
+  ]
+}

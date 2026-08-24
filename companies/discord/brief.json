@@ -1,0 +1,16 @@
+{
+  "company": "Discord",
+  "slug": "discord",
+  "updated_at": "2026-07-31T01:45:00Z",
+  "domain": "discord.com",
+  "icon": "icon.png",
+  "products": "Multiplatform voice, video, and text communication for gaming and communities, with premium Nitro, Shop, and Server Boosting monetization products.",
+  "fiscal_outlook": "Large private consumer tech company with massive DAU scale. Specific latest valuation/funding not re-verified this run; continues active Greenhouse eng hiring.",
+  "hiring_trends": "Staff Consumer Revenue full-stack role open for remote US; product engineering across web (React/TS), React Native, and Python backends.",
+  "similar_role_hires": "Staff Software Engineer - Consumer Revenue currently listed on Greenhouse (remote US, published ~mid July 2026).",
+  "hiring_profile": "Credible Greenhouse ATS with published cash band. High consumer-product bar; monetization/growth experience called out as bonus.",
+  "sources": [
+    "https://job-boards.greenhouse.io/discord/jobs/8460867002",
+    "https://discord.com/"
+  ]
+}

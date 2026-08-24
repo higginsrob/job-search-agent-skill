@@ -1,0 +1,13 @@
+Rob Higgins
+Denver, CO | higginsrob@gmail.com | linkedin.com/in/higginsrob | github.com/higginsrob
+
+Dear Twilio Hiring Team,
+
+I am applying for Tech Lead, Applied Research - Emerging Tech on the Twilio Forward incubation team.
+
+Most of my career has been 0-1: rapid prototypes and MVPs that became full products. At Vertebrae and Snap I tech-led the AR Enterprise Web SDK from spike to production; at Panorama AI I led engineering for LLM and ML platforms, including incubating LLM BI from prototype into shipping systems. I work daily with agentic coding tools and MCP-style workflows, and I am comfortable navigating ambiguous Horizon-3 problem spaces in React, Node, and Python.
+
+I would welcome the chance to help Twilio experiment and ship the next wave of agent-native communications. Thank you for your consideration.
+
+Sincerely,
+Rob Higgins

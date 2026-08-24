@@ -1,0 +1,82 @@
+{
+  "updated_at": "2026-08-06T15:35:25Z",
+  "companies": [
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "domain": "cursor.com",
+      "added_at": "2026-08-04T19:05:09Z",
+      "notes": ""
+    },
+    {
+      "slug": "databricks",
+      "name": "Databricks",
+      "domain": "databricks.com",
+      "added_at": "2026-08-06T15:21:06Z",
+      "notes": ""
+    },
+    {
+      "slug": "github",
+      "name": "GitHub",
+      "domain": "github.com",
+      "added_at": "2026-08-04T18:31:27Z",
+      "notes": ""
+    },
+    {
+      "slug": "google",
+      "name": "Google",
+      "domain": "google.com",
+      "added_at": "2026-08-04T19:07:27Z",
+      "notes": ""
+    },
+    {
+      "slug": "linear",
+      "name": "Linear",
+      "domain": "linear.app",
+      "added_at": "2026-08-06T15:25:00Z",
+      "notes": ""
+    },
+    {
+      "slug": "meta",
+      "name": "Meta",
+      "domain": "meta.com",
+      "added_at": "2026-08-06T15:19:00Z",
+      "notes": ""
+    },
+    {
+      "slug": "netflix",
+      "name": "Netflix",
+      "domain": "netflix.com",
+      "added_at": "2026-08-06T15:21:22Z",
+      "notes": ""
+    },
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "domain": "notion.com",
+      "added_at": "2026-08-06T15:23:51Z",
+      "notes": ""
+    },
+    {
+      "slug": "reddit",
+      "name": "Reddit",
+      "domain": "reddit.com",
+      "added_at": "2026-08-06T15:19:56Z",
+      "notes": ""
+    },
+    {
+      "slug": "supabase",
+      "name": "Supabase",
+      "domain": "supabase.com",
+      "added_at": "2026-08-06T15:25:25Z",
+      "notes": ""
+    },
+    {
+      "slug": "vercel",
+      "name": "Vercel",
+      "domain": "vercel.com",
+      "added_at": "2026-08-06T15:20:47Z",
+      "notes": ""
+    }
+  ]
+}

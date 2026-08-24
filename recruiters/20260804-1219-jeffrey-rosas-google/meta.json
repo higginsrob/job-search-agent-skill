@@ -1,0 +1,19 @@
+{
+  "id": "20260804-1219-jeffrey-rosas-google",
+  "name": "Jeffrey Rosas",
+  "firm": "Google",
+  "linkedin_url": "https://www.linkedin.com/in/jeffrey-rosas",
+  "email": null,
+  "focus": "Software Engineering \u2014 Google Cloud (Americas)",
+  "notes": "Public profile: recruits SWEs for Cloud across the Americas.",
+  "status": "found",
+  "dead_reason": null,
+  "found_at": "2026-08-04T18:21:43Z",
+  "contacted_at": null,
+  "sources": [
+    "https://www.linkedin.com/in/jeffrey-rosas"
+  ],
+  "companies": [
+    "google"
+  ]
+}

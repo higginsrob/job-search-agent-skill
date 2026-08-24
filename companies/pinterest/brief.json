@@ -1,0 +1,29 @@
+{
+  "company": "Pinterest",
+  "slug": "pinterest",
+  "updated_at": "2026-07-30T19:26:06Z",
+  "products": "Visual discovery and search platform (NYSE: PINS) where users save Pins, search for inspiration, and shop; monetized primarily through ads. Core surfaces include Homefeed, Search, shopping/catalog Pins, and advertiser tools (Ads Manager, Performance+). 2026 AI push includes Ask Pinterest (experimental conversational shopping), Business Assistant in Ads Manager (US beta), Performance+ creative AI, Pinterest MCP for third-party agentic ad tooling, plus proprietary Taste Graph models (PinRec retrieval, Canvas image gen). Closed acquisition of tvScientific to extend performance CTV ads.",
+  "fiscal_outlook": "Public (NYSE: PINS). Q1 2026: revenue $1.008B (+18% YoY; +15% constant currency), Adj. EBITDA $207M (20% margin), GAAP net loss $74M, FCF $312M; record 631M global MAUs (+11% YoY). Guided Q2 2026 revenue $1.133–$1.153B (+14–16% YoY) and Adj. EBITDA $256–$276M. ~$2B share repurchases and ~$985M convert notes in Q1; cash/securities ~$1.3B. Jan 2026 board-approved restructuring: RIF under 15% plus office cuts (~$35–45M charges), completing by end of Q3 2026, to reallocate toward AI roles/products and sales GTM—not a hiring freeze.",
+  "hiring_trends": "Active engineering hiring despite restructuring, concentrated on AI/ML platform, ads/monetization infra, growth/discovery, data platforms, and developer-agent tooling. Open themes on careers: Sr. Staff ML Platform, Staff Growth AI, ML Serving, batch/Spark platforms, observability, PinCompute/capacity, advertiser experience infra, Engineering Manager for Developer Agents, plus director-level Online Systems. Earnings commentary cites continued R&D headcount for AI/product and GPU capacity investment. Locations skew SF/Palo Alto/Seattle/Remote US (often 1x/quarter office) with newer Zurich eng hub.",
+  "similar_role_hires": "Multiple open Staff / Sr. Staff SWE and hands-on EM postings match staff/lead/platform targets. Examples: Staff SWE Growth AI (product eng + applied ML/LLM; SF/PA/LA/Seattle proximity); Sr. Staff SWE ML Platform and Staff ML Serving (platform for other eng); Staff Batch Processing Platform (Spark/Kafka/K8s); Staff Observability; Sr. Staff Advertiser Experience Infrastructure; EM Developer Agents (agent serving/eval). Exact recent hire names/levels for matching roles not independently verified beyond open ATS listings and Life-at-Pinterest new-joiner spotlights (e.g. Zurich Sr. Staff, Seattle cloud architecture).",
+  "hiring_profile": "Steady first-party ATS flow via pinterestcareers.com (Greenhouse-backed), not aggregator-only. JDs are deep: team mission, scale numbers, explicit years (often 7–12+), stack (Java/Python/C++/Scala, Spark/Flink, AWS/K8s), and published US salary bands. Seniority bar is high for candidate-fit roles (Staff/Sr. Staff/EM). Remote often means US remote with rare in-office collaboration near PA/SF/LA/Seattle—confirm Denver eligibility per posting. Ghost-job risk looks lower than secondary boards; post-Jan RIF posture is selective AI/infra hiring rather than spray-and-pray volume.",
+  "sources": [
+    "https://www.pinterest.com/",
+    "https://www.pinterestcareers.com/departments/engineering/",
+    "https://www.pinterestcareers.com/jobs/7923195/staff-software-engineer-growth-ai/",
+    "https://www.pinterestcareers.com/jobs/6865409/sr-staff-software-engineer-ml-platform/",
+    "https://www.pinterestcareers.com/jobs/6577946/sr-staff-software-engineer-advertiser-experience-infrastructure/",
+    "https://www.pinterestcareers.com/jobs/6698614/staff-software-engineer-batch-processing-platform/",
+    "https://www.pinterestcareers.com/jobs/7494628/engineering-manager-developer-agents/",
+    "https://s204.q4cdn.com/369458543/files/doc_earnings/2026/q1/earnings-result/Q126-PressRelease.pdf",
+    "https://s204.q4cdn.com/369458543/files/doc_earnings/2026/q1/presentation/2026-Q1-IR-Earnings-Presentation.pdf",
+    "https://www.businesswire.com/news/home/20260504431866/en/Pinterest-Announces-First-Quarter-2026-Results-Delivers-18-Revenue-Growth-Record-Users-and-Approximately-%242-Billion-of-Share-Repurchases",
+    "https://www.sec.gov/Archives/edgar/data/1506293/000150629326000009/pins-20260122.htm",
+    "https://techcrunch.com/2026/01/27/pinterest-layoffs-impact-15-of-staff-as-resources-redirected-to-ai/",
+    "https://techcrunch.com/2026/06/17/pinterest-launches-an-experimental-ai-shopping-app-called-ask-pinterest/",
+    "https://newsroom.pinterest.com/news/cannes-2026/",
+    "https://en.wikipedia.org/wiki/Pinterest"
+  ],
+  "domain": "pinterest.com",
+  "icon": "icon.png"
+}
